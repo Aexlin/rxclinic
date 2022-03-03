@@ -1,0 +1,292 @@
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    top: -55;
+    bottom: 0;
+    left: -10;
+    right: 0;
+}
+
+h1 {
+    color: rgba(19.0000007674098, 69.00000348687172, 87.00000241398811, 1);
+    font-size: 64;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: 1.20;
+    position: absolute;
+    left: 335px;
+    top: 440px;
+}
+
+input {
+    font-family: Montserrat;
+    padding-left: 10px;
+    border: none;
+}
+
+.page_background {
+    background-color: #e1e5f2;
+    width: 1280px;
+    height: 720px;
+    position: absolute;
+}
+
+.doctorimg {
+    width: 443.9984130859375px;
+    height: 443.9984130859375px;
+    position: absolute;
+    left: 243px;
+    top: 130px;
+    background-image: url(images/doctors_rafiki_1.png);
+    background-size: cover;
+}
+
+.textinput {
+    background-color: rgba(255, 255, 255, 1);
+    width: 260px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+}
+
+.inputcontainer {
+    box-shadow: 3.42px 3.42px 7.7px #00000038;
+    background-color: #a9c1fd;
+    width: 303.7303466796875px;
+    height: 371.79315185546875px;
+    position: absolute;
+    left: 687px;
+    top: 166px;
+    border-radius: 25px;
+}
+
+.textfieldcont {
+    width: 299.99859619140625px;
+    height: 217.9477081298828px;
+    position: absolute;
+    left: -0.0001567024301039055px;
+    top: 141.0249786376953px;
+}
+
+.pw {
+    width: 260.6825256347656px;
+    height: 29.91438865661621px;
+    position: absolute;
+    left: 19.658042907714844px;
+    top: 78.63207244873047px;
+}
+
+.e172_400 {
+    color: rgba(171.00000500679016, 181.0000044107437, 190.0000038743019, 1);
+    width: 89.97753143310547px;
+    height: 16.95148277282715px;
+    position: absolute;
+    left: 10.090877532958984px;
+    top: 6.980051517486572px;
+    font-family: Montserrat;
+    text-align: left;
+    font-size: 13.675150871276855px;
+    letter-spacing: 0;
+    line-height: px;
+}
+
+.email {
+    width: 260.6825256347656px;
+    height: 29.91438865661621px;
+    position: absolute;
+    left: 19.658042907714844px;
+    top: 42.73481369018555px;
+}
+
+.e175_364 {
+    background-color: rgba(255, 255, 255, 1);
+    width: 260.6825256347656px;
+    height: 29.91438865661621px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-top-left-radius: 4.27348518371582px;
+    border-top-right-radius: 4.27348518371582px;
+    border-bottom-left-radius: 4.27348518371582px;
+    border-bottom-right-radius: 4.27348518371582px;
+}
+
+.e175_365 {
+    color: rgba(171.00000500679016, 181.0000044107437, 190.0000038743019, 1);
+    width: 89.97752380371094px;
+    height: 16.951486587524414px;
+    position: absolute;
+    left: 10.256539344787598px;
+    top: 5.982931137084961px;
+    font-family: Montserrat;
+    text-align: left;
+    font-size: 13.675150871276855px;
+    letter-spacing: 0;
+    line-height: px;
+}
+
+.dropdowncont {
+    width: 260px;
+    height: 30px;
+    position: absolute;
+    left: 18.80322265625px;
+    top: 6.837591171264648px;
+}
+
+button {
+    font-family: Montserrat;
+}
+
+.dropbtn {
+    background-color: white;
+    margin: 6px 0px 20px 20px;
+    font-size: 14px;
+    color: gray;
+    padding-left: 10px;
+    text-align: left;
+    border: none;
+    border-radius: 5px;
+    width: 260px;
+    height: 30px;
+    position: absolute;
+}
+
+.dropdown {
+    position: relative;
+    display: absolute;
+}
+
+.dropdown-content {
+    width: 260px;
+    height: 80px;
+    margin: 6px 0px 0px 20px;
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    transition-duration: 0.4s;
+}
+
+.dropdown-content a {
+    background-color: white;
+    font-size: 14px;
+    color: black;
+    padding: 5px 200px 5px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    display: block;
+    transition-duration: 0.4s;
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    transition-duration: 0.4s;
+    display: block;
+    background-color: white;
+}
+
+.loginbtncont {
+    width: 124.78573608398438px;
+    height: 33.33317565917969px;
+    position: absolute;
+    left: 87.17896270751953px;
+    top: 118.80282592773438px;
+}
+
+.loginbtn {
+    letter-spacing: 1.5px;
+    color: white;
+    box-shadow: 0px 6px 5px #686de0cc;
+    background-image: linear-gradient(0deg, #407bff 0%, #263238 100%);
+    width: 125px;
+    height: 33px;
+    position: absolute;
+    border: none;
+    border-radius: 43px;
+}
+
+.loginbtn:active {
+    transition-duration: .2s;
+    margin-top: 2.5px;
+    box-shadow: 0px 6px 7px #686de080;
+}
+
+.e175_326 {
+    color: rgba(255, 255, 255, 1);
+    width: 89.74317169189453px;
+    height: 20.51272201538086px;
+    position: absolute;
+    left: 16.239309310913086px;
+    top: 5.982886791229248px;
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 13.675150871276855px;
+    letter-spacing: 5;
+}
+
+.signup {
+    text-decoration: underline;
+    font-weight: 700;
+    color: rgba(19.0000007674098, 69.00000348687172, 87.00000241398811, 1);
+    width: 123.07635498046875px;
+    height: 17.093936920166016px;
+    position: absolute;
+    left: 88.46125793457031px;
+    top: 170px;
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 0.08546969294548035;
+    line-height: px;
+}
+
+.forgotpass {
+    color: #134557;
+    width: 123.07635498046875px;
+    height: 17.093936920166016px;
+    position: absolute;
+    left: 88px;
+    top: 195px;
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0.08546969294548035;
+    line-height: px;
+}
+
+.e166_378 {
+    width: 123.9310531616211px;
+    height: 108.54649353027344px;
+    position: absolute;
+    left: 90.59774017333984px;
+    top: 28.2049503326416px;
+}
+
+.e166_375 {
+    width: 71.7945327758789px;
+    height: 71.7945327758789px;
+    position: absolute;
+    left: 25.640893936157227px;
+    top: -0.000005567208063439466px;
+    background-image: url(images/rxclinic_logo_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.e166_377 {
+    color: rgba(2.000000118277967, 43.00000123679638, 58.00000034272671, 1);
+    width: 123.9310531616211px;
+    height: 29.059694290161133px;
+    position: absolute;
+    left: -0.00003845837272820063px;
+    top: 79.48680877685547px;
+    font-family: Montserrat;
+    text-align: left;
+    font-size: 22.222124099731445px;
+    letter-spacing: 0.9401667714118958;
+}
