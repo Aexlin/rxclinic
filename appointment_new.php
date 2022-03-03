@@ -3,7 +3,7 @@
 <head>
     <title>Dashboard</title>
     <link rel="shortcut icon" href="./images/rxclinic_logo_1.png">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./bootstrap5/css/bootstrap-grid.css">
     <link rel="stylesheet" href="./bootstrap5/css/bootstrap-grid.css.map">
     
@@ -48,6 +48,9 @@
     display: none;
     /* text-align: center; */
     }
+    h3{
+        color: #134557; font-size: 16px; letter-spacing: 3px; font-weight: 800 !important;
+    }
     </style>
 </head>
 <body style="font-family: Montserrat;" onload="myFunction()">
@@ -55,8 +58,8 @@
     <div class="container-fluid" id="myDiv">
         <div class="row flex-nowrap">
         <?php include 'sidebar.php';?>
-    <div class="col-8 py-5 container animate-bottom">
-        <h1>Title ng Page</h1>
+    <div class="col-8 py-5 container animate-bottom" style="font-family: Inter;">
+    <h3>NEW APPOINTMENTS</h3><hr>
         <p>HAHAHHA content</p>
     </div>
     </div>

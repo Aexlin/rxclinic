@@ -54,10 +54,10 @@
     </style>
 </head>
 <body style="font-family: Montserrat;" onload="myFunction()">
-<div id="loader"></div>
+    <div id="loader"></div>
     <div class="container-fluid" id="myDiv">
         <div class="row flex-nowrap">
-        <?php include 'sidebar.php';?>
+            <?php include 'sidebar.php';?>
     <div class="col-8 py-5 container animate-bottom" style="font-family: Inter;">
         <h3>DASHBOARD</h3><hr>
         <p>Content hahahha kung ano ano lang ilalagay ko dito</p>

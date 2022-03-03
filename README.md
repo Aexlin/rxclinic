@@ -1,2 +1,3 @@
-# rxclinic-main
-# rxclinic-main
+# rxclinic
+
+clinic management system created using php & mysq
