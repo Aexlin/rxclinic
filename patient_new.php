@@ -51,6 +51,10 @@
     h3{
         color: #134557; font-size: 16px; letter-spacing: 3px; font-weight: 800 !important;
     }
+    .inputcard{
+        font-family: Montserrat;
+        box-shadow: 3px 3px 10px rgba(82, 87, 92, 0.37);
+    }
     </style>
 </head>
 <body style="font-family: Montserrat;" onload="myFunction()">
@@ -60,7 +64,7 @@
         <?php include 'sidebar.php';?>
     <div class="col-8 py-5 container animate-bottom" style="font-family: Inter;">
     <h3>NEW PATIENT</h3><hr>
-	<div class="card rounded-3" style="background-color: #e1e5f2; font-family: Montserrat;">
+	<div class="card mt-4 inputcard" style="background-color: #e1e5f2;">
 		<form class="card-body py-3 px-4">
             <div class="row mb-2">
                 <div class="col-lg">
@@ -70,6 +74,24 @@
                 <div class="col-lg">
                     <label class="">Last Name</label>
                     <input class="form-control" type="text" name="lname" required>
+                </div>
+                <div class="col-sm-2">
+                    <label class="">Sex</label>
+                    <select class="form-control" name="age" style="font-size: 15px;">
+                    <option class="select p-2" selected disabled>Sex</option>
+                    <option class="select p-2" id="male">Male</option>
+                    <option class="select p-2" id="female">Female</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-lg">
+                    <label class="">Email</label>
+                    <input class="form-control" type="text" name="email" required>
+                </div>
+                <div class="col-lg">
+                    <label class="">Contact Number</label>
+                    <input class="form-control" type="text" name="contactno" required>
                 </div>
                 <div class="col-sm-2">
                     <label class="">Age</label>
@@ -88,24 +110,14 @@
             </div>
             <div class="row mb-2">
                 <div class="col-lg">
-                    <label class="">Email</label>
-                    <input class="form-control" type="text" name="email">
-                </div>
-                <div class="col-lg">
-                    <label class="">Contact Number</label>
-                    <input class="form-control" type="text" name="contactno">
-                </div>
-            </div>
-            <div class="row mb-2">
-                <div class="col-lg">
                     <label class="">Address</label>
-                    <input class="form-control" type="text" name="address">
+                    <input class="form-control" type="text" name="address" required>
                 </div>
             </div>
             <div class="row mb-2">
                 <div class="col-lg">
                     <label class="">Password</label>
-                    <input class="form-control" type="password" name="password">
+                    <input class="form-control" type="password" name="password" required>
                 </div>
                 <div class="col-lg">
                     <label class="">Confirm Password</label>
