@@ -59,7 +59,7 @@
         <div class="row flex-nowrap">
         <?php include 'sidebar.php';?>
     <div class="col-8 py-5 container animate-bottom" style="font-family: Inter;">
-    <h3>NEW APPOINTMENTS</h3><hr>
+    <h3>NEW APPOINTMENT</h3><hr>
         <p>HAHAHHA content</p>
     </div>
     </div>

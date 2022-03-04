@@ -31,7 +31,7 @@
     -webkit-animation-name: animatebottom;
     -webkit-animation-duration: 1s;
     animation-name: animatebottom;
-    animation-duration: 1s
+    animation-duration: 1s;
     }
 
     @-webkit-keyframes animatebottom {
@@ -61,8 +61,8 @@
     <div class="col-8 py-5 container animate-bottom" style="font-family: Inter;">
         <h3>APPOINTMENT HISTORY</h3><hr>
 
-            <table class="table table-success table-striped">
-            <thead>
+            <table class="table table-light table-striped">
+            <thead style="color: #134557 !important;">
                 <tr>
                 <th scope="col">#</th>
                 <th scope="col">First</th>
