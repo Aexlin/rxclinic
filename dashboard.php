@@ -58,7 +58,7 @@
     <div class="container-fluid" id="myDiv">
         <div class="row flex-nowrap">
             <?php include 'sidebar.php';?>
-    <div class="col-8 py-5 container animate-bottom" style="font-family: Inter;">
+        <div class="col-8 py-5 container animate-bottom" style="font-family: Inter;">
         <h3>DASHBOARD</h3><hr>
         <p>Content hahahha kung ano ano lang ilalagay ko dito</p>
         <ul>

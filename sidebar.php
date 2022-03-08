@@ -3,6 +3,7 @@
     <head>
     <link rel="stylesheet" href="./bootstrap5/css/bootstrap-grid.css">
     <link rel="stylesheet" href="./bootstrap5/css/bootstrap-grid.css.map">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
@@ -21,8 +22,8 @@
     </style>
 
     </head>
-    <body>
-        <div class="col-md-3 col-2 px-sm-3 px-0 pt-3 fixed sidebar">
+    <body class="fixed">
+        <div class="col-md-3 col-2 px-sm-3 px-0 pt-3 sidebar">
             <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-3 text-white min-vh-100">
                 <a href="dashboard.php" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
                     <img src="./images/rxclinic logo with name.png" alt="RxClinic Logo" class="img-fluid w-75">
@@ -80,10 +81,13 @@
                             <li>
                                 <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Patient</span> List</a>
                             </li>
+                            <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Edit Patient</span> Info</a>
+                            </li>
                             </ul>
                     </li>
                     <li>
-                        <a href="#" class="nav-link px-0 align-middle pt-3" id="about">
+                        <a href="about.php" class="nav-link px-0 align-middle pt-3" id="about">
                             <i class="fs-5 bi-question-circle-fill me-4"></i> <span class="ms-1 d-none d-sm-inline navtext">About</span> </a>
                     </li>
                     <li>

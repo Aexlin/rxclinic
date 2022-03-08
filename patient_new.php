@@ -78,7 +78,7 @@
                 <div class="col-sm-2">
                     <label class="">Sex</label>
                     <select class="form-control" name="age" style="font-size: 15px;">
-                    <option class="select p-2" selected disabled>Sex</option>
+                    <option class="select p-2" selected disabled>Select Sex</option>
                     <option class="select p-2" id="male">Male</option>
                     <option class="select p-2" id="female">Female</option>
                     </select>

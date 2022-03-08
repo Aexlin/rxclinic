@@ -5,6 +5,7 @@
   <link rel="shortcut icon" href="./images/rxclinic_logo_1.png">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./bootstrap5/css/bootstrap-grid.css">
   <link rel="stylesheet" href="./bootstrap5/css/bootstrap-grid.css.map">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -88,14 +89,14 @@
                 <div class="mx-auto justify-content-center row" style="margin: 0;">
                     <p style="font-size: larger;"><b>Sign Up</b></p>
                 </div>
-                <form class="d-flex justify-content-center row">
+                <form class="d-flex justify-content-center row" id="usersignup" method="GET">
                   <div class="dropdown d-flex justify-content-center">
                     <button class="btn btn-light dropdown-toggle dropd" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="color:gray;">
                         You are a...
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="width: 71%; font-size: 14px;">
-                        <li><a class="dropdown-item" href="#" id="Patient" onclick="clicked(this.id);">Patient</a></li>
-                        <li><a class="dropdown-item" href="#" id="Doctor" onclick="clicked(this.id);">Doctor</a></li>
+                        <li><a class="dropdown-item" name="patient" href="#" id="Patient" onclick="clicked(this.id);">Patient</a></li>
+                        <li><a class="dropdown-item" name="doctor" href="#" id="Doctor" onclick="clicked(this.id);">Doctor</a></li>
                     </ul>
                     <script>
                             function clicked(id){
@@ -106,10 +107,10 @@
                     </script>
                  </div>
                  <div class="d-flex justify-content-center row">
-                     <input type="email" class="textinput row mb-2" placeholder="Enter your email: " required>
-                     <input type="password" class="textinput row mb-2" placeholder="Enter your password: " required>
-                     <input type="password" class="textinput row mb-4" placeholder="Confirm password: " required>                     
-                     <input type="submit" class="loginbtn row mb-4" value="Sign Up" style="font-size: 14px; padding-left:10%;">
+                     <input type="email" class="textinput row mb-2" placeholder="Enter your email: " name="email" required>
+                     <input type="password" class="textinput row mb-2" placeholder="Enter your password: " name="pass" required>
+                     <input type="password" class="textinput row mb-4" placeholder="Confirm password: " name="confpass" required>                     
+                     <input type="submit" name="submit" class="loginbtn row mb-4" value="Sign Up" style="font-size: 14px; padding-left:10%;" onclick="showAlert()">
                 </div>
                 </form>
             </div>
@@ -128,8 +129,20 @@
         document.getElementById("myDiv").style.display = "block";
         }
     </script>
+    <script src="sweetalert2.all.min.js"></script>
+    <script src="jquery-3.6.0.js"></script>
+    <script>
+        function showAlert(){
+        Swal.fire({
+            title: 'Sign Up Success',
+            text: "Gumana, ang galing!",
+            type: 'success',
+            }).then(function (result) {
+            if (true) {
+                window.location = 'patient_new.php';
+            }
+            })
+                }
+    </script>
 </body>
 </html>
-
-<!-- //? - Need ilagay yung checking ng credentials similar sa log-in
-//? - No same email na naka bind sa iisang account_type -->
