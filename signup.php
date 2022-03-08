@@ -111,7 +111,7 @@
                      <input type="email" class="textinput row mb-2" placeholder="Enter your email: " name="email" required>
                      <input type="password" class="textinput row mb-2" placeholder="Enter your password: " name="pass" required>
                      <input type="password" class="textinput row mb-4" placeholder="Confirm password: " name="confpass" required>                     
-                     <input type="submit" name="submit" class="loginbtn row mb-4" value="Sign Up" style="font-size: 14px; padding-left:10%;" onclick="validateForm()"> 
+                     <input type="submit" name="submit" class="loginbtn row mb-4" value="Sign Up" style="font-size: 14px; padding-left:10%;" onclick="<?php validateForm()?>"> 
                 </div>
                 </form>
             </div>

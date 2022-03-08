@@ -95,17 +95,15 @@
             </thead>
             <tbody>
                 <?php
-                $query = "EXEC sproc_pat_details"; //You don't need a ; like you do in SQL
+                $query = "EXEC sproc_doc_details"; //You don't need a ; like you do in SQL
                 $result = sqlsrv_query($conn, $query);
                 // echo "<table>"; // start a table tag in the HTML
                 while($row = sqlsrv_fetch_array($result)){   //Creates a loop to loop through results
-                    $pat_id = intval(htmlspecialchars($row['patient_id']));
-                    echo "<tr><td>" . htmlspecialchars($row['patient_id']) . "</td>
-                        <td>" . htmlspecialchars($row['patient_name']) . "</td>"
-                        . "<td>" . htmlspecialchars($row['age']) . "</td>"
-                        . "<td>" . htmlspecialchars($row['p_address']) . "</td>
+                    $pat_id = intval(htmlspecialchars($row['doctor_id']));
+                    echo "<tr><td>" . htmlspecialchars($row['doctor_id']) . "</td>
+                        <td>" . htmlspecialchars($row['docname']) . "</td>
                         <td>" . htmlspecialchars($row['email']) . "</td>"
-                        ."<td>" . htmlspecialchars($row['contact_no']) . "</td>"
+                        ."<td>" . htmlspecialchars($row['d_type']) . "</td>"
                         ."<td>"."<a href='?delFunc=".$pat_id."' class='fs-5 bi-trash-fill me-4 link-danger'>"."</a>"."</td>
                         <td>"."<a href='#' class='fs-5 bi-pen-fill me-4'>"."</a></td></tr>";
                         if(isset($_GET['delFunc'])){ 
