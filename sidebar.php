@@ -79,7 +79,7 @@
                                 <a href="patient_new.php" class="nav-link px-0"> <span class="d-none d-sm-inline">New</span> Patient</a>
                             </li>
                             <li>
-                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Patient</span> List</a>
+                                <a href="patient_list.php" class="nav-link px-0"> <span class="d-none d-sm-inline">Patient</span> List</a>
                             </li>
                             <li>
                                 <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Edit Patient</span> Info</a>

@@ -6,6 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="sweetalert2.min.css">
   <link rel="stylesheet" href="./bootstrap5/css/bootstrap-grid.css">
   <link rel="stylesheet" href="./bootstrap5/css/bootstrap-grid.css.map">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -89,7 +90,7 @@
                 <div class="mx-auto justify-content-center row" style="margin: 0;">
                     <p style="font-size: larger;"><b>Sign Up</b></p>
                 </div>
-                <form class="d-flex justify-content-center row" id="usersignup" method="GET">
+                <form class="d-flex justify-content-center row" id="usersignup" method="POST">
                   <div class="dropdown d-flex justify-content-center">
                     <button class="btn btn-light dropdown-toggle dropd" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="color:gray;">
                         You are a...
@@ -110,13 +111,12 @@
                      <input type="email" class="textinput row mb-2" placeholder="Enter your email: " name="email" required>
                      <input type="password" class="textinput row mb-2" placeholder="Enter your password: " name="pass" required>
                      <input type="password" class="textinput row mb-4" placeholder="Confirm password: " name="confpass" required>                     
-                     <input type="submit" name="submit" class="loginbtn row mb-4" value="Sign Up" style="font-size: 14px; padding-left:10%;" onclick="showAlert()">
+                     <input type="submit" name="submit" class="loginbtn row mb-4" value="Sign Up" style="font-size: 14px; padding-left:10%;" onclick="validateForm()"> 
                 </div>
                 </form>
             </div>
         </div>
     </div>
-
     <script>
         var myVar;
 
@@ -131,17 +131,62 @@
     </script>
     <script src="sweetalert2.all.min.js"></script>
     <script src="jquery-3.6.0.js"></script>
+
+    <?php
+        function validateForm(){
+            if (isset($_POST['submit'])){
+                if(isset($_POST['email']) && isset($_POST['pass']) && isset($_POST['confpass'])){
+                    $usermail = $_POST['email'];
+                    $userpass = $_POST['pass'];
+                    $userconfpass = $_POST['confpass'];
+                    if($userpass == $userconfpass) {
+                        echo '<script> 
+                            Swal.fire({
+                                title: "Password Match!",
+                                text: "Redirecting to patient credentials",
+                                icon: "success"
+                                }).then(function (result) {
+                                    if (true) {
+                                        window.location = "patient_new.php";
+                                    }
+                        </script>' ;
+                    }
+                    else {
+                        echo '<script> 
+                            Swal.fire({
+                                title: "Password Mismatch!",
+                                text: "Please try again",
+                                icon: "warning"
+                                }).then(function (result) {
+                                    if (true) {
+                                        window.location = "signup.php";
+                                    }
+                        </script>' ;
+                    }
+                }
+            }
+        }
+    ?>
+
     <script>
         function showAlert(){
         Swal.fire({
             title: 'Sign Up Success',
             text: "Gumana, ang galing!",
-            type: 'success',
+            icon: 'success'
             }).then(function (result) {
             if (true) {
                 window.location = 'patient_new.php';
             }
-            })
+            else{
+                Swal.fire({
+                    title: 'Fill out the fields',
+                    text: 'Ginagawa mue?',
+                    icon: 'warning'
+                })
+            }
+            }
+            )
                 }
     </script>
 </body>
