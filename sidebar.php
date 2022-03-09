@@ -45,7 +45,7 @@
                                 <a href="appointment_new.php" class="nav-link px-0"> <span class="d-none d-sm-inline">New</span> Appointment </a>
                             </li>
                             <li>
-                                <a href="appointment_pend.php" class="nav-link px-0"> <span class="d-none d-sm-inline">Pending</span> Appointments </a>
+                                <a href="appointment_view.php" class="nav-link px-0"> <span class="d-none d-sm-inline">View</span> Appointments </a>
                             </li>
                             <li>
                                 <a href="appointment_hist.php" class="nav-link px-0"> <span class="d-none d-sm-inline">Appointment</span> History </a>
@@ -59,13 +59,10 @@
                         </a>
                         <ul class="collapse nav flex-column ms-4" id="submenu2" data-bs-parent="#menu">
                             <li class="w-100">
-                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">New</span> Doctor</a>
+                                <a href="doctor_new.php" class="nav-link px-0"> <span class="d-none d-sm-inline">New</span> Doctor</a>
                             </li>
                             <li>
-                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">View</span> Doctors</a>
-                            </li>
-                            <li>
-                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Edit Doctor</span> Info</a>
+                                <a href="doctor_list.php" class="nav-link px-0"> <span class="d-none d-sm-inline">View</span> Doctors</a>
                             </li>
                         </ul>
                     </li>
@@ -80,9 +77,6 @@
                             </li>
                             <li>
                                 <a href="patient_list.php" class="nav-link px-0"> <span class="d-none d-sm-inline">Patient</span> List</a>
-                            </li>
-                            <li>
-                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Edit Patient</span> Info</a>
                             </li>
                             </ul>
                     </li>

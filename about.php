@@ -51,6 +51,10 @@
     h3{
         color: #134557; font-size: 16px; letter-spacing: 4px; font-weight: 800 !important;
     }
+
+    img{
+        size: 20%;
+    }
     </style>
 </head>
 <body style="font-family: Montserrat;" onload="myFunction()">
@@ -58,58 +62,56 @@
     <div class="container-fluid" id="myDiv">
         <div class="row flex-nowrap">
             <?php include 'sidebar.php';?>
-    <div class="col-8 py-5 container animate-bottom" style="font-family: Inter;">
-        <h3>ABOUT THE DEVELOPERS</h3><hr>
-        <div class="row row-cols-1 row-cols-md-2 g-4">
-        <div class="col">
-            <div class="card">
-            <img src="./images/members/Zsy.jpg" class="card-img-top" alt="Zsyrhill">
-            <div class="card-body">
-                <h5 class="card-title" style="font-weight: bold;">Zsyrhill Anne C. Soria</h5>
-                <p class="card-text" style="font-style: italic;">Project Leader, Full-Stack Developer (ems)</p>
-                <p class="card-text">- 20</p>
-                <p class="card-text">- Metro Manila, Philippines</p>
+        <div class="col-8 ps-5 pt-5 animate-bottom">
+            <h3>ABOUT THE DEVELOPERS</h3><hr>
+        <div class="row row-cols-1 row-cols-md-3 g-4 fixed overflow-auto">
+            <div class="col">
+            <div class="card h-100">
+                <img src="./images/members/Zsy.jpg" class="card-img-top" alt="Zsyrhill">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-weight: bold;">Zsyrhill Anne C. Soria</h5>
+                    <p class="card-text" style="font-style: italic;">Project Leader, Future Full-Stack Developer (ems)</p>
+                    <p class="card-text">- 20</p>
+                    <p class="card-text">- Metro Manila, Philippines</p>
+                </div>
+                </div>
             </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./images/members/Josiah.jpg" class="card-img-top" alt="Josiah">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-weight: bold;">Josiah Alether G. Fallesgon</h5>
+                        <p class="card-text" style="font-style: italic;">SQL Server Database Administrator</p>
+                        <p class="card-text">- 21</p>
+                        <p class="card-text">- Metro Manila, Philippines</p>
+                    </div>
+                </div>
             </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./images/members/Allan.jpg" class="card-img-top" alt="Allan">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-weight: bold;">Allan G. Rosemblot</h5>
+                        <p class="card-text" style="font-style: italic;">Front-End Developer & System Documentation</p>
+                        <p class="card-text">- 21</p>
+                        <p class="card-text">- Metro Manila, Philippines</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./images/members/Denzel.jpg" class="card-img-top" alt="Denzel">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-weight: bold;">Denzel John B. Delinea</h5>
+                        <p class="card-text" style="font-style: italic;">Data Populator & System Documentation</p>
+                        <p class="card-text">- 21</p>
+                        <p class="card-text">- Metro Manila, Philippines</p>
+                    </div> 
         </div>
-        <div class="col">
-            <div class="card">
-            <img src="./images/members/Josiah.jpg" class="card-img-top" alt="Josiah">
-            <div class="card-body">
-                <h5 class="card-title" style="font-weight: bold;">Josiah Alether G. Fallesgon</h5>
-                <p class="card-text" style="font-style: italic;">SQL Server Database Administrator</p>
-                <p class="card-text">- 21</p>
-                <p class="card-text">- Metro Manila, Philippines</p>
-            </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-            <img src="./images/members/Allan.jpg" class="card-img-top" alt="Allan">
-            <div class="card-body">
-                <h5 class="card-title" style="font-weight: bold;">Allan G. Rosemblot</h5>
-                <p class="card-text" style="font-style: italic;">Front-End Developer & System Documentation</p>
-                <p class="card-text">- 21</p>
-                <p class="card-text">- Metro Manila, Philippines</p>
-            </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-            <img src="./images/members/Denzel.jpg" class="card-img-top" alt="Denzel">
-            <div class="card-body">
-                <h5 class="card-title" style="font-weight: bold;">Denzel John B. Delinea</h5>
-                <p class="card-text" style="font-style: italic;">Data Populator & System Documentation</p>
-                <p class="card-text">- 21</p>
-                <p class="card-text">- Metro Manila, Philippines</p>
-            </div>
-            </div>
         </div>
         </div>
-        </ul>
+        </div>
     </div>
-    </div>
-</div>
 </body>
     <script>
         var myVar;

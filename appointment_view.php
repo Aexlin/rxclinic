@@ -1,8 +1,7 @@
-<?php include 'connect.php';?>
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Dashboard</title>
+    <title>Appointments</title>
     <link rel="shortcut icon" href="./images/rxclinic_logo_1.png">
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./bootstrap5/css/bootstrap-grid.css">
@@ -16,15 +15,14 @@
     <script src="https://cdn.datatables.net/buttons/2.2.2/js/dataTables.buttons.min.js"></script>
     <script>
     $(document).ready(function() {
-    $('#patients').DataTable({
+    $('#appointments').DataTable({
         "dom": '<"wrapper col"f><"wrapper col"l>tip',
         pageLength: 5,
         lengthMenu: [5, 10, 15,20]
     });
-    });
+});
     </script>
 
-    
     <style>
         /* Center the loader */
     #loader {
@@ -49,7 +47,7 @@
     -webkit-animation-name: animatebottom;
     -webkit-animation-duration: 1s;
     animation-name: animatebottom;
-    animation-duration: 1s;
+    animation-duration: 1s
     }
 
     @-webkit-keyframes animatebottom {
@@ -69,96 +67,106 @@
     h3{
         color: #134557; font-size: 16px; letter-spacing: 3px; font-weight: 800 !important;
     }
-
     </style>
 </head>
 <body style="font-family: Montserrat;" onload="myFunction()">
 <div id="loader"></div>
     <div class="container-fluid" id="myDiv">
-        <div class="row d-flex">
+        <div class="row flex-nowrap">
         <?php include 'sidebar.php';?>
-    <div class="col-8 py-5 container-fluid animate-bottom" style="font-family: Inter;">
-    <div>
-        <h3>PATIENT LIST</h3><hr>
-            <table id="patients" class="table table-striped" style="width: 100%;">
+    <div class="col-8 py-5 container animate-bottom" style="font-family: Inter;">
+        <h3>VIEW APPOINTMENTS</h3><hr>
+        <ul class="nav nav-pills nav-fill mb-2">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="appointment_view.php">Pending</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="appointment_app.php">Approved</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="appointment_dec.php">Declined</a>
+            </li>
+        </ul>
+        <table id="appointments" class="table table-striped align-middle" style="width: 100%;">
             <thead style="color: #134557 !important;">
                 <tr>
                 <th scope="col">#</th>
                 <th scope="col">Name</th>
-                <th scope="col">Age</th>
-                <th scope="col">Address</th>
-                <th scope="col">Email</th>
-                <th scope="col">Contact No.</th>
-                <th scope="col">Del</th>
-                <th scope="col">Edit</th>
+                <th scope="col">Reason for Check up</th>
+                <th scope="col">Doctor</th>
+                <th scope="col">Status</th>
+                <th scope="col">Approve</th>
+                <th scope="col">Decline</th>
                 </tr>
             </thead>
             <tbody>
                 <?php
-                $query = "EXEC sproc_pat_details"; //You don't need a ; like you do in SQL
+                include 'connect.php';
+                $query = "EXEC sproc_appointments_pend";
                 $result = sqlsrv_query($conn, $query);
+                $count = 0;
                 // echo "<table>"; // start a table tag in the HTML
                 while($row = sqlsrv_fetch_array($result)){   //Creates a loop to loop through results
-                    $pat_id = intval(htmlspecialchars($row['patient_id']));
-                    echo "<tr><td>" . htmlspecialchars($row['patient_id']) . "</td>
+                    $app_id = intval(htmlspecialchars($row['app_id']));
+                    $count++;
+                    $status_ok = 2;
+                    $status_no = 3;
+                    echo "<tr><td>" . htmlspecialchars($count) . "</td>
                         <td>" . htmlspecialchars($row['patient_name']) . "</td>"
-                        . "<td>" . htmlspecialchars($row['age']) . "</td>"
-                        . "<td>" . htmlspecialchars($row['p_address']) . "</td>
-                        <td>" . htmlspecialchars($row['email']) . "</td>"
-                        ."<td>" . htmlspecialchars($row['contact_no']) . "</td>"
-                        ."<td>"."<a href='?delFunc=".$pat_id."' class='fs-5 bi-trash-fill me-4 link-danger'>"."</a>"."</td>
-                        <td>"."<a href='#' class='fs-5 bi-pen-fill me-4'>"."</a></td></tr>";
-                        if(isset($_GET['delFunc'])){ 
-                            delfunc($_GET['delFunc']);
-                            } 
-                //$row['index'] the index here is a field name
+                        . "<td>" . htmlspecialchars($row['reason']) . "</td>"
+                        . "<td>" . htmlspecialchars($row['doc_name']) . "</td>
+                        <td>" . htmlspecialchars($row['status_name']) . "</td>"
+                        ."<td class='d-flexbox justify-content-center text-center'>"."<a href='?changeStatus=".$status_ok."' class='fs-5 bi-check-circle-fill me-4'>"."</a></td>"
+                        ."<td class='d-flexbox justify-content-center text-center'>"."<a href='?changeStatus=".$status_no."' class='fs-5 bi-x-circle-fill me-4 link-danger'>"."</a>"."</td></tr>";
+                            if(isset($_GET['changeStatus'])){ 
+                                $status_num = $_GET['changeStatus'];
+                                changestatus($status_num, $app_id);
+                                } 
                 }
 
-            //* Delete Patient Function (sets patient account status = 0)
-                function delfunc($pat_id){
+            //* Update Patient Appointment (sets patient appointment status to either 2 = approved
+                //* and 3 = declined)
+                function changestatus($status_num, $app_id){
                     include 'connect.php';
-                    $query = "exec sproc_deletepat @patient_id = ?"; //You don't need a ; like you do in SQL
+                    $query = "exec sproc_update_appstatus @status_id = ?, @app_id = ?"; //You don't need a ; like you do in SQL
                     $params = array(
-                        array($pat_id, SQLSRV_PARAM_IN)
+                        array ($status_num, SQLSRV_PARAM_IN),
+                        array($app_id, SQLSRV_PARAM_IN)
                     );
                     $result = sqlsrv_prepare($conn, $query, $params);
                     $exec = sqlsrv_execute($result);
                     if(!$exec)
                         {
                             echo '<script>
-                            alert("Query Failed to delete Patient");
+                            alert("Query Failed to update Appointment Status");
                             </script>';
                         }
                         else
                         {
                             echo '<script>
-                            window.alert("Query Success, Deleted Patient");
-                            window.location.replace("patient_list.php");
+                            window.alert("Query Success, Appointment Status Updated");
+                            window.location.replace("appointment_app.php");
                             </script>';
                         } 
                 die();
                 }
                 ?>
-
             </tbody>
             </table>
     </div>
     </div>
-    </div>
 </div>
 </body>
-
     <script>
         var myVar;
 
         function myFunction() {
-        myVar = setTimeout(showPage, 1200);
+        myVar = setTimeout(showPage, 700);
         }
 
         function showPage() {
         document.getElementById("loader").style.display = "none";
         document.getElementById("myDiv").style.display = "block";
         }
-
     </script>
 </html>

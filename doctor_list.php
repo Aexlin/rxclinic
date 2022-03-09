@@ -79,16 +79,14 @@
         <?php include 'sidebar.php';?>
     <div class="col-8 py-5 container-fluid animate-bottom" style="font-family: Inter;">
     <div>
-        <h3>PATIENT LIST</h3><hr>
+        <h3>DOCTOR LIST</h3><hr>
             <table id="patients" class="table table-striped" style="width: 100%;">
             <thead style="color: #134557 !important;">
                 <tr>
                 <th scope="col">#</th>
                 <th scope="col">Name</th>
-                <th scope="col">Age</th>
-                <th scope="col">Address</th>
                 <th scope="col">Email</th>
-                <th scope="col">Contact No.</th>
+                <th scope="col">Department</th>
                 <th scope="col">Del</th>
                 <th scope="col">Edit</th>
                 </tr>
@@ -99,41 +97,44 @@
                 $result = sqlsrv_query($conn, $query);
                 // echo "<table>"; // start a table tag in the HTML
                 while($row = sqlsrv_fetch_array($result)){   //Creates a loop to loop through results
-                    $pat_id = intval(htmlspecialchars($row['doctor_id']));
+                    $doc_id = intval(htmlspecialchars($row['doctor_id']));
                     echo "<tr><td>" . htmlspecialchars($row['doctor_id']) . "</td>
                         <td>" . htmlspecialchars($row['docname']) . "</td>
                         <td>" . htmlspecialchars($row['email']) . "</td>"
                         ."<td>" . htmlspecialchars($row['d_type']) . "</td>"
-                        ."<td>"."<a href='?delFunc=".$pat_id."' class='fs-5 bi-trash-fill me-4 link-danger'>"."</a>"."</td>
+                        ."<td>"."<a href='?delFunc=".$doc_id."' class='fs-5 bi-trash-fill me-4 link-danger'>"."</a>"."</td>
                         <td>"."<a href='#' class='fs-5 bi-pen-fill me-4'>"."</a></td></tr>";
                         if(isset($_GET['delFunc'])){ 
                             delfunc($_GET['delFunc']);
                             } 
                 //$row['index'] the index here is a field name
                 }
-                function delfunc($pat_id){
+            //* Delete Doctor Function (sets doctor account status = 0)
+                function delfunc($doc_id){
                     include 'connect.php';
-                    $query = "exec sproc_deletepat @patient_id = ?"; //You don't need a ; like you do in SQL
+                    $query = "exec sproc_deletedoc @doctor_id = ?"; //You don't need a ; like you do in SQL
                     $params = array(
-                        array($pat_id, SQLSRV_PARAM_IN)
+                        array($doc_id, SQLSRV_PARAM_IN)
                     );
                     $result = sqlsrv_prepare($conn, $query, $params);
                     $exec = sqlsrv_execute($result);
                     if(!$exec)
                         {
                             echo '<script>
-                            alert("Query Failed to delete Patient");
+                            alert("Query Failed to delete Doctor");
                             </script>';
                         }
                         else
                         {
                             echo '<script>
-                            window.alert("Query Success, Deleted Patient");
-                            window.location.replace("patient_list.php");
+                            window.alert("Query Success, Deleted Doctor");
+                            window.location.replace("doctor_list.php");
                             </script>';
                         } 
                 die();
                 }
+
+
                 ?>
 
             </tbody>

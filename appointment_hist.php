@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Dashboard</title>
+    <title>Appointments</title>
     <link rel="shortcut icon" href="./images/rxclinic_logo_1.png">
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./bootstrap5/css/bootstrap-grid.css">
     <link rel="stylesheet" href="./bootstrap5/css/bootstrap-grid.css.map">
-    
+
+    <link rel="stylesheet" href="jquery.dataTables.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap5.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap5.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.2.2/js/dataTables.buttons.min.js"></script>
+    <script>
+    $(document).ready(function() {
+    $('#appointments').DataTable({
+        "dom": '<"wrapper col"f><"wrapper col"l>tip',
+        pageLength: 5,
+        lengthMenu: [5, 10, 15,20]
+    });
+});
+    </script>
+
     <style>
         /* Center the loader */
     #loader {
@@ -31,7 +47,7 @@
     -webkit-animation-name: animatebottom;
     -webkit-animation-duration: 1s;
     animation-name: animatebottom;
-    animation-duration: 1s;
+    animation-duration: 1s
     }
 
     @-webkit-keyframes animatebottom {
@@ -60,38 +76,35 @@
         <?php include 'sidebar.php';?>
     <div class="col-8 py-5 container animate-bottom" style="font-family: Inter;">
         <h3>APPOINTMENT HISTORY</h3><hr>
-
-            <table class="table table-light table-striped">
+        <table id="appointments" class="table table-striped align-middle" style="width: 100%;">
             <thead style="color: #134557 !important;">
                 <tr>
                 <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
+                <th scope="col">Name</th>
+                <th scope="col">Diagnosis</th>
+                <th scope="col">Doctor</th>
+                <th scope="col">Status</th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-                </tr>
-                <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-                </tr>
-                <tr>
-                <th scope="row">3</th>
-                <td colspan="2">Larry the Bird</td>
-                <td>@twitter</td>
-                </tr>
+                <?php
+                include 'connect.php';
+                $query = "EXEC sproc_appointment_history";
+                $result = sqlsrv_query($conn, $query);
+                $count = 0;
+                // echo "<table>"; // start a table tag in the HTML
+                while($row = sqlsrv_fetch_array($result)){   //Creates a loop to loop through results
+                    $app_id = intval(htmlspecialchars($row['app_id']));
+                    $count++;
+                    echo "<tr><td>" . htmlspecialchars($count) . "</td>
+                        <td>" . htmlspecialchars($row['patient_name']) . "</td>"
+                        . "<td>" . htmlspecialchars($row['diagnosis']) . "</td>"
+                        . "<td>" . htmlspecialchars($row['doc_name']) . "</td>
+                        <td>" . htmlspecialchars($row['status_name']) . "</td>";
+                }
+            ?>
             </tbody>
             </table>
-
-
     </div>
     </div>
 </div>
@@ -100,7 +113,7 @@
         var myVar;
 
         function myFunction() {
-        myVar = setTimeout(showPage, 1200);
+        myVar = setTimeout(showPage, 700);
         }
 
         function showPage() {
