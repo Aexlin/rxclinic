@@ -24,7 +24,6 @@
     });
     </script>
 
-    
     <style>
         /* Center the loader */
     #loader {
@@ -79,8 +78,8 @@
         <?php include 'sidebar.php';?>
     <div class="col-8 py-5 container-fluid animate-bottom" style="font-family: Inter;">
     <div>
-        <h3>PATIENT LIST</h3><hr>
-            <table id="patients" class="table table-striped" style="width: 100%;">
+        <h3>VIEW PATIENTS</h3><hr>
+            <table id="patients" class="table table-striped align-middle">
             <thead style="color: #134557 !important;">
                 <tr>
                 <th scope="col">#</th>
@@ -89,7 +88,7 @@
                 <th scope="col">Address</th>
                 <th scope="col">Email</th>
                 <th scope="col">Contact No.</th>
-                <th scope="col">Del</th>
+                <th scope="col">Delete</th>
                 <th scope="col">Edit</th>
                 </tr>
             </thead>
@@ -97,17 +96,19 @@
                 <?php
                 $query = "EXEC sproc_pat_details"; //You don't need a ; like you do in SQL
                 $result = sqlsrv_query($conn, $query);
+                $count = 0;
                 // echo "<table>"; // start a table tag in the HTML
                 while($row = sqlsrv_fetch_array($result)){   //Creates a loop to loop through results
                     $pat_id = intval(htmlspecialchars($row['patient_id']));
-                    echo "<tr><td>" . htmlspecialchars($row['patient_id']) . "</td>
+                    $count++;
+                    echo "<tr><td>" . htmlspecialchars($count) . "</td>
                         <td>" . htmlspecialchars($row['patient_name']) . "</td>"
                         . "<td>" . htmlspecialchars($row['age']) . "</td>"
                         . "<td>" . htmlspecialchars($row['p_address']) . "</td>
                         <td>" . htmlspecialchars($row['email']) . "</td>"
                         ."<td>" . htmlspecialchars($row['contact_no']) . "</td>"
-                        ."<td>"."<a href='?delFunc=".$pat_id."' class='fs-5 bi-trash-fill me-4 link-danger'>"."</a>"."</td>
-                        <td>"."<a href='#' class='fs-5 bi-pen-fill me-4'>"."</a></td></tr>";
+                        ."<td class='d-flexbox justify-content-center text-center'>"."<a href='?delFunc=".$pat_id."' class='fs-5 bi-trash-fill me-4 link-danger'>"."</a>"."</td>
+                        <td class='d-flexbox justify-content-center text-center'>"."<a href='#' class='fs-5 bi-pen-fill me-4'>"."</a></td></tr>";
                         if(isset($_GET['delFunc'])){ 
                             delfunc($_GET['delFunc']);
                             } 

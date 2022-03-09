@@ -110,22 +110,22 @@
                     $app_id = intval(htmlspecialchars($row['app_id']));
                     $count++;
                     $status_ok = 4;
-                    $status_no = 0;
+                    $status_del = 0;
                     echo "<tr><td>" . htmlspecialchars($count) . "</td>
                         <td>" . htmlspecialchars($row['patient_name']) . "</td>"
                         . "<td>" . htmlspecialchars($row['reason']) . "</td>"
                         . "<td>" . htmlspecialchars($row['doc_name']) . "</td>
                         <td>" . htmlspecialchars($row['status_name']) . "</td>"
                         ."<td class='d-flexbox justify-content-center text-center'>"."<a href='?changeStatus=".$status_ok."' class='fs-5 bi-check-circle-fill me-4'>"."</a></td>"
-                        ."<td class='d-flexbox justify-content-center text-center'>"."<a href='?changeStatus=".$status_no."' class='fs-5 bi-x-circle-fill me-4 link-danger'>"."</a>"."</td></tr>";
+                        ."<td class='d-flexbox justify-content-center text-center'>"."<a href='?changeStatus=".$status_del."' class='fs-5 bi-x-circle-fill me-4 link-danger'>"."</a>"."</td></tr>";
                             if(isset($_GET['changeStatus'])){ 
                                 $status_num = $_GET['changeStatus'];
                                 changestatus($status_num, $app_id);
                                 } 
                 }
 
-            //* Update Patient Appointment (sets patient appointment status to either 2 = approved
-                //* and 3 = declined)
+            //* Update Patient Appointment (sets patient appointment status to either 4 = done
+                //* and 0 = deleted)
                 function changestatus($status_num, $app_id){
                     include 'connect.php';
                     $query = "exec sproc_update_appstatus @status_id = ?, @app_id = ?"; //You don't need a ; like you do in SQL
@@ -141,14 +141,14 @@
                             alert("Query Failed to update Appointment Status");
                             </script>';
                         }
-                        else if($status_num == 3)
+                        else if($status_num == 4)
                         {
                             echo '<script>
                             window.alert("Query Success, Appointment Status Updated");
-                            window.location.replace("appointment_dec.php");
+                            window.location.replace("appointment_hist.php");
                             </script>';
                         }
-                        else if ($status_num == 2) {
+                        else if ($status_num == 0) {
                             {
                                 echo '<script>
                                 window.alert("Query Success, Appointment Status Updated");

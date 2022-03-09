@@ -20,9 +20,9 @@
                     <div class="dropdown">
                         <button class="dropbtn" id="selection">You are a...</button>
                         <div class="dropdown-content">
-                            <a href="#" value="admin" id="admin" name="account_type" onclick="clicked(this.id);">Admin</a>
-                            <a href="#" value="doctor" id="doctor" name="account_type" onclick="clicked(this.id);">Doctor</a>
-                            <a href="#"" value="patient" id="patient" name="account_type" onclick="clicked(this.id);">Patient</a>
+                            <a href="#" value="admin" id="admin" name="admin" onclick="clicked(this.id);">Admin</a>
+                            <a href="#" value="doctor" id="doctor" name="doctor" onclick="clicked(this.id);">Doctor</a>
+                            <a href="#"" value="patient" id="patient" name="patient" onclick="clicked(this.id);">Patient</a>
                         <script>
                             function clicked(id){
                                 let account_type = document.getElementById(id).innerHTML;
@@ -42,7 +42,7 @@
             <div class="loginbtncont">
                 <input type="submit" class="loginbtn" value="Log In">
             </div>
-            <a href="signup.php" class="signup" title="Sign Up for A New Account">SIGN UP</a>
+            <a href="usersignup.php" class="signup" title="Sign Up for A New Account">SIGN UP</a>
             <a href="userforgotpass.php" class="forgotpass" title="Forgot Password"><i>Forgot Password?</i></a>
             </div>
             <div class=e166_378>

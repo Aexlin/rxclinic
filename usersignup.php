@@ -90,7 +90,7 @@
                 <div class="mx-auto justify-content-center row" style="margin: 0;">
                     <p style="font-size: larger;"><b>Sign Up</b></p>
                 </div>
-                <form class="d-flex justify-content-center row" id="usersignup" method="POST">
+                <form class="d-flex justify-content-center row" name="form" method="POST">
                   <div class="dropdown d-flex justify-content-center">
                     <button class="btn btn-light dropdown-toggle dropd" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="color:gray;">
                         You are a...
@@ -111,9 +111,32 @@
                      <input type="email" class="textinput row mb-2" placeholder="Enter your email: " name="email" required>
                      <input type="password" class="textinput row mb-2" placeholder="Enter your password: " name="pass" required>
                      <input type="password" class="textinput row mb-4" placeholder="Confirm password: " name="confpass" required>                     
-                     <input type="submit" name="submit" class="loginbtn row mb-4" value="Sign Up" style="font-size: 14px; padding-left:10%;" onclick="<?php validateForm()?>"> 
+                     <input type="submit" name="submit" class="loginbtn row mb-4" style="font-size: 14px; padding-left:10%;"> 
                 </div>
                 </form>
+            <?php 
+                if (isset($_POST['submit'])){
+                    if((isset($_POST['email'])) && (isset($_POST['pass'])) && (isset($_POST['confpass']))){
+                        $email = $_POST['email'];
+                        $pass = $_POST['pass'];
+                        $confpass = $_POST['confpass'];
+                        // $pass = "hatdog";
+                        // $confpass = "doghat";
+                    if ($pass == $confpass){
+                        echo'<script>
+                            alert("Passwords Match, Click OK to continue");
+                            window.location.replace("patient_new.php");    
+                            <script>';
+                            }
+                    else{
+                        echo'<script>
+                            alert("Passwords do not match, Please try again");
+                            window.location.replace("usersignup.php");    
+                            <script>';
+                    }
+                    }
+                }
+                ?>
             </div>
         </div>
     </div>
@@ -128,66 +151,6 @@
         document.getElementById("loader").style.display = "none";
         document.getElementById("myDiv").style.display = "block";
         }
-    </script>
-    <script src="sweetalert2.all.min.js"></script>
-    <script src="jquery-3.6.0.js"></script>
-
-    <?php
-        function validateForm(){
-            if (isset($_POST['submit'])){
-                if(isset($_POST['email']) && isset($_POST['pass']) && isset($_POST['confpass'])){
-                    $usermail = $_POST['email'];
-                    $userpass = $_POST['pass'];
-                    $userconfpass = $_POST['confpass'];
-                    if($userpass == $userconfpass) {
-                        echo '<script> 
-                            Swal.fire({
-                                title: "Password Match!",
-                                text: "Redirecting to patient credentials",
-                                icon: "success"
-                                }).then(function (result) {
-                                    if (true) {
-                                        window.location = "patient_new.php";
-                                    }
-                        </script>' ;
-                    }
-                    else {
-                        echo '<script> 
-                            Swal.fire({
-                                title: "Password Mismatch!",
-                                text: "Please try again",
-                                icon: "warning"
-                                }).then(function (result) {
-                                    if (true) {
-                                        window.location = "signup.php";
-                                    }
-                        </script>' ;
-                    }
-                }
-            }
-        }
-    ?>
-
-    <script>
-        function showAlert(){
-        Swal.fire({
-            title: 'Sign Up Success',
-            text: "Gumana, ang galing!",
-            icon: 'success'
-            }).then(function (result) {
-            if (true) {
-                window.location = 'patient_new.php';
-            }
-            else{
-                Swal.fire({
-                    title: 'Fill out the fields',
-                    text: 'Ginagawa mue?',
-                    icon: 'warning'
-                })
-            }
-            }
-            )
-                }
     </script>
 </body>
 </html>

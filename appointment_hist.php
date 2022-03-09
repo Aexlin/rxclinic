@@ -18,7 +18,7 @@
     $('#appointments').DataTable({
         "dom": '<"wrapper col"f><"wrapper col"l>tip',
         pageLength: 5,
-        lengthMenu: [5, 10, 15,20]
+        lengthMenu: [5, 10, 15,20],
     });
 });
     </script>
