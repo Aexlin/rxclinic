@@ -119,8 +119,10 @@
                         ."<td class='d-flexbox justify-content-center text-center'>"."<a href='?changeStatus=".$status_ok."' class='fs-5 bi-arrow-up-left-circle-fill me-4'>"."</a></td>"
                         ."<td class='d-flexbox justify-content-center text-center'>"."<a href='?changeStatus=".$status_no."' class='fs-5 bi-x-circle-fill me-4 link-danger'>"."</a>"."</td></tr>";
                             if(isset($_GET['changeStatus'])){ 
-                                $status_num = $_GET['changeStatus'];
-                                changestatus($status_num, $app_id);
+                                $arr = str_split($_GET['changeStatus']);
+                                $status_no = $arr[0];
+                                $app_id = $arr[1];
+                                changestatus($status_no, $app_id);
                                 } 
                 }
 

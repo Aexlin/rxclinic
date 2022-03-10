@@ -119,8 +119,10 @@
                         ."<td class='d-flexbox justify-content-center text-center'>"."<a href='?changeStatus=".$status_ok."' class='fs-5 bi-check-circle-fill me-4'>"."</a></td>"
                         ."<td class='d-flexbox justify-content-center text-center'>"."<a href='?changeStatus=".$status_del."' class='fs-5 bi-x-circle-fill me-4 link-danger'>"."</a>"."</td></tr>";
                             if(isset($_GET['changeStatus'])){ 
-                                $status_num = $_GET['changeStatus'];
-                                changestatus($status_num, $app_id);
+                                $arr = str_split($_GET['changeStatus']);
+                                $status_no = $arr[0];
+                                $app_id = $arr[1];
+                                changestatus($status_no, $app_id);
                                 } 
                 }
 
@@ -131,7 +133,7 @@
                     $query = "exec sproc_update_appstatus @status_id = ?, @app_id = ?"; //You don't need a ; like you do in SQL
                     $params = array(
                         array ($status_num, SQLSRV_PARAM_IN),
-                        array($app_id, SQLSRV_PARAM_IN)
+                        array ($app_id, SQLSRV_PARAM_IN)
                     );
                     $result = sqlsrv_prepare($conn, $query, $params);
                     $exec = sqlsrv_execute($result);

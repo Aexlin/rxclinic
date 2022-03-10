@@ -111,7 +111,7 @@
                         <td class='d-flexbox justify-content-center text-center'>"."<a href='#' class='fs-5 bi-pen-fill me-4'>"."</a></td></tr>";
                         if(isset($_GET['delFunc'])){ 
                             delfunc($_GET['delFunc']);
-                            } 
+                            }
                 //$row['index'] the index here is a field name
                 }
 

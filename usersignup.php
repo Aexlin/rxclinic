@@ -90,14 +90,14 @@
                 <div class="mx-auto justify-content-center row" style="margin: 0;">
                     <p style="font-size: larger;"><b>Sign Up</b></p>
                 </div>
-                <form class="d-flex justify-content-center row" name="form" method="POST">
+                <form class="d-flex justify-content-center row" id="myForm" name="form" method="POST" action="patient_new.php">
                   <div class="dropdown d-flex justify-content-center">
                     <button class="btn btn-light dropdown-toggle dropd" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="color:gray;">
                         You are a...
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="width: 71%; font-size: 14px;">
-                        <li><a class="dropdown-item" name="patient" href="#" id="Patient" onclick="clicked(this.id);">Patient</a></li>
-                        <li><a class="dropdown-item" name="doctor" href="#" id="Doctor" onclick="clicked(this.id);">Doctor</a></li>
+                        <li><a class="dropdown-item" name="patients" href="#" id="Patient" onclick="clicked(this.id);">Patient</a></li>
+                        <li><a class="dropdown-item" name="doctors" href="#" id="Doctor" onclick="clicked(this.id);">Doctor</a></li>
                     </ul>
                     <script>
                             function clicked(id){
@@ -108,35 +108,37 @@
                     </script>
                  </div>
                  <div class="d-flex justify-content-center row">
-                     <input type="email" class="textinput row mb-2" placeholder="Enter your email: " name="email" required>
-                     <input type="password" class="textinput row mb-2" placeholder="Enter your password: " name="pass" required>
+                     <input type="email" class="textinput row mb-2" placeholder="Enter your email: " name="useremail" required>
+                     <input type="password" class="textinput row mb-2" placeholder="Enter your password: " name="userpass" required>
                      <input type="password" class="textinput row mb-4" placeholder="Confirm password: " name="confpass" required>                     
-                     <input type="submit" name="submit" class="loginbtn row mb-4" style="font-size: 14px; padding-left:10%;"> 
+                     <input type="submit" name="submit" class="loginbtn row mb-4" style="font-size: 14px; padding-left:10%; "> 
                 </div>
                 </form>
-            <?php 
-                if (isset($_POST['submit'])){
-                    if((isset($_POST['email'])) && (isset($_POST['pass'])) && (isset($_POST['confpass']))){
-                        $email = $_POST['email'];
-                        $pass = $_POST['pass'];
-                        $confpass = $_POST['confpass'];
-                        // $pass = "hatdog";
-                        // $confpass = "doghat";
-                    if ($pass == $confpass){
-                        echo'<script>
-                            alert("Passwords Match, Click OK to continue");
-                            window.location.replace("patient_new.php");    
-                            <script>';
+        
+                    <?php 
+                        if (isset($_POST['form'])){
+                            // if((isset($_POST['submit']))&&(isset($_POST['email'])) && (isset($_POST['pass'])) && (isset($_POST['confpass']))){
+                                $useremail = $_POST['email'];
+                                $userpass = $_POST['pass'];
+                                $confpass = $_POST['confpass'];
+                            if ($userpass == $confpass){
+                                echo' <script>
+                                document.getElementById("myForm").onsubmit = function() {prompt()};
+                                function prompt() {
+                                    alert("Passwords Match, Click OK to continue");
+                                    window.location.replace("patient_new.php"); 
+                                    }
+                                </script>';
                             }
-                    else{
-                        echo'<script>
-                            alert("Passwords do not match, Please try again");
-                            window.location.replace("usersignup.php");    
-                            <script>';
-                    }
-                    }
-                }
-                ?>
+                            else{
+                                echo'<script>
+                                    alert("Passwords do not match, Please try again");
+                                    window.location.replace("usersignup.php");    
+                                    <script>';
+                            }
+                            }
+                            // }
+                        ?>
             </div>
         </div>
     </div>
@@ -151,6 +153,7 @@
         document.getElementById("loader").style.display = "none";
         document.getElementById("myDiv").style.display = "block";
         }
+
     </script>
 </body>
 </html>

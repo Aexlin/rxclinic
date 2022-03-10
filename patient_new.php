@@ -65,7 +65,7 @@
     <div class="col-8 py-5 container animate-bottom" style="font-family: Inter;">
     <h3>NEW PATIENT</h3><hr>
 	<div class="card mt-4 inputcard" style="background-color: #e1e5f2;">
-		<form class="card-body py-3 px-4">
+		<form class="card-body py-3 px-4" method="GET"> <!-- action="patient_list.php" -->
             <div class="row mb-2">
                 <div class="col-lg">
                     <label class="">First Name</label>
@@ -75,37 +75,19 @@
                     <label class="">Last Name</label>
                     <input class="form-control" type="text" name="lname" required>
                 </div>
-                <div class="col-sm-2">
-                    <label class="">Sex</label>
-                    <select class="form-control" name="age" style="font-size: 15px;">
-                    <option class="select p-2" selected disabled>Select Sex</option>
-                    <option class="select p-2" id="male">Male</option>
-                    <option class="select p-2" id="female">Female</option>
-                    </select>
-                </div>
             </div>
             <div class="row mb-2">
                 <div class="col-lg">
                     <label class="">Email</label>
                     <input class="form-control" type="text" name="email" required>
                 </div>
-                <div class="col-lg">
+                <div class="col-sm-4">
                     <label class="">Contact Number</label>
                     <input class="form-control" type="text" name="contactno" required>
                 </div>
                 <div class="col-sm-2">
                     <label class="">Age</label>
-                    <select class="form-control" name="age" style="font-size: 15px;">
-                    <option class="select p-2" selected disabled>Select Age</option>
-                        <?php
-                            for ($i=1; $i<=100; $i++)
-                            {
-                                ?>
-                                    <option value="<?php echo $i;?>"><?php echo $i;?></option>
-                                <?php
-                            }
-                        ?>
-                    </select>
+                    <input class="form-control" type="number" name="age" style="font-size: 15px;">
                 </div>
             </div>
             <div class="row mb-2">
@@ -126,10 +108,43 @@
             </div>
             <div class="row">
                 <div class="d-grid gap-2 col-6 mx-auto mt-3">
-                    <button class="btn btn-primary py-2" type="submit">Add Patient</button>
+                    <button class="btn btn-primary py-2" name="addPatient" type="submit" value="Submit">Add Patient</button>
                 </div>
             </div>
  		</form>
+    <?php include 'connect.php';
+        if (isset($_GET['addPatient'])){
+            var_dump($_GET['addPatient']);
+            $fname = $_GET['fname'];
+            $lname = $_GET['lname'];
+            $email = $_GET['email'];
+            $contactno = $_GET['contactno'];
+            $age = $_GET['age'];
+            $address = $_GET['address'];
+            $pword = $_GET['password'];
+                $query = "insert into patients(fname,lname,age,email,pword,p_address,contact_no,acc_status)
+                        values ('$fname','$lname','$age','$email','$pword','$address','$contactno','1')"; 
+            $params = array(
+                array ($fname, SQLSRV_PARAM_IN),
+                array ($lname, SQLSRV_PARAM_IN),
+                array ($age, SQLSRV_PARAM_IN),
+                array ($mail, SQLSRV_PARAM_IN),
+                array ($pword,  SQLSRV_PARAM_IN),
+                array ($address, SQLSRV_PARAM_IN),
+                array ($contactno, SQLSRV_PARAM_IN) 
+            );
+            echo var_dump($params);
+            var_dump($fname,$lname,$age,$email,$pword,$address,$contactno);
+            // $insert = sqlsrv_prepare($conn, $query);
+            $exec = sqlsrv_execute($conn, $query);
+            if(!$exec){
+                echo '<script>
+                window.alert("Failed to add new patient");
+                </script>';
+            }
+            die();
+        }
+    ?>
     </div>
     </div>
 </div>

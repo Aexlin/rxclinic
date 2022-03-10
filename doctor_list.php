@@ -105,10 +105,15 @@
                         <td>" . htmlspecialchars($row['email']) . "</td>"
                         ."<td>" . htmlspecialchars($row['d_type']) . "</td>"
                         ."<td class='d-flexbox justify-content-center text-center'>"."<a href='?delFunc=".$doc_id."' class='fs-5 bi-trash-fill me-4 link-danger'>"."</a>"."</td>
-                        <td class='d-flexbox justify-content-center text-center'>"."<a href='#' class='fs-5 bi-pen-fill me-4'>"."</a></td></tr>";
+                        <td class='d-flexbox justify-content-center text-center'>"."<a href='?editInfo=".$doc_id."' class='fs-5 bi-pen-fill me-4'>"."</a></td></tr>";
                         if(isset($_GET['delFunc'])){ 
                             delfunc($_GET['delFunc']);
-                            } 
+                            }
+                        //* update doc info
+                        // if(isset($_GET['editInfo'])){ 
+                        //     editinfo($_GET['editInfo']);
+                        //     }
+                        
                 //$row['index'] the index here is a field name
                 }
             //* Delete Doctor Function (sets doctor account status = 0)
@@ -135,8 +140,6 @@
                         } 
                 die();
                 }
-
-
                 ?>
 
             </tbody>

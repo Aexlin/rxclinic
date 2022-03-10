@@ -107,45 +107,52 @@
                 $count = 0;
                 // echo "<table>"; // start a table tag in the HTML
                 while($row = sqlsrv_fetch_array($result)){   //Creates a loop to loop through results
-                    $app_id = intval(htmlspecialchars($row['app_id']));
                     $count++;
                     $status_ok = 2;
                     $status_no = 3;
+                    $app_id = $row['app_id'];
                     echo "<tr><td>" . htmlspecialchars($count) . "</td>
                         <td>" . htmlspecialchars($row['patient_name']) . "</td>"
                         . "<td>" . htmlspecialchars($row['reason']) . "</td>"
                         . "<td>" . htmlspecialchars($row['doc_name']) . "</td>
                         <td>" . htmlspecialchars($row['status_name']) . "</td>"
-                        ."<td class='d-flexbox justify-content-center text-center'>"."<a href='?changeStatus=".$status_ok."' class='fs-5 bi-check-circle-fill me-4'>"."</a></td>"
-                        ."<td class='d-flexbox justify-content-center text-center'>"."<a href='?changeStatus=".$status_no."' class='fs-5 bi-x-circle-fill me-4 link-danger'>"."</a>"."</td></tr>";
+                        ."<td class='d-flexbox justify-content-center text-center'>"."<a href='?changeStatus=".$status_ok,$app_id."' class='fs-5 bi-check-circle-fill me-4'>"."</a></td>"
+                        ."<td class='d-flexbox justify-content-center text-center'>"."<a href='?changeStatus=".$status_no,$app_id."' class='fs-5 bi-x-circle-fill me-4 link-danger'>"."</a>"."</td></tr>";
                             if(isset($_GET['changeStatus'])){ 
-                                $status_num = $_GET['changeStatus'];
-                                changestatus($status_num, $app_id);
+                                $arr = str_split($_GET['changeStatus']);
+                                $status_no = $arr[0];
+                                $app_id = $arr[1];
+                                changestatus($status_no, $app_id);
                                 } 
                 }
 
             //* Update Patient Appointment (sets patient appointment status to either 2 = approved
                 //* and 3 = declined)
-                function changestatus($status_num, $app_id){
+                function changestatus($status_num,$app_id){
                     include 'connect.php';
                     $query = "exec sproc_update_appstatus @status_id = ?, @app_id = ?"; //You don't need a ; like you do in SQL
                     $params = array(
                         array ($status_num, SQLSRV_PARAM_IN),
-                        array($app_id, SQLSRV_PARAM_IN)
+                        array ($app_id, SQLSRV_PARAM_IN)
                     );
                     $result = sqlsrv_prepare($conn, $query, $params);
                     $exec = sqlsrv_execute($result);
-                    if(!$exec)
-                        {
+                    if(!$exec){
                             echo '<script>
                             alert("Query Failed to update Appointment Status");
+                            window.location.replace("appointment_view.php");
                             </script>';
                         }
-                        else
-                        {
+                    else if ($status_num == 2){
                             echo '<script>
-                            window.alert("Query Success, Appointment Status Updated");
+                            window.alert("Success, Appointment Status Updated!");
                             window.location.replace("appointment_app.php");
+                            </script>';
+                        } 
+                    else if ($status_num == 3){
+                            echo '<script>
+                            window.alert("Success, Appointment Status Updated!");
+                            window.location.replace("appointment_dec.php");
                             </script>';
                         } 
                 die();
