@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Appointments</title>
+    <title>Pending Appointments</title>
     <link rel="shortcut icon" href="./images/rxclinic_logo_1.png">
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./bootstrap5/css/bootstrap-grid.css">
@@ -87,12 +87,14 @@
                 <a class="nav-link" href="appointment_dec.php">Declined</a>
             </li>
         </ul>
-        <table id="appointments" class="table table-striped align-middle" style="width: 100%;">
+        <table id="appointments" class="table table-striped align-middle">
             <thead style="color: #134557 !important;">
                 <tr>
                 <th scope="col">#</th>
                 <th scope="col">Name</th>
-                <th scope="col">Reason for Check up</th>
+                <th scope="col">Details</th>
+                <th scope="col">Time</th>
+                <th scope="col">Date</th>
                 <th scope="col">Doctor</th>
                 <th scope="col">Status</th>
                 <th scope="col">Approve</th>
@@ -111,9 +113,18 @@
                     $status_ok = 2;
                     $status_no = 3;
                     $app_id = $row['app_id'];
+                    $app_time = $row['app_time']->format('H:i');
+                    $app_date = $row['app_date']->format('Y-m-d');
+                    // $value->format('Y-m-d H:i');
+                    // $app_time = date('H:i:s', strtotime(str_replace('-', '/', $row['app_time'])));
+                    // $app_date = date('Y-m-d', strtotime(str_replace('-', '/', $row['app_date'])));
+                    // $app_time = date($row['app_time']);
+                    // $app_date = date($row['app_date']);
                     echo "<tr><td>" . htmlspecialchars($count) . "</td>
                         <td>" . htmlspecialchars($row['patient_name']) . "</td>"
                         . "<td>" . htmlspecialchars($row['reason']) . "</td>"
+                        . "<td>" .$app_time. "</td>"
+                        . "<td>" .$app_date. "</td>"
                         . "<td>" . htmlspecialchars($row['doc_name']) . "</td>
                         <td>" . htmlspecialchars($row['status_name']) . "</td>"
                         ."<td class='d-flexbox justify-content-center text-center'>"."<a href='?changeStatus=".$status_ok,$app_id."' class='fs-5 bi-check-circle-fill me-4'>"."</a></td>"
@@ -121,8 +132,14 @@
                             if(isset($_GET['changeStatus'])){ 
                                 $arr = str_split($_GET['changeStatus']);
                                 $status_no = $arr[0];
-                                $app_id = $arr[1];
-                                changestatus($status_no, $app_id);
+                                $temparr = array();
+                                for ($i = 1; $i < sizeof($arr);$i++){
+                                    $val = $arr[$i];
+                                    array_push($temparr,$val);
+                                }
+                                $status_num = $status_no;
+                                $app_id = (int)implode("",$temparr);
+                                changestatus($status_num, $app_id);
                                 } 
                 }
 
@@ -143,7 +160,7 @@
                             window.location.replace("appointment_view.php");
                             </script>';
                         }
-                    else if ($status_num == 2){
+                    if ($status_num == 2){
                             echo '<script>
                             window.alert("Success, Appointment Status Updated!");
                             window.location.replace("appointment_app.php");

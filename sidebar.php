@@ -20,7 +20,7 @@
             font-weight: 800;
         }
     </style>
-
+    <!-- //* Document navbar which calls the pages based on the link clicked by the user -->
     </head>
     <body class="fixed">
         <div class="col-md-3 col-2 px-sm-3 px-0 pt-3 sidebar">

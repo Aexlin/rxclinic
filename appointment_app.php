@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Appointments</title>
+    <title>Approved Appointments</title>
     <link rel="shortcut icon" href="./images/rxclinic_logo_1.png">
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./bootstrap5/css/bootstrap-grid.css">
@@ -92,7 +92,9 @@
                 <tr>
                 <th scope="col">#</th>
                 <th scope="col">Name</th>
-                <th scope="col">Reason for Check up</th>
+                <th scope="col">Details</th>
+                <th scope="col">Time</th>
+                <th scope="col">Date</th> 
                 <th scope="col">Doctor</th>
                 <th scope="col">Status</th>
                 <th scope="col">Done</th>
@@ -111,18 +113,28 @@
                     $count++;
                     $status_ok = 4;
                     $status_del = 0;
+                    $app_time = $row['app_time']->format('H:i');
+                    $app_date = $row['app_date']->format('Y-m-d');
                     echo "<tr><td>" . htmlspecialchars($count) . "</td>
                         <td>" . htmlspecialchars($row['patient_name']) . "</td>"
                         . "<td>" . htmlspecialchars($row['reason']) . "</td>"
+                        . "<td>" . $app_time . "</td>"
+                        . "<td>" . $app_date. "</td>"
                         . "<td>" . htmlspecialchars($row['doc_name']) . "</td>
                         <td>" . htmlspecialchars($row['status_name']) . "</td>"
-                        ."<td class='d-flexbox justify-content-center text-center'>"."<a href='?changeStatus=".$status_ok."' class='fs-5 bi-check-circle-fill me-4'>"."</a></td>"
-                        ."<td class='d-flexbox justify-content-center text-center'>"."<a href='?changeStatus=".$status_del."' class='fs-5 bi-x-circle-fill me-4 link-danger'>"."</a>"."</td></tr>";
+                        ."<td class='d-flexbox justify-content-center text-center'>"."<a href='?changeStatus=".$status_ok,$app_id."' class='fs-5 bi-check-circle-fill me-4'>"."</a></td>"
+                        ."<td class='d-flexbox justify-content-center text-center'>"."<a href='?changeStatus=".$status_del,$app_id."' class='fs-5 bi-x-circle-fill me-4 link-danger'>"."</a>"."</td></tr>";
                             if(isset($_GET['changeStatus'])){ 
                                 $arr = str_split($_GET['changeStatus']);
                                 $status_no = $arr[0];
-                                $app_id = $arr[1];
-                                changestatus($status_no, $app_id);
+                                $temparr = array();
+                                for ($i = 1; $i < sizeof($arr);$i++){
+                                    $val = $arr[$i];
+                                    array_push($temparr,$val);
+                                }
+                                $status_num = $status_no;
+                                $app_id = (int)implode("",$temparr);
+                                changestatus($status_num, $app_id);
                                 } 
                 }
 
@@ -143,7 +155,7 @@
                             alert("Query Failed to update Appointment Status");
                             </script>';
                         }
-                        else if($status_num == 4)
+                        if($status_num == 4)
                         {
                             echo '<script>
                             window.alert("Query Success, Appointment Status Updated");

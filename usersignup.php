@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Clinic Signup Page</title>
+  <title>Sign Up</title>
   <link rel="shortcut icon" href="./images/rxclinic_logo_1.png">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -81,10 +81,10 @@
     <div id="loader"></div>
     <div class="mt-5" style="display:none;" id="myDiv"><br>
         <div class="container-xxl d-flex justify-content-center animate-bottom">
-            <div class="card mt-5 inputcont" style="height: 368px;">
+            <div class="card mt-5 inputcont" style="height: 370px;">
                 <div class="card-body d-flex justify-content-center">
                     <a href="index.php" class="mx-auto d-flex justify-content-center">
-                        <img src="./images/rxclinic_logo_1.png" alt="Logo" class="mx-auto" style="max-width: 25%;">
+                        <img src="./images/rxclinic_logo_1.png" alt="Logo" class="mx-auto pt-2" style="max-width: 25%;">
                     </a>
                 </div>
                 <div class="mx-auto justify-content-center row" style="margin: 0;">

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Dashboard</title>
+    <title>About</title>
     <link rel="shortcut icon" href="./images/rxclinic_logo_1.png">
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./bootstrap5/css/bootstrap-grid.css">
@@ -62,7 +62,7 @@
     <div class="container-fluid" id="myDiv">
         <div class="row flex-nowrap">
             <?php include 'sidebar.php';?>
-        <div class="col-8 ps-5 pt-5 animate-bottom">
+        <div class="col-8 ms-5 pt-5 pb-5 animate-bottom" style="font-family: Inter;">
             <h3>ABOUT THE DEVELOPERS</h3><hr>
         <div class="row row-cols-1 row-cols-md-3 g-4 fixed overflow-auto">
             <div class="col">

@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Dashboard</title>
+    <title>View Patients</title>
     <link rel="shortcut icon" href="./images/rxclinic_logo_1.png">
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./bootstrap5/css/bootstrap-grid.css">
@@ -108,9 +108,14 @@
                         <td>" . htmlspecialchars($row['email']) . "</td>"
                         ."<td>" . htmlspecialchars($row['contact_no']) . "</td>"
                         ."<td class='d-flexbox justify-content-center text-center'>"."<a href='?delFunc=".$pat_id."' class='fs-5 bi-trash-fill me-4 link-danger'>"."</a>"."</td>
-                        <td class='d-flexbox justify-content-center text-center'>"."<a href='#' class='fs-5 bi-pen-fill me-4'>"."</a></td></tr>";
+                        <td class='d-flexbox justify-content-center text-center'>"."<a href='patient_edit.php?editInfo=".$pat_id."' class='fs-5 bi-pen-fill me-4'>"."</a></td></tr>";
                         if(isset($_GET['delFunc'])){ 
                             delfunc($_GET['delFunc']);
+                            }
+                        if(isset($_GET['editInfo'])){
+                                //? ig dapat ang i-link nya is href then isesend yung value from
+                               //? this page pero hindi ako sure
+                            $doc_id = ($_GET['editInfo']);
                             }
                 //$row['index'] the index here is a field name
                 }

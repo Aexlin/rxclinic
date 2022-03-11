@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Dashboard</title>
+    <title>View Doctors</title>
     <link rel="shortcut icon" href="./images/rxclinic_logo_1.png">
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./bootstrap5/css/bootstrap-grid.css">
@@ -93,7 +93,7 @@
             </thead>
             <tbody>
                 <?php
-                $query = "EXEC sproc_doc_details"; //You don't need a ; like you do in SQL
+                $query = "select * from v_docdetails"; //You don't need a ; like you do in SQL
                 $result = sqlsrv_query($conn, $query);
                 $count = 0;
                 // echo "<table>"; // start a table tag in the HTML
@@ -105,14 +105,16 @@
                         <td>" . htmlspecialchars($row['email']) . "</td>"
                         ."<td>" . htmlspecialchars($row['d_type']) . "</td>"
                         ."<td class='d-flexbox justify-content-center text-center'>"."<a href='?delFunc=".$doc_id."' class='fs-5 bi-trash-fill me-4 link-danger'>"."</a>"."</td>
-                        <td class='d-flexbox justify-content-center text-center'>"."<a href='?editInfo=".$doc_id."' class='fs-5 bi-pen-fill me-4'>"."</a></td></tr>";
+                        <td class='d-flexbox justify-content-center text-center'>"."<a href='doctor_edit.php?editInfo=".$doc_id."' class='fs-5 bi-pen-fill me-4'>"."</a></td></tr>";
                         if(isset($_GET['delFunc'])){ 
                             delfunc($_GET['delFunc']);
                             }
                         //* update doc info
-                        // if(isset($_GET['editInfo'])){ 
-                        //     editinfo($_GET['editInfo']);
-                        //     }
+                        if(isset($_GET['editInfo'])){
+                             //? ig dapat ang i-link nya is href then isesend yung value from
+                            //? this page pero hindi ako sure
+                            $doc_id = ($_GET['editInfo']);
+                            }
                         
                 //$row['index'] the index here is a field name
                 }
@@ -140,6 +142,33 @@
                         } 
                 die();
                 }
+            
+             //* fname = @fname, lname = @lname, email = @email, pword = @pword, d_type = @d_type
+                //* where doctor_id = @doctor_id
+
+                // function editinfo($doc_id){
+                    
+                    // include 'connect.php';
+                    // $query = "exec sproc_updatedoc_details fname = ?, lname = ?, email = ?, pword = ?, d_type = ?, doctor_id = ?"; //You don't need a ; like you do in SQL
+                    // $params = array (&$editfname,&$editlname,&$editemail,&$editpword,&$editd_type,&$doc_id);
+                    // $result = sqlsrv_prepare($conn, $query, $params);
+                    // $exec = sqlsrv_execute($result);
+                    // if(!$exec)
+                    //     {
+                    //         echo '<script>
+                    //         alert("Failed to update doctor info");
+                    //         window.location.replace("doctor_edit.php");
+                    //         </script>';
+                    //     }
+                    //     else
+                    //     {
+                    //         echo '<script>
+                    //         window.alert("Successfully updated doctor info");
+                    //         window.location.replace("doctor_list.php");
+                    //         </script>';
+                    //     } 
+                    // die();
+                // }
                 ?>
 
             </tbody>

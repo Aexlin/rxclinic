@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Appointments</title>
+    <title>Appointment History</title>
     <link rel="shortcut icon" href="./images/rxclinic_logo_1.png">
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./bootstrap5/css/bootstrap-grid.css">
@@ -82,6 +82,8 @@
                 <th scope="col">#</th>
                 <th scope="col">Name</th>
                 <th scope="col">Diagnosis</th>
+                <th scope="col">Time</th>
+                <th scope="col">Date</th>
                 <th scope="col">Doctor</th>
                 <th scope="col">Status</th>
                 </tr>
@@ -89,16 +91,19 @@
             <tbody>
                 <?php
                 include 'connect.php';
-                $query = "EXEC sproc_appointment_history";
+                $query = "exec sproc_appointment_history";
                 $result = sqlsrv_query($conn, $query);
                 $count = 0;
-                // echo "<table>"; // start a table tag in the HTML
                 while($row = sqlsrv_fetch_array($result)){   //Creates a loop to loop through results
-                    $app_id = intval(htmlspecialchars($row['app_id']));
+                    $app_time = $row['app_time']->format('H:i');
+                    $app_date = $row['app_date']->format('Y-m-d');
+                    $app_id = $row['app_id'];
                     $count++;
                     echo "<tr><td>" . htmlspecialchars($count) . "</td>
                         <td>" . htmlspecialchars($row['patient_name']) . "</td>"
                         . "<td>" . htmlspecialchars($row['diagnosis']) . "</td>"
+                        . "<td>" .$app_time. "</td>"
+                        . "<td>" .$app_date. "</td>"
                         . "<td>" . htmlspecialchars($row['doc_name']) . "</td>
                         <td>" . htmlspecialchars($row['status_name']) . "</td>";
                 }

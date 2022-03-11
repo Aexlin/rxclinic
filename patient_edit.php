@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Add Patient</title>
+    <title>Edit Patient</title>
     <link rel="shortcut icon" href="./images/rxclinic_logo_1.png">
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./bootstrap5/css/bootstrap-grid.css">
@@ -63,43 +63,64 @@
         <div class="row flex-nowrap">
         <?php include 'sidebar.php';?>
     <div class="col-8 py-5 container animate-bottom" style="font-family: Inter;">
-    <h3>NEW PATIENT</h3><hr>
+    <h3>EDIT PATIENT</h3><hr>
 	<div class="card mt-4 inputcard" style="background-color: #e1e5f2;">
-		<form class="card-body py-3 px-4" method="GET"> <!-- action="patient_list.php" -->
+    <?php
+        include 'connect.php';
+        $patient_id = intval($_GET['editInfo']);
+        // print($patient_id);
+        $query = "select * from patients where patient_id =".$patient_id; //You don't need a ; like you do in SQL
+        // $query = "exec sproc_docselect @doctor_id = ?"; //You don't need a ; like you do in SQL
+        // $params = array(&$doctor_id);
+        // $result = sqlsrv_prepare($conn, $query, $params);
+        $result = sqlsrv_query($conn, $query);
+        $row = sqlsrv_fetch_array($result);
+        $patient_id = $row['patient_id'];
+        $fname = $row['fname'];
+        $lname = $row['lname'];
+        $age = intval($row['age']);
+        $email = $row['email'];
+        $pword = $row['pword'];
+        $p_address = $row['p_address'];
+        $contact_no = $row['contact_no'];
+        // $values = array($firstName, $lastName, $email, $pword, $d_type);
+        // return $values;
+            ?>
+		<form class="card-body py-3 px-4" method="POST"> <!-- action="patient_list.php" -->
             <div class="row mb-2">
                 <div class="col-lg">
                     <label class="">First Name</label>
-                    <input class="form-control" type="text" name="fname" required>
+                    <input class="form-control" type="text" name="fname" value="<?= $fname;?>" required>
                 </div>
                 <div class="col-lg">
                     <label class="">Last Name</label>
-                    <input class="form-control" type="text" name="lname" required>
+                    <input class="form-control" type="text" name="lname" value="<?= $lname;?>" required>
                 </div>
             </div>
             <div class="row mb-2">
                 <div class="col-lg">
                     <label class="">Email</label>
-                    <input class="form-control" type="text" name="email" required>
+                    <input class="form-control" type="text" name="email" value="<?= $email;?>" required>
                 </div>
                 <div class="col-sm-4">
                     <label class="">Contact Number</label>
-                    <input class="form-control" type="text" name="contactno" required>
+                    <input class="form-control" type="text" name="contactno" value="<?= $contact_no;?>" required>
                 </div>
                 <div class="col-sm-2">
                     <label class="">Age</label>
-                    <input class="form-control" type="number" name="age" style="font-size: 15px;">
+                    <input class="form-control" type="number" name="age" value="<?=$age;?>" style="font-size: 15px;">
                 </div>
             </div>
             <div class="row mb-2">
                 <div class="col-lg">
                     <label class="">Address</label>
-                    <input class="form-control" type="text" name="address" required>
+                    <input class="form-control" type="text" name="address" value="<?= $p_address;?>" required>
                 </div>
             </div>
             <div class="row mb-2">
                 <div class="col-lg">
                     <label class="">Password</label>
-                    <input class="form-control" type="password" name="password" required>
+                    <input class="form-control" type="password" name="password" value="<?= $pword;?>" required>
                 </div>
                 <div class="col-lg">
                     <label class="">Confirm Password</label>
@@ -108,55 +129,42 @@
             </div>
             <div class="row">
                 <div class="d-grid gap-2 col-6 mx-auto mt-3">
-                    <button class="btn btn-primary py-2" name="addPatient" type="submit" value="Submit">Add Patient</button>
+                    <button class="btn btn-primary py-2" name="editPat" type="submit" value="Submit">Edit Patient</button>
                 </div>
             </div>
-    <?php 
-    include 'connect.php';
-        if (isset($_GET['addPatient'])){
-            // var_dump($_GET['addPatient']);
-            $fname = $_GET['fname'];
-            $lname = $_GET['lname'];
-            $age = $_GET['age'];
-            $email = $_GET['email'];
-            $pword = $_GET['password'];
-            $address = $_GET['address'];
-            $contactno = (int)$_GET['contactno'];
-                // $query = "insert into patients(fname,lname,age,email,pword,p_address,contact_no,acc_status)
-                //         values ('$fname','$lname','$age','$email','$pword','$address','$contactno','1')"; 
-                //* (@fname,@lname,@age,@email,@pword,@p_address,@contact_no, 1)
-            $query = "exec sproc_createpat @fname=?,@lname=?,@age=?,@email=?,@pword=?,@p_address=?,@contact_no=?";
-            $params = array (&$fname,&$lname,&$age,&$email,&$pword,&$address,&$contactno);
-                // $params = array(
-                // array ($fname, SQLSRV_PARAM_IN),
-                // array ($lname, SQLSRV_PARAM_IN),
-                // array ($age, SQLSRV_PARAM_IN),
-                // array ($email, SQLSRV_PARAM_IN),
-                // array ($pword,  SQLSRV_PARAM_IN),
-                // array ($address, SQLSRV_PARAM_IN),
-                // array ($contactno, SQLSRV_PARAM_IN));
-            // echo var_dump($params);
-            // var_dump($fname,$lname,$age,$email,$pword,$address,$contactno);
-            $insert = sqlsrv_prepare($conn, $query, $params);
-            $exec = sqlsrv_execute($insert);
-            var_dump($exec);
-                if(!$exec){
-                    echo '<script>
-                    window.alert("Failed to add new patient");
-                    window.location.replace("patient_new.php");
-                    </script>';
+            <?php
+                if (isset($_POST['editPat'])){
+                    // $doctor_id = $doc_id;
+                    $fname = $_POST['fname'];
+                    $lname = $_POST['lname'];
+                    $age = (int)$_POST['age'];
+                    $email = $_POST['email'];
+                    $pword = $_POST['password'];
+                    $address = $_POST['address'];
+                    $contactno = $_POST['contactno'];
+                    $query = "exec sproc_updatepatient_details @fname=?,@lname=?,@age=?,@email=?,@pword=?,@p_address=?,@contact_no=?,@patient_id=?";
+                    $params = array(&$fname,&$lname,&$age,&$email,&$pword,&$address,&$contactno,&$patient_id);
+                    $result = sqlsrv_prepare($conn, $query, $params);
+                    $exec = sqlsrv_execute($result);
+                    if(!$exec)
+                        {
+                            echo '<script>
+                            alert("Failed to update patient info");
+                            window.location.replace("patient_edit.php");
+                            </script>';
+                        }
+                        else
+                        {
+                            echo '<script>
+                            window.alert("Successfully updated patient info");
+                            window.location.replace("patient_list.php");
+                            </script>';
+                        } 
+                    die();
                 }
-                else{
-                    echo '<script>
-                    window.alert("Successfully added Patient!");
-                    window.location.replace("patient_list.php");
-                    </script>';
-                }
-            die();
-        }
-    ?>
- 		</form>
-    </div>
+            ?>
+        </form>
+            </div>
     </div>
 </div>
 </body>

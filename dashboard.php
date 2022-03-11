@@ -52,7 +52,7 @@
         color: #134557; font-size: 16px; letter-spacing: 4px; font-weight: 800 !important;
     }
     .carouselimg {
-        filter: brightness(30%);
+        filter: brightness(70%);
     }
     </style>
 </head>
