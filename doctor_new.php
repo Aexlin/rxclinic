@@ -101,7 +101,8 @@
                     <button class="btn btn-primary py-2" name="addDoctor" type="submit">Add Doctor</button>
                 </div>
             </div>
-        <?php include 'connect.php';
+        <?php //* code to insert values in fields
+        include 'connect.php';
         if (isset($_GET['addDoctor'])){
             // var_dump($_GET['addPatient']);
             $fname = $_GET['fname'];

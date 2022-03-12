@@ -93,7 +93,7 @@
                 </tr>
             </thead>
             <tbody>
-                <?php
+                <?php //* displays existing list of patients
                 $query = "EXEC sproc_pat_details"; //You don't need a ; like you do in SQL
                 $result = sqlsrv_query($conn, $query);
                 $count = 0;

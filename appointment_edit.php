@@ -65,7 +65,7 @@
     <div class="col-8 py-5 container animate-bottom" style="font-family: Inter;">
     <h3>EDIT APPOINTMENT</h3><hr>
 	<div class="card mt-4 inputcard" style="background-color: #e1e5f2;">
-        <?php
+        <?php //* code to show the existing appointment info to be edited in fields
                 include 'connect.php';
                 $app_id = $_GET['editInfo'];
                 $query = "select * from appointments where app_id =".$app_id; 

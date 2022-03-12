@@ -57,6 +57,7 @@
     }
     </style>
 </head>
+    <!-- Page for group members -->
 <body style="font-family: Montserrat;" onload="myFunction()">
     <div id="loader"></div>
     <div class="container-fluid" id="myDiv">

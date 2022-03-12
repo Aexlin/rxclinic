@@ -89,7 +89,7 @@
                 </tr>
             </thead>
             <tbody>
-                <?php
+                <?php //* shows appointments that are done
                 include 'connect.php';
                 $query = "exec sproc_appointment_history";
                 $result = sqlsrv_query($conn, $query);

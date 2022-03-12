@@ -93,7 +93,7 @@
                 </div>
                 <div class=e166_378>
                     <div class="e166_375 "></div><span class="e166_377 "><b>Welcome!</b></span></div>
-        <?php
+        <?php //*code to check if values are inside the database
         include 'connect.php';
         if(isset($_GET['login'])){
                 $email = $_GET['email'];

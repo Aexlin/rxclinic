@@ -135,7 +135,7 @@
                     <button class="btn btn-primary py-2" name="addAppointment" type="submit" value="Submit">Add Appointment</button>
                 </div>
             </div>
-            <?php
+            <?php //* code that takes values from the fields and stores it in DB using SPs
              if (isset($_GET['addAppointment'])){
                 $app_date = $_GET['app_date'];
                 $app_time = $_GET['app_time'];

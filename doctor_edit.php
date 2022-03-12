@@ -121,7 +121,7 @@
                     <button class="btn btn-primary py-2" name="editDoc" value="Submit" type="submit">Edit Doctor</button>
                 </div>
             </div>
-            <?php
+            <?php //* takes existing values & updating changed values
                 if (isset($_POST['editDoc'])){
                     // $doctor_id = $doc_id;
                     $fname = $_POST['fname'];

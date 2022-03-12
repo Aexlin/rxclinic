@@ -126,7 +126,7 @@
                     <button class="btn btn-primary py-2" name="editPat" type="submit" value="Submit">Edit Patient</button>
                 </div>
             </div>
-            <?php
+            <?php //*code used to edit existing patient credentials
                 if (isset($_POST['editPat'])){
                     // $doctor_id = $doc_id;
                     $fname = $_POST['fname'];

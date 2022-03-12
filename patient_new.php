@@ -111,7 +111,7 @@
                     <button class="btn btn-primary py-2" name="addPatient" type="submit" value="Submit">Add Patient</button>
                 </div>
             </div>
-    <?php 
+    <?php  //* code used to create new patient
     include 'connect.php';
         if (isset($_GET['addPatient'])){
             // var_dump($_GET['addPatient']);

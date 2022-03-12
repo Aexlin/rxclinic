@@ -102,7 +102,7 @@
                 </tr>
             </thead>
             <tbody>
-                <?php
+                <?php //* displays account with the account status - 3 which means declined
                 include 'connect.php';
                 $query = "EXEC sproc_appointments_dec";
                 $result = sqlsrv_query($conn, $query);

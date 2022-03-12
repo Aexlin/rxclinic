@@ -103,7 +103,7 @@
                 </tr>
             </thead>
             <tbody>
-                <?php
+                <?php //*fetches existing appointments with the status id = pending
                 include 'connect.php';
                 $query = "EXEC sproc_appointments_pend";
                 $result = sqlsrv_query($conn, $query);

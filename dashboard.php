@@ -60,7 +60,9 @@
     <div id="loader"></div>
     <div class="container-fluid" id="myDiv">
         <div class="row flex-nowrap">
-            <?php include 'sidebar.php';?>
+            <?php include 'sidebar.php';
+            //*includes the navigation bar, very flexible space to insert graphs / data from tables
+            ?>
         <div class="col-8 py-5 container animate-bottom" style="font-family: Inter;">
         <h3>DASHBOARD</h3><hr>
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">

@@ -21,6 +21,7 @@
         }
     </style>
     <!-- //* Document navbar which calls the pages based on the link clicked by the user -->
+    <!-- //* Navbar has corresponding links to the pages that redirects the user if clicked -->
     </head>
     <body class="fixed">
         <div class="col-md-3 col-2 px-sm-3 px-0 pt-3 sidebar">

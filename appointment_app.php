@@ -103,7 +103,7 @@
                 </tr>
             </thead>
             <tbody>
-                <?php
+                <?php //* code used to display appointments with 2 - approved as status
                 include 'connect.php';
                 $query = "EXEC sproc_appointments_app";
                 $result = sqlsrv_query($conn, $query);

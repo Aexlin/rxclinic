@@ -92,7 +92,7 @@
                 </tr>
             </thead>
             <tbody>
-                <?php
+                <?php //* lists existing doctors in the database
                 $query = "select * from v_docdetails"; //You don't need a ; like you do in SQL
                 $result = sqlsrv_query($conn, $query);
                 $count = 0;
