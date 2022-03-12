@@ -129,7 +129,7 @@
                     $email = $_POST['email'];
                     $pword = $_POST['password'];
                     $d_type = $_POST['department'];
-                    $query = "sproc_updatedoc_details @fname = ?, @lname = ?, @email = ?, @pword = ?, @d_type = ?, @doctor_id = ?";
+                    $query = "exec sproc_updatedoc_details @fname = ?, @lname = ?, @email = ?, @pword = ?, @d_type = ?, @doctor_id = ?";
                     $params = array(&$fname,&$lname,&$email,&$pword,&$d_type,&$doctor_id);
                     $result = sqlsrv_prepare($conn, $query, $params);
                     $exec = sqlsrv_execute($result);

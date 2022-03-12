@@ -68,11 +68,7 @@
     <?php
         include 'connect.php';
         $patient_id = intval($_GET['editInfo']);
-        // print($patient_id);
-        $query = "select * from patients where patient_id =".$patient_id; //You don't need a ; like you do in SQL
-        // $query = "exec sproc_docselect @doctor_id = ?"; //You don't need a ; like you do in SQL
-        // $params = array(&$doctor_id);
-        // $result = sqlsrv_prepare($conn, $query, $params);
+        $query = "select * from patients where patient_id =".$patient_id;
         $result = sqlsrv_query($conn, $query);
         $row = sqlsrv_fetch_array($result);
         $patient_id = $row['patient_id'];
@@ -83,10 +79,8 @@
         $pword = $row['pword'];
         $p_address = $row['p_address'];
         $contact_no = $row['contact_no'];
-        // $values = array($firstName, $lastName, $email, $pword, $d_type);
-        // return $values;
             ?>
-		<form class="card-body py-3 px-4" method="POST"> <!-- action="patient_list.php" -->
+		<form class="card-body py-3 px-4" method="POST">
             <div class="row mb-2">
                 <div class="col-lg">
                     <label class="">First Name</label>

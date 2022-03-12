@@ -62,38 +62,64 @@
         <div class="doctorimg"></div>
         <h1>RxClinic</h1>
         <container class="inputcontainer">
-            <form method="post">
+            <form method="GET">
                 <div class="textfieldcont">
                     <div class="dropdown">
-                        <button class="dropbtn" id="selection">You are a...</button>
-                        <div class="dropdown-content">
-                            <a href="#" value="admin" id="admin" name="admin" onclick="clicked(this.id);">Admin</a>
-                            <a href="#" value="doctor" id="doctor" name="doctor" onclick="clicked(this.id);">Doctor</a>
-                            <a href="#"" value="patient" id="patient" name="patient" onclick="clicked(this.id);">Patient</a>
-                        <script>
+                        <button class="dropbtn" id="selection" style="color:black;">Admin</button>
+                        <!-- <div class="dropdown-content"> -->
+                             <!--<a href="?acc_type=admin" value="admin" id="admin" name="admin" onclick="clicked(this.id);">Admin</a>
+                            <a href="?acc_type=doctor" value="doctor" id="doctor" name="doctor" onclick="clicked(this.id);">Doctor</a>
+                            <a href="?acc_type=patient" value="patient" id="patient" name="patient" onclick="clicked(this.id);">Patient</a> -->
+                        <!-- <script>
                             function clicked(id){
                                 let account_type = document.getElementById(id).innerHTML;
                                 document.getElementById('selection').innerHTML = account_type;
                                 document.getElementById('selection').style.color="black";
                             }
-                        </script>
-                        </div>
+                        </script> -->
+                        <!-- </div> -->
                     </div>
                     <div class="email">
                         <input type="text" class="textinput" placeholder="Email" name="email" required>
                     </div>
                     <div class="pw">
-                        <input type="password" class="textinput " placeholder="Password" name="password" required></input>
+                        <input type="password" class="textinput " placeholder="Password" name="pword" required></input>
                     </div>
-            </form>
-            <div class="loginbtncont">
-                <input type="submit" class="loginbtn" value="Log In" name="login">
-            </div>
-            <a href="usersignup.php" class="signup" title="Sign Up for A New Account">SIGN UP</a>
-            <a href="userforgotpass.php" class="forgotpass" title="Forgot Password"><i>Forgot Password?</i></a>
-            </div>
-            <div class=e166_378>
-                <div class="e166_375 "></div><span class="e166_377 "><b>Welcome!</b></span></div>
+                    <div class="loginbtncont">
+                        <input type="submit" class="loginbtn" value="Log In" name="login">
+                    </div>
+                    <a href="usersignup.php" class="signup" title="Sign Up for A New Account">SIGN UP</a>
+                    <a href="userforgotpass.php" class="forgotpass" title="Forgot Password"><i>Forgot Password?</i></a>
+                </div>
+                <div class=e166_378>
+                    <div class="e166_375 "></div><span class="e166_377 "><b>Welcome!</b></span></div>
+        <?php
+        include 'connect.php';
+        if(isset($_GET['login'])){
+                $email = $_GET['email'];
+                $pword = $_GET['pword'];
+                $query = "select email, pword from admin";
+                $statement = sqlsrv_prepare($conn,$query);
+                $exec = sqlsrv_execute($statement);
+            //    $result = sqlsrv_fetch_array($statement, SQLSRV_FETCH_ASSOC);
+                while($result = sqlsrv_fetch_array($statement)){
+                    if ($email == $result['email'] && $pword == $result['pword']){
+                        echo '<script>
+                        window.alert("Login Success!");
+                        window.location.replace("dashboard.php");
+                        </script>';
+                    }
+                    else {
+                        echo '<script>
+                        window.alert("Incorrect credentials");
+                        window.location.replace("index.php");
+                        </script>';
+                    }
+                }
+                die();
+            }
+        ?>
+                </form>
         </container>
     </div>
     </div>

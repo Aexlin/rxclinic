@@ -6,7 +6,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="sweetalert2.min.css">
   <link rel="stylesheet" href="./bootstrap5/css/bootstrap-grid.css">
   <link rel="stylesheet" href="./bootstrap5/css/bootstrap-grid.css.map">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -96,8 +95,8 @@
                         You are a...
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="width: 71%; font-size: 14px;">
-                        <li><a class="dropdown-item" name="patients" href="#" id="Patient" onclick="clicked(this.id);">Patient</a></li>
-                        <li><a class="dropdown-item" name="doctors" href="#" id="Doctor" onclick="clicked(this.id);">Doctor</a></li>
+                        <li><a class="dropdown-item" name="patient" href="#" id="Patient" onclick="clicked(this.id);">Patient</a></li>
+                        <li><a class="dropdown-item" name="doctor" href="#" id="Doctor" onclick="clicked(this.id);">Doctor</a></li>
                     </ul>
                     <script>
                             function clicked(id){

@@ -99,6 +99,7 @@
                 <th scope="col">Status</th>
                 <th scope="col">Approve</th>
                 <th scope="col">Decline</th>
+                <th scope="col">Edit</th>
                 </tr>
             </thead>
             <tbody>
@@ -127,8 +128,9 @@
                         . "<td>" .$app_date. "</td>"
                         . "<td>" . htmlspecialchars($row['doc_name']) . "</td>
                         <td>" . htmlspecialchars($row['status_name']) . "</td>"
-                        ."<td class='d-flexbox justify-content-center text-center'>"."<a href='?changeStatus=".$status_ok,$app_id."' class='fs-5 bi-check-circle-fill me-4'>"."</a></td>"
-                        ."<td class='d-flexbox justify-content-center text-center'>"."<a href='?changeStatus=".$status_no,$app_id."' class='fs-5 bi-x-circle-fill me-4 link-danger'>"."</a>"."</td></tr>";
+                        ."<td class='d-flexbox justify-content-center text-center'>"."<a href='?changeStatus=".$status_ok,$app_id."' class='fs-5 bi-check-circle-fill link-info'>"."</a></td>"
+                        ."<td class='d-flexbox justify-content-center text-center'>"."<a href='?changeStatus=".$status_no,$app_id."' class='fs-5 bi-x-circle-fill link-danger'>"."</a>"."</td>"
+                        ."<td class='d-flexbox justify-content-center text-center'>"."<a href='appointment_edit.php?editInfo=".$app_id."' class='fs-5 bi-pen-fill'>"."</a>"."</td></tr>";
                             if(isset($_GET['changeStatus'])){ 
                                 $arr = str_split($_GET['changeStatus']);
                                 $status_no = $arr[0];
@@ -140,7 +142,10 @@
                                 $status_num = $status_no;
                                 $app_id = (int)implode("",$temparr);
                                 changestatus($status_num, $app_id);
-                                } 
+                                }
+                            if (isset($_GET['editInfo'])){
+                                $app_id =($_GET['editInfo']);
+                            }
                 }
 
             //* Update Patient Appointment (sets patient appointment status to either 2 = approved
