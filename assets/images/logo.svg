@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Themeforest" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Avatar" transform="translate(-21.000000, -14.000000)">
+            <g id="Group" transform="translate(21.000000, 14.000000)">
+                <circle id="Oval" fill="#FFC108" fill-rule="nonzero" cx="19" cy="19" r="19"></circle>
+                <g id="flat-icon" transform="translate(10.000000, 13.000000)">
+                    <g id="Group">
+                        <g id="Group-2">
+                            <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="18" height="12"></rect>
+                            <g id="Group-Copy" stroke="#123088" stroke-linecap="round" stroke-linejoin="round">
+                                <g id="Light">
+                                    <rect id="Rectangle-path" x="0.0079787234" y="0" width="17.9840426" height="11.8421053" rx="1"></rect>
+                                    <path d="M4.69086702,14.2105263 L13.2919309,14.2105263" id="Shape"></path>
+                                    <path d="M7.82712766,11.8421053 L7.82712766,14.2105263" id="Shape"></path>
+                                    <path d="M10.1728723,11.8421053 L10.1728723,14.2105263" id="Shape"></path>
+                                </g>
+                            </g>
+                        </g>
+                        <path d="M0,7 L5.67,7 C5.86944323,7.00069451 6.05022344,6.88279437 6.13,6.7 L7.017,4.63 C7.09732054,4.44320534 7.28276008,4.3236542 7.48605302,4.3276059 C7.68934595,4.3315576 7.86999939,4.45822502 7.943,4.648 L9.613,8.991 C9.68284013,9.17310309 9.85219369,9.29797518 10.0468038,9.31086327 C10.2414138,9.32375135 10.4257555,9.22230278 10.519,9.051 L12.592,5.251 C12.6769932,5.09494819 12.838424,4.99573069 13.0160398,4.99037957 C13.1936556,4.98502846 13.3607666,5.07434783 13.455,5.225 L15.007,7.71 C15.1044826,7.86662877 15.2802939,7.9568513 15.4643814,7.94471826 C15.648469,7.93258521 15.8109178,7.82006827 15.887,7.652 L18,3" id="Shape" stroke="#123088" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
