@@ -788,9 +788,9 @@
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_prescriptions.php"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">description</i><span
                                             class="sidebar-menu-text">Prescription</span></a></li>
-                                <!-- <li class="sidebar-menu-item active"><a class="sidebar-menu-button" href="#"><i
+                                <li class="sidebar-menu-item active"><a class="sidebar-menu-button" href="#"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">add</i><span
-                                            class="sidebar-menu-text">Inventory</span></a></li> -->
+                                            class="sidebar-menu-text">Inventory</span></a></li>
                             </ul>
                         </div>
                     </div>

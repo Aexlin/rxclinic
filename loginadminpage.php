@@ -44,7 +44,7 @@
   <header id="header" class="header fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="landingpage.php" class="logo d-flex align-items-center">
+      <a href="index.php" class="logo d-flex align-items-center">
         <img src="assets/img/rxlogowithname.png" alt="">
       </a>
       
@@ -63,7 +63,7 @@
               <li><a href="loginadminpage.php">Admin</a></li>
             </ul>
           </li>
-          <li><a class="getstarted scrollto" href="landingpage.php">SIGN IN</a></li>
+          <li><a class="getstarted scrollto" href="index.php">SIGN IN</a></li>
           <li><a class="getstarted scrollto" href="addadmin.php"><i class="bi bi-person-plus-fill"></i>&nbsp;ADD
               ADMIN</a></li>
         </ul>
@@ -171,7 +171,7 @@
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexstart-bootstrap-startup-template/ -->
-        Designed by <a href="landingpage.php">RxClinic Group</a>
+        Designed by <a href="index.php">RxClinic Group</a>
       </div>
     </div>
   </footer><!-- End Footer -->
