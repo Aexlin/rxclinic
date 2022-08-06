@@ -101,12 +101,12 @@
                 </div>
 
                 <form action="?" method="POST">
-                  <div class="g-recaptcha ms-5" data-sitekey="6LeCUykhAAAAAI0y0IWcl89tPwViUmFnc2azl2Lt"></div>
+                  <div class="g-recaptcha ms-5" data-sitekey="your_site_key"></div>
                   <br />
                   <script src="https://www.google.com/recaptcha/api.js"></script>
                 </form>
 
-                <form action="about_patient.php" novalidate>
+                <form action="patient_editprofile.php" novalidate>
                   <div class="d-grid">
                     <button class="btn btn-primary btn-login text-uppercase fw-bold" type="submit">Sign
                       in</button>
@@ -819,7 +819,7 @@
 
     <!-- ======= Footer ======= -->
     <footer id="footer" class="footer">
-      <div class="container">
+      <div class="container bottom">
         <div class="copyright">
           &copy; Copyright <strong><span>RxClinic</span></strong>. All Rights Reserved
         </div>
