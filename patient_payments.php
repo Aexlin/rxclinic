@@ -586,7 +586,7 @@
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button"
                                         href="patient_prescriptions.php"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">description</i><span
-                                            class="sidebar-menu-text">Prescription</span></a></li>
+                                            class="sidebar-menu-text">Reports</span></a></li>
                                 <li class="sidebar-menu-item active"><a class="sidebar-menu-button" href="#"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">payment</i><span
                                             class="sidebar-menu-text">Payments</span></a></li>

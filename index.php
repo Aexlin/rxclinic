@@ -106,7 +106,7 @@
                   <script src="https://www.google.com/recaptcha/api.js"></script>
                 </form>
 
-                <form action="patient_editprofile.php" novalidate>
+                <form action="patient_index.php" novalidate>
                   <div class="d-grid">
                     <button class="btn btn-primary btn-login text-uppercase fw-bold" type="submit">Sign
                       in</button>
