@@ -363,6 +363,9 @@
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="doctor_transactions.php"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">payment</i><span
                                             class="sidebar-menu-text">Transactions</span></a></li>
+                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="doctor_schedules.php"><i
+                                            class="sidebar-menu-icon sidebar-menu-icon--left material-icons">schedule</i><span
+                                            class="sidebar-menu-text">Schedule</span></a></li>
                             </ul>
                         </div>
                     </div>
