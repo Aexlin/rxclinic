@@ -136,278 +136,169 @@
                     </div>
                 </div><!-- // END Header -->
                 <!-- Header Layout Content -->
-                <div
-                    class="mdk-header-layout__content mdk-header-layout__content--fullbleed mdk-header-layout__content--scrollable page">
+                <div class="mdk-header-layout__content mdk-header-layout__content--fullbleed mdk-header-layout__content--scrollable page">
                     <div class="container-fluid page__container">
                         <div class="z-0">
                             <ul class="nav nav-tabs nav-tabs-custom" role="tablist">
-                                <li class="nav-item"><a href="#tab-queue" class="nav-link active" data-toggle="tab"
-                                        role="tab" aria-controls="tab-queue" aria-selected="true"><span
-                                            class="nav-link__count">My Prescriptions</span>Total (2) </a></li>
+                                <li class="nav-item"><a href="#tab-queue" class="nav-link active" data-toggle="tab" role="tab" aria-controls="tab-queue" aria-selected="true"><span class="nav-link__count">List of Done Consultations</span>Total (23) </a></li>
                                 <!-- <li class="nav-item"><a href="#tab-earlier" class="nav-link" data-toggle="tab"
                                         role="tab" aria-selected="false"><span
-                                            class="nav-link__count">History</span>Total (3)
-                                    </a></li> -->
-                                <!-- <li class="nav-item"><a href="#tab-wait-list" class="nav-link" data-toggle="tab"
-                                        role="tab" aria-selected="false"><span
-                                            class="nav-link__count">Declined</span>Total (2)
-                                    </a></li>
-                                <div>
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                </div>
-
-                                <li class="nav-item"><a href="#tab-history" class="nav-link" data-toggle="tab"
-                                        role="tab" aria-selected="false"><span class="nav-link__count">Done</span>Total
-                                        (693)
+                                            class="nav-link__count">Students</span>Total (519)
                                     </a></li> -->
                             </ul>
-
                             <div class="card">
                                 <div class="tab-content">
                                     <div class="tab-pane active show fade" id="tab-queue">
-                                        <div class="table-responsive border-bottom" data-toggle="lists"
-                                            data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-service"]'>
-                                            <div class="search-form search-form--light m-3"><input type="text"
-                                                    class="form-control search"
-                                                    placeholder="Search Prescription Code"><button class="btn"
-                                                    type="button" role="button"><i
-                                                        class="material-icons">search</i></button>
+                                        <div class="table-responsive border-bottom" data-toggle="lists" data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-service", "js-lists-values-employee-doctor"]'>
+                                            <div class="search-form search-form--light m-3"><input type="text" class="form-control search" placeholder="Search Student Patient ID, Name or Service"><button class="btn" type="button" role="button"><i class="material-icons">search</i></button>
                                             </div>
 
                                             <table class="table mb-0 thead-border-top-0">
                                                 <thead>
                                                     <tr>
-                                                        <th style="width: 170px;">
-                                                            <a href="javascript:void(0)" class="sort"
-                                                                data-sort="js-lists-values-employee-title">Prescription
-                                                                Code</a>
+                                                        <th style="width: 100px;">
+                                                            <a href="javascript:void(0)" class="sort" data-sort="js-lists-values-employee-title">Patient
+                                                                No.</a>
                                                         </th>
-                                                        <th colspan="1" style="width: 200px;">
-                                                            <a href="javascript:void(0)" class="sort"
-                                                                data-sort="js-lists-values-employee-name">Doctor
-                                                                </a>
-                                                        <th style="width: 80px;">Date</th>
-                                                        <th style="width: 120px;">Medicine/Drug</th>
-                                                        <th style="width: 150px;">Description</th>
-                                                        <th style="width: 250px;">Remarks</th>
-                                                        <th style="width: 200px;">Action</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody class="list" id="staff02">
-
-                                                    <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">PR-2022-0707-0001</strong></span>
-                                                        </td>
-                                                        <td>
-                                                            <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/profilew.png" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
-                                                                </div>
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">Dr. Number Too</strong><small class="text-muted"></small>
-                                                                </div>
-                                                            </div>
-                                                        </td>
-                                                        <td><span class="js-lists-values-employee-service">07/08/22</span></td>
-                                                        <td>ibuprofen (Motrin® or Advil®)</td>
-                                                        <td>400–600 mg</td>
-                                                        <td>Take 400–600 mg every 6–8 hours. Ibuprofen will help with pain relief and as an anti-inflammatory.</td>
-                                                        <td>
-                                                            <div class="button-list">
-                                                                <button type="button"
-                                                                class="btn btn-primary"><i class="material-icons"
-                                                                    data-toggle="modal"
-                                                                    data-target="#modal-info">remove_red_eye</i></button>
-                                                                    <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-delete"
-                                                                    >Delete</button>
-                                                                <!-- <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal"
-                                                                    data-target="#modal-cancel">Cancel</button> -->
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">PR-2022-0728-0001</strong></span>
-                                                        </td>
-                                                        <td>
-                                                            <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/profilew.png" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
-                                                                </div>
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">Dr. Number Tehen
-                                                                    </strong><small class="text-muted"></small>
-                                                                </div>
-                                                            </div>
-                                                        </td>
-                                                        <td><span class="js-lists-values-employee-service">09/08/22</span></td>
-                                                        <td>Colgate Toothpaste</td>
-                                                        <td>Any type of gram</td>
-                                                        <td>Brush your teeth using this toothpaste after every meal (3).</td>
-                                                        <td>
-                                                            <div class="button-list">
-                                                                <button type="button"
-                                                                class="btn btn-primary"><i class="material-icons"
-                                                                    data-toggle="modal"
-                                                                    data-target="#modal-info">remove_red_eye</i></button>
-                                                                    <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-delete"
-                                                                    >Delete</button>
-                                                                <!-- <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal"
-                                                                    data-target="#modal-cancel">Cancel</button> -->
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                        <div class="card-body text-right">Showing 2 <span class="text-muted">of
-                                                2</span><a href="#" class="text-muted-light"><i
-                                                    class="material-icons ml-1">arrow_forward</i></a></div>
-                                    </div>
-                                    <div class="tab-pane fade" id="tab-earlier">
-                                        <div class="table-responsive border-bottom" data-toggle="lists"
-                                            data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-service"]'>
-                                            <div class="search-form search-form--light m-3"><input type="text"
-                                                    class="form-control search"
-                                                    placeholder="Search Appointment Code or Service"><button class="btn"
-                                                    type="button" role="button"><i
-                                                        class="material-icons">search</i></button>
-                                            </div>
-
-                                            <table class="table mb-0 thead-border-top-0">
-                                                <thead>
-                                                    <tr>
-                                                        <th style="width: 150px;">
-                                                            <a href="javascript:void(0)" class="sort"
-                                                                data-sort="js-lists-values-employee-title">Appointment
-                                                                Code</a>
-                                                        </th>
-                                                        <th colspan="1" style="width: 200px;">
-                                                            <a href="javascript:void(0)" class="sort"
-                                                                data-sort="js-lists-values-employee-name">Doctor
+                                                        <th style="width: 180px;">
+                                                            <a href="javascript:void(0)" class="sort" data-sort="js-lists-values-employee-name">Patient
                                                                 Name</a>
-                                                            <!-- <a href="javascript:void(0)" class="sort"
-                                                                data-sort="js-lists-values-employee-title">Patient
-                                                                ID</a> -->
-                                                        <th style="width: 150px;">Service</th>
-                                                        <th style="width: 100px;">Date</th>
-                                                        <th style="width: 80px;">Time</th>
-                                                        <th style="width: 80px;">Status</th>
-                                                        <th style="width: 150px;">Action</th>
-                                                        <!-- <th style="width: 200px;"><div>
-                                                            <button type="button" class="btn btn-info"
-                                                                data-toggle="modal" data-target="#modal-login">Login Modal</button>
-                                                        </div></th> -->
+                                                        </th>
+                                                        <th style="width: 150px;">
+                                                            <a href="javascript:void(0)" class="sort" data-sort="js-lists-values-employee-service">Service</a>
+                                                        </th>
+                                                        <th style="width: 150px;">
+                                                            <a href="javascript:void(0)" class="sort" data-sort="js-lists-values-employee-doctor">Doctor</a>
+                                                        </th>
+                                                        <th style="width: 150px;">Date & Time</th>
+                                                        <th style="width: 120px;">Diagnosis</th>
+                                                        <th style="width: 120px;">Action</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody class="list" id="staff02">
 
                                                     <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">2022-0001</strong></span>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">2022-0016</strong></span>
                                                         </td>
                                                         <td>
                                                             <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/profilew.png" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/profilem.png" alt="Avatar" class="avatar-img rounded-circle">
                                                                 </div>
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">Dr. Number Seeks
-                                                                    </strong><small class="text-muted"></small>
-                                                                </div>
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Juan Dela
+                                                                        Cruz</strong></div>
                                                             </div>
                                                         </td>
-                                                        <td><span class="js-lists-values-employee-service">Teeth Extraction</span></td>
-                                                        <td>07/09/2022</td>
-                                                        <td>9:00 AM</td>
-                                                        <td><span class="badge badge-primary">DONE</span></td>
+                                                        <td><span class="js-lists-values-employee-service">Cardiology</span>
+                                                        </td>
+                                                        <td><span class="js-lists-values-employee-doctor">Dr. Number
+                                                                Wan</span></td>
+                                                        <td>07/08/22 9:00 AM</td>
+                                                        <td>Normal</td>
+                                                        <!-- <td><span class="badge badge-success">ACTIVE</span></td> -->
                                                         <td>
                                                             <div class="button-list">
-                                                                <button type="button"
-                                                                class="btn btn-primary"><i class="material-icons"
-                                                                    data-toggle="modal"
-                                                                    data-target="#modal-info">remove_red_eye</i></button>
-                                                                <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal"
-                                                                    data-target="#modal-danger" >Cancel</button>
+                                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
 
                                                     <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">2022-0002</strong></span>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">2022-0017</strong></span>
                                                         </td>
                                                         <td>
                                                             <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/profilew.png" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/profilew.png" alt="Avatar" class="avatar-img rounded-circle">
                                                                 </div>
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">Dra. Den
-                                                                        T.
-                                                                        Ista</strong><small class="text-muted"></small>
-                                                                </div>
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Maria
+                                                                        Clara</strong></div>
                                                             </div>
                                                         </td>
-                                                        <td><span class="js-lists-values-employee-service">Teeth Whitening</span></td>
-                                                        <td>28/08/2022</td>
-                                                        <td>12:00 PM</td>
-                                                        <td><span class="badge badge-secondary">CANCELLED</span></td>
+                                                        <td><span class="js-lists-values-employee-service">Otolaryngology</span>
+                                                        </td>
+                                                        <td><span class="js-lists-values-employee-doctor">Dr. Number
+                                                                Too</span></td>
+                                                        <td>09/08/22 9:00 AM</td>
+                                                        <td>Normal</td>
+                                                        <!-- <td><span class="badge badge-success">ACTIVE</span></td> -->
                                                         <td>
                                                             <div class="button-list">
-                                                                <button type="button"
-                                                                class="btn btn-primary"><i class="material-icons"
-                                                                    data-toggle="modal"
-                                                                    data-target="#modal-info">remove_red_eye</i></button>
-                                                                <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal"
-                                                                    data-target="#modal-danger" >Cancel</button>
+                                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
 
                                                     <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">2022-0003</strong></span>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">2022-0018</strong></span>
                                                         </td>
                                                         <td>
                                                             <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/profilew.png" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/jhong.jpg" alt="Avatar" class="avatar-img rounded-circle">
                                                                 </div>
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">Dra. Den
-                                                                        T.
-                                                                        Ista</strong><small class="text-muted"></small>
-                                                                </div>
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Crisostomo
+                                                                        Ibarra</strong></div>
                                                             </div>
                                                         </td>
-                                                        <td><span class="js-lists-values-employee-service">Dental Check-up</span></td>
-                                                        <td>29/08/2022</td>
-                                                        <td>1:00 PM</td>
-                                                        <td><span class="badge badge-primary">DONE</span></td>
+                                                        <td><span class="js-lists-values-employee-service">Family
+                                                                Medicine</span></td>
+                                                        <td><span class="js-lists-values-employee-doctor">Dr. Number
+                                                                Wan</span></td>
+                                                        <td>10/08/22 9:00 AM</td>
+                                                        <td>Normal</td>
+                                                        <!-- <td><span class="badge badge-success">ACTIVE</span></td> -->
                                                         <td>
                                                             <div class="button-list">
-                                                                <button type="button"
-                                                                class="btn btn-primary"><i class="material-icons"
-                                                                    data-toggle="modal"
-                                                                    data-target="#modal-info">remove_red_eye</i></button>
-                                                                <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal"
-                                                                    data-target="#modal-danger" >Cancel</button>
+                                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">2022-0019</strong></span>
+                                                        </td>
+                                                        <td>
+                                                            <div class="media align-items-center">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/steve.png" alt="Avatar" class="avatar-img rounded-circle">
+                                                                </div>
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Steve
+                                                                        Harrington</strong></div>
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="js-lists-values-employee-service">Gastroenterology</span>
+                                                        </td>
+                                                        <td><span class="js-lists-values-employee-doctor">Dr. Number
+                                                                Too</span></td>
+                                                        <td>11/08/22 9:00 AM</td>
+                                                        <td>Normal</td>
+                                                        <!-- <td><span class="badge badge-success">ACTIVE</span></td> -->
+                                                        <td>
+                                                            <div class="button-list">
+                                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">2022-0020</strong></span>
+                                                        </td>
+                                                        <td>
+                                                            <div class="media align-items-center">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/profilew.png" alt="Avatar" class="avatar-img rounded-circle">
+                                                                </div>
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Eleven
+                                                                        Hopper</strong></div>
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="js-lists-values-employee-service">General
+                                                                Dentistry</span>
+                                                        <td><span class="js-lists-values-employee-doctor">Dr. Number
+                                                                Wan</span></td>
+                                                        </td>
+                                                        <td>12/08/22 9:00 AM</td>
+                                                        <td>Normal</td>
+                                                        <!-- <td><span class="badge badge-success">ACTIVE</span></td> -->
+                                                        <td>
+                                                            <div class="button-list">
+                                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -415,16 +306,11 @@
                                                 </tbody>
                                             </table>
                                         </div>
-                                        <div class="card-body text-right">Showing 3 <span class="text-muted">of
-                                                3</span><a href="#" class="text-muted-light"><i
-                                                    class="material-icons ml-1">arrow_forward</i></a></div>
+                                        <div class="card-body text-right">Showing 5 <span class="text-muted">of
+                                                23</span><a href="#" class="text-muted-light"><i class="material-icons ml-1">arrow_forward</i></a></div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- <div>
-                                <button type="button" class="btn btn-primary-dark" data-toggle="modal"
-                                    data-target="#modal-login">Add Doctor</button>
-                            </div> -->
                         </div>
                     </div>
                 </div><!-- // END header-layout__content -->
@@ -432,70 +318,306 @@
         </div><!-- // END drawer-layout__content -->
 
         <!--MODALS-->
-           <!-- Info Modal -->
-           <div id="modal-info" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <div class="px-3">
-                            <div class="d-flex justify-content-center mt-0 mb-0 navbar-light"><a href="#"
-                                    class="navbar-brand" style="min-width: 0"><img class="navbar-brand-icon"
-                                        src="assets/img/rxlogowithname.png" width="200" alt="Stack"></a></div><br><br>
-                            <div><span><strong>PRESCRIPTION DETAILS</strong></span></div>
-                            <div class="page-separator"></div>
-                            <div class="modal-body">
-                                <p><strong>Prescription Code: </strong>PR-2022-2207-0012</p>
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <p><strong>Patient: </strong>Juan Dela Cruz</p>
-                                    </div>
-                                    <div class="col-lg-3">
-                                        <p><strong>Age: </strong>27</p>
-                                    </div>
-                                    <div class="col-lg-3">
-                                        <p><strong>Sex: </strong>M</p>
-                                    </div>
-                                </div>
-                                <p><strong>Address: </strong>3435 Batumbakal St., New York, Cubao</p>
-                                <p><strong>Date: </strong>Aug 08, 2022</p>
-                                <br>
-                                <div class="avatar avatar-l avatar-1by1">
-                                    <img src="assets/images/rx.png" alt="Avatar" class="avatar-img rounded">
-                                </div><br><br>
-                                <p><strong>ibuprofen (Motrin® or Advil®)</strong></p>
-                                <p>Take 400–600 mg every 6–8 hours. Ibuprofen will help with
-                                    pain relief and as an anti-inflammatory.</p>
-                                <div class="avatar avatar-xxl avatar-4by3">
-                                    <img src="assets/images/signature.webp" alt="Avatar" class="avatar-img rounded">
-                                </div>
-                                <p><strong>Dr. Number Trii</strong></p>
-                                <p><strong>Lic No.: </strong>1234</p>
-                                <p><strong>PTR No.: </strong>1234567</p>
-                                <!-- <br>
-                                            <div class="alert alert-soft-success d-flex" role="alert"><i class="material-icons mr-3">check_circle</i>
-                                                <div class="text-body">Your appointment is now <strong>APPROVED</strong>. Please proceed to the clinic according to the schedule.</div>
-                                            </div> -->
-                            </div><!-- // END .modal-body -->
-                        </div>
+        <!-- Success Alert Modal -->
+        <div id="modal-success" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-sm">
+                <div class="modal-content bg-success">
+                    <div class="modal-body text-center p-4"><i class="material-icons icon-40pt text-white mb-2">check</i>
+                        <h4 class="text-white">Approved!</h4>
+                        <p class="text-white mt-3">You accepted an appointment.</p><button type="button" class="btn btn-light my-2" data-dismiss="modal">Continue</button>
                     </div><!-- // END .modal-body -->
-                    <div class="modal-footer"><a href="index_patient.php"><button type="button" class="btn btn-light"
-                                data-dismiss="modal">Close</button></a><a href="#"><button type="button"
-                                class="btn btn-dark" data-dismiss="modal">Print</button></a></div>
-                    <!-- // END .modal-footer -->
                 </div><!-- // END .modal-content -->
             </div><!-- // END .modal-dialog -->
         </div><!-- // END .modal -->
 
-        <!-- Cancel Alert Modal -->
+        <!-- Danger Alert Modal -->
+        <div id="modal-danger" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-sm">
+                <div class="modal-content bg-danger">
+                    <div class="modal-body text-center p-4"><i class="material-icons icon-40pt text-white mb-2">clear</i>
+                        <h4 class="text-white">Declined!</h4>
+                        <p class="text-white mt-3">You declined an appointment.</p><button type="button" class="btn btn-light my-2" data-dismiss="modal">Continue</button>
+                    </div><!-- // END .modal-body -->
+                </div><!-- // END .modal-content -->
+            </div><!-- // END .modal-dialog -->
+        </div><!-- // END .modal -->
+
+        <!-- Danger Delete Modal -->
         <div id="modal-delete" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-sm">
                 <div class="modal-content bg-danger">
-                    <div class="modal-body text-center p-4"><i
-                            class="material-icons icon-40pt text-white mb-2">delete</i>
+                    <div class="modal-body text-center p-4"><i class="material-icons icon-40pt text-white mb-2">delete</i>
                         <h4 class="text-white">Deleted!</h4>
-                        <p class="text-white mt-3">You deleted a prescription.</p><button type="button"
-                            class="btn btn-light my-2" data-dismiss="modal">Continue</button>
+                        <p class="text-white mt-3">You deleted a report.</p><button type="button" class="btn btn-light my-2" data-dismiss="modal">Continue</button>
                     </div><!-- // END .modal-body -->
+                </div><!-- // END .modal-content -->
+            </div><!-- // END .modal-dialog -->
+        </div><!-- // END .modal -->
+
+        <!-- Edit Modal -->
+        <!-- Login Modal -->
+        <div id="modal-edit" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal-large-title" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="px-3">
+                            <div class="d-flex justify-content-center mt-2 mb-4 navbar-light"><a href="index.php" class="navbar-brand" style="min-width: 0"><img class="navbar-brand-icon" src="assets/img/rxcliniclogowithoutline.png" width="50" alt="Stack"><span>Edit
+                                        Report Details</span></a></div>
+                            <form action="#">
+                            <div class="page-separator">
+                                    <div class="page-separator__text">CONSULTATION DETAILS</div>
+                                </div>
+                                <div class="row">
+                                <div class="col-lg-4">
+                                        <div class="form-group"><label class="text-label" for="select01">Service:</label>
+                                            <select id="select01" data-toggle="select" class="form-control">
+                                                <option>Cardiology</option>
+                                                <option>Otolaryngology</option>
+                                                <option>Endocrinology</option>
+                                                <option>Family Medicine</option>
+                                                <option>Gastroenterology</option>
+                                                <option>General Dentistry</option>
+                                                <option>General Medicine</option>
+                                                <option>Internal Medicine</option>
+                                                <option>Mental Health</option>
+                                                <option>Nephrology</option>
+                                                <option>Neurology</option>
+                                                <option>Nutritionist-Dietitian</option>
+                                                <option>Family Medicine</option>
+                                                <option>Obstetrics and Gynecology</option>
+                                                <option>Oncology</option>
+                                                <option>Opthalmology</option>
+                                                <option>Pediatrics</option>
+                                                <option>Pulmonology</option>
+                                                <option>Rehabilitation Medicine</option>
+                                                <option>Rheumatology</option>
+                                                <option>Urology</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="form-group"><label class="text-label" for="flatpickrSample01">Date:</label><input id="flatpickrSample01" type="text" class="form-control" placeholder="Flatpickr example" data-toggle="flatpickr" value="today"></div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-group"><label class="text-label" for="select01">Service:</label>
+                                            <select id="select01" data-toggle="select" class="form-control">
+                                                <option selected="">8:00 AM - 9:00 AM</option>
+                                                <option>9:00 AM - 10:00 AM</option>
+                                                <option>10:00 AM - 11:00 AM</option>
+                                                <option>11:00 AM - 12:00 PM</option>
+                                                <option>12:00 PM - 1:00 PM</option>
+                                                <option>1:00 PM - 2:00 PM</option>
+                                                <option>2:00 PM - 3:00 PM</option>
+                                                <option>3:00 PM - 4:00 PM</option>
+                                                <option>4:00 PM - 5:00 PM</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page-separator">
+                                    <div class="page-separator__text">DIAGNOSIS DETAILS</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="form-group"><label class="text-label" for="fname">Diagnosis:</label><input id="fname" type="text" required="" class="form-control" placeholder="First name" value="Juan"></div>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="form-group"><label class="text-label" for="desc">Diagnosis Description:</label><textarea id="desc" rows="4" class="form-control" placeholder=""></textarea></div>
+                                    </div>
+                                </div>
+                                <div class="page-separator">
+                                    <div class="page-separator__text">PRESCRIPTION DETAILS</div>
+                                </div>
+                                <form action="index.php" novalidate>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group"><label class="text-label" for="fname">Prescription
+                                                Code:</label><input id="fname" type="text" class="form-control"
+                                                placeholder="Prescription Code" value="PK-2022-2207-0012" disabled>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group"><label class="text-label" for="fname">First
+                                                Name:</label><input id="fname" type="text" class="form-control"
+                                                placeholder="First name" value=""></div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-group"><label class="text-label" for="lname">Middle
+                                                Name:</label><input id="lname" type="text" class="form-control"
+                                                placeholder="Middle name" value=""></div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-group"><label class="text-label" for="lname">Last
+                                                Name:</label><input id="lname" type="text" class="form-control"
+                                                placeholder="Last name" value=""></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group"><label class="text-label"
+                                                for="fname">Address:</label><input id="fname" type="text"
+                                                class="form-control" placeholder="Address" value=""></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="form-group"><label class="text-label" for="fname">Age:</label><input
+                                                id="fname" type="number" class="form-control" placeholder="Age"
+                                                value=""></div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group"><label class="text-label" for="select01">Sex:</label>
+                                            <select id="select01" data-toggle="select" class="form-control">
+                                                <option selected="">M</option>
+                                                <option>F</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group"><label class="text-label"
+                                                for="flatpickrSample01">Date:</label><input id="flatpickrSample01"
+                                                type="text" class="form-control" placeholder="Flatpickr example"
+                                                data-toggle="flatpickr" value="today"></div>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="page-separator">
+                                <div class="page-separator__text">Medical Prescription (Rx)</div>
+                            </div>
+                            <form action="index.php" novalidate>
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="form-group"><label class="text-label"
+                                                for="fname">Medicine/Drug:</label><input id="fname" type="text"
+                                                class="form-control" placeholder="Medicine/Drug" value=""></div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <div class="form-group"><label class="text-label"
+                                                for="fname">Inscription:</label><input id="fname" type="text"
+                                                class="form-control" placeholder="Inscription" value=""></div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="col">
+                                            <div class="form-group"><label class="text-label"
+                                                    for="desc">Instruction/s:</label><textarea id="desc" rows="4"
+                                                    class="form-control" placeholder=""></textarea><input id="fname"
+                                                    type="text" class="form-control" placeholder="Special Instruction/s"
+                                                    value="Refill: "></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="avatar avatar-xxl avatar-4by3 d-block">
+                                            <img src="assets/images/signature.webp" alt="Avatar"
+                                                class="avatar-img rounded">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                        <div class="form-group"><label class="text-label" for="select01">Doctor:</label>
+                                            <select id="select01" data-toggle="select" class="form-control">
+                                                <option selected="">Dr. Number Wan</option>
+                                                <option>Dr. Number Too</option>
+                                                <option>Dr. Number Trii</option>
+                                                <option>Dr. Number Fowr</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-2">
+                                        <div class="form-group"><label class="text-label" for="fname">Lic
+                                                No.:</label><input id="fname" type="text" class="form-control"
+                                                placeholder="Inscription" value=""></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-2">
+                                        <div class="form-group"><label class="text-label" for="fname">PTR
+                                                No.:</label><input id="fname" type="text" class="form-control"
+                                                placeholder="Inscription" value=""></div>
+                                    </div>
+                                </div>
+                            </form>
+                                <div class="modal-footer"><button type="button" class="btn btn-light" data-dismiss="modal">Cancel</button><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-add">Save
+                                        Changes</button></div>
+                        </div>
+                    </div><!-- // END .modal-body -->
+                </div><!-- // END .modal-content -->
+            </div><!-- // END .modal-dialog -->
+        </div><!-- // END .modal -->
+
+        <!-- Info Modal -->
+        <div id="modal-info" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal-large-title" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="px-3">
+                            <div class="d-flex justify-content-center mt-0 mb-0 navbar-light"><a href="#" class="navbar-brand" style="min-width: 0"><img class="navbar-brand-icon" src="assets/img/rxlogowithname.png" width="250" alt="Stack"></a></div><br><br>
+                            <div class="d-flex justify-content-center mt-0 mb-0 navbar-light"><span><strong>REPORT DETAILS</strong></span></div>
+                            <!-- <div class="page-separator"></div> -->
+                            <div class="modal-body">
+                            <div class="page-separator">
+                                        <div class="page-separator__text">CONSULTATION DETAILS</div>
+                                    </div>
+                                    <p><strong>Service: </strong>Cardiology</p>
+                                    <p><strong>Date: </strong>08/09/2022, 9:00 AM</p>
+
+                                    <div class="page-separator">
+                                        <div class="page-separator__text">DIAGNOSIS DETAILS</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <p><strong>Diagnosis: </strong>Ligma</p>
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <p><strong>Description: </strong>Coronary heart disease is the term that describes what happens when your heart's blood supply is blocked or interrupted by a build-up of fatty substances in the coronary arteries. Over time, the walls of your arteries can become furred up with fatty deposits.</p>
+                                        </div>
+                                    </div>
+                                    <div class="page-separator">
+                                        <div class="page-separator__text">PRESCRIPTION DETAILS</div>
+                                    </div>
+                                    <p><strong>Prescription Code: </strong>PR-2022-2207-0012</p>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <p><strong>Patient: </strong>Juan Dela Cruz</p>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <p><strong>Age: </strong>27</p>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <p><strong>Sex: </strong>M</p>
+                                        </div>
+                                    </div>
+                                    <p><strong>Address: </strong>3435 Batumbakal St., New York, Cubao</p>
+                                    <p><strong>Date: </strong>Aug 08, 2022</p>
+                                    <br>
+                                    <div class="avatar avatar-l avatar-1by1">
+                                        <img src="assets/images/rx.png" alt="Avatar" class="avatar-img rounded">
+                                    </div><br><br>
+                                    <p><strong>ibuprofen (Motrin® or Advil®)</strong></p>
+                                    <p>Take 400–600 mg every 6–8 hours. Ibuprofen will help with
+                                        pain relief and as an anti-inflammatory.</p>
+                                    <div class="avatar avatar-xxl avatar-4by3">
+                                        <img src="assets/images/signature.webp" alt="Avatar" class="avatar-img rounded">
+                                    </div>
+                                    <p><strong>Dr. Den T. Ista</strong></p>
+                                    <p><strong>Lic No.: </strong>1234</p>
+                                    <p><strong>PTR No.: </strong>1234567</p>
+                                    <!-- <br>
+                                            <div class="alert alert-soft-success d-flex" role="alert"><i class="material-icons mr-3">check_circle</i>
+                                                <div class="text-body">Your appointment is now <strong>APPROVED</strong>. Please proceed to the clinic according to the schedule.</div>
+                                            </div> -->
+                                    <div class="modal-footer"><a href="patient_prescriptions.php"><button type="button" class="btn btn-light" data-dismiss="modal">Back</button></div>
+
+                                </div><!-- // END .modal-body -->
+                        </div>
+                    </div><!-- // END .modal-body -->
+                    <!-- // END .modal-footer -->
                 </div><!-- // END .modal-content -->
             </div><!-- // END .modal-dialog -->
         </div><!-- // END .modal -->
@@ -547,7 +669,7 @@
                                             class="sidebar-menu-text">My Doctors</span></a></li>
                                 <li class="sidebar-menu-item active"><a class="sidebar-menu-button" href="#"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">description</i><span
-                                            class="sidebar-menu-text">Prescription</span></a></li>
+                                            class="sidebar-menu-text">Reports</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="patient_payments.php"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">payment</i><span
                                             class="sidebar-menu-text">Payment</span></a></li>
