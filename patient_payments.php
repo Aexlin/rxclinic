@@ -47,7 +47,7 @@
                                             data-toggle="modal" data-target="#modal-login">BOOK NEW
                                             CONSULTATION</button></a>
                                 </div>
-                                <ul class="nav navbar-nav d-none d-md-flex">
+                                <!-- <ul class="nav navbar-nav d-none d-md-flex">
                                     <li class="nav-item dropdown"><a href="#notifications_menu"
                                             class="nav-link dropdown-toggle" data-toggle="dropdown"
                                             data-caret="false"><i
@@ -110,7 +110,7 @@
                                                 class="material-icons nav-icon">event_note</i><span
                                                 class="badge badge-warning text-primary-dark rounded-circle badge-notifications">1</span></a>
                                     </li>
-                                </ul>
+                                </ul> -->
                                 <div class="dropdown"><a href="#" data-toggle="dropdown" data-caret="false"
                                         class="dropdown-toggle navbar-toggler navbar-toggler-company border-left d-flex align-items-center ml-navbar"><span
                                             class="mr-3"><img src="assets/images/profilew.png" width="43" height="43"
@@ -204,7 +204,7 @@
                                                             </a>
                                                         </th>
                                                         <th style="width: 200px;">Status</th>
-                                                        <th style="width: 200px;">Action</th>
+                                                        <th style="width: 300px;">Action</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody class="list" id="staff02">
@@ -235,6 +235,9 @@
                                                                         class="material-icons" data-toggle="modal"
                                                                         data-target="#modal-info">remove_red_eye</i>
                                                                 </button>
+                                                                <button type="button" class="btn btn-dark"
+                                                                    data-toggle="modal"
+                                                                    data-target="#modal-success">Pay</button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -265,6 +268,9 @@
                                                                         class="material-icons" data-toggle="modal"
                                                                         data-target="#modal-info">remove_red_eye</i>
                                                                 </button>
+                                                                <button type="button" class="btn btn-dark"
+                                                                    data-toggle="modal"
+                                                                    data-target="#modal-success">Pay</button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -516,7 +522,7 @@
                     </div><!-- // END .modal-body -->
                     <div class="modal-footer"><a href="index_patient.php"><button type="button" class="btn btn-light"
                                 data-dismiss="modal">Close</button></a><a href="#"><button type="button"
-                                class="btn btn-dark" data-dismiss="modal">Print</button></a></div>
+                                class="btn btn-dark" data-dismiss="modal">Pay Now</button></a></div>
                     <!-- // END .modal-footer -->
                 </div><!-- // END .modal-content -->
             </div><!-- // END .modal-dialog -->

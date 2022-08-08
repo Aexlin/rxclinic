@@ -41,12 +41,12 @@
                                     class="navbar-toggler navbar-toggler-custom d-lg-none d-flex mr-navbar"
                                     type="button" data-toggle="sidebar"><span
                                         class="material-icons">short_text</span></button><!-- Navbar Brand --><a
-                                    href="index.php" class="navbar-brand flex "><span>Consultation</span></a>
+                                    href="#" class="navbar-brand flex "><span>Consultation</span></a>
                                 <!-- <form class="ml-auto search-form search-form--light d-none d-sm-flex flex"
                                     action="index.php"><input type="text" class="form-control"
                                         placeholder="Search"><button class="btn" type="submit" role="button"><i
                                             class="material-icons">search</i></button></form> -->
-                                <ul class="nav navbar-nav d-none d-md-flex">
+                                <!-- <ul class="nav navbar-nav d-none d-md-flex">
                                     <li class="nav-item dropdown"><a href="#notifications_menu"
                                             class="nav-link dropdown-toggle" data-toggle="dropdown"
                                             data-caret="false"><i
@@ -136,7 +136,7 @@
                                                 class="material-icons nav-icon">event_note</i><span
                                                 class="badge badge-warning text-primary-dark rounded-circle badge-notifications">5</span></a>
                                     </li>
-                                </ul>
+                                </ul> -->
                                 <div class="dropdown"><a href="#" data-toggle="dropdown" data-caret="false"
                                     class="dropdown-toggle navbar-toggler navbar-toggler-company border-left d-flex align-items-center ml-navbar"><span
                                         class="mr-3"><img src="assets/images/profilew.png" width="43" height="43"
