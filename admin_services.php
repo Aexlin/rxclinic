@@ -864,6 +864,7 @@
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_patients.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">Patients</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_reports.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">report</i><span class="sidebar-menu-text">Reports</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_schedules.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">schedule</i><span class="sidebar-menu-text">Schedules</span></a></li>
+                                            <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_transactions.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">payment</i><span class="sidebar-menu-text">Transactions</span></a></li>
                             </ul>
                         </div>
                     </div>

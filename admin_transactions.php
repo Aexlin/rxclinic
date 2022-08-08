@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Prescriptions - Rx Clinic</title><!-- Prevent the demo from appearing in search engines -->
+    <title>Transactions - Rx Clinic </title><!-- Prevent the demo from appearing in search engines -->
     <meta name="robots" content="noindex"><!-- Simplebar -->
     <link type="text/css" href="assets/vendor/simplebar.min.css" rel="stylesheet"><!-- App CSS -->
     <link type="text/css" href="assets/css/app.css" rel="stylesheet">
@@ -35,11 +35,10 @@
                     <div class="mdk-header__content">
                         <div class="navbar navbar-expand-sm navbar-main navbar-light bg-white  pr-0" id="navbar" data-primary>
                             <div class="container-fluid p-0">
-                                <!-- Navbar toggler --><button class="navbar-toggler navbar-toggler-custom d-lg-none d-flex mr-navbar" type="button" data-toggle="sidebar"><span class="material-icons">short_text</span></button><!-- Navbar Brand --><a href="index.php" class="navbar-brand flex "><span>Prescriptions</span></a>
+                                <!-- Navbar toggler --><button class="navbar-toggler navbar-toggler-custom d-lg-none d-flex mr-navbar" type="button" data-toggle="sidebar"><span class="material-icons">short_text</span></button><!-- Navbar Brand --><a href="index.php" class="navbar-brand flex "><span>Transactions</span></a>
                                 <!-- <div>
-                                        <a href="makeprescription.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
-                                            data-target="#modal-login">MAKE&nbsp; PRESCRIPTION</button></a>
-                                    </div> -->
+                                    <a href="#"><button type="button" class="btn btn-primary-dark" data-toggle="modal" data-target="#modal-login">Make&nbsp; Prescription</button></a>
+                                </div> -->
                                 <ul class="nav navbar-nav d-none d-md-flex">
                                     <li class="nav-item dropdown"><a href="#notifications_menu" class="nav-link dropdown-toggle" data-toggle="dropdown" data-caret="false"><i class="material-icons nav-icon navbar-notifications-indicator">notifications</i></a>
                                         <div id="notifications_menu" class="dropdown-menu dropdown-menu-right navbar-notifications-menu">
@@ -123,210 +122,325 @@
                 <div class="mdk-header-layout__content mdk-header-layout__content--fullbleed mdk-header-layout__content--scrollable page">
                     <div class="container-fluid page__container">
                         <div class="z-0">
-                            <!-- <ul class="nav nav-tabs nav-tabs-custom" role="tablist">
-                                <li class="nav-item"><a href="#tab-queue" class="nav-link active" data-toggle="tab"
-                                        role="tab" aria-controls="tab-queue" aria-selected="true"><span
-                                            class="nav-link__count">Faculty</span>Total (23) </a></li>
-                                <li class="nav-item"><a href="#tab-earlier" class="nav-link" data-toggle="tab"
-                                        role="tab" aria-selected="false"><span
-                                            class="nav-link__count">Students</span>Total (519)
+                            <ul class="nav nav-tabs nav-tabs-custom" role="tablist">
+                                <li class="nav-item"><a href="#tab-queue" class="nav-link active" data-toggle="tab" role="tab" aria-controls="tab-queue" aria-selected="true"><span class="nav-link__count">Pending Payments</span>Total (2) </a></li>
+                                <li class="nav-item"><a href="#tab-earlier" class="nav-link" data-toggle="tab" role="tab" aria-selected="false"><span class="nav-link__count">Transactions
+                                            History</span>Total (3)
                                     </a></li>
-                            </ul> -->
+                                <!-- <li class="nav-item"><a href="#tab-wait-list" class="nav-link" data-toggle="tab"
+                                        role="tab" aria-selected="false"><span
+                                            class="nav-link__count">Declined</span>Total (2)
+                                    </a></li>
+                                <div>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </div>
+
+                                <li class="nav-item"><a href="#tab-history" class="nav-link" data-toggle="tab"
+                                        role="tab" aria-selected="false"><span class="nav-link__count">Done</span>Total
+                                        (693)
+                                    </a></li> -->
+                            </ul>
+
                             <div class="card">
                                 <div class="tab-content">
                                     <div class="tab-pane active show fade" id="tab-queue">
-                                        <div class="table-responsive border-bottom" data-toggle="lists" data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-service", "js-lists-values-employee-doctor"]'>
-                                            <div class="search-form search-form--light m-3"><input type="text" class="form-control search" placeholder="Search Prescription Code, Name or Date"><button class="btn" type="button" role="button"><i class="material-icons">search</i></button>
+                                        <div class="table-responsive border-bottom" data-toggle="lists" data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-service", "js-lists-values-employee-doctor", "js-lists-values-employee-date", "js-lists-values-employee-patient"]'>
+                                            <div class="search-form search-form--light m-3"><input type="text" class="form-control search" placeholder="Search Invoice ID, Amount, Doctor or Patient"><button class="btn" type="button" role="button"><i class="material-icons">search</i></button>
                                             </div>
 
                                             <table class="table mb-0 thead-border-top-0">
                                                 <thead>
                                                     <tr>
-                                                        <th style="width: 170px;">
-                                                            <a href="javascript:void(0)" class="sort" data-sort="js-lists-values-employee-title">Prescription
-                                                                Code</a>
+                                                        <th style="width: 150px;">
+                                                            <a href="javascript:void(0)" class="sort" data-sort="js-lists-values-employee-title">Invoice
+                                                                ID</a>
                                                         </th>
-                                                        <th colspan="1" style="width: 200px;">
-                                                            <a href="javascript:void(0)" class="sort" data-sort="js-lists-values-employee-name">Patient
+                                                        <th colspan="1" style="width: 120px;">
+                                                            <a href="javascript:void(0)" class="sort" data-sort="js-lists-values-employee-name">Amount
                                                             </a>
                                                         </th>
-                                                        <th style="width: 80px;">Date</th>
-                                                        <th style="width: 120px;">Medicine/Drug</th>
-                                                        <th style="width: 150px;">Description</th>
-                                                        <th style="width: 250px;">Remarks</th>
-                                                        <th colspan="1" style="width: 200px;">
+                                                        <th colspan="1" style="width: 100px;">
+                                                            <a href="javascript:void(0)" class="sort" data-sort="js-lists-values-employee-date">Date
+                                                            </a>
+                                                        </th>
+                                                        <th colspan="1" style="width: 300px;">
                                                             <a href="javascript:void(0)" class="sort" data-sort="js-lists-values-employee-doctor">Doctor
                                                             </a>
                                                         </th>
-                                                        <th style="width: 200px;">Action</th>
+                                                        <th colspan="1" style="width: 300px;">
+                                                            <a href="javascript:void(0)" class="sort" data-sort="js-lists-values-employee-patient">Patient
+                                                            </a>
+                                                        </th>
+                                                        <th style="width: 120px;">Status</th>
+                                                        <th style="width: 300px;">Action</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody class="list" id="staff02">
 
                                                     <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">PR-2022-0708-0001</strong></span>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">#2022-0707-0001</strong></span>
                                                         </td>
                                                         <td>
                                                             <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/profilem.png" alt="Avatar" class="avatar-img rounded-circle">
-                                                                </div>
-                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Juan Dela
-                                                                        Cruz</strong><small class="text-muted"></small>
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">₱29,000</strong><small class="text-muted"></small>
                                                                 </div>
                                                             </div>
                                                         </td>
-                                                        <td><span class="js-lists-values-employee-service">07/08/22</span>
+                                                        <td><span class="js-lists-values-employee-date">07/08/22</span>
                                                         </td>
-                                                        <td>ibuprofen (Motrin® or Advil®)</td>
-                                                        <td>400–600 mg</td>
-                                                        <td>Take 400–600 mg every 6–8 hours. Ibuprofen will help with
-                                                            pain relief and as an anti-inflammatory.</td>
-                                                        <td><span class="js-lists-values-employee-doctor">Dr. Number
-                                                                Wan</span>
-                                                        </td>
-                                                        <td>
-                                                            <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"><i class="material-icons" data-toggle="modal" data-target="#modal-info">remove_red_eye</i></button>
-                                                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-delete"><i class="material-icons">delete</i></button>
-                                                                <!-- <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal"
-                                                                    data-target="#modal-cancel">Cancel</button> -->
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">PR-2022-0709-0002</strong></span>
-                                                        </td>
-                                                        <td>
-                                                            <div class="media align-items-center">
+                                                        <td><span class="js-lists-values-employee-doctor">
                                                                 <div class="avatar avatar-xs mr-2"><img src="assets/images/profilew.png" alt="Avatar" class="avatar-img rounded-circle">
-                                                                </div>
-                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Maria
-                                                                        Clara</strong><small class="text-muted"></small>
-                                                                </div>
-                                                            </div>
-                                                        </td>
-                                                        <td><span class="js-lists-values-employee-service">09/07/22</span>
-                                                        </td>
-                                                        <td>Colgate Toothpaste</td>
-                                                        <td>Any type of gram</td>
-                                                        <td>Brush your teeth using this toothpaste after every meal (3).
-                                                        </td>
-                                                        <td><span class="js-lists-values-employee-doctor">Dr. Number
-                                                                Too</span>
-                                                        </td>
-                                                        <td>
-                                                            <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"><i class="material-icons" data-toggle="modal" data-target="#modal-info">remove_red_eye</i></button>
-                                                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-delete"><i class="material-icons">delete</i></button>
-                                                                <!-- <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal"
-                                                                    data-target="#modal-cancel">Cancel</button> -->
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">PR-2022-0710-0003</strong></span>
-                                                        </td>
-                                                        <td>
-                                                            <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/jhong.jpg" alt="Avatar" class="avatar-img rounded-circle">
-                                                                </div>
-                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Crisostomo
-                                                                        Ibarra</strong></div>
-                                                            </div>
-                                                        </td>
-                                                        <td><span class="js-lists-values-employee-service">10/07/22</span>
-                                                        </td>
-                                                        <td>ibuprofen (Motrin® or Advil®)</td>
-                                                        <td>400–600 mg</td>
-                                                        <td>Take 400–600 mg every 6–8 hours. Ibuprofen will help with
-                                                            pain relief and as an anti-inflammatory.</td>
-                                                        <td><span class="js-lists-values-employee-doctor">Dr. Number
-                                                                Wan</span>
-                                                        </td>
-                                                        <td>
-                                                            <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"><i class="material-icons" data-toggle="modal" data-target="#modal-info">remove_red_eye</i></button>
-                                                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-delete"><i class="material-icons">delete</i></button>
-                                                                <!-- <button type="button" class="btn btn-danger"
-                                                                            data-toggle="modal"
-                                                                            data-target="#modal-cancel">Cancel</button> -->
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">PR-2022-0711-0004</strong></span>
-                                                        </td>
-                                                        <td>
-                                                            <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/steve.png" alt="Avatar" class="avatar-img rounded-circle">
-                                                                </div>
-                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Steve
-                                                                        Harrington</strong></div>
-                                                            </div>
-                                                        </td>
-                                                        <td><span class="js-lists-values-employee-service">11/07/22</span>
-                                                        </td>
-                                                        <td>Colgate Toothpaste</td>
-                                                        <td>Any type of gram</td>
-                                                        <td>Brush your teeth using this toothpaste after every meal (3).
-                                                        </td>
-                                                        <td><span class="js-lists-values-employee-doctor">Dr. Number
-                                                                Wan</span>
-                                                        </td>
-                                                        <td>
-                                                            <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"><i class="material-icons" data-toggle="modal" data-target="#modal-info">remove_red_eye</i></button>
-                                                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-delete"><i class="material-icons">delete</i></button>
-                                                                <!-- <button type="button" class="btn btn-danger"
-                                                                            data-toggle="modal"
-                                                                            data-target="#modal-cancel">Cancel</button> -->
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">PR-2022-0712-0005</strong></span>
-                                                        </td>
-                                                        <td>
-                                                            <div class="media align-items-center">
+                                                                </div><strong>Dr. Number Wan</strong>
+                                                            </span></td>
+                                                        <td><span class="js-lists-values-employee-patient">
                                                                 <div class="avatar avatar-xs mr-2"><img src="assets/images/profilew.png" alt="Avatar" class="avatar-img rounded-circle">
-                                                                </div>
-                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Eleven
-                                                                        Hopper</strong></div>
-                                                            </div>
-                                                        </td>
-                                                        <td><span class="js-lists-values-employee-service">12/07/22</span>
-                                                        </td>
-                                                        <td>ibuprofen (Motrin® or Advil®)</td>
-                                                        <td>400–600 mg</td>
-                                                        <td>Take 400–600 mg every 6–8 hours. Ibuprofen will help with
-                                                            pain relief and as an anti-inflammatory.</td>
-                                                        <td><span class="js-lists-values-employee-doctor">Dr. Number
-                                                                Too</span>
-                                                        </td>
+                                                                </div><strong>Juan Dela Cruz</strong>
+                                                            </span></td>
+                                                        <td><span class="badge badge-warning">PENDING</span></td>
                                                         <td>
                                                             <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"><i class="material-icons" data-toggle="modal" data-target="#modal-info">remove_red_eye</i></button>
-                                                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-delete"><i class="material-icons">delete</i></button>
-                                                                <!-- <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal"
-                                                                    data-target="#modal-cancel">Cancel</button> -->
+                                                                <button type="button" class="btn btn-success"><i class="material-icons" data-toggle="modal" data-target="#modal-success">check</i>
+                                                                </button>
+                                                                <button type="button" class="btn btn-primary"><i class="material-icons" data-toggle="modal" data-target="#modal-info">remove_red_eye</i>
+                                                                </button>
+                                                                <button type="button" class="btn btn-danger"><i class="material-icons" data-toggle="modal" data-target="#modal-delete">delete</i>
+                                                                </button>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">#2022-0707-0021</strong></span>
+                                                        </td>
+                                                        <td>
+                                                            <div class="media align-items-center">
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">₱3,000</strong><small class="text-muted"></small>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="js-lists-values-employee-date">07/09/22</span>
+                                                        </td>
+                                                        <td><span class="js-lists-values-employee-doctor">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/profilew.png" alt="Avatar" class="avatar-img rounded-circle">
+                                                                </div><strong>Dr. Number Too</strong>
+                                                            </span></td>
+                                                        <td><span class="js-lists-values-employee-patient">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/profilew.png" alt="Avatar" class="avatar-img rounded-circle">
+                                                                </div><strong>Maria Clara</strong>
+                                                            </span></td>
+                                                        <td><span class="badge badge-warning">PENDING</span></td>
+                                                        <td>
+                                                            <div class="button-list">
+                                                                <button type="button" class="btn btn-success"><i class="material-icons" data-toggle="modal" data-target="#modal-success">check</i>
+                                                                </button>
+                                                                <button type="button" class="btn btn-primary"><i class="material-icons" data-toggle="modal" data-target="#modal-info">remove_red_eye</i>
+                                                                </button>
+                                                                <button type="button" class="btn btn-danger"><i class="material-icons" data-toggle="modal" data-target="#modal-delete">delete</i>
+                                                                </button>
                                                             </div>
                                                         </td>
                                                     </tr>
                                                 </tbody>
                                             </table>
                                         </div>
-                                        <div class="card-body text-right">Showing 5 <span class="text-muted">of
-                                                23</span><a href="#" class="text-muted-light"><i class="material-icons ml-1">arrow_forward</i></a></div>
+                                        <div class="card-body text-right">Showing 2 <span class="text-muted">of
+                                                2</span><a href="#" class="text-muted-light"><i class="material-icons ml-1">arrow_forward</i></a></div>
+                                    </div>
+                                    <div class="tab-pane fade" id="tab-earlier">
+                                        <div class="table-responsive border-bottom" data-toggle="lists" data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-service", "js-lists-values-employee-doctor", "js-lists-values-employee-date"]'>
+                                            <div class="search-form search-form--light m-3"><input type="text" class="form-control search" placeholder="Search Invoice ID, Amount, Doctor or Patient"><button class="btn" type="button" role="button"><i class="material-icons">search</i></button>
+                                            </div>
+
+                                            <table class="table mb-0 thead-border-top-0">
+                                                <thead>
+                                                    <tr>
+                                                        <th style="width: 150px;">
+                                                            <a href="javascript:void(0)" class="sort" data-sort="js-lists-values-employee-title">Invoice
+                                                                ID</a>
+                                                        </th>
+                                                        <th colspan="1" style="width: 120px;">
+                                                            <a href="javascript:void(0)" class="sort" data-sort="js-lists-values-employee-name">Amount
+                                                            </a>
+                                                        </th>
+                                                        <th colspan="1" style="width: 100px;">
+                                                            <a href="javascript:void(0)" class="sort" data-sort="js-lists-values-employee-date">Date
+                                                            </a>
+                                                        </th>
+                                                        <th colspan="1" style="width: 300px;">
+                                                            <a href="javascript:void(0)" class="sort" data-sort="js-lists-values-employee-doctor">Doctor
+                                                            </a>
+                                                        </th>
+                                                        <th colspan="1" style="width: 300px;">
+                                                            <a href="javascript:void(0)" class="sort" data-sort="js-lists-values-employee-patient">Patient
+                                                            </a>
+                                                        </th>
+                                                        <th style="width: 120px;">Status</th>
+                                                        <th style="width: 200px;">Action</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="list" id="staff02">
+
+                                                    <tr>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">#2022-0707-0001</strong></span>
+                                                        </td>
+                                                        <td>
+                                                            <div class="media align-items-center">
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">₱29,000</strong><small class="text-muted"></small>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="js-lists-values-employee-date">07/08/22</span>
+                                                        </td>
+                                                        <td><span class="js-lists-values-employee-doctor">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/profilew.png" alt="Avatar" class="avatar-img rounded-circle">
+                                                                </div><strong>Dr. Number Wan</strong>
+                                                            </span></td>
+                                                        <td><span class="js-lists-values-employee-patient">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/profilew.png" alt="Avatar" class="avatar-img rounded-circle">
+                                                                </div><strong>Juan Dela Cruz</strong>
+                                                            </span></td>
+                                                        <td><span class="badge badge-success">PAID</span></td>
+                                                        <td>
+                                                            <div class="button-list">
+                                                                <button type="button" class="btn btn-primary"><i class="material-icons" data-toggle="modal" data-target="#modal-info">remove_red_eye</i>
+                                                                </button>
+                                                                <button type="button" class="btn btn-danger"><i class="material-icons" data-toggle="modal" data-target="#modal-delete">delete</i>
+                                                                </button>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">#2022-0707-0021</strong></span>
+                                                        </td>
+                                                        <td>
+                                                            <div class="media align-items-center">
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">₱3,000</strong><small class="text-muted"></small>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="js-lists-values-employee-date">07/09/22</span>
+                                                        </td>
+                                                        <td><span class="js-lists-values-employee-doctor">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/profilew.png" alt="Avatar" class="avatar-img rounded-circle">
+                                                                </div><strong>Dr. Number Too</strong>
+                                                            </span></td>
+                                                        <td><span class="js-lists-values-employee-patient">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/profilew.png" alt="Avatar" class="avatar-img rounded-circle">
+                                                                </div><strong>Juan Dela Cruz</strong>
+                                                            </span></td>
+                                                        <td><span class="badge badge-success">PAID</span></td>
+                                                        <td>
+                                                            <div class="button-list">
+                                                                <button type="button" class="btn btn-primary"><i class="material-icons" data-toggle="modal" data-target="#modal-info">remove_red_eye</i>
+                                                                </button>
+                                                                <button type="button" class="btn btn-danger"><i class="material-icons" data-toggle="modal" data-target="#modal-delete">delete</i>
+                                                                </button>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">#2022-0707-0021</strong></span>
+                                                        </td>
+                                                        <td>
+                                                            <div class="media align-items-center">
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">₱3,000</strong><small class="text-muted"></small>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="js-lists-values-employee-date">07/09/22</span>
+                                                        </td>
+                                                        <td><span class="js-lists-values-employee-doctor">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/profilew.png" alt="Avatar" class="avatar-img rounded-circle">
+                                                                </div><strong>Dr. Number Too</strong>
+                                                            </span></td>
+                                                        <td><span class="js-lists-values-employee-patient">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/profilew.png" alt="Avatar" class="avatar-img rounded-circle">
+                                                                </div><strong>Juan Dela Cruz</strong>
+                                                            </span></td>
+                                                        <td><span class="badge badge-success">PAID</span></td>
+                                                        <td>
+                                                            <div class="button-list">
+                                                                <button type="button" class="btn btn-primary"><i class="material-icons" data-toggle="modal" data-target="#modal-info">remove_red_eye</i>
+                                                                </button>
+                                                                <button type="button" class="btn btn-danger"><i class="material-icons" data-toggle="modal" data-target="#modal-delete">delete</i>
+                                                                </button>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">#2022-0707-0021</strong></span>
+                                                        </td>
+                                                        <td>
+                                                            <div class="media align-items-center">
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">₱3,000</strong><small class="text-muted"></small>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="js-lists-values-employee-date">07/09/22</span>
+                                                        </td>
+                                                        <td><span class="js-lists-values-employee-doctor">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/profilew.png" alt="Avatar" class="avatar-img rounded-circle">
+                                                                </div><strong>Dr. Number Too</strong>
+                                                            </span></td>
+                                                        <td><span class="js-lists-values-employee-patient">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/profilew.png" alt="Avatar" class="avatar-img rounded-circle">
+                                                                </div><strong>Juan Dela Cruz</strong>
+                                                            </span></td>
+                                                        <td><span class="badge badge-success">PAID</span></td>
+                                                        <td>
+                                                            <div class="button-list">
+                                                                <button type="button" class="btn btn-primary"><i class="material-icons" data-toggle="modal" data-target="#modal-info">remove_red_eye</i>
+                                                                </button>
+                                                                <button type="button" class="btn btn-danger"><i class="material-icons" data-toggle="modal" data-target="#modal-delete">delete</i>
+                                                                </button>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">#2022-0707-0021</strong></span>
+                                                        </td>
+                                                        <td>
+                                                            <div class="media align-items-center">
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">₱3,000</strong><small class="text-muted"></small>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="js-lists-values-employee-date">07/09/22</span>
+                                                        </td>
+                                                        <td><span class="js-lists-values-employee-doctor">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/profilew.png" alt="Avatar" class="avatar-img rounded-circle">
+                                                                </div><strong>Dr. Number Too</strong>
+                                                            </span></td>
+                                                        <td><span class="js-lists-values-employee-patient">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/profilew.png" alt="Avatar" class="avatar-img rounded-circle">
+                                                                </div><strong>Juan Dela Cruz</strong>
+                                                            </span></td>
+                                                        <td><span class="badge badge-success">PAID</span></td>
+                                                        <td>
+                                                            <div class="button-list">
+                                                                <button type="button" class="btn btn-primary"><i class="material-icons" data-toggle="modal" data-target="#modal-info">remove_red_eye</i>
+                                                                </button>
+                                                                <button type="button" class="btn btn-danger"><i class="material-icons" data-toggle="modal" data-target="#modal-delete">delete</i>
+                                                                </button>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div class="card-body text-right">Showing 2 <span class="text-muted">of
+                                                2</span><a href="#" class="text-muted-light"><i class="material-icons ml-1">arrow_forward</i></a></div>
                                     </div>
                                 </div>
                             </div>
+                            <!-- <div>
+                                <button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                    data-target="#modal-login">Add Doctor</button>
+                            </div> -->
                         </div>
                     </div>
                 </div><!-- // END header-layout__content -->
@@ -334,153 +448,163 @@
         </div><!-- // END drawer-layout__content -->
 
         <!--MODALS-->
-        <!-- Success Alert Modal -->
-        <div id="modal-success" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-sm">
-                <div class="modal-content bg-success">
-                    <div class="modal-body text-center p-4"><i class="material-icons icon-40pt text-white mb-2">check</i>
-                        <h4 class="text-white">Approved!</h4>
-                        <p class="text-white mt-3">You accepted an appointment.</p><button type="button" class="btn btn-light my-2" data-dismiss="modal">Continue</button>
-                    </div><!-- // END .modal-body -->
-                </div><!-- // END .modal-content -->
-            </div><!-- // END .modal-dialog -->
-        </div><!-- // END .modal -->
-
         <!-- Info Modal -->
         <div id="modal-info" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-body">
                         <div class="px-3">
-                            <div class="d-flex justify-content-center mt-0 mb-0 navbar-light"><a href="#" class="navbar-brand" style="min-width: 0"><img class="navbar-brand-icon" src="assets/img/rxlogowithname.png" width="250" alt="Stack"></a></div><br><br>
-                            <div><span><strong>PRESCRIPTION DETAILS</strong></span></div>
+                            <div class="d-flex justify-content-center mt-0 mb-0 navbar-light"><a href="#" class="navbar-brand" style="min-width: 0"><img class="navbar-brand-icon" src="assets/img/rxlogowithname.png" width="200" alt="Stack"></a></div><br><br>
+                            <div><span><strong>TRANSACTION DETAILS</strong></span></div>
                             <div class="page-separator"></div>
                             <div class="modal-body">
-                                <p><strong>Prescription Code: </strong>PR-2022-2207-0012</p>
+                                <p><strong>Invoice ID: </strong>#2022-2207-0012</p>
+                                <p><strong>Date: </strong>Aug 08, 2022</p>
+                                <p><strong>Doctor: </strong>Dr. Number Wan</p>
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <p><strong>Patient: </strong>Juan Dela Cruz</p>
                                     </div>
-                                    <div class="col-lg-3">
+                                    <!-- <div class="col-lg-3">
                                         <p><strong>Age: </strong>27</p>
                                     </div>
                                     <div class="col-lg-3">
                                         <p><strong>Sex: </strong>M</p>
-                                    </div>
+                                    </div> -->
                                 </div>
-                                <p><strong>Address: </strong>3435 Batumbakal St., New York, Cubao</p>
-                                <p><strong>Date: </strong>Aug 08, 2022</p>
-                                <br>
-                                <div class="avatar avatar-l avatar-1by1">
-                                    <img src="assets/images/rx.png" alt="Avatar" class="avatar-img rounded">
-                                </div><br><br>
-                                <p><strong>ibuprofen (Motrin® or Advil®)</strong></p>
-                                <p>Take 400–600 mg every 6–8 hours. Ibuprofen will help with
-                                    pain relief and as an anti-inflammatory.</p>
-                                <div class="avatar avatar-xxl avatar-4by3">
-                                    <img src="assets/images/signature.webp" alt="Avatar" class="avatar-img rounded">
+                                <p><strong>Amount: <h4>₱29,000</h4></strong></p>
+                                <div class="alert alert-soft-success d-flex" role="alert"><i class="material-icons mr-3">check_circle</i>
+                                    <div class="text-body">This is a payment transaction between <strong>Dr. Number Wan</strong> and <strong>juan Dela Cruz</strong> in <strong>Cardiology</strong> service.</div>
                                 </div>
-                                <p><strong>Dr. Den T. Ista</strong></p>
-                                <p><strong>Lic No.: </strong>1234</p>
-                                <p><strong>PTR No.: </strong>1234567</p>
-                                <!-- <br>
-                                            <div class="alert alert-soft-success d-flex" role="alert"><i class="material-icons mr-3">check_circle</i>
-                                                <div class="text-body">Your appointment is now <strong>APPROVED</strong>. Please proceed to the clinic according to the schedule.</div>
-                                            </div> -->
                             </div><!-- // END .modal-body -->
                         </div>
                     </div><!-- // END .modal-body -->
-                    <div class="modal-footer"><a href="index_patient.php"><button type="button" class="btn btn-light" data-dismiss="modal">Close</button></a><a href="#"><button type="button" class="btn btn-dark" data-dismiss="modal">Print</button></a></div>
+                    <div class="modal-footer"><button type="button" class="btn btn-light" class="material-icons" data-toggle="modal" data-dismiss="modal">Cancel</button></a><button type="button" class="btn btn-warning" class="material-icons" data-toggle="modal" data-target="#modal-edit">Edit</button>
+                    </div>
                     <!-- // END .modal-footer -->
                 </div><!-- // END .modal-content -->
             </div><!-- // END .modal-dialog -->
         </div><!-- // END .modal -->
 
-        <!-- Danger Alert Modal -->
-        <div id="modal-danger" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-sm">
-                <div class="modal-content bg-danger">
-                    <div class="modal-body text-center p-4"><i class="material-icons icon-40pt text-white mb-2">clear</i>
-                        <h4 class="text-white">Declined!</h4>
-                        <p class="text-white mt-3">You declined an appointment.</p><button type="button" class="btn btn-light my-2" data-dismiss="modal">Continue</button>
-                    </div><!-- // END .modal-body -->
-                </div><!-- // END .modal-content -->
-            </div><!-- // END .modal-dialog -->
-        </div><!-- // END .modal -->
-
-        <!-- Danger Delete Modal -->
-        <div id="modal-delete" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-sm">
-                <div class="modal-content bg-danger">
-                    <div class="modal-body text-center p-4"><i class="material-icons icon-40pt text-white mb-2">delete</i>
-                        <h4 class="text-white">Deleted!</h4>
-                        <p class="text-white mt-3">You deleted a prescription.</p><button type="button" class="btn btn-light my-2" data-dismiss="modal">Continue</button>
-                    </div><!-- // END .modal-body -->
-                </div><!-- // END .modal-content -->
-            </div><!-- // END .modal-dialog -->
-        </div><!-- // END .modal -->
-
         <!-- Edit Modal -->
-        <!-- Login Modal -->
         <div id="modal-edit" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-body">
                         <div class="px-3">
                             <div class="d-flex justify-content-center mt-2 mb-4 navbar-light"><a href="index.php" class="navbar-brand" style="min-width: 0"><img class="navbar-brand-icon" src="assets/img/rxcliniclogowithoutline.png" width="50" alt="Stack"><span>Edit
-                                        Patient Details</span></a></div>
-                            <form action="#">
+                                        Transaction Details</span></a></div>
+                            <div class="page-separator"></div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group"><label class="text-label" for="fname">Invoice ID:</label><input id="fname" type="text" class="form-control" placeholder="Invoice ID" value=""></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group"><label class="text-label" for="flatpickrSample01">Date:</label><input id="flatpickrSample01" type="text" class="form-control" placeholder="Flatpickr example" data-toggle="flatpickr" value="today"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group"><label class="text-label" for="fname">Doctor
+                                                Name:</label><input id="fname" type="text" class="form-control" placeholder="Doctor Name" value=""></div>
+                                    </div>
+                                </div>
                                 <div class="row">
                                     <div class="col">
                                         <div class="form-group"><label class="text-label" for="fname">Patient
-                                                ID:</label><input id="fname" type="text" required="" class="form-control" placeholder="Patient ID" value="2022-0016"></div>
+                                                Name:</label><input id="fname" type="text" class="form-control" placeholder="Patient Name" value=""></div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col">
-                                        <div class="form-group"><label class="text-label" for="fname">First
-                                                Name:</label><input id="fname" type="text" required="" class="form-control" placeholder="First name" value="Juan"></div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="form-group"><label class="text-label" for="lname">Middle
-                                                Name:</label><input id="lname" type="text" class="form-control" placeholder="Middle name" value=""></div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="form-group"><label class="text-label" for="lname">Last
-                                                Name:</label><input id="lname" type="text" required="" class="form-control" placeholder="Last name" value="Dela Cruz"></div>
+                                        <div class="form-group"><label class="text-label" for="fname">Amount:
+                                            </label><input id="fname" type="number" class="form-control" placeholder="Amount" value=""></div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col">
-                                        <div class="form-group"><label class="text-label" for="fname">Email
-                                                Address:</label><input id="fname" type="text" required="" class="form-control" placeholder="name@gmail.com" value="jdlc_pupqc@gmail.com"></div>
+                                        <div class="form-group"><label class="text-label" for="desc">Transaction Description:</label><textarea id="desc" rows="4" class="form-control" placeholder=""></textarea></div>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <div class="form-group"><label class="text-label" for="fname">Contact
-                                                No:</label><input id="fname" type="text" required="" class="form-control" placeholder="Contact No." value="09987654321">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="form-group"><label class="text-label" for="lname">Username:</label><input id="lname" type="text" class="form-control" placeholder="@username" value="@juandelacruz">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="form-group"><label class="text-label" for="password_2">Password:</label>
-                                            <div class="input-group input-group-merge"><input id="password_2" type="text" required="" class="form-control form-control-prepended" placeholder="Enter your password" value="jdlcpassword">
-                                                <div class="input-group-prepend">
-                                                    <div class="input-group-text"><span class="fa fa-key"></span></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="modal-footer"><button type="button" class="btn btn-light" data-dismiss="modal">Cancel</button><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-add">Save
-                                        Changes</button></div>
+                            </div><!-- // END .modal-body -->
                         </div>
+                    </div><!-- // END .modal-body -->
+                    <div class="modal-footer"><button type="button" class="btn btn-light" class="material-icons" data-toggle="modal" data-dismiss="modal">Cancel</button><a href="#"><button type="button" class="btn btn-primary" data-dismiss="modal">Save Changes</button></a></div>
+                    <!-- // END .modal-footer -->
+                </div><!-- // END .modal-content -->
+            </div><!-- // END .modal-dialog -->
+        </div><!-- // END .modal -->
+
+        <!-- Add Modal -->
+        <div id="modal-add" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="px-3">
+                            <div class="d-flex justify-content-center mt-2 mb-4 navbar-light"><a href="index.php" class="navbar-brand" style="min-width: 0"><img class="navbar-brand-icon" src="assets/img/rxcliniclogowithoutline.png" width="50" alt="Stack"><span>Add
+                                        Transaction Details</span></a></div>
+                            <div class="page-separator"></div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group"><label class="text-label" for="fname">Invoice ID:</label><input id="fname" type="text" class="form-control" placeholder="Invoice ID" value=""></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group"><label class="text-label" for="flatpickrSample01">Date:</label><input id="flatpickrSample01" type="text" class="form-control" placeholder="Flatpickr example" data-toggle="flatpickr" value="today"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group"><label class="text-label" for="fname">Doctor
+                                                Name:</label><input id="fname" type="text" class="form-control" placeholder="Doctor Name" value=""></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group"><label class="text-label" for="fname">Patient
+                                                Name:</label><input id="fname" type="text" class="form-control" placeholder="Patient Name" value=""></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group"><label class="text-label" for="fname">Amount:
+                                            </label><input id="fname" type="number" class="form-control" placeholder="Amount" value=""></div>
+                                    </div>
+                                </div>
+                            </div><!-- // END .modal-body -->
+                        </div>
+                    </div><!-- // END .modal-body -->
+                    <div class="modal-footer"><button type="button" class="btn btn-light" class="material-icons" data-toggle="modal" data-dismiss="modal">Cancel</button><a href="#"><button type="button" class="btn btn-primary" data-dismiss="modal">Save Changes</button></a></div>
+                    <!-- // END .modal-footer -->
+                </div><!-- // END .modal-content -->
+            </div><!-- // END .modal-dialog -->
+        </div><!-- // END .modal -->
+
+        <!-- Success Alert Modal -->
+        <div id="modal-success" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-sm">
+                <div class="modal-content bg-success">
+                    <div class="modal-body text-center p-4"><i class="material-icons icon-40pt text-white mb-2">check</i>
+                        <h4 class="text-white">Transaction Paid!</h4>
+                        <p class="text-white mt-3">You marked this transaction as paid.</p><button type="button" class="btn btn-light my-2" data-dismiss="modal">Continue</button>
+                    </div><!-- // END .modal-body -->
+                </div><!-- // END .modal-content -->
+            </div><!-- // END .modal-dialog -->
+        </div><!-- // END .modal -->
+
+        <!-- Cancel Alert Modal -->
+        <div id="modal-delete" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-sm">
+                <div class="modal-content bg-danger">
+                    <div class="modal-body text-center p-4"><i class="material-icons icon-40pt text-white mb-2">warning</i>
+                        <h4 class="text-white">Delete this payment?</h4>
+                        <p class="text-white mt-3">This cannot be undone.</p><button type="button" class="btn btn-light my-2" data-dismiss="modal">Yes</button>
+                        <button type="button" class="btn btn-light my-2" data-dismiss="modal">No</button>
                     </div><!-- // END .modal-body -->
                 </div><!-- // END .modal-content -->
             </div><!-- // END .modal-dialog -->
@@ -532,7 +656,7 @@
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_patients.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">Patients</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_reports.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">report</i><span class="sidebar-menu-text">Reports</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_schedules.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">schedule</i><span class="sidebar-menu-text">Schedules</span></a></li>
-                                            <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_transactions.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">payment</i><span class="sidebar-menu-text">Transactions</span></a></li>
+                                <li class="sidebar-menu-item active"><a class="sidebar-menu-button" href="admin_transactions.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">payment</i><span class="sidebar-menu-text">Transactions</span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -679,6 +803,11 @@
     <script src="assets/js/list.js"></script><!-- Dragula -->
     <script src="assets/vendor/dragula/dragula.min.js"></script>
     <script src="assets/js/dragula.js"></script>
+    <script src="assets/vendor/flatpickr/flatpickr.min.js"></script>
+    <script src="assets/js/flatpickr.js"></script><!-- DateRangePicker -->
+    <script src="assets/vendor/moment.min.js"></script>
+    <script src="assets/vendor/daterangepicker.js"></script>
+    <script src="assets/js/daterangepicker.js"></script>
 </body>
 
 </html>
