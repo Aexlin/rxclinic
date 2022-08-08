@@ -54,7 +54,7 @@
                                     <a href="patient_request.php"><button type="button" class="btn btn-primary-dark"
                                             data-toggle="modal" data-dismiss="">BOOK NEW CONSULTATION</button></a>
                                 </div>
-                                <ul class="nav navbar-nav d-none d-md-flex">
+                                <!-- <ul class="nav navbar-nav d-none d-md-flex">
                                     <li class="nav-item dropdown"><a href="#notifications_menu"
                                             class="nav-link dropdown-toggle" data-toggle="dropdown"
                                             data-caret="false"><i
@@ -117,7 +117,7 @@
                                                 class="material-icons nav-icon">event_note</i><span
                                                 class="badge badge-warning text-primary-dark rounded-circle badge-notifications">1</span></a>
                                     </li>
-                                </ul>
+                                </ul> -->
                                 <div class="dropdown"><a href="#" data-toggle="dropdown" data-caret="false"
                                         class="dropdown-toggle navbar-toggler navbar-toggler-company border-left d-flex align-items-center ml-navbar"><span
                                             class="mr-3"><img src="assets/images/profilew.png" width="43" height="43"

@@ -52,7 +52,7 @@
                                         <a href="patient_request.php"><button type="button" class="btn btn-primary-dark"
                                                 data-toggle="modal" data-target="#modal-login">BOOK NEW CONSULTATION</button></a>
                                     </div>
-                                <ul class="nav navbar-nav d-none d-md-flex">
+                                <!-- <ul class="nav navbar-nav d-none d-md-flex">
                                     <li class="nav-item dropdown"><a href="#notifications_menu"
                                             class="nav-link dropdown-toggle" data-toggle="dropdown"
                                             data-caret="false"><i
@@ -115,7 +115,7 @@
                                                 class="material-icons nav-icon">event_note</i><span
                                                 class="badge badge-warning text-primary-dark rounded-circle badge-notifications">1</span></a>
                                     </li>
-                                </ul>
+                                </ul> -->
                                 <div class="dropdown"><a href="#" data-toggle="dropdown" data-caret="false"
                                         class="dropdown-toggle navbar-toggler navbar-toggler-company border-left d-flex align-items-center ml-navbar"><span
                                             class="mr-3"><img src="assets/images/profilew.png" width="43" height="43"
@@ -183,6 +183,16 @@
                                     </div>
                                     <form action="#" novalidate>
                                         <div class="row">
+                                            <div class="col-lg-7">
+                                                <div class="form-group"><label class="text-label" for="fname">Email Address:</label><input
+                                                        id="fname" type="text" class="form-control" placeholder="name@gmail.com" value="anggandaku@gmail.com" disabled></div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="form-group"><label class="text-label" for="fname">Password:</label><input
+                                                        id="fname" type="text" class="form-control" placeholder="name@gmail.com" value="mypassword" disabled></div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
                                             <div class="col">
                                                 <div class="form-group"><label class="text-label" for="fname">First Name:</label><input
                                                         id="fname" type="text" class="form-control" placeholder="First name" value="Angga" disabled></div>
@@ -197,30 +207,11 @@
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-lg-7">
-                                                <div class="form-group"><label class="text-label" for="fname">Email Address:</label><input
-                                                        id="fname" type="text" class="form-control" placeholder="name@gmail.com" value="anggandaku@gmail.com" disabled></div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="form-group"><label class="text-label" for="select01">Gender:</label>
-                                                    <select id="select01" data-toggle="select" class="form-control" disabled>
-                                                        <option>Male</option>
-                                                        <option selected="">Female</option>
-                                                        <!-- <option>Prefer not to say</option> -->
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
                                             <div class="col">
                                                 <div class="form-group"><label class="text-label"
                                                     for="flatpickrSample01">Birthday:</label><input id="flatpickrSample01"
                                                     type="text" class="form-control" placeholder="Flatpickr example"
-                                                    data-toggle="flatpickr" value="today" disabled></div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="form-group"><label class="text-label" for="lname">Age:</label><input id="lname"
-                                                        type="number" class="form-control" placeholder="Age" value="22" disabled></div>
+                                                    data-toggle="" value="Aug 09, 2001" disabled></div>
                                             </div>
                                             <div class="col">
                                                 <div class="form-group"><label class="text-label" for="fname">Contact No:</label><input
@@ -228,29 +219,9 @@
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-lg-4">
-                                                <div class="form-group"><label class="text-label" for="select01">Type:</label>
-                                                    <select id="select01" data-toggle="select" class="form-control" disabled>
-                                                        <option selected="">Student</option>
-                                                        <option>Faculty</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4">
-                                                <div class="form-group"><label class="text-label" for="select01">Course:</label>
-                                                    <select id="select01" data-toggle="select" class="form-control" disabled>
-                                                        <option selected="">BSIT</option>
-                                                        <option>BSENT</option>
-                                                        <option>BSBA-MM</option>
-                                                        <option>BBTE-HE</option>
-                                                        <option>BBTE-ICT</option>
-                                                        <option>DOMT</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4">
-                                                <div class="form-group"><label class="text-label" for="lname">Username:</label><input id="lname"
-                                                        type="text" class="form-control" placeholder="@username" value="@anggandaqku" disabled></div>
+                                            <div class="col">
+                                                <div class="form-group"><label class="text-label" for="fname">Address:</label><input
+                                                        id="fname" type="text" class="form-control" placeholder="Address" value="3435 Batumbakal Street, New York, Cubao" disabled></div>
                                             </div>
                                         </div>
                                     </form>
