@@ -255,7 +255,7 @@
                                                         <td>
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-delete" disabled>Delete</button>
+                                                                    data-toggle="modal" data-target="#modal-delete">Delete</button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -281,7 +281,7 @@
                                                         <td>
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-delete" disabled>Delete</button>
+                                                                    data-toggle="modal" data-target="#modal-delete">Delete</button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -308,7 +308,7 @@
                                                         <td>
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-delete" disabled>Delete</button>
+                                                                    data-toggle="modal" data-target="#modal-delete">Delete</button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -335,7 +335,7 @@
                                                         <td>
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-delete" disabled>Delete</button>
+                                                                    data-toggle="modal" data-target="#modal-delete">Delete</button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -362,7 +362,7 @@
                                                         <td>
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-delete" disabled>Delete</button>
+                                                                    data-toggle="modal" data-target="#modal-delete">Delete</button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -636,7 +636,7 @@
                                                         <td>
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-delete" disabled>Delete</button>
+                                                                    data-toggle="modal" data-target="#modal-delete">Delete</button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -662,7 +662,7 @@
                                                         <td>
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-delete" disabled>Delete</button>
+                                                                    data-toggle="modal" data-target="#modal-delete">Delete</button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -732,7 +732,7 @@
                                                         <td>
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-delete" disabled>Delete</button>
+                                                                    data-toggle="modal" data-target="#modal-delete">Delete</button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -760,7 +760,7 @@
                                                         <td>
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-delete" disabled>Delete</button>
+                                                                    data-toggle="modal" data-target="#modal-delete">Delete</button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -776,7 +776,7 @@
                                                                 </div>
                                                                 <div class="media-body d-flex flex-column"><strong
                                                                         class="js-lists-values-employee-name">Lara Cline
-                                                                    </strong><small class="text-muted" disabled></small></div>
+                                                                    </strong><small class="text-muted"></small></div>
                                                             </div>
                                                         </td>
                                                         <td>28/08/2022</td>
@@ -787,7 +787,7 @@
                                                         <td>
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-delete" disabled>Delete</button>
+                                                                    data-toggle="modal" data-target="#modal-delete">Delete</button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -814,7 +814,7 @@
                                                         <td>
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-delete" disabled>Delete</button>
+                                                                    data-toggle="modal" data-target="#modal-delete">Delete</button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -841,7 +841,7 @@
                                                         <td>
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-delete" disabled>Delete</button>
+                                                                    data-toggle="modal" data-target="#modal-delete">Delete</button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -912,7 +912,7 @@
                                                         <td>
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-delete" disabled>Delete</button>
+                                                                    data-toggle="modal" data-target="#modal-delete">Delete</button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -939,7 +939,7 @@
                                                         <td>
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-delete" disabled>Delete</button>
+                                                                    data-toggle="modal" data-target="#modal-delete">Delete</button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -968,7 +968,7 @@
                                                         <td>
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-delete" disabled>Delete</button>
+                                                                    data-toggle="modal" data-target="#modal-delete">Delete</button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -997,7 +997,7 @@
                                                         <td>
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-delete" disabled>Delete</button>
+                                                                    data-toggle="modal" data-target="#modal-delete">Delete</button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -1025,7 +1025,7 @@
                                                         <td>
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-delete" disabled>Delete</button>
+                                                                    data-toggle="modal" data-target="#modal-delete">Delete</button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -1156,6 +1156,7 @@
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">report</i><span
                                             class="sidebar-menu-text">Reports</span></a></li>
                                             <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_schedules.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">schedule</i><span class="sidebar-menu-text">Schedules</span></a></li>
+                                            <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_transactions.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">payment</i><span class="sidebar-menu-text">Transactions</span></a></li>
                             </ul>
                         </div>
                     </div>
