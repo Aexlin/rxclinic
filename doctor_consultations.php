@@ -155,11 +155,11 @@
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 </div>
 
-                                <li class="nav-item"><a href="#tab-history" class="nav-link" data-toggle="tab"
+                                <!--<li class="nav-item"><a href="#tab-history" class="nav-link" data-toggle="tab"
                                         role="tab" aria-selected="false"><span class="nav-link__count">History</span>Total
                                         (693)
                                     </a></li>
-                                <!-- <li class="nav-item"><a href="#tab-cancelled" class="nav-link" data-toggle="tab"
+                                 <li class="nav-item"><a href="#tab-cancelled" class="nav-link" data-toggle="tab"
                                         role="tab" aria-selected="false"><span class="nav-link__count">Cancelled</span>Total
                                         (13)
                                     </a></li> -->
@@ -624,9 +624,6 @@
                                                                 <button type="button" class="btn btn-primary"
                                                                     data-toggle="modal" data-target="#modal-info"><i
                                                                     class="material-icons">remove_red_eye</i></button>
-                                                                    <button type="button" class="btn btn-danger"
-                                                                        data-toggle="modal" data-target="#modal-delete"><i
-                                                                        class="material-icons">delete</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -655,9 +652,6 @@
                                                                 <button type="button" class="btn btn-primary"
                                                                     data-toggle="modal" data-target="#modal-info"><i
                                                                     class="material-icons">remove_red_eye</i></button>
-                                                                    <button type="button" class="btn btn-danger"
-                                                                        data-toggle="modal" data-target="#modal-delete"><i
-                                                                        class="material-icons">delete</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -687,9 +681,6 @@
                                                                 <button type="button" class="btn btn-primary"
                                                                     data-toggle="modal" data-target="#modal-info"><i
                                                                     class="material-icons">remove_red_eye</i></button>
-                                                                    <button type="button" class="btn btn-danger"
-                                                                        data-toggle="modal" data-target="#modal-delete"><i
-                                                                        class="material-icons">delete</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -719,9 +710,6 @@
                                                                 <button type="button" class="btn btn-primary"
                                                                     data-toggle="modal" data-target="#modal-info"><i
                                                                     class="material-icons">remove_red_eye</i></button>
-                                                                    <button type="button" class="btn btn-danger"
-                                                                        data-toggle="modal" data-target="#modal-delete"><i
-                                                                        class="material-icons">delete</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -750,9 +738,6 @@
                                                                 <button type="button" class="btn btn-primary"
                                                                     data-toggle="modal" data-target="#modal-info"><i
                                                                     class="material-icons">remove_red_eye</i></button>
-                                                                    <button type="button" class="btn btn-danger"
-                                                                        data-toggle="modal" data-target="#modal-delete"><i
-                                                                        class="material-icons">delete</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -764,189 +749,7 @@
                                                     class="material-icons ml-1">arrow_forward</i></a></div>
                                     </div>
 
-                                    <div class="tab-pane fade" id="tab-history">
-                                        <div class="table-responsive border-bottom" data-toggle="lists"
-                                            data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-special", "js-lists-values-employee-date"]'>
-                                            <div class="search-form search-form--light m-3"><input type="text"
-                                                    class="form-control search"
-                                                    placeholder="Search Appointment ID or Doctor Name"><button class="btn"
-                                                    type="button" role="button"><i
-                                                        class="material-icons">search</i></button></div>
-                                            <table class="table mb-0 thead-border-top-0">
-                                                <thead>
-                                                    <tr>
-                                                        <th style="width: 120px;">
-                                                            <a href="javascript:void(0)" class="sort"
-                                                                data-sort="js-lists-values-employee-title">Consultation ID</a>
-                                                        </th>
-                                                        <th style="width: 200px;">
-                                                            <a href="javascript:void(0)" class="sort"
-                                                                data-sort="js-lists-values-employee-name">Patient
-                                                                </a>
-                                                        </th>
-                                                        <th style="width: 37px;">
-                                                            <a href="javascript:void(0)" class="sort"
-                                                                data-sort="js-lists-values-employee-date">Date</a>
-                                                        </th>
-                                                        <th style="width: 100px;">Time</th>
-                                                        <th style="width: 150px;">Service</th>
-                                                        <th style="width: 37px;">Status</th>
-                                                        <!-- <th style="width: 120px;">Last Activity</th> -->
-                                                        <th style="width: 120px;">Action</th>
-                                                        <!-- <th style="width: 24px;"></th> -->
-                                                    </tr>
-                                                </thead>
-                                                <tbody class="list" id="staff02">
-
-                                                    <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">2022-0001</strong></span>
-                                                        </td>
-                                                        <td>
-                                                            <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/profilew.png" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
-                                                                </div>
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">Judell
-                                                                        L.
-                                                                        Mejorada</strong></div>
-                                                            </div>
-                                                        </td>
-                                                        <td><span class="js-lists-values-employee-date">07/08/2022</span></td>
-                                                        <td>10:00 AM</td>
-                                                        <td>Dental Check-up</td>
-                                                        <td><span class="badge badge-primary">DONE</span></td>
-                                                        <td>
-                                                            <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
-                                                                    class="material-icons">remove_red_eye</i></button>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">2022-0002</strong></span>
-                                                        </td>
-                                                        <td>
-                                                            <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/profilew.png" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
-                                                                </div>
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">Racquel
-                                                                        F. Ulibas</strong><small class="text-muted">BSIT
-                                                                        3 - 1</small></div>
-                                                            </div>
-                                                        </td>
-                                                        <td><span class="js-lists-values-employee-date">07/09/2022</span></td>
-                                                        <td>11:00 AM</td>
-                                                        <td>Dental Check-up</td>
-                                                        <td><span class="badge badge-primary">DONE</span></td>
-                                                        <td>
-                                                            <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
-                                                                    class="material-icons">remove_red_eye</i></button>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">2022-0003</strong></span>
-                                                        </td>
-                                                        <td>
-                                                            <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/jhong.jpg" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
-                                                                </div>
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">Christine
-                                                                        C.
-                                                                        Positar</strong><small class="text-muted">BSIT 3
-                                                                        - 1</small></div>
-                                                            </div>
-                                                        </td>
-                                                        <td><span class="js-lists-values-employee-date">07/10/2022</span></td>
-                                                        <td>12:00 PM</td>
-                                                        <td>Tooth Extraction</td>
-                                                        <td><span class="badge badge-secondary">CANCELLED</span></td>
-                                                        <td>
-                                                            <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
-                                                                    class="material-icons">remove_red_eye</i></button>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">2022-0004</strong></span>
-                                                        </td>
-                                                        <td>
-                                                            <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/kkk.jpg" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
-                                                                </div>
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">Kier
-                                                                        A.
-                                                                        Esteban</strong><small class="text-muted">BSIT 3
-                                                                        - 1</small></div>
-                                                            </div>
-                                                        </td>
-                                                        <td><span class="js-lists-values-employee-date">07/11/2022</span></td>
-                                                        <td>1:00 PM</td>
-                                                        <td>Teeth Cleaning</td>
-                                                        <td><span class="badge badge-secondary">CANCELLED</span></td>
-                                                        <td>
-                                                            <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
-                                                                    class="material-icons">remove_red_eye</i></button>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">2022-0005</strong></span>
-                                                        </td>
-                                                        <td>
-                                                            <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/profilew.png" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
-                                                                </div>
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">Angga
-                                                                        N. Daqku</strong><small class="text-muted">BSIT
-                                                                        3 - 1</small></div>
-                                                            </div>
-                                                        </td>
-                                                        <td><span class="js-lists-values-employee-date">07/12/2022</span></td>
-                                                        <td>2:00 PM</td>
-                                                        <td>Dental Check-up</td>
-                                                        <td><span class="badge badge-primary">DONE</span></td>
-                                                        <td>
-                                                            <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
-                                                                    class="material-icons">remove_red_eye</i></button>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                        <div class="card-body text-right">Showing 5 <span class="text-muted">of
-                                                24</span><a href="#" class="text-muted-light"><i
-                                                    class="material-icons ml-1">arrow_forward</i></a></div>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -1061,7 +864,7 @@
                                             class="sidebar-menu-text">My Patients</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="doctor_prescriptions.php"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">description</i><span
-                                            class="sidebar-menu-text">Reports</span></a></li>
+                                            class="sidebar-menu-text">History</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="doctor_transactions.php"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">payment</i><span
                                             class="sidebar-menu-text">Transactions</span></a></li>
@@ -1072,8 +875,6 @@
                         </div>
                     </div>
                     <div class="mt-auto sidebar-p-a sidebar-b-t d-flex flex-column flex-shrink-0">
-                            <a class="sidebar-link mb-2" href="doctor_verification.php">Doctor Verification<i
-                                class="sidebar-menu-icon ml-2 material-icons icon-16pt">check_circle</i></a>
                             <a class="sidebar-link" href="logindoctorpage.php"><strong>LOG OUT</strong><i
                                 class="sidebar-menu-icon ml-2 material-icons icon-20pt">exit_to_app</i></a>
                     </div>

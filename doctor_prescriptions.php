@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Reports - Rx Clinic</title><!-- Prevent the demo from appearing in search engines -->
+    <title>History - Rx Clinic</title><!-- Prevent the demo from appearing in search engines -->
     <meta name="robots" content="noindex"><!-- Simplebar -->
     <link type="text/css" href="assets/vendor/simplebar.min.css" rel="stylesheet"><!-- App CSS -->
     <link type="text/css" href="assets/css/app.css" rel="stylesheet">
@@ -195,7 +195,6 @@
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button>
                                                                 <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#modal-edit"><i class="material-icons">edit</i></button>
-                                                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-delete"><i class="material-icons">delete</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -675,7 +674,7 @@
                                             class="sidebar-menu-text">My Patients</span></a></li>
                                 <li class="sidebar-menu-item active"><a class="sidebar-menu-button" href="#"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">description</i><span
-                                            class="sidebar-menu-text">Reports</span></a></li>
+                                            class="sidebar-menu-text">History</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="doctor_transactions.php"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">payment</i><span
                                             class="sidebar-menu-text">Transactions</span></a></li>
@@ -686,8 +685,6 @@
                         </div>
                     </div>
                     <div class="mt-auto sidebar-p-a sidebar-b-t d-flex flex-column flex-shrink-0">
-                            <a class="sidebar-link mb-2" href="doctor_verification.php">Doctor Verification<i
-                                class="sidebar-menu-icon ml-2 material-icons icon-16pt">check_circle</i></a>
                             <a class="sidebar-link" href="logindoctorpage.php"><strong>LOG OUT</strong><i
                                 class="sidebar-menu-icon ml-2 material-icons icon-20pt">exit_to_app</i></a>
                     </div>

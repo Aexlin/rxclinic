@@ -214,91 +214,6 @@
 
     </div>
 
-    <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing">
-
-      <div class="container" data-aos="fade-up">
-
-        <header class="section-header">
-          <h2>Pricing</h2>
-          <p>Annual Plans</p>
-        </header>
-
-        <div class="row gy-4" data-aos="fade-left">
-
-          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
-            <div class="box">
-              <h3 style="color: #07d5c0;">Personal Plan</h3>
-              <div class="price"><sup>₱</sup>499<span> / yr</span></div>
-              <img src="./assets/img/single1.png" class="img-fluid" alt="">
-              <ul>
-                <li>12 Months Membership</li>
-                <li>Unlimited Consultation</li>
-                <li>e-Prescription, e-Laboratory Request, e-Medical Certificate</li>
-                <li>Access to Partner Benefits</li>
-                <li>1 member</li>
-                <!-- <li class="na">Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li> -->
-              </ul>
-              <a href="#" class="btn-buy">Subscribe</a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
-            <div class="box">
-              <span class="featured">Featured</span>
-              <h3 style="color: #65c600;">Partner Plan</h3>
-              <div class="price"><sup>₱</sup>799<span> / yr</span></div>
-              <img src="./assets/img/partner1.png" class="img-fluid" alt="">
-              <ul>
-                <li>12 Months Membership</li>
-                <li>Unlimited Consultation</li>
-                <li>e-Prescription, e-Laboratory Request, e-Medical Certificate</li>
-                <li>Access to Partner Benefits</li>
-                <li>2 members</li>
-              </ul>
-              <a href="#" class="btn-buy">Subscribe</a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
-            <div class="box">
-              <h3 style="color: #ff901c;">Family Plan</h3>
-              <div class="price"><sup>₱</sup>999<span> / yr</span></div>
-              <img src="./assets/img/family1.jpg" class="img-fluid" alt="">
-              <ul>
-                <li>12 Months Membership</li>
-                <li>Unlimited Consultation</li>
-                <li>e-Prescription, e-Laboratory Request, e-Medical Certificate</li>
-                <li>Access to Partner Benefits</li>
-                <li>5 members</li>
-              </ul>
-              <a href="#" class="btn-buy">Subscribe</a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
-            <div class="box">
-              <h3 style="color: #ff0071;">Ultimate Plan</h3>
-              <div class="price"><sup>₱</sup>1299<span> / yr</span></div>
-              <img src="./assets/img/family2.png" class="img-fluid" alt="">
-              <ul>
-                <li>12 Months Membership</li>
-                <li>Unlimited Consultation</li>
-                <li>e-Prescription, e-Laboratory Request, e-Medical Certificate</li>
-                <li>Access to Partner Benefits</li>
-                <li>10 members</li>
-              </ul>
-              <a href="#" class="btn-buy">Subscribe</a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- End Pricing Section -->
-
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
 
@@ -340,7 +255,7 @@
                     <i class="bi bi-check2"></i>
                     <h4>Step 2</h4>
                   </div>
-                  <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspChoose your plan.</p>
+                  <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspFill in the form with your personal information.</p>
                   <div class="d-flex align-items-center mb-2">
                     <i class="bi bi-check2"></i>
                     <h4>Step 3</h4>
