@@ -82,15 +82,11 @@
               <!-- <h5 class="card-title text-center mb-5 fw-light fs-5">Sign In</h5> -->
               <h2 class="card-title text-left mb-2 fw-bold fs-5">CONSULT A DOCTOR NOW.</h2>
               <h1 class="card-title text-left mt-1 mb-3 fw-light fs-6">Enter your email to continue:</h1>
-              <form>
+              <form action="patient_editprofile.php?" method="GET">
                 <div class="form-floating mb-3">
-                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                  <input type="email" class="form-control" name="email" id="floatingInput" placeholder="name@example.com">
                   <label for="floatingInput">Email address</label>
                 </div>
-                <!-- <div class="form-floating mb-3">
-                  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                  <label for="floatingPassword">Password</label>
-                </div> -->
 
                 <div class="form-check mb-3">
                   <input class="form-check-input" type="checkbox" value="" id="rememberPasswordCheck">
@@ -100,27 +96,25 @@
                   </label>
                 </div>
 
-                <form action="?" method="POST">
-                  <div class="g-recaptcha ms-5" data-sitekey="your_site_key"></div>
-                  <br />
+                  <div class="g-recaptcha ms-5" data-sitekey="6LeCUykhAAAAAI0y0IWcl89tPwViUmFnc2azl2Lt"></div>
+                  <br/>
                   <script src="https://www.google.com/recaptcha/api.js"></script>
-                </form>
 
-                <form action="patient_index.php" novalidate>
+                <form action="patient_editprofile.php" novalidate>
                   <div class="d-grid">
-                    <button class="btn btn-primary btn-login text-uppercase fw-bold" type="submit">Sign
-                      in</button>
+                    <button class="btn btn-primary btn-login text-uppercase fw-bold" type="submit" name="patientsignin">Sign in</button>
                   </div>
+                  <?php
+                  if (isset($_GET['email'])) {
+                    $email = $_GET['email'];
+                    echo "<a href='patient_editprofile.php?email='. $email .'";
+                  }
+                  ?>
                 </form>
                 <hr class="my-4">
                 <div class="d-grid mb-2">
                   <button class="btn btn-google btn-login text-uppercase fw-bold" type="submit">
                     <i class="fa fa-google me-2"></i> Sign in with Google
-                  </button>
-                </div>
-                <div class="d-grid">
-                  <button class="btn btn-facebook btn-login text-uppercase fw-bold" type="submit">
-                    <i class="fa fa-facebook-f me-2"></i> Sign in with Facebook
                   </button>
                 </div>
               </form>
@@ -213,91 +207,6 @@
       </div>
 
     </div>
-
-    <!-- ======= Pricing Section ======= -->
-    <!-- <section id="pricing" class="pricing">
-
-      <div class="container" data-aos="fade-up">
-
-        <header class="section-header">
-          <h2>Pricing</h2>
-          <p>Annual Plans</p>
-        </header>
-
-        <div class="row gy-4" data-aos="fade-left">
-
-          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
-            <div class="box">
-              <h3 style="color: #07d5c0;">Personal Plan</h3>
-              <div class="price"><sup>₱</sup>499<span> / yr</span></div>
-              <img src="./assets/img/single1.png" class="img-fluid" alt="">
-              <ul>
-                <li>12 Months Membership</li>
-                <li>Unlimited Consultation</li>
-                <li>e-Prescription, e-Laboratory Request, e-Medical Certificate</li>
-                <li>Access to Partner Benefits</li>
-                <li>1 member</li>
-              </ul>
-              <a href="#" class="btn-buy">Subscribe</a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
-            <div class="box">
-              <span class="featured">Featured</span>
-              <h3 style="color: #65c600;">Partner Plan</h3>
-              <div class="price"><sup>₱</sup>799<span> / yr</span></div>
-              <img src="./assets/img/partner1.png" class="img-fluid" alt="">
-              <ul>
-                <li>12 Months Membership</li>
-                <li>Unlimited Consultation</li>
-                <li>e-Prescription, e-Laboratory Request, e-Medical Certificate</li>
-                <li>Access to Partner Benefits</li>
-                <li>2 members</li>
-              </ul>
-              <a href="#" class="btn-buy">Subscribe</a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
-            <div class="box">
-              <h3 style="color: #ff901c;">Family Plan</h3>
-              <div class="price"><sup>₱</sup>999<span> / yr</span></div>
-              <img src="./assets/img/family1.jpg" class="img-fluid" alt="">
-              <ul>
-                <li>12 Months Membership</li>
-                <li>Unlimited Consultation</li>
-                <li>e-Prescription, e-Laboratory Request, e-Medical Certificate</li>
-                <li>Access to Partner Benefits</li>
-                <li>5 members</li>
-              </ul>
-              <a href="#" class="btn-buy">Subscribe</a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
-            <div class="box">
-              <h3 style="color: #ff0071;">Ultimate Plan</h3>
-              <div class="price"><sup>₱</sup>1299<span> / yr</span></div>
-              <img src="./assets/img/family2.png" class="img-fluid" alt="">
-              <ul>
-                <li>12 Months Membership</li>
-                <li>Unlimited Consultation</li>
-                <li>e-Prescription, e-Laboratory Request, e-Medical Certificate</li>
-                <li>Access to Partner Benefits</li>
-                <li>10 members</li>
-              </ul>
-              <a href="#" class="btn-buy">Subscribe</a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section> -->
-    <!-- End Pricing Section -->
-
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
 
@@ -667,12 +576,12 @@
               <div class="accordion-item">
                 <h2 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-3">
-                    How come I don’t see the KonsultaChat section in my KonsultaMD app?
+                    How come I don’t see the Help section in my RxClinic app?
                   </button>
                 </h2>
                 <div id="faq2-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
                   <div class="accordion-body">
-                    The most recent version of the RxClinic app includes the RxClinic Chat App. To get the most recent
+                    The most recent version of the RxClinic app includes the RxClinic Message. To get the most recent
                     version of the app, please go to the apps store on your phone.
                   </div>
                 </div>
@@ -686,7 +595,7 @@
                 </h2>
                 <div id="faq2-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
                   <div class="accordion-body">
-                    As soon as you start a conversation in the KonsultaChat room, our doctors are alerted, and you can
+                    Please wait patiently for the assigned doctor in your consultation and you can
                     be confident that they will get back to you as soon as you acknowledge that you have read the
                     consultation disclaimer.
                   </div>
