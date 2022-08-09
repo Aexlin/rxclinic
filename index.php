@@ -89,7 +89,7 @@
                 </div>
 
                 <div class="form-check mb-3">
-                  <input class="form-check-input" type="checkbox" value="" id="rememberPasswordCheck">
+                  <input class="form-check-input" type="checkbox" id="rememberPasswordCheck">
                   <label class="form-check-label" for="rememberPasswordCheck">By proceeding, you agree with RxClinic's
                     <a href="termsandconditions.php">Terms & Conditions</a> and <a href="dataprivacypolicy.php">Data
                       Privacy Policy</a>
@@ -101,7 +101,7 @@
                   <script src="https://www.google.com/recaptcha/api.js"></script>
 
                   <div class="d-grid">
-                    <button class="btn btn-primary btn-login text-uppercase fw-bold" type="submit" name="patientsignin">Sign in</button>
+                    <button class="btn btn-primary btn-login text-uppercase fw-bold" type="submit">Sign in</button>
                   </div>
                 </form>
                 <hr class="my-4">

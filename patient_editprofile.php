@@ -191,31 +191,32 @@
                                         <div class="page-separator__text">MY INFORMATION</div>
                                     </div>
                                         <?php
-                                            $email = intval($_GET['email']);
+                                            // get email from href
+                                            $email = $_GET['email'];
                                         ?>
                                     <form action="#" novalidate>
                                     <div class="row">
                                             <div class="col-lg-7">
                                                 <div class="form-group"><label class="text-label" for="fname">Email Address:</label><input
-                                                        id="fname" type="text" class="form-control" placeholder="name@gmail.com" value="<?php $email;?>"></div>
+                                                        id="fname" type="text" class="form-control" placeholder="name@gmail.com" value="<?= $email;?>"></div>
                                             </div>
                                             <div class="col">
                                                 <div class="form-group"><label class="text-label" for="fname">Password:</label><input
-                                                        id="fname" type="text" class="form-control" placeholder="name@gmail.com" value="mypassword"></div>
+                                                        id="fname" type="text" class="form-control" placeholder="name@gmail.com" value=""></div>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col">
                                                 <div class="form-group"><label class="text-label" for="fname">First Name:</label><input
-                                                        id="fname" type="text" class="form-control" placeholder="First name" value="Angga"></div>
+                                                        id="fname" type="text" class="form-control" placeholder="First name" value=""></div>
                                             </div>
                                             <div class="col">
                                                 <div class="form-group"><label class="text-label" for="lname">Middle Name:</label><input
-                                                        id="lname" type="text" class="form-control" placeholder="Middle name" value="N."></div>
+                                                        id="lname" type="text" class="form-control" placeholder="Middle name" value=""></div>
                                             </div>
                                             <div class="col">
                                                 <div class="form-group"><label class="text-label" for="lname">Last Name:</label><input
-                                                        id="lname" type="text" class="form-control" placeholder="Last name" value="Daqku"></div>
+                                                        id="lname" type="text" class="form-control" placeholder="Last name" value=""></div>
                                             </div>
                                         </div>
                                         <div class="row">
@@ -223,17 +224,17 @@
                                                 <div class="form-group"><label class="text-label"
                                                     for="flatpickrSample01">Birthday:</label><input id="flatpickrSample01"
                                                     type="text" class="form-control" placeholder="Date of Birth"
-                                                    data-toggle="" value="Aug 09, 2001"></div>
+                                                    data-toggle=""></div>
                                             </div>
                                             <div class="col">
                                                 <div class="form-group"><label class="text-label" for="fname">Contact No:</label><input
-                                                        id="fname" type="text" class="form-control" placeholder="Contact No." value="0998-765-4321"></div>
+                                                        id="fname" type="text" class="form-control" placeholder="Contact No."></div>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col">
                                                 <div class="form-group"><label class="text-label" for="fname">Address:</label><input
-                                                        id="fname" type="text" class="form-control" placeholder="Address" value="3435 Batumbakal Street, New York, Cubao"></div>
+                                                        id="fname" type="text" class="form-control" placeholder="Address"></div>
                                             </div>
                                         </div>
                                         <div class="form-group"><label class="text-label">Avatar:</label>
