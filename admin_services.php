@@ -894,6 +894,7 @@
                         </div>
                     </div>
                     <div class="mt-auto sidebar-p-a sidebar-b-t d-flex flex-column flex-shrink-0">
+                        <a class="sidebar-link mb-2" href="admin_patientreg.php">Patient Registration<i class="sidebar-menu-icon ml-2 material-icons icon-16pt">person</i></a>
                         <a class="sidebar-link mb-2" href="admin_verification.php">Doctor Verification<i class="sidebar-menu-icon ml-2 material-icons icon-16pt">check_circle</i></a>
                         <a class="sidebar-link" href="loginadminpage.php"><strong>LOG OUT</strong><i class="sidebar-menu-icon ml-2 material-icons icon-20pt">exit_to_app</i></a>
                     </div>

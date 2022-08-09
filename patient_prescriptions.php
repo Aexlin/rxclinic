@@ -693,11 +693,8 @@
                         </div>
                     </div>
                     <div class="mt-auto sidebar-p-a sidebar-b-t d-flex flex-column flex-shrink-0">
-                        <!-- <a
-                            class="sidebar-link mb-2" href="edit-account.php">Change Password</a><a
-                            class="sidebar-link mb-2" href="edit-account.php">Settings</a> -->
-                            <a class="sidebar-link" href="landingpagelogin.php"><strong>LOG OUT</strong><i
-                                class="sidebar-menu-icon ml-2 material-icons icon-16pt">exit_to_app</i></a>
+                            <a class="sidebar-link mb-2" href="patient_patientreg.php">Register<i class="sidebar-menu-icon ml-2 material-icons icon-16pt">person</i></a>
+                        <a class="sidebar-link" href="landingpagelogin.php"><strong>LOG OUT</strong><i class="sidebar-menu-icon ml-2 material-icons icon-16pt">exit_to_app</i></a>
                     </div>
                 </div>
             </div>
