@@ -46,7 +46,7 @@
                                     <a href="patient_request.php"><button type="button" class="btn btn-primary-dark"
                                             data-toggle="modal" data-target="#modal-login">BOOK NEW CONSULTATION</button></a>
                                 </div>
-                                <!-- <ul class="nav navbar-nav d-none d-md-flex">
+                                <ul class="nav navbar-nav d-none d-md-flex">
                                     <li class="nav-item dropdown"><a href="#notifications_menu"
                                             class="nav-link dropdown-toggle" data-toggle="dropdown"
                                             data-caret="false"><i
@@ -109,7 +109,7 @@
                                                 class="material-icons nav-icon">event_note</i><span
                                                 class="badge badge-warning text-primary-dark rounded-circle badge-notifications">1</span></a>
                                     </li>
-                                </ul> -->
+                                </ul>
                                 <div class="dropdown"><a href="#" data-toggle="dropdown" data-caret="false"
                                         class="dropdown-toggle navbar-toggler navbar-toggler-company border-left d-flex align-items-center ml-navbar"><span
                                             class="mr-3"><img src="assets/images/profilew.png" width="43" height="43"
@@ -159,11 +159,11 @@
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 </div>
 
-                                <li class="nav-item"><a href="#tab-history" class="nav-link" data-toggle="tab"
+                                <!-- <li class="nav-item"><a href="#tab-history" class="nav-link" data-toggle="tab"
                                         role="tab" aria-selected="false"><span class="nav-link__count">History</span>Total
                                         (693)
                                     </a></li>
-                                <!-- <li class="nav-item"><a href="#tab-cancelled" class="nav-link" data-toggle="tab"
+                                <li class="nav-item"><a href="#tab-cancelled" class="nav-link" data-toggle="tab"
                                         role="tab" aria-selected="false"><span class="nav-link__count">Cancelled</span>Total
                                         (13)
                                     </a></li> -->
@@ -801,191 +801,6 @@
                                                 24</span><a href="#" class="text-muted-light"><i
                                                     class="material-icons ml-1">arrow_forward</i></a></div>
                                     </div>
-
-                                    <div class="tab-pane fade" id="tab-history">
-                                        <div class="table-responsive border-bottom" data-toggle="lists"
-                                            data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-special", "js-lists-values-employee-date"]'>
-                                            <div class="search-form search-form--light m-3"><input type="text"
-                                                    class="form-control search"
-                                                    placeholder="Search Appointment ID or Doctor Name"><button class="btn"
-                                                    type="button" role="button"><i
-                                                        class="material-icons">search</i></button></div>
-                                            <table class="table mb-0 thead-border-top-0">
-                                                <thead>
-                                                    <tr>
-                                                        <th style="width: 150px;">
-                                                            <a href="javascript:void(0)" class="sort"
-                                                                data-sort="js-lists-values-employee-title">Consultation ID</a>
-                                                        </th>
-                                                        <th colspan="1">
-                                                            <a href="javascript:void(0)" class="sort"
-                                                                data-sort="js-lists-values-employee-name">Doctor
-                                                                </a>
-                                                        </th>
-                                                        <th colspan="1">
-                                                            <a href="javascript:void(0)" class="sort"
-                                                                data-sort="js-lists-values-employee-special">Specialization</a>
-                                                        </th>
-                                                        <th style="width: 37px;">
-                                                            <a href="javascript:void(0)" class="sort"
-                                                                data-sort="js-lists-values-employee-date">Date</a>
-                                                        </th>
-                                                        <th style="width: 100px;">Time</th>
-                                                        <th style="width: 180px;">Service</th>
-                                                        <th style="width: 37px;">Status</th>
-                                                        <!-- <th style="width: 120px;">Last Activity</th> -->
-                                                        <th style="width: 37px;">Action</th>
-                                                        <!-- <th style="width: 24px;"></th> -->
-                                                    </tr>
-                                                </thead>
-                                                <tbody class="list" id="staff02">
-
-                                                    <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">2022-0001</strong></span>
-                                                        </td>
-                                                        <td>
-                                                            <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/doc4.jfif" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
-                                                                </div>
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">Dr. Number Wan</strong></div>
-                                                            </div>
-                                                        </td>
-                                                        <td><span class="js-lists-values-employee-special">Cardiology</span></td>
-                                                        <td><span class="js-lists-values-employee-date">07/08/2022</span></td>
-                                                        <td>10:00 AM</td>
-                                                        <td>Cardiologist</td>
-                                                        <td><span class="badge badge-primary">DONE</span></td>
-                                                        <td>
-                                                            <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
-                                                                    class="material-icons">remove_red_eye</i></button>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">2022-0002</strong></span>
-                                                        </td>
-                                                        <td>
-                                                            <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/doc5.png" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
-                                                                </div>
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">Dr. Number Too
-                                                                    </strong><small class="text-muted"></small></div>
-                                                            </div>
-                                                        </td>
-                                                        <td><span class="js-lists-values-employee-special">Endocrinology</span></td>
-                                                        <td><span class="js-lists-values-employee-date">07/09/2022</span></td>
-                                                        <td>11:00 AM</td>
-                                                        <td>Endocrinologist</td>
-                                                        <td><span class="badge badge-primary">DONE</span></td>
-                                                        <td>
-                                                            <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
-                                                                    class="material-icons">remove_red_eye</i></button>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">2022-0003</strong></span>
-                                                        </td>
-                                                        <td>
-                                                            <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/doctor.png" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
-                                                                </div>
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">Dr. Number For
-                                                                    </strong><small class="text-muted"></small></div>
-                                                            </div>
-                                                        </td>
-                                                        <td><span class="js-lists-values-employee-special">Cardiology</span></td>
-                                                        <td><span class="js-lists-values-employee-date">07/10/2022</span></td>
-                                                        <td>12:00 PM</td>
-                                                        <td>Cardiologist</td>
-                                                        <td><span class="badge badge-secondary">CANCELLED</span></td>
-                                                        <td>
-                                                            <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
-                                                                    class="material-icons">remove_red_eye</i></button>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">2022-0004</strong></span>
-                                                        </td>
-                                                        <td>
-                                                            <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/doctor2.png" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
-                                                                </div>
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">Dr. Number Seeks
-                                                                    </strong><small class="text-muted"></small></div>
-                                                            </div>
-                                                        </td>
-                                                        <td><span class="js-lists-values-employee-special">Nephrology</span></td>
-                                                        <td><span class="js-lists-values-employee-date">07/11/2022</span></td>
-                                                        <td>1:00 PM</td>
-                                                        <td>Nephrologist</td>
-                                                        <td><span class="badge badge-secondary">CANCELLED</span></td>
-                                                        <td>
-                                                            <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
-                                                                    class="material-icons">remove_red_eye</i></button>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">2022-0005</strong></span>
-                                                        </td>
-                                                        <td>
-                                                            <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/doctrii.jpg" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
-                                                                </div>
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">Dr. Number Ate
-                                                                    </strong><small class="text-muted"></small></div>
-                                                            </div>
-                                                        </td>
-                                                        <td><span class="js-lists-values-employee-special">Oncology</span></td>
-                                                        <td><span class="js-lists-values-employee-date">07/12/2022</span></td>
-                                                        <td>2:00 PM</td>
-                                                        <td>Oncologist</td>
-                                                        <td><span class="badge badge-primary">DONE</span></td>
-                                                        <td>
-                                                            <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
-                                                                    class="material-icons">remove_red_eye</i></button>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                        <div class="card-body text-right">Showing 5 <span class="text-muted">of
-                                                24</span><a href="#" class="text-muted-light"><i
-                                                    class="material-icons ml-1">arrow_forward</i></a></div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1100,7 +915,7 @@
                                             class="sidebar-menu-text">My Doctors</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="patient_prescriptions.php"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">description</i><span
-                                            class="sidebar-menu-text">Reports</span></a></li>
+                                            class="sidebar-menu-text">History</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="patient_payments.php"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">payment</i><span
                                             class="sidebar-menu-text">Payment</span></a></li>

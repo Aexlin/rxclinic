@@ -39,7 +39,7 @@
                                 <!-- <div>
                                     <a href="#"><button type="button" class="btn btn-primary-dark" data-toggle="modal" data-target="#modal-login">Make&nbsp; Prescription</button></a>
                                 </div> -->
-                                <!-- <ul class="nav navbar-nav d-none d-md-flex">
+                                <ul class="nav navbar-nav d-none d-md-flex">
                                     <li class="nav-item dropdown"><a href="#notifications_menu" class="nav-link dropdown-toggle" data-toggle="dropdown" data-caret="false"><i class="material-icons nav-icon navbar-notifications-indicator">notifications</i></a>
                                         <div id="notifications_menu" class="dropdown-menu dropdown-menu-right navbar-notifications-menu">
                                             <div class="dropdown-item d-flex align-items-center py-2"><span class="flex navbar-notifications-menu__title m-0">Notifications</span><a href="javascript:void(0)" class="text-muted"><small>Clear
@@ -98,7 +98,7 @@
                                         </div>
                                     </li>
                                     <li class="nav-item"><a href="#events-drawer" data-toggle="sidebar" class="nav-link d-flex align-items-center"><i class="material-icons nav-icon">event_note</i><span class="badge badge-warning text-primary-dark rounded-circle badge-notifications">5</span></a>
-                                    </li> -->
+                                    </li>
                                 </ul>
                                 <div class="dropdown"><a href="#" data-toggle="dropdown" data-caret="false" class="dropdown-toggle navbar-toggler navbar-toggler-company border-left d-flex align-items-center ml-navbar"><span class="mr-3"><img src="assets/images/profilew.png" width="43" height="43" alt="avatar"></span></span></a>
                                     <div id="company_menu" class="dropdown-menu dropdown-menu-right navbar-company-menu">
@@ -123,7 +123,7 @@
                     <div class="container-fluid page__container">
                         <div class="z-0">
                             <ul class="nav nav-tabs nav-tabs-custom" role="tablist">
-                                <li class="nav-item"><a href="#tab-queue" class="nav-link active" data-toggle="tab" role="tab" aria-controls="tab-queue" aria-selected="true"><span class="nav-link__count">Pending Payments</span>Total (2) </a></li>
+                                <li class="nav-item"><a href="#tab-queue" class="nav-link active" data-toggle="tab" role="tab" aria-controls="tab-queue" aria-selected="true"><span class="nav-link__count">Pending Transactions</span>Total (2) </a></li>
                                 <li class="nav-item"><a href="#tab-earlier" class="nav-link" data-toggle="tab" role="tab" aria-selected="false"><span class="nav-link__count">Transactions
                                             History</span>Total (3)
                                     </a></li>

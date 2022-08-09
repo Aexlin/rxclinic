@@ -136,7 +136,7 @@
 
                 <br>
                 <div class="text-center">
-                  <p>Not a member? <a href="index.php">Register</a></p>
+                  <p>Not a member? <a href="register_patient.php">Register</a></p>
                 </div>
 
                 <hr class="my-4">

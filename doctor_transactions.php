@@ -142,7 +142,7 @@
                             <ul class="nav nav-tabs nav-tabs-custom" role="tablist">
                                 <li class="nav-item"><a href="#tab-queue" class="nav-link active" data-toggle="tab"
                                         role="tab" aria-controls="tab-queue" aria-selected="true"><span
-                                            class="nav-link__count">Pending Payments</span>Total (2) </a></li>
+                                            class="nav-link__count">Pending Transactions</span>Total (2) </a></li>
                                 <li class="nav-item"><a href="#tab-earlier" class="nav-link" data-toggle="tab"
                                         role="tab" aria-selected="false"><span class="nav-link__count">Transactions
                                             History</span>Total (3)
@@ -575,7 +575,7 @@
                                             class="sidebar-menu-text">My Patients</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="doctor_prescriptions.php"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">description</i><span
-                                            class="sidebar-menu-text">Reports</span></a></li>
+                                            class="sidebar-menu-text">History</span></a></li>
                                 <li class="sidebar-menu-item active"><a class="sidebar-menu-button" href="#"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">payment</i><span
                                             class="sidebar-menu-text">Transactions</span></a></li>
@@ -586,8 +586,6 @@
                         </div>
                     </div>
                     <div class="mt-auto sidebar-p-a sidebar-b-t d-flex flex-column flex-shrink-0">
-                            <a class="sidebar-link mb-2" href="doctor_verification.php">Doctor Verification<i
-                                class="sidebar-menu-icon ml-2 material-icons icon-16pt">check_circle</i></a>
                             <a class="sidebar-link" href="logindoctorpage.php"><strong>LOG OUT</strong><i
                                 class="sidebar-menu-icon ml-2 material-icons icon-20pt">exit_to_app</i></a>
                     </div>
