@@ -239,7 +239,7 @@
     </div>
 
     <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing">
+    <!-- <section id="pricing" class="pricing">
 
       <div class="container" data-aos="fade-up">
 
@@ -261,8 +261,6 @@
                 <li>e-Prescription, e-Laboratory Request, e-Medical Certificate</li>
                 <li>Access to Partner Benefits</li>
                 <li>1 member</li>
-                <!-- <li class="na">Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li> -->
               </ul>
               <a href="#" class="btn-buy">Subscribe</a>
             </div>
@@ -321,7 +319,8 @@
 
       </div>
 
-    </section><!-- End Pricing Section -->
+    </section> -->
+    <!-- End Pricing Section -->
 
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
@@ -341,9 +340,9 @@
                 <li>
                   <a class="nav-link active" data-bs-toggle="pill" href="#tab1">Steps </a>
                 </li>
-                <li>
+                <!-- <li>
                   <a class="nav-link" data-bs-toggle="pill" href="#tab2">Payment</a>
-                </li>
+                </li> -->
                 <li>
                   <!-- <a class="nav-link" data-bs-toggle="pill" href="#tab3">Corrupti</a>
               </li> -->
@@ -352,7 +351,7 @@
               <!-- Tab Content -->
               <div class="tab-content">
 
-                <div class="tab-pane fade show active" id="tab1">
+              <div class="tab-pane fade show active" id="tab1">
                   <!-- <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p> -->
                   <div class="d-flex align-items-center mb-2">
                     <i class="bi bi-check2"></i>
@@ -364,12 +363,12 @@
                     <i class="bi bi-check2"></i>
                     <h4>Step 2</h4>
                   </div>
-                  <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspChoose your plan.</p>
+                  <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRegister.</p>
                   <div class="d-flex align-items-center mb-2">
                     <i class="bi bi-check2"></i>
                     <h4>Step 3</h4>
                   </div>
-                  <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspCall (09) 12-345-6789</p>
+                  <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspBook a new cosultation appointment.</p>
                   <div class="d-flex align-items-center mb-2">
                     <i class="bi bi-check2"></i>
                     <h4>Step 4</h4>

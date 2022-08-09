@@ -131,7 +131,7 @@
                                         class="dropdown-menu dropdown-menu-right navbar-company-menu">
                                         <div
                                             class="dropdown-item d-flex align-items-center py-2 navbar-company-info py-3">
-                                            <span class="mr-3"><img src="assets/images/doc.png" width="43"
+                                            <span class="mr-3"><img src="assets/images/profilew.png" width="43"
                                                     height="43" alt="avatar"></span><span
                                                 class="flex d-flex flex-column"><strong style="font-size: 1.125rem;">Ms. User Wan</strong><small
                                                     class="text-muted">@msuserwan</small></span>
