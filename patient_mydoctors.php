@@ -46,7 +46,7 @@
                                     <a href="patient_request.php"><button type="button" class="btn btn-primary-dark"
                                             data-toggle="modal" data-target="#modal-login">BOOK NEW CONSULTATION</button></a>
                                 </div>
-                                <!-- <ul class="nav navbar-nav d-none d-md-flex">
+                                <ul class="nav navbar-nav d-none d-md-flex">
                                     <li class="nav-item dropdown"><a href="#notifications_menu"
                                             class="nav-link dropdown-toggle" data-toggle="dropdown"
                                             data-caret="false"><i
@@ -67,8 +67,8 @@
                                                                     class="avatar-img rounded-circle">
                                                             </div>
                                                         </div>
-                                                        <div class="flex"><a href="">Dr. Number Fayve</a> approved your <a
-                                                                href="">appointment.</a><br><small class="text-muted">1
+                                                        <div class="flex"><a href="patient_consultations.php">Dr. Dentist</a> approved your <a
+                                                                href="">consultation appointment.</a><br><small class="text-muted">1
                                                                 hr
                                                                 ago</small></div>
                                                     </div>
@@ -80,8 +80,21 @@
                                                                     class="avatar-img rounded-circle">
                                                             </div>
                                                         </div>
-                                                        <div class="flex"><a href="">Dr. Number Ate</a> cancelled your <a
-                                                                href="">appointment.</a><br><small class="text-muted">1
+                                                        <div class="flex"><a href="patient_consultations.php">Dr. Dentist</a> requested to reschedule your <a
+                                                                href="">consultation appointment.</a><br><small class="text-muted">1
+                                                                hr
+                                                                ago</small></div>
+                                                    </div>
+                                                    <div class="dropdown-item d-flex">
+                                                        <div class="mr-3">
+                                                            <div class="avatar avatar-sm"
+                                                                style="width: 32px; height: 32px;"><img
+                                                                    src="assets/images/profilew.png" alt="Avatar"
+                                                                    class="avatar-img rounded-circle">
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex"><a href="patient_consultations.php">Dr. Dentist</a> cancelled your <a
+                                                                href="">consultation appointment.</a><br><small class="text-muted">1
                                                                 day
                                                                 ago</small></div>
                                                     </div>
@@ -89,12 +102,12 @@
                                                         <div class="mr-3">
                                                             <div class="avatar avatar-sm"
                                                                 style="width: 32px; height: 32px;"><img
-                                                                    src="assets/images/doc5.png" alt="Avatar"
+                                                                    src="assets/images/profilew.png" alt="Avatar"
                                                                     class="avatar-img rounded-circle">
                                                             </div>
                                                         </div>
-                                                        <div class="flex"><a href="">Dr. Number Trii</a> declined your <a
-                                                                href="">appointment.</a><br><small class="text-muted">3
+                                                        <div class="flex"><a href="patient_consultations.php">Dr. Dentist</a> declined your <a
+                                                                href="">consultation appointment.</a><br><small class="text-muted">3
                                                                 days
                                                                 ago</small></div>
                                                     </div>
@@ -109,7 +122,7 @@
                                                 class="material-icons nav-icon">event_note</i><span
                                                 class="badge badge-warning text-primary-dark rounded-circle badge-notifications">1</span></a>
                                     </li>
-                                </ul> -->
+                                </ul>
                                 <div class="dropdown"><a href="#" data-toggle="dropdown" data-caret="false"
                                         class="dropdown-toggle navbar-toggler navbar-toggler-company border-left d-flex align-items-center ml-navbar"><span
                                             class="mr-3"><img src="assets/images/profilew.png" width="43" height="43"

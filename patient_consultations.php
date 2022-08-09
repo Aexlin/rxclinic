@@ -31,22 +31,15 @@
             <!-- Header Layout -->
             <div class="mdk-header-layout js-mdk-header-layout" data-has-scrolling-region>
                 <!-- Header -->
-                <div id="header" class="mdk-header js-mdk-header m-0" data-fixed data-effects="waterfall"
-                    data-retarget-mouse-scroll="false">
+                <div id="header" class="mdk-header js-mdk-header m-0" data-fixed data-effects="waterfall" data-retarget-mouse-scroll="false">
                     <div class="mdk-header__content">
-                        <div class="navbar navbar-expand-sm navbar-main navbar-light bg-white  pr-0" id="navbar"
-                            data-primary>
+                        <div class="navbar navbar-expand-sm navbar-main navbar-light bg-white  pr-0" id="navbar" data-primary>
                             <div class="container-fluid p-0">
-                                <!-- Navbar toggler --><button
-                                    class="navbar-toggler navbar-toggler-custom d-lg-none d-flex mr-navbar"
-                                    type="button" data-toggle="sidebar"><span
-                                        class="material-icons">short_text</span></button><!-- Navbar Brand --><a
-                                    href="#" class="navbar-brand flex "><span>My Appointments</span></a>
+                                <!-- Navbar toggler --><button class="navbar-toggler navbar-toggler-custom d-lg-none d-flex mr-navbar" type="button" data-toggle="sidebar"><span class="material-icons">short_text</span></button><!-- Navbar Brand --><a href="#" class="navbar-brand flex "><span>My Appointments</span></a>
                                 <div>
-                                    <a href="patient_request.php"><button type="button" class="btn btn-primary-dark"
-                                            data-toggle="modal" data-target="#modal-login">BOOK NEW CONSULTATION</button></a>
+                                    <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal" data-target="#modal-login">BOOK NEW CONSULTATION</button></a>
                                 </div>
-                                <!-- <ul class="nav navbar-nav d-none d-md-flex">
+                                <ul class="nav navbar-nav d-none d-md-flex">
                                     <li class="nav-item dropdown"><a href="#notifications_menu"
                                             class="nav-link dropdown-toggle" data-toggle="dropdown"
                                             data-caret="false"><i
@@ -67,8 +60,8 @@
                                                                     class="avatar-img rounded-circle">
                                                             </div>
                                                         </div>
-                                                        <div class="flex"><a href="">Dr. Dentist</a> approved your <a
-                                                                href="">appointment.</a><br><small class="text-muted">1
+                                                        <div class="flex"><a href="patient_consultations.php">Dr. Dentist</a> approved your <a
+                                                                href="">consultation appointment.</a><br><small class="text-muted">1
                                                                 hr
                                                                 ago</small></div>
                                                     </div>
@@ -80,8 +73,21 @@
                                                                     class="avatar-img rounded-circle">
                                                             </div>
                                                         </div>
-                                                        <div class="flex"><a href="">Dr. Dentist</a> cancelled your <a
-                                                                href="">appointment.</a><br><small class="text-muted">1
+                                                        <div class="flex"><a href="patient_consultations.php">Dr. Dentist</a> requested to reschedule your <a
+                                                                href="">consultation appointment.</a><br><small class="text-muted">1
+                                                                hr
+                                                                ago</small></div>
+                                                    </div>
+                                                    <div class="dropdown-item d-flex">
+                                                        <div class="mr-3">
+                                                            <div class="avatar avatar-sm"
+                                                                style="width: 32px; height: 32px;"><img
+                                                                    src="assets/images/profilew.png" alt="Avatar"
+                                                                    class="avatar-img rounded-circle">
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex"><a href="patient_consultations.php">Dr. Dentist</a> cancelled your <a
+                                                                href="">consultation appointment.</a><br><small class="text-muted">1
                                                                 day
                                                                 ago</small></div>
                                                     </div>
@@ -93,8 +99,8 @@
                                                                     class="avatar-img rounded-circle">
                                                             </div>
                                                         </div>
-                                                        <div class="flex"><a href="">Dr. Dentist</a> declined your <a
-                                                                href="">appointment.</a><br><small class="text-muted">3
+                                                        <div class="flex"><a href="patient_consultations.php">Dr. Dentist</a> declined your <a
+                                                                href="">consultation appointment.</a><br><small class="text-muted">3
                                                                 days
                                                                 ago</small></div>
                                                     </div>
@@ -109,26 +115,16 @@
                                                 class="material-icons nav-icon">event_note</i><span
                                                 class="badge badge-warning text-primary-dark rounded-circle badge-notifications">1</span></a>
                                     </li>
-                                </ul> -->
-                                <div class="dropdown"><a href="#" data-toggle="dropdown" data-caret="false"
-                                        class="dropdown-toggle navbar-toggler navbar-toggler-company border-left d-flex align-items-center ml-navbar"><span
-                                            class="mr-3"><img src="assets/images/profilew.png" width="43" height="43"
-                                                alt="avatar"></span></span></a>
-                                    <div id="company_menu"
-                                        class="dropdown-menu dropdown-menu-right navbar-company-menu">
-                                        <div
-                                            class="dropdown-item d-flex align-items-center py-2 navbar-company-info py-3">
-                                            <span class="mr-3"><img src="assets/images/profilew.png" width="43"
-                                                    height="43" alt="avatar"></span><span
-                                                class="flex d-flex flex-column"><strong style="font-size: 1.125rem;">Ms. User Wan</strong><small
-                                                    class="text-muted">@msuserwan</small></span>
+                                </ul>
+                                <div class="dropdown"><a href="#" data-toggle="dropdown" data-caret="false" class="dropdown-toggle navbar-toggler navbar-toggler-company border-left d-flex align-items-center ml-navbar"><span class="mr-3"><img src="assets/images/profilew.png" width="43" height="43" alt="avatar"></span></span></a>
+                                    <div id="company_menu" class="dropdown-menu dropdown-menu-right navbar-company-menu">
+                                        <div class="dropdown-item d-flex align-items-center py-2 navbar-company-info py-3">
+                                            <span class="mr-3"><img src="assets/images/profilew.png" width="43" height="43" alt="avatar"></span><span class="flex d-flex flex-column"><strong style="font-size: 1.125rem;">Ms. User Wan</strong><small class="text-muted">@msuserwan</small></span>
                                         </div>
                                         <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item d-flex align-items-center py-2"
-                                            href="patient_myprofile.php"><span class="material-icons mr-2">person</span>My
+                                        <a class="dropdown-item d-flex align-items-center py-2" href="patient_myprofile.php"><span class="material-icons mr-2">person</span>My
                                             Profile</a>
-                                         <a class="dropdown-item d-flex align-items-center py-2"
-                                            href="patient_changepassword.php"><span class="material-icons mr-2">lock</span>Change Password</a>
+                                        <a class="dropdown-item d-flex align-items-center py-2" href="patient_changepassword.php"><span class="material-icons mr-2">lock</span>Change Password</a>
                                         <!-- <a class="dropdown-item d-flex align-items-center py-2"
                                         href="changepasswordadmin.php"><span
                                             class="material-icons mr-2">lock</span>Change Password</a> -->
@@ -139,28 +135,20 @@
                     </div>
                 </div><!-- // END Header -->
                 <!-- Header Layout Content -->
-                <div
-                    class="mdk-header-layout__content mdk-header-layout__content--fullbleed mdk-header-layout__content--scrollable page">
+                <div class="mdk-header-layout__content mdk-header-layout__content--fullbleed mdk-header-layout__content--scrollable page">
                     <div class="container-fluid page__container">
                         <div class="z-0">
                             <ul class="nav nav-tabs nav-tabs-custom" role="tablist">
-                                <li class="nav-item"><a href="#tab-queue" class="nav-link active" data-toggle="tab"
-                                        role="tab" aria-controls="tab-queue" aria-selected="true"><span
-                                            class="nav-link__count">Approved</span>Total (17) </a></li>
-                                <li class="nav-item"><a href="#tab-earlier" class="nav-link" data-toggle="tab"
-                                        role="tab" aria-selected="false"><span
-                                            class="nav-link__count">Pending</span>Total (5)
+                                <li class="nav-item"><a href="#tab-queue" class="nav-link active" data-toggle="tab" role="tab" aria-controls="tab-queue" aria-selected="true"><span class="nav-link__count">Approved</span>Total (17) </a></li>
+                                <li class="nav-item"><a href="#tab-earlier" class="nav-link" data-toggle="tab" role="tab" aria-selected="false"><span class="nav-link__count">Pending</span>Total (5)
                                     </a></li>
-                                <li class="nav-item"><a href="#tab-wait-list" class="nav-link" data-toggle="tab"
-                                        role="tab" aria-selected="false"><span
-                                            class="nav-link__count">Declined</span>Total (2)
+                                <li class="nav-item"><a href="#tab-wait-list" class="nav-link" data-toggle="tab" role="tab" aria-selected="false"><span class="nav-link__count">Declined</span>Total (2)
                                     </a></li>
                                 <div>
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 </div>
 
-                                <li class="nav-item"><a href="#tab-history" class="nav-link" data-toggle="tab"
-                                        role="tab" aria-selected="false"><span class="nav-link__count">History</span>Total
+                                <li class="nav-item"><a href="#tab-history" class="nav-link" data-toggle="tab" role="tab" aria-selected="false"><span class="nav-link__count">History</span>Total
                                         (693)
                                     </a></li>
                                 <!-- <li class="nav-item"><a href="#tab-cancelled" class="nav-link" data-toggle="tab"
@@ -174,32 +162,23 @@
                             <div class="card">
                                 <div class="tab-content">
                                     <div class="tab-pane active show fade" id="tab-queue">
-                                        <div class="table-responsive border-bottom" data-toggle="lists"
-                                            data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-special", "js-lists-values-employee-date"]'>
-                                            <div class="search-form search-form--light m-3"><input type="text"
-                                                    class="form-control search"
-                                                    placeholder="Search Appointment ID or Doctor Name"><button class="btn"
-                                                    type="button" role="button"><i
-                                                        class="material-icons">search</i></button></div>
+                                        <div class="table-responsive border-bottom" data-toggle="lists" data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-special", "js-lists-values-employee-date"]'>
+                                            <div class="search-form search-form--light m-3"><input type="text" class="form-control search" placeholder="Search Appointment ID or Doctor Name"><button class="btn" type="button" role="button"><i class="material-icons">search</i></button></div>
                                             <table class="table mb-0 thead-border-top-0">
                                                 <thead>
                                                     <tr>
                                                         <th style="width: 120px;">
-                                                            <a href="javascript:void(0)" class="sort"
-                                                                data-sort="js-lists-values-employee-title">Consultation ID</a>
+                                                            <a href="javascript:void(0)" class="sort" data-sort="js-lists-values-employee-title">Consultation ID</a>
                                                         </th>
                                                         <th style="width: 200px;">
-                                                            <a href="javascript:void(0)" class="sort"
-                                                                data-sort="js-lists-values-employee-name">Doctor
-                                                                </a>
+                                                            <a href="javascript:void(0)" class="sort" data-sort="js-lists-values-employee-name">Doctor
+                                                            </a>
                                                         </th>
                                                         <th style="width: 100px;">
-                                                            <a href="javascript:void(0)" class="sort"
-                                                                data-sort="js-lists-values-employee-special">Specialization</a>
+                                                            <a href="javascript:void(0)" class="sort" data-sort="js-lists-values-employee-special">Specialization</a>
                                                         </th>
                                                         <th style="width: 37px;">
-                                                            <a href="javascript:void(0)" class="sort"
-                                                                data-sort="js-lists-values-employee-date">Date</a>
+                                                            <a href="javascript:void(0)" class="sort" data-sort="js-lists-values-employee-date">Date</a>
                                                         </th>
                                                         <th style="width: 100px;">Time</th>
                                                         <th style="width: 150px;">Service</th>
@@ -212,17 +191,13 @@
                                                 <tbody class="list" id="staff02">
 
                                                     <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">2022-0001</strong></span>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">2022-0001</strong></span>
                                                         </td>
                                                         <td>
                                                             <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/doctrii.jpg" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/doctrii.jpg" alt="Avatar" class="avatar-img rounded-circle">
                                                                 </div>
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">Dr. Number Tehen</strong></div>
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Dr. Number Tehen</strong></div>
                                                             </div>
                                                         </td>
                                                         <td><span class="js-lists-values-employee-special">Endocrinology</span></td>
@@ -232,29 +207,18 @@
                                                         <td><span class="badge badge-success">APPROVED</span></td>
                                                         <td>
                                                             <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
-                                                                    class="material-icons">remove_red_eye</i></button>
-                                                            </div>
-                                                            <div class="button-list">
-                                                                <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-delete"><i
-                                                                    class="material-icons">delete</i></button>
+                                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">2022-0002</strong></span>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">2022-0002</strong></span>
                                                         </td>
                                                         <td>
                                                             <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/doctor2.png" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/doctor2.png" alt="Avatar" class="avatar-img rounded-circle">
                                                                 </div>
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">Dr. Number Nayn</strong><small class="text-muted"></small></div>
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Dr. Number Nayn</strong><small class="text-muted"></small></div>
                                                             </div>
                                                         </td>
                                                         <td><span class="js-lists-values-employee-special">Pediatrics</span></td>
@@ -264,29 +228,18 @@
                                                         <td><span class="badge badge-success">APPROVED</span></td>
                                                         <td>
                                                             <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
-                                                                    class="material-icons">remove_red_eye</i></button>
-                                                            </div>
-                                                            <div class="button-list">
-                                                                <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-delete"><i
-                                                                    class="material-icons">delete</i></button>
+                                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">2022-0003</strong></span>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">2022-0003</strong></span>
                                                         </td>
                                                         <td>
                                                             <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/doctor.png" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/doctor.png" alt="Avatar" class="avatar-img rounded-circle">
                                                                 </div>
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">Dr. Number Trii
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Dr. Number Trii
                                                                     </strong><small class="text-muted"></small></div>
                                                             </div>
                                                         </td>
@@ -297,31 +250,20 @@
                                                         <td><span class="badge badge-success">APPROVED</span></td>
                                                         <td>
                                                             <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
-                                                                    class="material-icons">remove_red_eye</i></button>
-                                                            </div>
-                                                            <div class="button-list">
-                                                                <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-delete"><i
-                                                                    class="material-icons">delete</i></button>
+                                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">2022-0004</strong></span>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">2022-0004</strong></span>
                                                         </td>
                                                         <td>
                                                             <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/doc5.png" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/doc5.png" alt="Avatar" class="avatar-img rounded-circle">
                                                                 </div>
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">Doctor Number Wan
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Doctor Number Wan
                                                                     </strong><small class="text-muted">
-                                                                        </small></div>
+                                                                    </small></div>
                                                             </div>
                                                         </td>
                                                         <td><span class="js-lists-values-employee-special">Nephrology</span></td>
@@ -331,29 +273,18 @@
                                                         <td><span class="badge badge-success">APPROVED</span></td>
                                                         <td>
                                                             <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
-                                                                    class="material-icons">remove_red_eye</i></button>
-                                                            </div>
-                                                            <div class="button-list">
-                                                                <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-delete"><i
-                                                                    class="material-icons">delete</i></button>
+                                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">2022-0005</strong></span>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">2022-0005</strong></span>
                                                         </td>
                                                         <td>
                                                             <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/doc4.jfif" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/doc4.jfif" alt="Avatar" class="avatar-img rounded-circle">
                                                                 </div>
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">Dr. Number For
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Dr. Number For
                                                                     </strong><small class="text-muted"></small></div>
                                                             </div>
                                                         </td>
@@ -364,74 +295,59 @@
                                                         <td><span class="badge badge-success">APPROVED</span></td>
                                                         <td>
                                                             <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
-                                                                    class="material-icons">remove_red_eye</i></button>
+                                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button>
                                                             </div>
-                                                            <div class="button-list">
+                                                            <!-- <div class="button-list">
                                                                 <button type="button" class="btn btn-danger"
                                                                     data-toggle="modal" data-target="#modal-delete"><i
                                                                     class="material-icons">delete</i></button>
-                                                            </div>
+                                                            </div> -->
                                                         </td>
                                                     </tr>
                                                 </tbody>
                                             </table>
                                         </div>
                                         <div class="card-body text-right">Showing 5 <span class="text-muted">of
-                                                24</span><a href="#" class="text-muted-light"><i
-                                                    class="material-icons ml-1">arrow_forward</i></a></div>
+                                                24</span><a href="#" class="text-muted-light"><i class="material-icons ml-1">arrow_forward</i></a></div>
                                     </div>
                                     <div class="tab-pane fade" id="tab-earlier">
-                                        <div class="table-responsive border-bottom" data-toggle="lists"
-                                            data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-special", "js-lists-values-employee-date"]'>
-                                            <div class="search-form search-form--light m-3"><input type="text"
-                                                    class="form-control search"
-                                                    placeholder="Search Appointment ID or Doctor Name"><button class="btn"
-                                                    type="button" role="button"><i
-                                                        class="material-icons">search</i></button></div>
+                                        <div class="table-responsive border-bottom" data-toggle="lists" data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-special", "js-lists-values-employee-date"]'>
+                                            <div class="search-form search-form--light m-3"><input type="text" class="form-control search" placeholder="Search Appointment ID or Doctor Name"><button class="btn" type="button" role="button"><i class="material-icons">search</i></button></div>
                                             <table class="table mb-0 thead-border-top-0">
                                                 <thead>
                                                     <tr>
-                                                        <th style="width: 120px;">
-                                                            <a href="javascript:void(0)" class="sort"
-                                                                data-sort="js-lists-values-employee-title">Consultation ID</a>
+                                                        <th style="width: 150px;">
+                                                            <a href="javascript:void(0)" class="sort" data-sort="js-lists-values-employee-title">Consultation ID</a>
                                                         </th>
                                                         <th style="width: 200px;">
-                                                            <a href="javascript:void(0)" class="sort"
-                                                                data-sort="js-lists-values-employee-name">Doctor
-                                                                </a>
+                                                            <a href="javascript:void(0)" class="sort" data-sort="js-lists-values-employee-name">Doctor
+                                                            </a>
                                                         </th>
                                                         <th style="width: 100px;">
-                                                            <a href="javascript:void(0)" class="sort"
-                                                                data-sort="js-lists-values-employee-special">Specialization</a>
+                                                            <a href="javascript:void(0)" class="sort" data-sort="js-lists-values-employee-special">Specialization</a>
                                                         </th>
                                                         <th style="width: 37px;">
-                                                            <a href="javascript:void(0)" class="sort"
-                                                                data-sort="js-lists-values-employee-date">Date</a>
+                                                            <a href="javascript:void(0)" class="sort" data-sort="js-lists-values-employee-date">Date</a>
                                                         </th>
                                                         <th style="width: 100px;">Time</th>
-                                                        <th style="width: 150px;">Service</th>
+                                                        <th style="width: 80px;">Service</th>
                                                         <th style="width: 37px;">Status</th>
                                                         <!-- <th style="width: 120px;">Last Activity</th> -->
-                                                        <th style="width: 50px;">Action</th>
+                                                        <th style="width: 150px;">Action</th>
+
                                                         <!-- <th style="width: 24px;"></th> -->
                                                     </tr>
                                                 </thead>
                                                 <tbody class="list" id="staff02">
 
                                                     <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">2022-0001</strong></span>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">2022-0001</strong></span>
                                                         </td>
                                                         <td>
                                                             <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/doctor2.png" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/doctor2.png" alt="Avatar" class="avatar-img rounded-circle">
                                                                 </div>
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">Dr. Number For</strong></div>
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Dr. Number For</strong></div>
                                                             </div>
                                                         </td>
                                                         <td><span class="js-lists-values-employee-special">Urology</span></td>
@@ -441,29 +357,24 @@
                                                         <td><span class="badge badge-warning">PENDING</span></td>
                                                         <td>
                                                             <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
-                                                                    class="material-icons">remove_red_eye</i></button>
-                                                            </div>
-                                                            <div class="button-list">
-                                                                <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-cancel"><i
-                                                                    class="material-icons">cancel</i></button>
+                                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-pending"><i class="material-icons">remove_red_eye</i></button>
+                                                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-cancel"><i class="material-icons">cancel</i></button>
+                                                                <a href="patient_request.php">
+                                                                    <div class="button-list">
+                                                                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target=""><i class="material-icons">refresh</i></button>
+                                                                    </div>
+                                                                </a>
                                                             </div>
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">2022-0002</strong></span>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">2022-0002</strong></span>
                                                         </td>
                                                         <td>
                                                             <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/doctrii.jpg" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/doctrii.jpg" alt="Avatar" class="avatar-img rounded-circle">
                                                                 </div>
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">Number Seeks</strong><small class="text-muted"></small></div>
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Number Seeks</strong><small class="text-muted"></small></div>
                                                             </div>
                                                         </td>
                                                         <td><span class="js-lists-values-employee-special">Nephrology</span></td>
@@ -473,29 +384,24 @@
                                                         <td><span class="badge badge-warning">PENDING</span></td>
                                                         <td>
                                                             <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
-                                                                    class="material-icons">remove_red_eye</i></button>
-                                                            </div>
-                                                            <div class="button-list">
-                                                                <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-cancel"><i
-                                                                    class="material-icons">cancel</i></button>
+                                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-pending"><i class="material-icons">remove_red_eye</i></button>
+                                                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-cancel"><i class="material-icons">cancel</i></button>
+                                                                <a href="patient_request.php">
+                                                                    <div class="button-list">
+                                                                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target=""><i class="material-icons">refresh</i></button>
+                                                                    </div>
+                                                                </a>
                                                             </div>
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">2022-0003</strong></span>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">2022-0003</strong></span>
                                                         </td>
                                                         <td>
                                                             <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/doctor.png" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/doctor.png" alt="Avatar" class="avatar-img rounded-circle">
                                                                 </div>
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">Dr. Number Seyven
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Dr. Number Seyven
                                                                     </strong><small class="text-muted"></small></div>
                                                             </div>
                                                         </td>
@@ -506,31 +412,26 @@
                                                         <td><span class="badge badge-warning">PENDING</span></td>
                                                         <td>
                                                             <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
-                                                                    class="material-icons">remove_red_eye</i></button>
-                                                            </div>
-                                                            <div class="button-list">
-                                                                <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-cancel"><i
-                                                                    class="material-icons">cancel</i></button>
+                                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-pending"><i class="material-icons">remove_red_eye</i></button>
+                                                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-cancel"><i class="material-icons">cancel</i></button>
+                                                                <a href="patient_request.php">
+                                                                    <div class="button-list">
+                                                                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target=""><i class="material-icons">refresh</i></button>
+                                                                    </div>
+                                                                </a>
                                                             </div>
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">2022-0004</strong></span>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">2022-0004</strong></span>
                                                         </td>
                                                         <td>
                                                             <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/doc4.jfif" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/doc4.jfif" alt="Avatar" class="avatar-img rounded-circle">
                                                                 </div>
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">Dr. Number Too
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Dr. Number Too
                                                                     </strong><small class="text-muted">
-                                                                </small></div>
+                                                                    </small></div>
                                                             </div>
                                                         </td>
                                                         <td><span class="js-lists-values-employee-special">Neurology</span></td>
@@ -540,29 +441,24 @@
                                                         <td><span class="badge badge-warning">PENDING</span></td>
                                                         <td>
                                                             <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
-                                                                    class="material-icons">remove_red_eye</i></button>
-                                                            </div>
-                                                            <div class="button-list">
-                                                                <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-cancel"><i
-                                                                    class="material-icons">cancel</i></button>
+                                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-pending"><i class="material-icons">remove_red_eye</i></button>
+                                                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-cancel"><i class="material-icons">cancel</i></button>
+                                                                <a href="patient_request.php">
+                                                                    <div class="button-list">
+                                                                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target=""><i class="material-icons">refresh</i></button>
+                                                                    </div>
+                                                                </a>
                                                             </div>
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">2022-0005</strong></span>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">2022-0005</strong></span>
                                                         </td>
                                                         <td>
                                                             <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/doc5.png" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/doc5.png" alt="Avatar" class="avatar-img rounded-circle">
                                                                 </div>
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">Dr. Number Trii
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Dr. Number Trii
                                                                     </strong><small class="text-muted"></small></div>
                                                             </div>
                                                         </td>
@@ -573,14 +469,13 @@
                                                         <td><span class="badge badge-warning">PENDING</span></td>
                                                         <td>
                                                             <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
-                                                                    class="material-icons">remove_red_eye</i></button>
-                                                            </div>
-                                                            <div class="button-list">
-                                                                <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-cancel"><i
-                                                                    class="material-icons">cancel</i></button>
+                                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-pending"><i class="material-icons">remove_red_eye</i></button>
+                                                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-cancel"><i class="material-icons">cancel</i></button>
+                                                                <a href="patient_request.php">
+                                                                    <div class="button-list">
+                                                                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target=""><i class="material-icons">refresh</i></button>
+                                                                    </div>
+                                                                </a>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -588,59 +483,45 @@
                                             </table>
                                         </div>
                                         <div class="card-body text-right">Showing 5 <span class="text-muted">of
-                                                24</span><a href="#" class="text-muted-light"><i
-                                                    class="material-icons ml-1">arrow_forward</i></a></div>
+                                                24</span><a href="#" class="text-muted-light"><i class="material-icons ml-1">arrow_forward</i></a></div>
                                     </div>
                                     <div class="tab-pane fade" id="tab-wait-list">
-                                        <div class="table-responsive border-bottom" data-toggle="lists"
-                                            data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-special", "js-lists-values-employee-date"]'>
-                                            <div class="search-form search-form--light m-3"><input type="text"
-                                                    class="form-control search"
-                                                    placeholder="Search Appointment ID or Doctor Name"><button class="btn"
-                                                    type="button" role="button"><i
-                                                        class="material-icons">search</i></button></div>
+                                        <div class="table-responsive border-bottom" data-toggle="lists" data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-special", "js-lists-values-employee-date"]'>
+                                            <div class="search-form search-form--light m-3"><input type="text" class="form-control search" placeholder="Search Appointment ID or Doctor Name"><button class="btn" type="button" role="button"><i class="material-icons">search</i></button></div>
                                             <table class="table mb-0 thead-border-top-0">
                                                 <thead>
                                                     <tr>
-                                                        <th style="width: 120px;">
-                                                            <a href="javascript:void(0)" class="sort"
-                                                                data-sort="js-lists-values-employee-title">Consultation ID</a>
+                                                        <th style="width: 150px;">
+                                                            <a href="javascript:void(0)" class="sort" data-sort="js-lists-values-employee-title">Consultation ID</a>
                                                         </th>
                                                         <th style="width: 200px;">
-                                                            <a href="javascript:void(0)" class="sort"
-                                                                data-sort="js-lists-values-employee-name">Doctor
-                                                                </a>
+                                                            <a href="javascript:void(0)" class="sort" data-sort="js-lists-values-employee-name">Doctor
+                                                            </a>
                                                         </th>
                                                         <th style="width: 100px;">
-                                                            <a href="javascript:void(0)" class="sort"
-                                                                data-sort="js-lists-values-employee-special">Specialization</a>
+                                                            <a href="javascript:void(0)" class="sort" data-sort="js-lists-values-employee-special">Specialization</a>
                                                         </th>
                                                         <th style="width: 37px;">
-                                                            <a href="javascript:void(0)" class="sort"
-                                                                data-sort="js-lists-values-employee-date">Date</a>
+                                                            <a href="javascript:void(0)" class="sort" data-sort="js-lists-values-employee-date">Date</a>
                                                         </th>
                                                         <th style="width: 100px;">Time</th>
-                                                        <th style="width: 150px;">Service</th>
+                                                        <th style="width: 80px;">Service</th>
                                                         <th style="width: 37px;">Status</th>
                                                         <!-- <th style="width: 120px;">Last Activity</th> -->
-                                                        <th style="width: 50px;">Action</th>
+                                                        <th style="width: 150px;">Action</th>
                                                         <!-- <th style="width: 24px;"></th> -->
                                                     </tr>
                                                 </thead>
                                                 <tbody class="list" id="staff02">
 
                                                     <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">2022-0001</strong></span>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">2022-0001</strong></span>
                                                         </td>
                                                         <td>
                                                             <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/doc4.jfif" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/doc4.jfif" alt="Avatar" class="avatar-img rounded-circle">
                                                                 </div>
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">Dr. Number Nayn</strong></div>
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Dr. Number Nayn</strong></div>
                                                             </div>
                                                         </td>
                                                         <td><span class="js-lists-values-employee-special">Pulmonology</span></td>
@@ -650,29 +531,19 @@
                                                         <td><span class="badge badge-danger">DECLINED</span></td>
                                                         <td>
                                                             <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
-                                                                    class="material-icons">remove_red_eye</i></button>
-                                                            </div>
-                                                            <div class="button-list">
-                                                                <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-delete"><i
-                                                                    class="material-icons">delete</i></button>
+                                                                <a href="#"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-denied"><i class="material-icons">remove_red_eye</i></button></a>&nbsp;&nbsp;
+                                                                <a href="patient_request.php"><button type="button" class="btn btn-danger" data-toggle="modal" data-dismiss=""><i class="material-icons">refresh</i></button></a>
                                                             </div>
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">2022-0002</strong></span>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">2022-0002</strong></span>
                                                         </td>
                                                         <td>
                                                             <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/doctrii.jpg" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/doctrii.jpg" alt="Avatar" class="avatar-img rounded-circle">
                                                                 </div>
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">Dr. Number Tehen
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Dr. Number Tehen
                                                                     </strong><small class="text-muted"></small></div>
                                                             </div>
                                                         </td>
@@ -683,31 +554,21 @@
                                                         <td><span class="badge badge-danger">DECLINED</span></td>
                                                         <td>
                                                             <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
-                                                                    class="material-icons">remove_red_eye</i></button>
-                                                            </div>
-                                                            <div class="button-list">
-                                                                <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-delete"><i
-                                                                    class="material-icons">delete</i></button>
+                                                                <a href="#"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-denied"><i class="material-icons">remove_red_eye</i></button></a>&nbsp;&nbsp;
+                                                                <a href="patient_request.php"><button type="button" class="btn btn-danger" data-toggle="modal" data-dismiss=""><i class="material-icons">refresh</i></button></a>
                                                             </div>
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">2022-0003</strong></span>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">2022-0003</strong></span>
                                                         </td>
                                                         <td>
                                                             <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/doctor2.png" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/doctor2.png" alt="Avatar" class="avatar-img rounded-circle">
                                                                 </div>
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">Dr. Number Fayve
-                                                                        </strong><small class="text-muted">
-                                                                        </small></div>
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Dr. Number Fayve
+                                                                    </strong><small class="text-muted">
+                                                                    </small></div>
                                                             </div>
                                                         </td>
                                                         <td><span class="js-lists-values-employee-special">Cardiology</span></td>
@@ -717,29 +578,19 @@
                                                         <td><span class="badge badge-danger">DECLINED</span></td>
                                                         <td>
                                                             <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
-                                                                    class="material-icons">remove_red_eye</i></button>
-                                                            </div>
-                                                            <div class="button-list">
-                                                                <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-delete"><i
-                                                                    class="material-icons">delete</i></button>
+                                                                <a href="#"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-denied"><i class="material-icons">remove_red_eye</i></button></a>&nbsp;&nbsp;
+                                                                <a href="patient_request.php"><button type="button" class="btn btn-danger" data-toggle="modal" data-dismiss=""><i class="material-icons">refresh</i></button></a>
                                                             </div>
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">2022-0004</strong></span>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">2022-0004</strong></span>
                                                         </td>
                                                         <td>
                                                             <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/doctor.png" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/doctor.png" alt="Avatar" class="avatar-img rounded-circle">
                                                                 </div>
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">Dr. Number Trii
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Dr. Number Trii
                                                                     </strong><small class="text-muted"></small></div>
                                                             </div>
                                                         </td>
@@ -750,29 +601,19 @@
                                                         <td><span class="badge badge-danger">DECLINED</span></td>
                                                         <td>
                                                             <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
-                                                                    class="material-icons">remove_red_eye</i></button>
-                                                            </div>
-                                                            <div class="button-list">
-                                                                <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-delete"><i
-                                                                    class="material-icons">delete</i></button>
+                                                                <a href="#"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-denied"><i class="material-icons">remove_red_eye</i></button></a>&nbsp;&nbsp;
+                                                                <a href="patient_request.php"><button type="button" class="btn btn-danger" data-toggle="modal" data-dismiss=""><i class="material-icons">refresh</i></button></a>
                                                             </div>
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">2022-0005</strong></span>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">2022-0005</strong></span>
                                                         </td>
                                                         <td>
                                                             <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/doc5.png" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/doc5.png" alt="Avatar" class="avatar-img rounded-circle">
                                                                 </div>
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">Dr. Number Too
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Dr. Number Too
                                                                     </strong><small class="text-muted"></small></div>
                                                             </div>
                                                         </td>
@@ -783,14 +624,8 @@
                                                         <td><span class="badge badge-danger">DECLINED</span></td>
                                                         <td>
                                                             <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
-                                                                    class="material-icons">remove_red_eye</i></button>
-                                                            </div>
-                                                            <div class="button-list">
-                                                                <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-delete"><i
-                                                                    class="material-icons">delete</i></button>
+                                                                <a href="#"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-denied"><i class="material-icons">remove_red_eye</i></button></a>&nbsp;&nbsp;
+                                                                <a href="patient_request.php"><button type="button" class="btn btn-danger" data-toggle="modal" data-dismiss=""><i class="material-icons">refresh</i></button></a>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -798,37 +633,27 @@
                                             </table>
                                         </div>
                                         <div class="card-body text-right">Showing 5 <span class="text-muted">of
-                                                24</span><a href="#" class="text-muted-light"><i
-                                                    class="material-icons ml-1">arrow_forward</i></a></div>
+                                                24</span><a href="#" class="text-muted-light"><i class="material-icons ml-1">arrow_forward</i></a></div>
                                     </div>
 
                                     <div class="tab-pane fade" id="tab-history">
-                                        <div class="table-responsive border-bottom" data-toggle="lists"
-                                            data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-special", "js-lists-values-employee-date"]'>
-                                            <div class="search-form search-form--light m-3"><input type="text"
-                                                    class="form-control search"
-                                                    placeholder="Search Appointment ID or Doctor Name"><button class="btn"
-                                                    type="button" role="button"><i
-                                                        class="material-icons">search</i></button></div>
+                                        <div class="table-responsive border-bottom" data-toggle="lists" data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-special", "js-lists-values-employee-date"]'>
+                                            <div class="search-form search-form--light m-3"><input type="text" class="form-control search" placeholder="Search Appointment ID or Doctor Name"><button class="btn" type="button" role="button"><i class="material-icons">search</i></button></div>
                                             <table class="table mb-0 thead-border-top-0">
                                                 <thead>
                                                     <tr>
                                                         <th style="width: 150px;">
-                                                            <a href="javascript:void(0)" class="sort"
-                                                                data-sort="js-lists-values-employee-title">Consultation ID</a>
+                                                            <a href="javascript:void(0)" class="sort" data-sort="js-lists-values-employee-title">Consultation ID</a>
                                                         </th>
                                                         <th colspan="1">
-                                                            <a href="javascript:void(0)" class="sort"
-                                                                data-sort="js-lists-values-employee-name">Doctor
-                                                                </a>
+                                                            <a href="javascript:void(0)" class="sort" data-sort="js-lists-values-employee-name">Doctor
+                                                            </a>
                                                         </th>
                                                         <th colspan="1">
-                                                            <a href="javascript:void(0)" class="sort"
-                                                                data-sort="js-lists-values-employee-special">Specialization</a>
+                                                            <a href="javascript:void(0)" class="sort" data-sort="js-lists-values-employee-special">Specialization</a>
                                                         </th>
                                                         <th style="width: 37px;">
-                                                            <a href="javascript:void(0)" class="sort"
-                                                                data-sort="js-lists-values-employee-date">Date</a>
+                                                            <a href="javascript:void(0)" class="sort" data-sort="js-lists-values-employee-date">Date</a>
                                                         </th>
                                                         <th style="width: 100px;">Time</th>
                                                         <th style="width: 180px;">Service</th>
@@ -841,17 +666,13 @@
                                                 <tbody class="list" id="staff02">
 
                                                     <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">2022-0001</strong></span>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">2022-0001</strong></span>
                                                         </td>
                                                         <td>
                                                             <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/doc4.jfif" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/doc4.jfif" alt="Avatar" class="avatar-img rounded-circle">
                                                                 </div>
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">Dr. Number Wan</strong></div>
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Dr. Number Wan</strong></div>
                                                             </div>
                                                         </td>
                                                         <td><span class="js-lists-values-employee-special">Cardiology</span></td>
@@ -861,24 +682,18 @@
                                                         <td><span class="badge badge-primary">DONE</span></td>
                                                         <td>
                                                             <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
-                                                                    class="material-icons">remove_red_eye</i></button>
+                                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-done"><i class="material-icons">remove_red_eye</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">2022-0002</strong></span>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">2022-0002</strong></span>
                                                         </td>
                                                         <td>
                                                             <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/doc5.png" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/doc5.png" alt="Avatar" class="avatar-img rounded-circle">
                                                                 </div>
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">Dr. Number Too
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Dr. Number Too
                                                                     </strong><small class="text-muted"></small></div>
                                                             </div>
                                                         </td>
@@ -889,24 +704,18 @@
                                                         <td><span class="badge badge-primary">DONE</span></td>
                                                         <td>
                                                             <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
-                                                                    class="material-icons">remove_red_eye</i></button>
+                                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-done"><i class="material-icons">remove_red_eye</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">2022-0003</strong></span>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">2022-0003</strong></span>
                                                         </td>
                                                         <td>
                                                             <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/doctor.png" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/doctor.png" alt="Avatar" class="avatar-img rounded-circle">
                                                                 </div>
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">Dr. Number For
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Dr. Number For
                                                                     </strong><small class="text-muted"></small></div>
                                                             </div>
                                                         </td>
@@ -917,24 +726,18 @@
                                                         <td><span class="badge badge-secondary">CANCELLED</span></td>
                                                         <td>
                                                             <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
-                                                                    class="material-icons">remove_red_eye</i></button>
+                                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-cancelled"><i class="material-icons">remove_red_eye</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">2022-0004</strong></span>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">2022-0004</strong></span>
                                                         </td>
                                                         <td>
                                                             <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/doctor2.png" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/doctor2.png" alt="Avatar" class="avatar-img rounded-circle">
                                                                 </div>
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">Dr. Number Seeks
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Dr. Number Seeks
                                                                     </strong><small class="text-muted"></small></div>
                                                             </div>
                                                         </td>
@@ -945,24 +748,18 @@
                                                         <td><span class="badge badge-secondary">CANCELLED</span></td>
                                                         <td>
                                                             <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
-                                                                    class="material-icons">remove_red_eye</i></button>
+                                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-cancelled"><i class="material-icons">remove_red_eye</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">2022-0005</strong></span>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">2022-0005</strong></span>
                                                         </td>
                                                         <td>
                                                             <div class="media align-items-center">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/doctrii.jpg" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/doctrii.jpg" alt="Avatar" class="avatar-img rounded-circle">
                                                                 </div>
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">Dr. Number Ate
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Dr. Number Ate
                                                                     </strong><small class="text-muted"></small></div>
                                                             </div>
                                                         </td>
@@ -973,9 +770,7 @@
                                                         <td><span class="badge badge-primary">DONE</span></td>
                                                         <td>
                                                             <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
-                                                                    class="material-icons">remove_red_eye</i></button>
+                                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-done"><i class="material-icons">remove_red_eye</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -983,8 +778,7 @@
                                             </table>
                                         </div>
                                         <div class="card-body text-right">Showing 5 <span class="text-muted">of
-                                                24</span><a href="#" class="text-muted-light"><i
-                                                    class="material-icons ml-1">arrow_forward</i></a></div>
+                                                24</span><a href="#" class="text-muted-light"><i class="material-icons ml-1">arrow_forward</i></a></div>
                                     </div>
                                 </div>
                             </div>
@@ -1001,10 +795,7 @@
                 <div class="modal-content">
                     <div class="modal-body">
                         <div class="px-3">
-                            <div class="d-flex justify-content-center mt-2 mb-4 navbar-light"><a href="index.php"
-                                    class="navbar-brand" style="min-width: 0"><img class="navbar-brand-icon"
-                                        src="assets/img/rxcliniclogowithoutline.png" width="50"
-                                        alt="Stack"><span>Appointment Details</span></a></div>
+                            <div class="d-flex justify-content-center mt-2 mb-4 navbar-light"><a href="index.php" class="navbar-brand" style="min-width: 0"><img class="navbar-brand-icon" src="assets/img/rxcliniclogowithoutline.png" width="50" alt="Stack"><span>Appointment Details</span></a></div>
                             <div class="page-separator"></div>
                             <div class="modal-body">
                                 <p><strong>Appointment Code: </strong>2022-0001</p>
@@ -1013,15 +804,117 @@
                                 <p><strong>Schedule: </strong>9:00 AM Aug 08, 2022</p>
                                 <p><strong>Status: </strong>APPROVED</p>
                                 <br>
-                                <div class="alert alert-soft-success d-flex" role="alert"><i
-                                        class="material-icons mr-3">check_circle</i>
+                                <div class="alert alert-soft-success d-flex" role="alert"><i class="material-icons mr-3">check_circle</i>
                                     <div class="text-body">Your appointment is now <strong>APPROVED</strong>. Please wait according to the schedule.</div>
                                 </div>
                             </div><!-- // END .modal-body -->
                         </div>
                     </div><!-- // END .modal-body -->
-                    <div class="modal-footer"><button type="button" class="btn btn-light"
-                            data-dismiss="modal">Close</button></div><!-- // END .modal-footer -->
+                    <div class="modal-footer"><button type="button" class="btn btn-light" data-dismiss="modal">Close</button></div><!-- // END .modal-footer -->
+                </div><!-- // END .modal-content -->
+            </div><!-- // END .modal-dialog -->
+        </div><!-- // END .modal -->
+
+        <!-- Info Modal -->
+        <div id="modal-pending" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="px-3">
+                            <div class="d-flex justify-content-center mt-2 mb-4 navbar-light"><a href="index.php" class="navbar-brand" style="min-width: 0"><img class="navbar-brand-icon" src="assets/img/rxcliniclogowithoutline.png" width="50" alt="Stack"><span>Appointment Details</span></a></div>
+                            <div class="page-separator"></div>
+                            <div class="modal-body">
+                                <p><strong>Appointment Code: </strong>2022-0001</p>
+                                <p><strong>Personnel: </strong>Dr. Number Seyven</p>
+                                <p><strong>Service: </strong>Oncology</p>
+                                <p><strong>Schedule: </strong>9:00 AM Aug 08, 2022</p>
+                                <p><strong>Status: </strong>PENDING</p>
+                                <br>
+                                <div class="alert alert-soft-warning d-flex" role="alert"><i class="material-icons mr-3">refresh</i>
+                                    <div class="text-body">Your appointment is still <strong>PENDING</strong>. Please wait for approval of the consultation.</div>
+                                </div>
+                            </div><!-- // END .modal-body -->
+                        </div>
+                    </div><!-- // END .modal-body -->
+                    <div class="modal-footer"><button type="button" class="btn btn-light" data-dismiss="modal">Close</button></div><!-- // END .modal-footer -->
+                </div><!-- // END .modal-content -->
+            </div><!-- // END .modal-dialog -->
+        </div><!-- // END .modal -->
+
+        <!-- Info Modal -->
+        <div id="modal-denied" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="px-3">
+                            <div class="d-flex justify-content-center mt-2 mb-4 navbar-light"><a href="index.php" class="navbar-brand" style="min-width: 0"><img class="navbar-brand-icon" src="assets/img/rxcliniclogowithoutline.png" width="50" alt="Stack"><span>Appointment Details</span></a></div>
+                            <div class="page-separator"></div>
+                            <div class="modal-body">
+                                <p><strong>Appointment Code: </strong>2022-0001</p>
+                                <p><strong>Personnel: </strong>Dr. Number Seyven</p>
+                                <p><strong>Service: </strong>Oncology</p>
+                                <p><strong>Schedule: </strong>9:00 AM Aug 08, 2022</p>
+                                <p><strong>Status: </strong>DECLINED</p>
+                                <br>
+                                <div class="alert alert-soft-danger d-flex" role="alert"><i class="material-icons mr-3">cancel</i>
+                                    <div class="text-body">Sorry but your appointment was <strong>DECLINED</strong>. There could be a conflict in schedule but you can book a new consultation.</div>
+                                </div>
+                            </div><!-- // END .modal-body -->
+                        </div>
+                    </div><!-- // END .modal-body -->
+                    <div class="modal-footer"><button type="button" class="btn btn-light" data-dismiss="modal">Close</button></div><!-- // END .modal-footer -->
+                </div><!-- // END .modal-content -->
+            </div><!-- // END .modal-dialog -->
+        </div><!-- // END .modal -->
+
+        <!-- Info Modal -->
+        <div id="modal-done" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="px-3">
+                            <div class="d-flex justify-content-center mt-2 mb-4 navbar-light"><a href="index.php" class="navbar-brand" style="min-width: 0"><img class="navbar-brand-icon" src="assets/img/rxcliniclogowithoutline.png" width="50" alt="Stack"><span>Appointment Details</span></a></div>
+                            <div class="page-separator"></div>
+                            <div class="modal-body">
+                                <p><strong>Appointment Code: </strong>2022-0001</p>
+                                <p><strong>Personnel: </strong>Dr. Number Seyven</p>
+                                <p><strong>Service: </strong>Oncology</p>
+                                <p><strong>Schedule: </strong>9:00 AM Aug 08, 2022</p>
+                                <p><strong>Status: </strong>DONE</p>
+                                <br>
+                                <div class="alert alert-soft-primary d-flex" role="alert"><i class="material-icons mr-3">check_circle</i>
+                                    <div class="text-body">This appointment is <strong>DONE</strong>. You can book a new consultation.</div>
+                                </div>
+                            </div><!-- // END .modal-body -->
+                        </div>
+                    </div><!-- // END .modal-body -->
+                    <div class="modal-footer"><button type="button" class="btn btn-light" data-dismiss="modal">Close</button></div><!-- // END .modal-footer -->
+                </div><!-- // END .modal-content -->
+            </div><!-- // END .modal-dialog -->
+        </div><!-- // END .modal -->
+
+        <!-- Info Modal -->
+        <div id="modal-cancelled" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="px-3">
+                            <div class="d-flex justify-content-center mt-2 mb-4 navbar-light"><a href="index.php" class="navbar-brand" style="min-width: 0"><img class="navbar-brand-icon" src="assets/img/rxcliniclogowithoutline.png" width="50" alt="Stack"><span>Appointment Details</span></a></div>
+                            <div class="page-separator"></div>
+                            <div class="modal-body">
+                                <p><strong>Appointment Code: </strong>2022-0001</p>
+                                <p><strong>Personnel: </strong>Dr. Number Seyven</p>
+                                <p><strong>Service: </strong>Oncology</p>
+                                <p><strong>Schedule: </strong>9:00 AM Aug 08, 2022</p>
+                                <p><strong>Status: </strong>CANCELLED</p>
+                                <br>
+                                <div class="alert alert-soft-dark d-flex" role="alert"><i class="material-icons mr-3">cancel</i>
+                                    <div class="text-body">This appointment was <strong>CANCELLED</strong>. You can book a new consultation.</div>
+                                </div>
+                            </div><!-- // END .modal-body -->
+                        </div>
+                    </div><!-- // END .modal-body -->
+                    <div class="modal-footer"><button type="button" class="btn btn-light" data-dismiss="modal">Close</button></div><!-- // END .modal-footer -->
                 </div><!-- // END .modal-content -->
             </div><!-- // END .modal-dialog -->
         </div><!-- // END .modal -->
@@ -1030,11 +923,9 @@
         <div id="modal-cancel" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-sm">
                 <div class="modal-content bg-danger">
-                    <div class="modal-body text-center p-4"><i
-                            class="material-icons icon-40pt text-white mb-2">clear</i>
+                    <div class="modal-body text-center p-4"><i class="material-icons icon-40pt text-white mb-2">clear</i>
                         <h4 class="text-white">Cancelled!</h4>
-                        <p class="text-white mt-3">You cancelled a consultation.</p><button type="button"
-                            class="btn btn-light my-2" data-dismiss="modal">Continue</button>
+                        <p class="text-white mt-3">You cancelled a consultation.</p><button type="button" class="btn btn-light my-2" data-dismiss="modal">Continue</button>
                     </div><!-- // END .modal-body -->
                 </div><!-- // END .modal-content -->
             </div><!-- // END .modal-dialog -->
@@ -1044,11 +935,9 @@
         <div id="modal-delete" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-sm">
                 <div class="modal-content bg-danger">
-                    <div class="modal-body text-center p-4"><i
-                            class="material-icons icon-40pt text-white mb-2">delete</i>
+                    <div class="modal-body text-center p-4"><i class="material-icons icon-40pt text-white mb-2">delete</i>
                         <h4 class="text-white">Deleted!</h4>
-                        <p class="text-white mt-3">You deleted a consultation.</p><button type="button"
-                            class="btn btn-light my-2" data-dismiss="modal">Continue</button>
+                        <p class="text-white mt-3">You deleted a consultation.</p><button type="button" class="btn btn-light my-2" data-dismiss="modal">Continue</button>
                     </div><!-- // END .modal-body -->
                 </div><!-- // END .modal-content -->
             </div><!-- // END .modal-dialog -->
@@ -1057,12 +946,7 @@
         <div class="mdk-drawer  js-mdk-drawer" id="default-drawer" data-align="start">
             <div class="mdk-drawer__content">
                 <div class="sidebar sidebar-dark sidebar-left simplebar" data-simplebar>
-                    <div class="d-flex align-items-center sidebar-p-a border-bottom sidebar-account flex-shrink-0"><a
-                            href="#" class="flex d-flex align-items-center text-underline-0 text-body"><span
-                                class="mr-3"><img src="assets/img/rxcliniclogowithoutline.png" width="43" height="43"
-                                    alt="avatar"></span><span class="flex d-flex flex-column"><strong
-                                    style="font-size: 25px;">Rx Clinic</strong><small class="text-muted text-uppercase"
-                                    style="color: rgba(255,255,255,.54)"></small></span></a>
+                    <div class="d-flex align-items-center sidebar-p-a border-bottom sidebar-account flex-shrink-0"><a href="#" class="flex d-flex align-items-center text-underline-0 text-body"><span class="mr-3"><img src="assets/img/rxcliniclogowithoutline.png" width="43" height="43" alt="avatar"></span><span class="flex d-flex flex-column"><strong style="font-size: 25px;">Rx Clinic</strong><small class="text-muted text-uppercase" style="color: rgba(255,255,255,.54)"></small></span></a>
 
                     </div>
                     <!-- <div
@@ -1079,31 +963,18 @@
                     <!-- <div class="py-4 text-center flex-shrink-0"><a style="min-width: 157px;" href="/signup.php"
                             class="btn btn-primary">Create <i class="material-icons ml-1">add</i></a></div> -->
                     <ul class="nav nav-tabs sidebar-tabs flex-shrink-0" role="tablist">
-                        <li class="nav-item"><a class="nav-link active show" id="sm-menu-tab" href="#sm-menu"
-                                data-toggle="tab" role="tab" aria-controls="sm-menu" aria-selected="true">Menu</a></li>
+                        <li class="nav-item"><a class="nav-link active show" id="sm-menu-tab" href="#sm-menu" data-toggle="tab" role="tab" aria-controls="sm-menu" aria-selected="true">Menu</a></li>
                         <!-- <li class="nav-item"><a class="nav-link" href="#sm-account" data-toggle="tab">Manage</a></li> -->
                         <!-- <li class="nav-item"><a class="nav-link" href="#sm-settings" data-toggle="tab">Settings</a></li> -->
                     </ul>
                     <div class="tab-content">
                         <div id="sm-menu" class="tab-pane show active" role="tabpanel" aria-labelledby="sm-menu-tab">
                             <ul class="sidebar-menu flex">
-                                <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="patient_index.php"><i
-                                            class="sidebar-menu-icon sidebar-menu-icon--left material-icons">donut_small</i><span
-                                            class="sidebar-menu-text">Dashboard</span></a></li>
-                                <li class="sidebar-menu-item active"><a class="sidebar-menu-button" href="#"><i
-                                            class="sidebar-menu-icon sidebar-menu-icon--left material-icons">date_range</i><span
-                                            class="sidebar-menu-text">My Consultations</span><span
-                                            class="badge badge-warning rounded-circle badge-notifications ml-auto"
-                                            style="padding: .1875rem .375rem;">2</span></a></li>
-                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="patient_mydoctors.php"><i
-                                            class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span
-                                            class="sidebar-menu-text">My Doctors</span></a></li>
-                                <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="patient_prescriptions.php"><i
-                                            class="sidebar-menu-icon sidebar-menu-icon--left material-icons">description</i><span
-                                            class="sidebar-menu-text">Reports</span></a></li>
-                                <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="patient_payments.php"><i
-                                            class="sidebar-menu-icon sidebar-menu-icon--left material-icons">payment</i><span
-                                            class="sidebar-menu-text">Payment</span></a></li>
+                                <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="patient_index.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">donut_small</i><span class="sidebar-menu-text">Dashboard</span></a></li>
+                                <li class="sidebar-menu-item active"><a class="sidebar-menu-button" href="#"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">date_range</i><span class="sidebar-menu-text">My Consultations</span><span class="badge badge-warning rounded-circle badge-notifications ml-auto" style="padding: .1875rem .375rem;">2</span></a></li>
+                                <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="patient_mydoctors.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">My Doctors</span></a></li>
+                                <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="patient_prescriptions.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">description</i><span class="sidebar-menu-text">Reports</span></a></li>
+                                <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="patient_payments.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">payment</i><span class="sidebar-menu-text">Payment</span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -1111,8 +982,7 @@
                         <!-- <a
                             class="sidebar-link mb-2" href="edit-account.php">Change Password</a><a
                             class="sidebar-link mb-2" href="edit-account.php">Settings</a> -->
-                            <a class="sidebar-link" href="landingpagelogin.php"><strong>LOG OUT</strong><i
-                                class="sidebar-menu-icon ml-2 material-icons icon-16pt">exit_to_app</i></a>
+                        <a class="sidebar-link" href="landingpagelogin.php"><strong>LOG OUT</strong><i class="sidebar-menu-icon ml-2 material-icons icon-16pt">exit_to_app</i></a>
                     </div>
                 </div>
             </div>
@@ -1125,17 +995,12 @@
                 <div class="list-group list-group-flush">
                     <div class="list-group-item bg-light">
                         <div class="row">
-                            <div class="col-auto d-flex flex-column"><small>9:00 AM</small><small
-                                    class="text-dark-gray">1 hr</small></div>
+                            <div class="col-auto d-flex flex-column"><small>9:00 AM</small><small class="text-dark-gray">1 hr</small></div>
                             <div class="col">
-                                <div class="d-flex flex-column flex"><a href="#" class="text-body"><strong
-                                            class="text-15pt">Dental Check-up</strong></a><small
-                                        class="text-muted d-flex align-items-center"><i
-                                            class="material-icons icon-16pt mr-1">person</i>Dr. Dentist</small>
+                                <div class="d-flex flex-column flex"><a href="#" class="text-body"><strong class="text-15pt">Dental Check-up</strong></a><small class="text-muted d-flex align-items-center"><i class="material-icons icon-16pt mr-1">person</i>Dr. Dentist</small>
                                 </div>
                                 <div class="avatar-group mt-2">
-                                    <div class="avatar avatar-xs"><img src="assets/images/profilew.png" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div>
+                                    <div class="avatar avatar-xs"><img src="assets/images/profilew.png" alt="Avatar" class="avatar-img rounded-circle"></div>
                                     <!-- <div class="avatar avatar-xs"><img
                                             src="assets/images/256_jeremy-banks-798787-unsplash.jpg" alt="Avatar"
                                             class="avatar-img rounded-circle"></div>

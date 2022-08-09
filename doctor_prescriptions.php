@@ -195,7 +195,7 @@
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button>
                                                                 <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#modal-edit"><i class="material-icons">edit</i></button>
-                                                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-delete"><i class="material-icons">delete</i></button>
+                                                                <!-- <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-delete"><i class="material-icons">delete</i></button> -->
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -222,7 +222,7 @@
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button>
                                                                 <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#modal-edit"><i class="material-icons">edit</i></button>
-                                                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-delete"><i class="material-icons">delete</i></button>
+                                                                <!-- <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-delete"><i class="material-icons">delete</i></button> -->
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -249,7 +249,7 @@
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button>
                                                                 <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#modal-edit"><i class="material-icons">edit</i></button>
-                                                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-delete"><i class="material-icons">delete</i></button>
+                                                                <!-- <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-delete"><i class="material-icons">delete</i></button> -->
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -276,7 +276,7 @@
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button>
                                                                 <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#modal-edit"><i class="material-icons">edit</i></button>
-                                                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-delete"><i class="material-icons">delete</i></button>
+                                                                <!-- <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-delete"><i class="material-icons">delete</i></button> -->
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -304,7 +304,7 @@
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button>
                                                                 <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#modal-edit"><i class="material-icons">edit</i></button>
-                                                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-delete"><i class="material-icons">delete</i></button>
+                                                                <!-- <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-delete"><i class="material-icons">delete</i></button> -->
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -376,7 +376,7 @@
                                 <div class="row">
                                 <div class="col-lg-4">
                                         <div class="form-group"><label class="text-label" for="select01">Service:</label>
-                                            <select id="select01" data-toggle="select" class="form-control">
+                                            <select id="select01" data-toggle="select" class="form-control" disabled>
                                                 <option>Cardiology</option>
                                                 <option>Otolaryngology</option>
                                                 <option>Endocrinology</option>
@@ -402,11 +402,11 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-4">
-                                        <div class="form-group"><label class="text-label" for="flatpickrSample01">Date:</label><input id="flatpickrSample01" type="text" class="form-control" placeholder="Flatpickr example" data-toggle="flatpickr" value="today"></div>
+                                        <div class="form-group"><label class="text-label" for="flatpickrSample01">Date:</label><input id="flatpickrSample01" type="text" class="form-control" placeholder="Flatpickr example" data-toggle="flatpickr" value="Aug 09, 2022"  disabled></div>
                                     </div>
                                     <div class="col">
                                         <div class="form-group"><label class="text-label" for="select01">Service:</label>
-                                            <select id="select01" data-toggle="select" class="form-control">
+                                            <select id="select01" data-toggle="select" class="form-control"  disabled>
                                                 <option selected="">8:00 AM - 9:00 AM</option>
                                                 <option>9:00 AM - 10:00 AM</option>
                                                 <option>10:00 AM - 11:00 AM</option>
@@ -425,7 +425,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-4">
-                                        <div class="form-group"><label class="text-label" for="fname">Diagnosis:</label><input id="fname" type="text" required="" class="form-control" placeholder="First name" value="Juan"></div>
+                                        <div class="form-group"><label class="text-label" for="fname">Diagnosis:</label><input id="fname" type="text" required="" class="form-control" placeholder="First name" value="Ligma"></div>
                                     </div>
                                     <div class="col-lg-8">
                                         <div class="form-group"><label class="text-label" for="desc">Diagnosis Description:</label><textarea id="desc" rows="4" class="form-control" placeholder=""></textarea></div>
@@ -447,36 +447,36 @@
                                     <div class="col">
                                         <div class="form-group"><label class="text-label" for="fname">First
                                                 Name:</label><input id="fname" type="text" class="form-control"
-                                                placeholder="First name" value=""></div>
+                                                placeholder="First name" value="Juan" disabled></div>
                                     </div>
                                     <div class="col">
                                         <div class="form-group"><label class="text-label" for="lname">Middle
                                                 Name:</label><input id="lname" type="text" class="form-control"
-                                                placeholder="Middle name" value=""></div>
+                                                placeholder="Middle name" value="" disabled></div>
                                     </div>
                                     <div class="col">
                                         <div class="form-group"><label class="text-label" for="lname">Last
                                                 Name:</label><input id="lname" type="text" class="form-control"
-                                                placeholder="Last name" value=""></div>
+                                                placeholder="Last name" value="Dela Cruz" disabled></div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col">
                                         <div class="form-group"><label class="text-label"
                                                 for="fname">Address:</label><input id="fname" type="text"
-                                                class="form-control" placeholder="Address" value=""></div>
+                                                class="form-control" placeholder="Address" value="3435 Batumbakal Street, New York, Cubao" disabled></div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-3">
                                         <div class="form-group"><label class="text-label" for="fname">Age:</label><input
                                                 id="fname" type="number" class="form-control" placeholder="Age"
-                                                value=""></div>
+                                                value="32" disabled></div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group"><label class="text-label" for="select01">Sex:</label>
-                                            <select id="select01" data-toggle="select" class="form-control">
-                                                <option selected="">M</option>
+                                            <select id="select01" data-toggle="select" class="form-control"  disabled>
+                                                <option selected="" disabled>M</option>
                                                 <option>F</option>
                                             </select>
                                         </div>
@@ -485,7 +485,7 @@
                                         <div class="form-group"><label class="text-label"
                                                 for="flatpickrSample01">Date:</label><input id="flatpickrSample01"
                                                 type="text" class="form-control" placeholder="Flatpickr example"
-                                                data-toggle="flatpickr" value="today"></div>
+                                                data-toggle="" value="Aug 09, 2022"  disabled></div>
                                     </div>
                                 </div>
                             </form>
@@ -525,7 +525,7 @@
                                 <div class="row">
                                     <div class="col-lg-5">
                                         <div class="form-group"><label class="text-label" for="select01">Doctor:</label>
-                                            <select id="select01" data-toggle="select" class="form-control">
+                                            <select id="select01" data-toggle="select" class="form-control" disabled>
                                                 <option selected="">Dr. Number Wan</option>
                                                 <option>Dr. Number Too</option>
                                                 <option>Dr. Number Trii</option>
@@ -538,14 +538,14 @@
                                     <div class="col-lg-2">
                                         <div class="form-group"><label class="text-label" for="fname">Lic
                                                 No.:</label><input id="fname" type="text" class="form-control"
-                                                placeholder="Inscription" value=""></div>
+                                                placeholder="Inscription" value="1234"  disabled></div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-2">
                                         <div class="form-group"><label class="text-label" for="fname">PTR
                                                 No.:</label><input id="fname" type="text" class="form-control"
-                                                placeholder="Inscription" value=""></div>
+                                                placeholder="Inscription" value="1234567"  disabled></div>
                                     </div>
                                 </div>
                             </form>
@@ -571,7 +571,7 @@
                                         <div class="page-separator__text">CONSULTATION DETAILS</div>
                                     </div>
                                     <p><strong>Service: </strong>Cardiology</p>
-                                    <p><strong>Date: </strong>08/09/2022, 9:00 AM</p>
+                                    <p><strong>Date: </strong>08/09/2022, 8:00 AM - 9:00 AM</p>
 
                                     <div class="page-separator">
                                         <div class="page-separator__text">DIAGNOSIS DETAILS</div>
@@ -679,13 +679,12 @@
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="doctor_transactions.php"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">payment</i><span
                                             class="sidebar-menu-text">Transactions</span></a></li>
-                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="doctor_schedules.php"><i
-                                            class="sidebar-menu-icon sidebar-menu-icon--left material-icons">schedule</i><span
-                                            class="sidebar-menu-text">Schedule</span></a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="mt-auto sidebar-p-a sidebar-b-t d-flex flex-column flex-shrink-0">
+                            <a class="sidebar-link mb-2" href="doctor_schedules.php">Schedule<i
+                                class="sidebar-menu-icon ml-2 material-icons icon-16pt">schedule</i></a>
                             <a class="sidebar-link mb-2" href="doctor_verification.php">Doctor Verification<i
                                 class="sidebar-menu-icon ml-2 material-icons icon-16pt">check_circle</i></a>
                             <a class="sidebar-link" href="logindoctorpage.php"><strong>LOG OUT</strong><i

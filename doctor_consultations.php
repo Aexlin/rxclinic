@@ -155,10 +155,10 @@
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 </div>
 
-                                <li class="nav-item"><a href="#tab-history" class="nav-link" data-toggle="tab"
+                                <!-- <li class="nav-item"><a href="#tab-history" class="nav-link" data-toggle="tab"
                                         role="tab" aria-selected="false"><span class="nav-link__count">History</span>Total
                                         (693)
-                                    </a></li>
+                                    </a></li> -->
                                 <!-- <li class="nav-item"><a href="#tab-cancelled" class="nav-link" data-toggle="tab"
                                         role="tab" aria-selected="false"><span class="nav-link__count">Cancelled</span>Total
                                         (13)
@@ -229,8 +229,8 @@
                                                                     data-toggle="modal" data-target="#modal-info"><i
                                                                     class="material-icons">remove_red_eye</i></button>
                                                                     <button type="button" class="btn btn-danger"
-                                                                        data-toggle="modal" data-target="#modal-delete"><i
-                                                                        class="material-icons">delete</i></button>
+                                                                        data-toggle="modal" data-target="#modal-resched"><i
+                                                                        class="material-icons">refresh</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -260,8 +260,8 @@
                                                                     data-toggle="modal" data-target="#modal-info"><i
                                                                     class="material-icons">remove_red_eye</i></button>
                                                                     <button type="button" class="btn btn-danger"
-                                                                        data-toggle="modal" data-target="#modal-delete"><i
-                                                                        class="material-icons">delete</i></button>
+                                                                        data-toggle="modal" data-target="#modal-resched"><i
+                                                                        class="material-icons">refresh</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -292,8 +292,8 @@
                                                                     data-toggle="modal" data-target="#modal-info"><i
                                                                     class="material-icons">remove_red_eye</i></button>
                                                                     <button type="button" class="btn btn-danger"
-                                                                        data-toggle="modal" data-target="#modal-delete"><i
-                                                                        class="material-icons">delete</i></button>
+                                                                        data-toggle="modal" data-target="#modal-resched"><i
+                                                                        class="material-icons">refresh</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -324,8 +324,8 @@
                                                                     data-toggle="modal" data-target="#modal-info"><i
                                                                     class="material-icons">remove_red_eye</i></button>
                                                                     <button type="button" class="btn btn-danger"
-                                                                        data-toggle="modal" data-target="#modal-delete"><i
-                                                                        class="material-icons">delete</i></button>
+                                                                        data-toggle="modal" data-target="#modal-resched"><i
+                                                                        class="material-icons">refresh</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -355,8 +355,8 @@
                                                                     data-toggle="modal" data-target="#modal-info"><i
                                                                     class="material-icons">remove_red_eye</i></button>
                                                                     <button type="button" class="btn btn-danger"
-                                                                        data-toggle="modal" data-target="#modal-delete"><i
-                                                                        class="material-icons">delete</i></button>
+                                                                        data-toggle="modal" data-target="#modal-resched"><i
+                                                                        class="material-icons">refresh</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -395,7 +395,7 @@
                                                         <th style="width: 150px;">Service</th>
                                                         <th style="width: 37px;">Status</th>
                                                         <!-- <th style="width: 120px;">Last Activity</th> -->
-                                                        <th style="width: 120px;">Action</th>
+                                                        <th style="width: 200px;">Action</th>
                                                         <!-- <th style="width: 24px;"></th> -->
                                                     </tr>
                                                 </thead>
@@ -424,11 +424,14 @@
                                                         <td>
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
+                                                                    data-toggle="modal" data-target="#modal-pending"><i
                                                                     class="material-icons">remove_red_eye</i></button>
                                                                     <button type="button" class="btn btn-danger"
                                                                     data-toggle="modal" data-target="#modal-cancel"><i
                                                                     class="material-icons">cancel</i></button>
+                                                                    <button type="button" class="btn btn-danger"
+                                                                        data-toggle="modal" data-target="#modal-resched"><i
+                                                                        class="material-icons">refresh</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -455,11 +458,14 @@
                                                         <td>
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
+                                                                    data-toggle="modal" data-target="#modal-pending"><i
                                                                     class="material-icons">remove_red_eye</i></button>
                                                                     <button type="button" class="btn btn-danger"
                                                                     data-toggle="modal" data-target="#modal-cancel"><i
                                                                     class="material-icons">cancel</i></button>
+                                                                    <button type="button" class="btn btn-danger"
+                                                                        data-toggle="modal" data-target="#modal-resched"><i
+                                                                        class="material-icons">refresh</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -487,11 +493,14 @@
                                                         <td>
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
+                                                                    data-toggle="modal" data-target="#modal-pending"><i
                                                                     class="material-icons">remove_red_eye</i></button>
                                                                     <button type="button" class="btn btn-danger"
                                                                     data-toggle="modal" data-target="#modal-cancel"><i
                                                                     class="material-icons">cancel</i></button>
+                                                                    <button type="button" class="btn btn-danger"
+                                                                        data-toggle="modal" data-target="#modal-resched"><i
+                                                                        class="material-icons">refresh</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -519,11 +528,14 @@
                                                         <td>
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
+                                                                    data-toggle="modal" data-target="#modal-pending"><i
                                                                     class="material-icons">remove_red_eye</i></button>
                                                                     <button type="button" class="btn btn-danger"
                                                                     data-toggle="modal" data-target="#modal-cancel"><i
                                                                     class="material-icons">cancel</i></button>
+                                                                    <button type="button" class="btn btn-danger"
+                                                                        data-toggle="modal" data-target="#modal-resched"><i
+                                                                        class="material-icons">refresh</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -550,11 +562,14 @@
                                                         <td>
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
+                                                                    data-toggle="modal" data-target="#modal-pending"><i
                                                                     class="material-icons">remove_red_eye</i></button>
                                                                     <button type="button" class="btn btn-danger"
                                                                     data-toggle="modal" data-target="#modal-cancel"><i
                                                                     class="material-icons">cancel</i></button>
+                                                                    <button type="button" class="btn btn-danger"
+                                                                        data-toggle="modal" data-target="#modal-resched"><i
+                                                                        class="material-icons">refresh</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -622,11 +637,11 @@
                                                         <td>
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
+                                                                    data-toggle="modal" data-target="#modal-denied"><i
                                                                     class="material-icons">remove_red_eye</i></button>
                                                                     <button type="button" class="btn btn-danger"
-                                                                        data-toggle="modal" data-target="#modal-delete"><i
-                                                                        class="material-icons">delete</i></button>
+                                                                        data-toggle="modal" data-target="#modal-resched"><i
+                                                                        class="material-icons">refresh</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -653,11 +668,11 @@
                                                         <td>
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
+                                                                    data-toggle="modal" data-target="#modal-denied"><i
                                                                     class="material-icons">remove_red_eye</i></button>
                                                                     <button type="button" class="btn btn-danger"
-                                                                        data-toggle="modal" data-target="#modal-delete"><i
-                                                                        class="material-icons">delete</i></button>
+                                                                        data-toggle="modal" data-target="#modal-resched"><i
+                                                                        class="material-icons">refresh</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -685,11 +700,11 @@
                                                         <td>
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
+                                                                    data-toggle="modal" data-target="#modal-denied"><i
                                                                     class="material-icons">remove_red_eye</i></button>
                                                                     <button type="button" class="btn btn-danger"
-                                                                        data-toggle="modal" data-target="#modal-delete"><i
-                                                                        class="material-icons">delete</i></button>
+                                                                        data-toggle="modal" data-target="#modal-resched"><i
+                                                                        class="material-icons">refresh</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -717,11 +732,11 @@
                                                         <td>
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
+                                                                    data-toggle="modal" data-target="#modal-denied"><i
                                                                     class="material-icons">remove_red_eye</i></button>
                                                                     <button type="button" class="btn btn-danger"
-                                                                        data-toggle="modal" data-target="#modal-delete"><i
-                                                                        class="material-icons">delete</i></button>
+                                                                        data-toggle="modal" data-target="#modal-resched"><i
+                                                                        class="material-icons">refresh</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -748,11 +763,11 @@
                                                         <td>
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
+                                                                    data-toggle="modal" data-target="#modal-denied"><i
                                                                     class="material-icons">remove_red_eye</i></button>
                                                                     <button type="button" class="btn btn-danger"
-                                                                        data-toggle="modal" data-target="#modal-delete"><i
-                                                                        class="material-icons">delete</i></button>
+                                                                        data-toggle="modal" data-target="#modal-resched"><i
+                                                                        class="material-icons">refresh</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -878,7 +893,7 @@
                                                         <td>
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
+                                                                    data-toggle="modal" data-target="#modal-cancelled"><i
                                                                     class="material-icons">remove_red_eye</i></button>
                                                             </div>
                                                         </td>
@@ -907,7 +922,7 @@
                                                         <td>
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
+                                                                    data-toggle="modal" data-target="#modal-cancelled"><i
                                                                     class="material-icons">remove_red_eye</i></button>
                                                             </div>
                                                         </td>
@@ -1001,6 +1016,144 @@
             </div><!-- // END .modal-dialog -->
         </div><!-- // END .modal -->
 
+        <!-- Cancel Alert Modal -->
+        <div id="modal-resched" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-sm">
+                <div class="modal-content bg-danger">
+                    <div class="modal-body text-center p-4"><i
+                            class="material-icons icon-40pt text-white mb-2">refresh</i>
+                        <h4 class="text-white">Reschedule Requested!</h4>
+                        <p class="text-white mt-3">You requested a reshedule of the consultation.</p><button type="button"
+                            class="btn btn-light my-2" data-dismiss="modal">Continue</button>
+                    </div><!-- // END .modal-body -->
+                </div><!-- // END .modal-content -->
+            </div><!-- // END .modal-dialog -->
+        </div><!-- // END .modal -->
+
+         <!-- Info Modal -->
+         <div id="modal-pending" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="px-3">
+                            <div class="d-flex justify-content-center mt-2 mb-4 navbar-light"><a href="index.php"
+                                    class="navbar-brand" style="min-width: 0"><img class="navbar-brand-icon"
+                                        src="assets/img/rxcliniclogowithoutline.png" width="50"
+                                        alt="Stack"><span>Appointment Details</span></a></div>
+                            <div class="page-separator"></div>
+                            <div class="modal-body">
+                                <p><strong>Appointment Code: </strong>2022-0001</p>
+                                <p><strong>Personnel: </strong>Dr. Number Seyven</p>
+                                <p><strong>Service: </strong>Oncology</p>
+                                <p><strong>Schedule: </strong>9:00 AM Aug 08, 2022</p>
+                                <p><strong>Status: </strong>PENDING</p>
+                                <br>
+                                <div class="alert alert-soft-warning d-flex" role="alert"><i
+                                        class="material-icons mr-3">refresh</i>
+                                    <div class="text-body">This appointment is still <strong>PENDING</strong>. Click the check to approve this consultation.</div>
+                                </div>
+                            </div><!-- // END .modal-body -->
+                        </div>
+                    </div><!-- // END .modal-body -->
+                    <div class="modal-footer"><button type="button" class="btn btn-light"
+                            data-dismiss="modal">Close</button></div><!-- // END .modal-footer -->
+                </div><!-- // END .modal-content -->
+            </div><!-- // END .modal-dialog -->
+        </div><!-- // END .modal -->
+
+        <!-- Info Modal -->
+        <div id="modal-denied" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="px-3">
+                            <div class="d-flex justify-content-center mt-2 mb-4 navbar-light"><a href="index.php"
+                                    class="navbar-brand" style="min-width: 0"><img class="navbar-brand-icon"
+                                        src="assets/img/rxcliniclogowithoutline.png" width="50"
+                                        alt="Stack"><span>Appointment Details</span></a></div>
+                            <div class="page-separator"></div>
+                            <div class="modal-body">
+                                <p><strong>Appointment Code: </strong>2022-0001</p>
+                                <p><strong>Personnel: </strong>Dr. Number Seyven</p>
+                                <p><strong>Service: </strong>Oncology</p>
+                                <p><strong>Schedule: </strong>9:00 AM Aug 08, 2022</p>
+                                <p><strong>Status: </strong>DECLINED</p>
+                                <br>
+                                <div class="alert alert-soft-danger d-flex" role="alert"><i
+                                        class="material-icons mr-3">cancel</i>
+                                    <div class="text-body">This appointment was <strong>DECLINED</strong>. There could be a conflict in schedule.</div>
+                                </div>
+                            </div><!-- // END .modal-body -->
+                        </div>
+                    </div><!-- // END .modal-body -->
+                    <div class="modal-footer"><button type="button" class="btn btn-light"
+                            data-dismiss="modal">Close</button></div><!-- // END .modal-footer -->
+                </div><!-- // END .modal-content -->
+            </div><!-- // END .modal-dialog -->
+        </div><!-- // END .modal -->
+
+        <!-- Info Modal -->
+        <div id="modal-done" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="px-3">
+                            <div class="d-flex justify-content-center mt-2 mb-4 navbar-light"><a href="index.php"
+                                    class="navbar-brand" style="min-width: 0"><img class="navbar-brand-icon"
+                                        src="assets/img/rxcliniclogowithoutline.png" width="50"
+                                        alt="Stack"><span>Appointment Details</span></a></div>
+                            <div class="page-separator"></div>
+                            <div class="modal-body">
+                                <p><strong>Appointment Code: </strong>2022-0001</p>
+                                <p><strong>Personnel: </strong>Dr. Number Seyven</p>
+                                <p><strong>Service: </strong>Oncology</p>
+                                <p><strong>Schedule: </strong>9:00 AM Aug 08, 2022</p>
+                                <p><strong>Status: </strong>DONE</p>
+                                <br>
+                                <div class="alert alert-soft-primary d-flex" role="alert"><i
+                                        class="material-icons mr-3">check_circle</i>
+                                    <div class="text-body">This appointment is <strong>DONE</strong>. You can book a new consultation.</div>
+                                </div>
+                            </div><!-- // END .modal-body -->
+                        </div>
+                    </div><!-- // END .modal-body -->
+                    <div class="modal-footer"><button type="button" class="btn btn-light"
+                            data-dismiss="modal">Close</button></div><!-- // END .modal-footer -->
+                </div><!-- // END .modal-content -->
+            </div><!-- // END .modal-dialog -->
+        </div><!-- // END .modal -->
+
+            <!-- Info Modal -->
+            <div id="modal-cancelled" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="px-3">
+                            <div class="d-flex justify-content-center mt-2 mb-4 navbar-light"><a href="index.php"
+                                    class="navbar-brand" style="min-width: 0"><img class="navbar-brand-icon"
+                                        src="assets/img/rxcliniclogowithoutline.png" width="50"
+                                        alt="Stack"><span>Appointment Details</span></a></div>
+                            <div class="page-separator"></div>
+                            <div class="modal-body">
+                                <p><strong>Appointment Code: </strong>2022-0001</p>
+                                <p><strong>Personnel: </strong>Dr. Number Seyven</p>
+                                <p><strong>Service: </strong>Oncology</p>
+                                <p><strong>Schedule: </strong>9:00 AM Aug 08, 2022</p>
+                                <p><strong>Status: </strong>CANCELLED</p>
+                                <br>
+                                <div class="alert alert-soft-dark d-flex" role="alert"><i
+                                        class="material-icons mr-3">cancel</i>
+                                    <div class="text-body">This appointment was <strong>CANCELLED</strong>. You can book a new consultation.</div>
+                                </div>
+                            </div><!-- // END .modal-body -->
+                        </div>
+                    </div><!-- // END .modal-body -->
+                    <div class="modal-footer"><button type="button" class="btn btn-light"
+                            data-dismiss="modal">Close</button></div><!-- // END .modal-footer -->
+                </div><!-- // END .modal-content -->
+            </div><!-- // END .modal-dialog -->
+        </div><!-- // END .modal -->
+
         <!-- Delete Modal -->
         <div id="modal-delete" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-sm">
@@ -1065,13 +1218,12 @@
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="doctor_transactions.php"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">payment</i><span
                                             class="sidebar-menu-text">Transactions</span></a></li>
-                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="doctor_schedules.php"><i
-                                            class="sidebar-menu-icon sidebar-menu-icon--left material-icons">schedule</i><span
-                                            class="sidebar-menu-text">Schedule</span></a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="mt-auto sidebar-p-a sidebar-b-t d-flex flex-column flex-shrink-0">
+                            <a class="sidebar-link mb-2" href="doctor_schedules.php">Schedule<i
+                                class="sidebar-menu-icon ml-2 material-icons icon-16pt">schedule</i></a>
                             <a class="sidebar-link mb-2" href="doctor_verification.php">Doctor Verification<i
                                 class="sidebar-menu-icon ml-2 material-icons icon-16pt">check_circle</i></a>
                             <a class="sidebar-link" href="logindoctorpage.php"><strong>LOG OUT</strong><i

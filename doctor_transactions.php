@@ -219,7 +219,7 @@
                                                                 <div class="avatar avatar-xs mr-2"><img
                                                                         src="assets/images/profilew.png" alt="Avatar"
                                                                         class="avatar-img rounded-circle">
-                                                                </div><strong>Dr. Number Wan</strong>
+                                                                </div><strong>Juan Dela Cruz</strong>
                                                             </span></td>
                                                         <td><span class="badge badge-warning">PENDING</span></td>
                                                         <td>
@@ -249,7 +249,7 @@
                                                                 <div class="avatar avatar-xs mr-2"><img
                                                                         src="assets/images/profilew.png" alt="Avatar"
                                                                         class="avatar-img rounded-circle">
-                                                                </div><strong>Dr. Number Too</strong>
+                                                                </div><strong>Maria Clara</strong>
                                                             </span></td>
                                                         <td><span class="badge badge-warning">PENDING</span></td>
                                                         <td>
@@ -309,7 +309,7 @@
 
                                                     <tr>
                                                         <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">#2022-0707-0001</strong></span>
+                                                                    class="js-lists-values-employee-title">#2022-0707-0401</strong></span>
                                                         </td>
                                                         <td>
                                                             <div class="media align-items-center">
@@ -324,14 +324,104 @@
                                                                 <div class="avatar avatar-xs mr-2"><img
                                                                         src="assets/images/profilew.png" alt="Avatar"
                                                                         class="avatar-img rounded-circle">
-                                                                </div><strong>Dr. Number Wan</strong>
+                                                                </div><strong>Juan Dela Cruz</strong>
                                                             </span></td>
                                                         <td><span class="badge badge-success">PAID</span></td>
                                                         <td>
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-primary"><i
                                                                         class="material-icons" data-toggle="modal"
-                                                                        data-target="#modal-info">remove_red_eye</i>
+                                                                        data-target="#modal-done">remove_red_eye</i>
+                                                                </button>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong
+                                                                    class="js-lists-values-employee-title">#2022-0707-0221</strong></span>
+                                                        </td>
+                                                        <td>
+                                                            <div class="media align-items-center">
+                                                                <div class="media-body d-flex flex-column"><strong
+                                                                        class="js-lists-values-employee-name">₱3,000</strong><small class="text-muted"></small>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="js-lists-values-employee-date">07/09/22</span>
+                                                        </td>
+                                                        <td><span class="js-lists-values-employee-doctor">
+                                                                <div class="avatar avatar-xs mr-2"><img
+                                                                        src="assets/images/profilew.png" alt="Avatar"
+                                                                        class="avatar-img rounded-circle">
+                                                                </div><strong>Jennie Kim</strong>
+                                                            </span></td>
+                                                        <td><span class="badge badge-success">PAID</span></td>
+                                                        <td>
+                                                            <div class="button-list">
+                                                                <button type="button" class="btn btn-primary"><i
+                                                                        class="material-icons" data-toggle="modal"
+                                                                        data-target="#modal-done">remove_red_eye</i>
+                                                                </button>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong
+                                                                    class="js-lists-values-employee-title">#2022-0707-0521</strong></span>
+                                                        </td>
+                                                        <td>
+                                                            <div class="media align-items-center">
+                                                                <div class="media-body d-flex flex-column"><strong
+                                                                        class="js-lists-values-employee-name">₱3,000</strong><small class="text-muted"></small>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="js-lists-values-employee-date">07/09/22</span>
+                                                        </td>
+                                                        <td><span class="js-lists-values-employee-doctor">
+                                                                <div class="avatar avatar-xs mr-2"><img
+                                                                        src="assets/images/profilew.png" alt="Avatar"
+                                                                        class="avatar-img rounded-circle">
+                                                                </div><strong>Lalisa Manoban</strong>
+                                                            </span></td>
+                                                        <td><span class="badge badge-success">PAID</span></td>
+                                                        <td>
+                                                            <div class="button-list">
+                                                                <button type="button" class="btn btn-primary"><i
+                                                                        class="material-icons" data-toggle="modal"
+                                                                        data-target="#modal-done">remove_red_eye</i>
+                                                                </button>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong
+                                                                    class="js-lists-values-employee-title">#2022-0707-9021</strong></span>
+                                                        </td>
+                                                        <td>
+                                                            <div class="media align-items-center">
+                                                                <div class="media-body d-flex flex-column"><strong
+                                                                        class="js-lists-values-employee-name">₱3,000</strong><small class="text-muted"></small>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="js-lists-values-employee-date">07/09/22</span>
+                                                        </td>
+                                                        <td><span class="js-lists-values-employee-doctor">
+                                                                <div class="avatar avatar-xs mr-2"><img
+                                                                        src="assets/images/profilew.png" alt="Avatar"
+                                                                        class="avatar-img rounded-circle">
+                                                                </div><strong>Taylor Swift</strong>
+                                                            </span></td>
+                                                        <td><span class="badge badge-success">PAID</span></td>
+                                                        <td>
+                                                            <div class="button-list">
+                                                                <button type="button" class="btn btn-primary"><i
+                                                                        class="material-icons" data-toggle="modal"
+                                                                        data-target="#modal-done">remove_red_eye</i>
                                                                 </button>
                                                             </div>
                                                         </td>
@@ -354,104 +444,14 @@
                                                                 <div class="avatar avatar-xs mr-2"><img
                                                                         src="assets/images/profilew.png" alt="Avatar"
                                                                         class="avatar-img rounded-circle">
-                                                                </div><strong>Dr. Number Too</strong>
+                                                                </div><strong>Ariana Batumbakal</strong>
                                                             </span></td>
                                                         <td><span class="badge badge-success">PAID</span></td>
                                                         <td>
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-primary"><i
                                                                         class="material-icons" data-toggle="modal"
-                                                                        data-target="#modal-info">remove_red_eye</i>
-                                                                </button>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">#2022-0707-0021</strong></span>
-                                                        </td>
-                                                        <td>
-                                                            <div class="media align-items-center">
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">₱3,000</strong><small class="text-muted"></small>
-                                                                </div>
-                                                            </div>
-                                                        </td>
-                                                        <td><span class="js-lists-values-employee-date">07/09/22</span>
-                                                        </td>
-                                                        <td><span class="js-lists-values-employee-doctor">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/profilew.png" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
-                                                                </div><strong>Dr. Number Too</strong>
-                                                            </span></td>
-                                                        <td><span class="badge badge-success">PAID</span></td>
-                                                        <td>
-                                                            <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"><i
-                                                                        class="material-icons" data-toggle="modal"
-                                                                        data-target="#modal-info">remove_red_eye</i>
-                                                                </button>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">#2022-0707-0021</strong></span>
-                                                        </td>
-                                                        <td>
-                                                            <div class="media align-items-center">
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">₱3,000</strong><small class="text-muted"></small>
-                                                                </div>
-                                                            </div>
-                                                        </td>
-                                                        <td><span class="js-lists-values-employee-date">07/09/22</span>
-                                                        </td>
-                                                        <td><span class="js-lists-values-employee-doctor">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/profilew.png" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
-                                                                </div><strong>Dr. Number Too</strong>
-                                                            </span></td>
-                                                        <td><span class="badge badge-success">PAID</span></td>
-                                                        <td>
-                                                            <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"><i
-                                                                        class="material-icons" data-toggle="modal"
-                                                                        data-target="#modal-info">remove_red_eye</i>
-                                                                </button>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr>
-                                                        <td><span class="badge d-block badge-soft-primary"><strong
-                                                                    class="js-lists-values-employee-title">#2022-0707-0021</strong></span>
-                                                        </td>
-                                                        <td>
-                                                            <div class="media align-items-center">
-                                                                <div class="media-body d-flex flex-column"><strong
-                                                                        class="js-lists-values-employee-name">₱3,000</strong><small class="text-muted"></small>
-                                                                </div>
-                                                            </div>
-                                                        </td>
-                                                        <td><span class="js-lists-values-employee-date">07/09/22</span>
-                                                        </td>
-                                                        <td><span class="js-lists-values-employee-doctor">
-                                                                <div class="avatar avatar-xs mr-2"><img
-                                                                        src="assets/images/profilew.png" alt="Avatar"
-                                                                        class="avatar-img rounded-circle">
-                                                                </div><strong>Dr. Number Too</strong>
-                                                            </span></td>
-                                                        <td><span class="badge badge-success">PAID</span></td>
-                                                        <td>
-                                                            <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"><i
-                                                                        class="material-icons" data-toggle="modal"
-                                                                        data-target="#modal-info">remove_red_eye</i>
+                                                                        data-target="#modal-done">remove_red_eye</i>
                                                                 </button>
                                                             </div>
                                                         </td>
@@ -504,12 +504,57 @@
                                 <p><strong>Date: </strong>Aug 08, 2022</p>
                                 <br>
                                 <p><strong>Amount: <h4>₱29,000</h4></strong></p>
+                        <div class="alert alert-soft-warning d-flex" role="alert"><i
+                                        class="material-icons mr-3">refresh</i>
+                                    <div class="text-body">This payment transaction is still <strong>PENDING</strong>.</div>
+                                </div>
                             </div><!-- // END .modal-body -->
                         </div>
                     </div><!-- // END .modal-body -->
                     <div class="modal-footer"><a href="index_patient.php"><button type="button" class="btn btn-light"
-                                data-dismiss="modal">Close</button></a><a href="#"><button type="button"
-                                class="btn btn-dark" data-dismiss="modal">Print</button></a></div>
+                                data-dismiss="modal">Close</button></a></div>
+                    <!-- // END .modal-footer -->
+                </div><!-- // END .modal-content -->
+            </div><!-- // END .modal-dialog -->
+        </div><!-- // END .modal -->
+
+         <!-- Info Modal -->
+         <div id="modal-done" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="px-3">
+                            <div class="d-flex justify-content-center mt-0 mb-0 navbar-light"><a href="#"
+                                    class="navbar-brand" style="min-width: 0"><img class="navbar-brand-icon"
+                                        src="assets/img/rxlogowithname.png" width="200" alt="Stack"></a></div><br><br>
+                            <div><span><strong>TRANSACTION DETAILS</strong></span></div>
+                            <div class="page-separator"></div>
+                            <div class="modal-body">
+                                <p><strong>Invoice ID: </strong>#2022-2207-0012</p>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <p><strong>Patient: </strong>Juan Dela Cruz</p>
+                                    </div>
+                                    <!-- <div class="col-lg-3">
+                                        <p><strong>Age: </strong>27</p>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <p><strong>Sex: </strong>M</p>
+                                    </div> -->
+                                </div>
+                                <!-- <p><strong>Address: </strong>3435 Batumbakal St., New York, Cubao</p> -->
+                                <p><strong>Date: </strong>Aug 08, 2022</p>
+                                <br>
+                                <p><strong>Amount: <h4>₱29,000</h4></strong></p>
+                        <div class="alert alert-soft-success d-flex" role="alert"><i
+                                        class="material-icons mr-3">check</i>
+                                    <div class="text-body">This payment transaction was <strong>PAID</strong>.</div>
+                                </div>
+                        </div>
+                            </div><!-- // END .modal-body -->
+                    </div><!-- // END .modal-body -->
+                    <div class="modal-footer"><a href="index_patient.php"><button type="button" class="btn btn-light"
+                                data-dismiss="modal">Close</button></a></div>
                     <!-- // END .modal-footer -->
                 </div><!-- // END .modal-content -->
             </div><!-- // END .modal-dialog -->
@@ -579,13 +624,12 @@
                                 <li class="sidebar-menu-item active"><a class="sidebar-menu-button" href="#"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">payment</i><span
                                             class="sidebar-menu-text">Transactions</span></a></li>
-                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="doctor_schedules.php"><i
-                                            class="sidebar-menu-icon sidebar-menu-icon--left material-icons">schedule</i><span
-                                            class="sidebar-menu-text">Schedule</span></a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="mt-auto sidebar-p-a sidebar-b-t d-flex flex-column flex-shrink-0">
+                            <a class="sidebar-link mb-2" href="doctor_schedules.php">Schedule<i
+                                class="sidebar-menu-icon ml-2 material-icons icon-16pt">schedule</i></a>
                             <a class="sidebar-link mb-2" href="doctor_verification.php">Doctor Verification<i
                                 class="sidebar-menu-icon ml-2 material-icons icon-16pt">check_circle</i></a>
                             <a class="sidebar-link" href="logindoctorpage.php"><strong>LOG OUT</strong><i

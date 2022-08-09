@@ -473,14 +473,13 @@
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="doctor_transactions.php"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">payment</i><span
                                             class="sidebar-menu-text">Transactions</span></a></li>
-                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="doctor_schedules.php"><i
-                                            class="sidebar-menu-icon sidebar-menu-icon--left material-icons">schedule</i><span
-                                            class="sidebar-menu-text">Schedule</span></a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="mt-auto sidebar-p-a sidebar-b-t d-flex flex-column flex-shrink-0">
-                            <a class="sidebar-link mb-2" href="#">Doctor Verification<i
+                            <a class="sidebar-link mb-2" href="doctor_schedules.php">Schedule<i
+                                class="sidebar-menu-icon ml-2 material-icons icon-16pt">schedule</i></a>
+                            <a class="sidebar-link mb-2" href="doctor_verification.php">Doctor Verification<i
                                 class="sidebar-menu-icon ml-2 material-icons icon-16pt">check_circle</i></a>
                             <a class="sidebar-link" href="logindoctorpage.php"><strong>LOG OUT</strong><i
                                 class="sidebar-menu-icon ml-2 material-icons icon-20pt">exit_to_app</i></a>
