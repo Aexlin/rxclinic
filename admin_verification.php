@@ -485,7 +485,7 @@
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_index.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">donut_small</i><span class="sidebar-menu-text">Dashboard</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_consultations.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">date_range</i><span class="sidebar-menu-text">Consultations</span><span class="badge badge-warning rounded-circle badge-notifications ml-auto" style="padding: .1875rem .375rem;">24</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_services.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">dvr</i><span class="sidebar-menu-text">Services</span></a></li>
-                                <li class="sidebar-menu-item">
+                                <!-- <li class="sidebar-menu-item">
                                     <a class="sidebar-menu-button" data-toggle="collapse" href="#components_menu"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">Doctors</span></a>
                                     <ul class="sidebar-submenu collapse" id="components_menu">
                                         <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Cardiology</span></a></li>
@@ -509,7 +509,8 @@
                                         <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Rheumatology</span></a></li>
                                         <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Urology</span></a></li>
                                     </ul>
-                                </li>
+                                </li> -->
+                                <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">Doctors</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="#"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">Patients</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_reports.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">report</i><span class="sidebar-menu-text">Reports</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_schedules.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">schedule</i><span class="sidebar-menu-text">Schedules</span></a></li>

@@ -454,7 +454,7 @@
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_services.php"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">dvr</i><span
                                             class="sidebar-menu-text">Services</span></a></li>
-                                <li class="sidebar-menu-item">
+                                <!-- <li class="sidebar-menu-item">
                                     <a class="sidebar-menu-button" data-toggle="collapse" href="#components_menu"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">Doctors</span></a>
                                     <ul class="sidebar-submenu collapse" id="components_menu">
                                         <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Cardiology</span></a></li>
@@ -478,7 +478,8 @@
                                         <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Rheumatology</span></a></li>
                                         <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Urology</span></a></li>
                                     </ul>
-                                </li>
+                                </li> -->
+                                <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">Doctors</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_patients.php"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span
                                             class="sidebar-menu-text">Patients</span></a></li>
