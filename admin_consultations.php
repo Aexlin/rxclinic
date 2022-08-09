@@ -42,10 +42,6 @@
                                     type="button" data-toggle="sidebar"><span
                                         class="material-icons">short_text</span></button><!-- Navbar Brand --><a
                                     href="#" class="navbar-brand flex "><span>Consultation</span></a>
-                                <!-- <form class="ml-auto search-form search-form--light d-none d-sm-flex flex"
-                                    action="index.php"><input type="text" class="form-control"
-                                        placeholder="Search"><button class="btn" type="submit" role="button"><i
-                                            class="material-icons">search</i></button></form> -->
                                 <ul class="nav navbar-nav d-none d-md-flex">
                                     <li class="nav-item dropdown"><a href="#notifications_menu"
                                             class="nav-link dropdown-toggle" data-toggle="dropdown"
@@ -155,9 +151,6 @@
                                     <a class="dropdown-item d-flex align-items-center py-2"
                                         href="admin_myprofile.php"><span class="material-icons mr-2">person</span>My
                                         Profile</a>
-                                    <!-- <a class="dropdown-item d-flex align-items-center py-2"
-                                        href="changepasswordadmin.php"><span
-                                            class="material-icons mr-2">lock</span>Change Password</a> -->
                                 </div>
                             </div>
                             </div>
@@ -184,18 +177,6 @@
                                 <div>
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 </div>
-
-                                <!-- <li class="nav-item"><a href="#tab-history" class="nav-link" data-toggle="tab"
-                                        role="tab" aria-selected="false"><span class="nav-link__count">History</span>Total
-                                        (693)
-                                    </a></li> -->
-                                <!-- <li class="nav-item"><a href="#tab-cancelled" class="nav-link" data-toggle="tab"
-                                        role="tab" aria-selected="false"><span class="nav-link__count">Cancelled</span>Total
-                                        (13)
-                                    </a></li> -->
-                                <!-- <li class="nav-item"><a href="#tab-no-show" class="nav-link disabled" data-toggle="tab"
-                                        role="tab" aria-selected="false"><span class="nav-link__count">Denied</span>Appointments
-                                    </a></li> -->
                             </ul>
                             <div class="card">
                                 <div class="tab-content">
@@ -218,17 +199,12 @@
                                                             <a href="javascript:void(0)" class="sort"
                                                                 data-sort="js-lists-values-employee-name">Patient
                                                                 Name</a>
-                                                            <!-- <a href="javascript:void(0)" class="sort"
-                                                                data-sort="js-lists-values-employee-title">Patient
-                                                                ID</a> -->
                                                         <th style="width: 37px;">Date</th>
                                                         <th style="width: 100px;">Time</th>
                                                         <th style="width: 120px;">Doctor</th>
                                                         <th style="width: 180px;">Service</th>
                                                         <th style="width: 37px;">Status</th>
-                                                        <!-- <th style="width: 120px;">Last Activity</th> -->
                                                         <th style="width: 180px;">Action</th>
-                                                        <!-- <th style="width: 24px;"></th> -->
                                                     </tr>
                                                 </thead>
                                                 <tbody class="list" id="staff02">
@@ -412,17 +388,12 @@
                                                             <a href="javascript:void(0)" class="sort"
                                                                 data-sort="js-lists-values-employee-name">Patient
                                                                 Name</a>
-                                                            <!-- <a href="javascript:void(0)" class="sort"
-                                                                data-sort="js-lists-values-employee-title">Patient
-                                                                ID</a> -->
                                                         <th style="width: 37px;">Date</th>
                                                         <th style="width: 100px;">Time</th>
                                                         <th style="width: 120px;">Doctor</th>
                                                         <th style="width: 180px;">Service</th>
                                                         <th style="width: 37px;">Status</th>
-                                                        <!-- <th style="width: 120px;">Last Activity</th> -->
                                                         <th style="width: 220px;">Action</th>
-                                                        <!-- <th style="width: 24px;"></th> -->
                                                     </tr>
                                                 </thead>
                                                 <tbody class="list" id="staff02">
@@ -452,13 +423,14 @@
                                                                 <button type="button" class="btn btn-primary"
                                                                     data-toggle="modal" data-target="#modal-pending"><i
                                                                     class="material-icons">remove_red_eye</i></button>
+                                                                    <button type="button" class="btn btn-success"
+                                                                    data-toggle="modal" data-target="#modal-success"><i
+                                                                    class="material-icons">check</i></button>
                                                                     <button type="button" class="btn btn-danger"
                                                                     data-toggle="modal" data-target="#modal-cancel"><i
                                                                     class="material-icons">cancel</i></button>
                                                             </div>
                                                         </td>
-                                                        <!-- <td><a href="" class="text-muted"><i
-                                                                        class="material-icons">more_vert</i></a></td> -->
                                                     </tr>
                                                     <tr>
                                                         <td><span class="badge d-block badge-soft-primary"><strong
@@ -484,13 +456,14 @@
                                                                 <button type="button" class="btn btn-primary"
                                                                     data-toggle="modal" data-target="#modal-pending"><i
                                                                     class="material-icons">remove_red_eye</i></button>
+                                                                    <button type="button" class="btn btn-success"
+                                                                    data-toggle="modal" data-target="#modal-success"><i
+                                                                    class="material-icons">check</i></button>
                                                                     <button type="button" class="btn btn-danger"
                                                                     data-toggle="modal" data-target="#modal-cancel"><i
                                                                     class="material-icons">cancel</i></button>
                                                             </div>
                                                         </td>
-                                                        <!-- <td><a href="" class="text-muted"><i
-                                                                        class="material-icons">more_vert</i></a></td> -->
                                                     </tr>
                                                     <tr>
                                                         <td><span class="badge d-block badge-soft-primary"><strong
@@ -517,13 +490,14 @@
                                                                 <button type="button" class="btn btn-primary"
                                                                     data-toggle="modal" data-target="#modal-pending"><i
                                                                     class="material-icons">remove_red_eye</i></button>
+                                                                    <button type="button" class="btn btn-success"
+                                                                    data-toggle="modal" data-target="#modal-success"><i
+                                                                    class="material-icons">check</i></button>
                                                                     <button type="button" class="btn btn-danger"
                                                                     data-toggle="modal" data-target="#modal-cancel"><i
                                                                     class="material-icons">cancel</i></button>
                                                             </div>
                                                         </td>
-                                                        <!-- <td><a href="" class="text-muted"><i
-                                                                        class="material-icons">more_vert</i></a></td> -->
                                                     </tr>
                                                     <tr>
                                                         <td><span class="badge d-block badge-soft-primary"><strong
@@ -551,13 +525,14 @@
                                                                 <button type="button" class="btn btn-primary"
                                                                     data-toggle="modal" data-target="#modal-pending"><i
                                                                     class="material-icons">remove_red_eye</i></button>
+                                                                    <button type="button" class="btn btn-success"
+                                                                    data-toggle="modal" data-target="#modal-success"><i
+                                                                    class="material-icons">check</i></button>
                                                                     <button type="button" class="btn btn-danger"
                                                                     data-toggle="modal" data-target="#modal-cancel"><i
                                                                     class="material-icons">cancel</i></button>
                                                             </div>
                                                         </td>
-                                                        <!-- <td><a href="" class="text-muted"><i
-                                                                        class="material-icons">more_vert</i></a></td> -->
                                                     </tr>
                                                     <tr>
                                                         <td><span class="badge d-block badge-soft-primary"><strong
@@ -584,13 +559,14 @@
                                                                 <button type="button" class="btn btn-primary"
                                                                     data-toggle="modal" data-target="#modal-pending"><i
                                                                     class="material-icons">remove_red_eye</i></button>
+                                                                    <button type="button" class="btn btn-success"
+                                                                    data-toggle="modal" data-target="#modal-success"><i
+                                                                    class="material-icons">check</i></button>
                                                                     <button type="button" class="btn btn-danger"
                                                                     data-toggle="modal" data-target="#modal-cancel"><i
                                                                     class="material-icons">cancel</i></button>
                                                             </div>
                                                         </td>
-                                                        <!-- <td><a href="" class="text-muted"><i
-                                                                        class="material-icons">more_vert</i></a></td> -->
                                                     </tr>
                                                 </tbody>
                                             </table>
@@ -618,17 +594,12 @@
                                                             <a href="javascript:void(0)" class="sort"
                                                                 data-sort="js-lists-values-employee-name">Patient
                                                                 Name</a>
-                                                            <!-- <a href="javascript:void(0)" class="sort"
-                                                                data-sort="js-lists-values-employee-title">Patient
-                                                                ID</a> -->
                                                         <th style="width: 37px;">Date</th>
                                                         <th style="width: 100px;">Time</th>
                                                         <th style="width: 120px;">Doctor</th>
                                                         <th style="width: 180px;">Service</th>
                                                         <th style="width: 37px;">Status</th>
-                                                        <!-- <th style="width: 120px;">Last Activity</th> -->
                                                         <th style="width: 37px;">Action</th>
-                                                        <!-- <th style="width: 24px;"></th> -->
                                                     </tr>
                                                 </thead>
                                                 <tbody class="list" id="staff02">
@@ -715,17 +686,12 @@
                                                             <a href="javascript:void(0)" class="sort"
                                                                 data-sort="js-lists-values-employee-name">Patient
                                                                 Name</a>
-                                                            <!-- <a href="javascript:void(0)" class="sort"
-                                                                data-sort="js-lists-values-employee-title">Patient
-                                                                ID</a> -->
                                                         <th style="width: 37px;">Date</th>
                                                         <th style="width: 100px;">Time</th>
                                                         <th style="width: 120px;">Doctor</th>
                                                         <th style="width: 180px;">Service</th>
                                                         <th style="width: 37px;">Status</th>
-                                                        <!-- <th style="width: 120px;">Last Activity</th> -->
                                                         <th style="width: 37px;">Action</th>
-                                                        <!-- <th style="width: 24px;"></th> -->
                                                     </tr>
                                                 </thead>
                                                 <tbody class="list" id="staff02">
@@ -894,17 +860,12 @@
                                                             <a href="javascript:void(0)" class="sort"
                                                                 data-sort="js-lists-values-employee-name">Patient
                                                                 Name</a>
-                                                            <!-- <a href="javascript:void(0)" class="sort"
-                                                                data-sort="js-lists-values-employee-title">Patient
-                                                                ID</a> -->
                                                         <th style="width: 37px;">Date</th>
                                                         <th style="width: 100px;">Time</th>
                                                         <th style="width: 120px;">Doctor</th>
                                                         <th style="width: 180px;">Service</th>
                                                         <th style="width: 37px;">Status</th>
-                                                        <!-- <th style="width: 120px;">Last Activity</th> -->
                                                         <th style="width: 37px;">Action</th>
-                                                        <!-- <th style="width: 24px;"></th> -->
                                                     </tr>
                                                 </thead>
                                                 <tbody class="list" id="staff02">
@@ -1074,7 +1035,7 @@
                     <div class="modal-body text-center p-4"><i
                             class="material-icons icon-40pt text-white mb-2">check</i>
                         <h4 class="text-white">Approved!</h4>
-                        <p class="text-white mt-3">You accepted an appointment.</p><button type="button"
+                        <p class="text-white mt-3">You approved a consultation.</p><button type="button"
                             class="btn btn-light my-2" data-dismiss="modal">Continue</button>
                     </div><!-- // END .modal-body -->
                 </div><!-- // END .modal-content -->
@@ -1311,10 +1272,6 @@
                                 </div>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="admin_clinicdetails.php">View Clinic Details</a>
-                                <!-- <a class="dropdown-item" href="edit-account.php">Edit Clinic Detials</a> -->
-                                <!-- <a class="dropdown-item" href="edit-account.php">Change Password</a> -->
-                                <!-- <div class="dropdown-divider"></div><a class="dropdown-item"
-                                    href="login.php">Logout</a> -->
                             </div>
                         </div>
                     </div>
@@ -1329,13 +1286,9 @@
                             <div class="sidebar-stats__value">719</div>
                         </div>
                     </div>
-                    <!-- <div class="py-4 text-center flex-shrink-0"><a style="min-width: 157px;" href="/signup.php"
-                            class="btn btn-primary">Create <i class="material-icons ml-1">add</i></a></div> -->
                     <ul class="nav nav-tabs sidebar-tabs flex-shrink-0" role="tablist">
                         <li class="nav-item"><a class="nav-link active show" id="sm-menu-tab" href="#sm-menu"
                                 data-toggle="tab" role="tab" aria-controls="sm-menu" aria-selected="true">Menu</a></li>
-                        <!-- <li class="nav-item"><a class="nav-link" href="#sm-account" data-toggle="tab">Manage</a></li> -->
-                        <!-- <li class="nav-item"><a class="nav-link" href="#sm-settings" data-toggle="tab">Settings</a></li> -->
                     </ul>
                     <div class="tab-content">
                         <div id="sm-menu" class="tab-pane show active" role="tabpanel" aria-labelledby="sm-menu-tab">
@@ -1351,31 +1304,6 @@
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_services.php"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">dvr</i><span
                                             class="sidebar-menu-text">Services</span></a></li>
-                                <!-- <li class="sidebar-menu-item">
-                                    <a class="sidebar-menu-button" data-toggle="collapse" href="#components_menu"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">Doctors</span></a>
-                                    <ul class="sidebar-submenu collapse" id="components_menu">
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Cardiology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Otolaryngology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Endocrinology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Family Medicine</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Gastroenterology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">General Dentistry</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">General Medicine</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Internal Medicine</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Mental Health</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Nephrology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Neurology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Nutritionist-Dietitian</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Family Medicine</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Obstetrics and Gynecology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Oncology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Opthalmology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Pediatrics</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Rehabilitation Medicine</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Rheumatology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Urology</span></a></li>
-                                    </ul>
-                                </li> -->
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">Doctors</span></a></li> 
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_patients.php"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span
@@ -1416,12 +1344,6 @@
                                 <div class="avatar-group mt-2">
                                     <div class="avatar avatar-xs"><img src="assets/images/profilew.png" alt="Avatar"
                                             class="avatar-img rounded-circle"></div>
-                                    <!-- <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_jeremy-banks-798787-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div>
-                                    <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_daniel-gaffey-1060698-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div> -->
                                 </div>
                             </div>
                         </div>
@@ -1443,12 +1365,6 @@
                                 <div class="avatar-group mt-2">
                                     <div class="avatar avatar-xs"><img src="assets/images/profilew.png" alt="Avatar"
                                             class="avatar-img rounded-circle"></div>
-                                    <!-- <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_jeremy-banks-798787-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div>
-                                    <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_daniel-gaffey-1060698-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div> -->
                                 </div>
                             </div>
                         </div>
@@ -1470,12 +1386,6 @@
                                 <div class="avatar-group mt-2">
                                     <div class="avatar avatar-xs"><img src="assets/images/jhong.jpg" alt="Avatar"
                                             class="avatar-img rounded-circle"></div>
-                                    <!-- <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_jeremy-banks-798787-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div>
-                                    <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_daniel-gaffey-1060698-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div> -->
                                 </div>
                             </div>
                         </div>
@@ -1497,12 +1407,6 @@
                                 <div class="avatar-group mt-2">
                                     <div class="avatar avatar-xs"><img src="assets/images/kkk.jpg" alt="Avatar"
                                             class="avatar-img rounded-circle"></div>
-                                    <!-- <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_jeremy-banks-798787-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div>
-                                    <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_daniel-gaffey-1060698-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div> -->
                                 </div>
                             </div>
                         </div>
@@ -1523,12 +1427,6 @@
                                 <div class="avatar-group mt-2">
                                     <div class="avatar avatar-xs"><img src="assets/images/profilew.png" alt="Avatar"
                                             class="avatar-img rounded-circle"></div>
-                                    <!-- <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_jeremy-banks-798787-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div>
-                                    <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_daniel-gaffey-1060698-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div> -->
                                 </div>
                             </div>
                         </div>

@@ -42,10 +42,6 @@
                                     type="button" data-toggle="sidebar"><span
                                         class="material-icons">short_text</span></button><!-- Navbar Brand --><a
                                     href="index.php" class="navbar-brand flex "><span>Dashboard</span></a>
-                                <!-- <form class="ml-auto search-form search-form--light d-none d-sm-flex flex"
-                                    action="#"><input type="text" class="form-control"
-                                        placeholder="Search"><button class="btn" type="submit" role="button"><i
-                                            class="material-icons">search</i></button></form> -->
                                 <ul class="nav navbar-nav d-none d-md-flex">
                                     <li class="nav-item dropdown"><a href="#notifications_menu"
                                             class="nav-link dropdown-toggle" data-toggle="dropdown"
@@ -155,9 +151,6 @@
                                         <a class="dropdown-item d-flex align-items-center py-2"
                                             href="admin_myprofile.php"><span class="material-icons mr-2">person</span>My
                                             Profile</a>
-                                        <!-- <a class="dropdown-item d-flex align-items-center py-2"
-                                            href="changepasswordadmin.php"><span
-                                                class="material-icons mr-2">lock</span>Change Password</a> -->
                                     </div>
                                 </div>
                             </div>
@@ -176,15 +169,12 @@
                                             href="appointments.php">
                                             <h4 class="text-amount"><strong>24</strong></h4>
                                         </a>
-                                        <!-- <span class="text-muted">&nbsp;/ $3,200</span> -->
                                     </div>
                                     <div class="position-relative d-flex align-items-start z-0">
                                         <div class="progress flex" style="height: 4px;">
                                             <div class="progress-bar bg-blue" role="progressbar" style="width: 100%;"
                                                 aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
-                                        <!-- <i class="material-icons text-success bg-white position-absolute"
-                                            style="right: -4px; top: -10px; z-index: 2;">check_box</i> -->
                                     </div>
                                 </div>
                             </div>
@@ -194,15 +184,12 @@
                                         <div class="card-header__title flex">Pending</div><a href="appointments.php">
                                             <h4 class="text-amount"><strong>5</strong></h4>
                                         </a>
-                                        <!-- <span class="text-muted">&nbsp;/ $3,200</span> -->
                                     </div>
                                     <div class="position-relative d-flex align-items-start z-0">
                                         <div class="progress flex" style="height: 4px;">
                                             <div class="progress-bar bg-warning" role="progressbar" style="width: 100%;"
                                                 aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
-                                        <!-- <i class="material-icons text-success bg-white position-absolute"
-                                            style="right: -4px; top: -10px; z-index: 2;">check_box</i> -->
                                     </div>
                                 </div>
                             </div>
@@ -212,7 +199,6 @@
                                         <div class="card-header__title flex">Approved</div><a href="appointments.php">
                                             <h4 class="text-amount"><strong>17</strong></h4>
                                         </a>
-                                        <!-- <span class="text-muted">&nbsp;/ $3,200</span> -->
                                     </div>
                                     <div class="progress" style="height: 4px;">
                                         <div class="progress-bar bg-success" role="progressbar" style="width: 100%;"
@@ -226,7 +212,6 @@
                                         <div class="card-header__title flex">Denied</div><a href="appointments.php">
                                             <h4 class="text-amount"><strong>2</strong></h4>
                                         </a>
-                                        <!-- <span class="text-muted">&nbsp;/ $8,210</span> -->
                                     </div>
                                     <div class="progress" style="height: 4px;">
                                         <div class="progress-bar bg-danger" role="progressbar" style="width: 100%;"
@@ -288,9 +273,6 @@
                                                     class="dropdown-item">Go to Report</a><a href="javascript:void(0)"
                                                     class="dropdown-item">Previous Data</a>
                                                 <a href="javascript:void(0)" class="dropdown-item">Next Data</a>
-                                                <!-- <div class="dropdown-divider">
-                                                </div><a href="javascript:void(0)"
-                                                    class="dropdown-item">Some Other Action</a> -->
                                             </div>
                                         </div>
                                     </div>
@@ -414,10 +396,6 @@
                                 </div>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="admin_clinicdetails.php">View Clinic Details</a>
-                                <!-- <a class="dropdown-item" href="edit-account.php">Edit Clinic Detials</a> -->
-                                <!-- <a class="dropdown-item" href="edit-account.php">Change Password</a> -->
-                                <!-- <div class="dropdown-divider"></div><a class="dropdown-item"
-                                            href="login.php">Logout</a> -->
                             </div>
                         </div>
                     </div>
@@ -432,13 +410,9 @@
                             <div class="sidebar-stats__value">719</div>
                         </div>
                     </div>
-                    <!-- <div class="py-4 text-center flex-shrink-0"><a style="min-width: 157px;" href="/signup.php"
-                            class="btn btn-primary">Create <i class="material-icons ml-1">add</i></a></div> -->
                     <ul class="nav nav-tabs sidebar-tabs flex-shrink-0" role="tablist">
                         <li class="nav-item"><a class="nav-link active show" id="sm-menu-tab" href="#sm-menu"
                                 data-toggle="tab" role="tab" aria-controls="sm-menu" aria-selected="true">Menu</a></li>
-                        <!-- <li class="nav-item"><a class="nav-link" href="#sm-account" data-toggle="tab">Manage</a></li> -->
-                        <!-- <li class="nav-item"><a class="nav-link" href="#sm-settings" data-toggle="tab">Settings</a></li> -->
                     </ul>
                     <div class="tab-content">
                         <div id="sm-menu" class="tab-pane show active" role="tabpanel" aria-labelledby="sm-menu-tab">
@@ -454,31 +428,6 @@
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_services.php"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">dvr</i><span
                                             class="sidebar-menu-text">Services</span></a></li>
-                                <!-- <li class="sidebar-menu-item">
-                                    <a class="sidebar-menu-button" data-toggle="collapse" href="#components_menu"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">Doctors</span></a>
-                                    <ul class="sidebar-submenu collapse" id="components_menu">
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Cardiology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Otolaryngology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Endocrinology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Family Medicine</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Gastroenterology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">General Dentistry</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">General Medicine</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Internal Medicine</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Mental Health</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Nephrology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Neurology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Nutritionist-Dietitian</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Family Medicine</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Obstetrics and Gynecology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Oncology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Opthalmology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Pediatrics</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Rehabilitation Medicine</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Rheumatology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Urology</span></a></li>
-                                    </ul>
-                                </li> -->
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">Doctors</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_patients.php"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span
@@ -519,12 +468,6 @@
                                 <div class="avatar-group mt-2">
                                     <div class="avatar avatar-xs"><img src="assets/images/profilew.png" alt="Avatar"
                                             class="avatar-img rounded-circle"></div>
-                                    <!-- <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_jeremy-banks-798787-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div>
-                                    <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_daniel-gaffey-1060698-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div> -->
                                 </div>
                             </div>
                         </div>
@@ -546,12 +489,6 @@
                                 <div class="avatar-group mt-2">
                                     <div class="avatar avatar-xs"><img src="assets/images/profilew.png" alt="Avatar"
                                             class="avatar-img rounded-circle"></div>
-                                    <!-- <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_jeremy-banks-798787-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div>
-                                    <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_daniel-gaffey-1060698-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div> -->
                                 </div>
                             </div>
                         </div>
@@ -573,12 +510,6 @@
                                 <div class="avatar-group mt-2">
                                     <div class="avatar avatar-xs"><img src="assets/images/jhong.jpg" alt="Avatar"
                                             class="avatar-img rounded-circle"></div>
-                                    <!-- <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_jeremy-banks-798787-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div>
-                                    <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_daniel-gaffey-1060698-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div> -->
                                 </div>
                             </div>
                         </div>
@@ -600,12 +531,6 @@
                                 <div class="avatar-group mt-2">
                                     <div class="avatar avatar-xs"><img src="assets/images/kkk.jpg" alt="Avatar"
                                             class="avatar-img rounded-circle"></div>
-                                    <!-- <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_jeremy-banks-798787-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div>
-                                    <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_daniel-gaffey-1060698-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div> -->
                                 </div>
                             </div>
                         </div>
@@ -626,12 +551,6 @@
                                 <div class="avatar-group mt-2">
                                     <div class="avatar avatar-xs"><img src="assets/images/profilew.png" alt="Avatar"
                                             class="avatar-img rounded-circle"></div>
-                                    <!-- <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_jeremy-banks-798787-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div>
-                                    <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_daniel-gaffey-1060698-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div> -->
                                 </div>
                             </div>
                         </div>
