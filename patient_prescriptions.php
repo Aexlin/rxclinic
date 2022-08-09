@@ -46,7 +46,7 @@
                                         <a href="patient_request.php"><button type="button" class="btn btn-primary-dark"
                                                 data-toggle="modal" data-target="#modal-login">BOOK NEW CONSULTATION</button></a>
                                     </div>
-                                <!-- <ul class="nav navbar-nav d-none d-md-flex">
+                                <ul class="nav navbar-nav d-none d-md-flex">
                                     <li class="nav-item dropdown"><a href="#notifications_menu"
                                             class="nav-link dropdown-toggle" data-toggle="dropdown"
                                             data-caret="false"><i
@@ -106,7 +106,7 @@
                                                 class="material-icons nav-icon">event_note</i><span
                                                 class="badge badge-warning text-primary-dark rounded-circle badge-notifications">1</span></a>
                                     </li>
-                                </ul> -->
+                                </ul>
                                <div class="dropdown"><a href="#" data-toggle="dropdown" data-caret="false"
                                         class="dropdown-toggle navbar-toggler navbar-toggler-company border-left d-flex align-items-center ml-navbar"><span
                                             class="mr-3"><img src="assets/images/profilew.png" width="43" height="43"
@@ -140,7 +140,7 @@
                     <div class="container-fluid page__container">
                         <div class="z-0">
                             <ul class="nav nav-tabs nav-tabs-custom" role="tablist">
-                                <li class="nav-item"><a href="#tab-queue" class="nav-link active" data-toggle="tab" role="tab" aria-controls="tab-queue" aria-selected="true"><span class="nav-link__count">List of Done Consultations</span>Total (23) </a></li>
+                                <li class="nav-item"><a href="#tab-queue" class="nav-link active" data-toggle="tab" role="tab" aria-controls="tab-queue" aria-selected="true"><span class="nav-link__count">History of Consultations</span>Total (23) </a></li>
                                 <!-- <li class="nav-item"><a href="#tab-earlier" class="nav-link" data-toggle="tab"
                                         role="tab" aria-selected="false"><span
                                             class="nav-link__count">Students</span>Total (519)
@@ -669,7 +669,7 @@
                                             class="sidebar-menu-text">My Doctors</span></a></li>
                                 <li class="sidebar-menu-item active"><a class="sidebar-menu-button" href="#"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">description</i><span
-                                            class="sidebar-menu-text">Reports</span></a></li>
+                                            class="sidebar-menu-text">History</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="patient_payments.php"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">payment</i><span
                                             class="sidebar-menu-text">Payment</span></a></li>

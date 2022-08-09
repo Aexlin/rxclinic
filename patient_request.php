@@ -46,7 +46,7 @@
                                     type="button" data-toggle="sidebar"><span
                                         class="material-icons">short_text</span></button><!-- Navbar Brand --><a
                                     href="#" class="navbar-brand flex "><span>BOOK NEW CONSULTATION</span></a>
-                                <!-- <ul class="nav navbar-nav d-none d-md-flex">
+                                <ul class="nav navbar-nav d-none d-md-flex">
                                     <li class="nav-item dropdown"><a href="#notifications_menu"
                                             class="nav-link dropdown-toggle" data-toggle="dropdown"
                                             data-caret="false"><i
@@ -106,7 +106,7 @@
                                                 class="material-icons nav-icon">event_note</i><span
                                                 class="badge badge-warning text-primary-dark rounded-circle badge-notifications">1</span></a>
                                     </li>
-                                </ul> -->
+                                </ul>
                               <div class="dropdown"><a href="#" data-toggle="dropdown" data-caret="false"
                                         class="dropdown-toggle navbar-toggler navbar-toggler-company border-left d-flex align-items-center ml-navbar"><span
                                             class="mr-3"><img src="assets/images/profilew.png" width="43" height="43"
@@ -154,32 +154,6 @@
                             <!-- <div class="page-separator">
                                 <div class="page-separator__text">with</div>
                             </div> -->
-                            <div class="page-separator">
-                                <div class="page-separator__text">PERSONAL INFORMATION</div>
-                            </div>
-                            <form action="index.php" novalidate>
-                                <div class="row">
-                                    <div class="col">
-                                        <div class="form-group"><label class="text-label" for="fname">First Name:</label><input
-                                                id="fname" type="text" class="form-control" placeholder="First name" value=""></div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="form-group"><label class="text-label" for="lname">Middle Name:</label><input
-                                                id="lname" type="text" class="form-control" placeholder="Middle name" value=""></div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="form-group"><label class="text-label" for="lname">Last Name:</label><input
-                                                id="lname" type="text" class="form-control" placeholder="Last name" value=""></div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="form-group"><label class="text-label"
-                                                for="contact">Contact No.:</label><input id="lname" type="text"
-                                                class="form-control" placeholder="Contact No." value=""></div>
-                                    </div>
-                                </div>
-                            </form>
                             <div class="page-separator">
                                 <div class="page-separator__text">APPOINTMENT Information</div>
                             </div>
@@ -316,7 +290,7 @@
                                             class="sidebar-menu-text">My Doctors</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="patient_prescriptions.php"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">description</i><span
-                                            class="sidebar-menu-text">Reports</span></a></li>
+                                            class="sidebar-menu-text">History</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="patient_payments.php"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">payment</i><span
                                             class="sidebar-menu-text">Payment</span></a></li>

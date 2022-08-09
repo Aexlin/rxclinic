@@ -469,7 +469,7 @@
                                             class="sidebar-menu-text">My Patients</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="doctor_prescriptions.php"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">description</i><span
-                                            class="sidebar-menu-text">Reports</span></a></li>
+                                            class="sidebar-menu-text">History</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="doctor_transactions.php"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">payment</i><span
                                             class="sidebar-menu-text">Transactions</span></a></li>

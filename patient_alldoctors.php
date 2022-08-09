@@ -46,7 +46,7 @@
                                     <a href="patient_request.php"><button type="button" class="btn btn-primary-dark"
                                             data-toggle="modal" data-target="#modal-login">BOOK NEW CONSULTATION</button></a>
                                 </div>
-                                <!-- <ul class="nav navbar-nav d-none d-md-flex">
+                                <ul class="nav navbar-nav d-none d-md-flex">
                                     <li class="nav-item dropdown"><a href="#notifications_menu"
                                             class="nav-link dropdown-toggle" data-toggle="dropdown"
                                             data-caret="false"><i
@@ -109,7 +109,7 @@
                                                 class="material-icons nav-icon">event_note</i><span
                                                 class="badge badge-warning text-primary-dark rounded-circle badge-notifications">1</span></a>
                                     </li>
-                                </ul> -->
+                                </ul>
                                 <div class="dropdown"><a href="#" data-toggle="dropdown" data-caret="false"
                                         class="dropdown-toggle navbar-toggler navbar-toggler-company border-left d-flex align-items-center ml-navbar"><span
                                             class="mr-3"><img src="assets/images/profilew.png" width="43" height="43"
@@ -143,7 +143,7 @@
                     class="mdk-header-layout__content mdk-header-layout__content--fullbleed mdk-header-layout__content--scrollable page">
                     <div class="container-fluid page__container">
                         <div class="z-0">
-                            <!-- <ul class="nav nav-tabs nav-tabs-custom" role="tablist">
+                            <ul class="nav nav-tabs nav-tabs-custom" role="tablist">
                                 <li class="nav-item"><a href="#tab-cardiology" class="nav-link active" data-toggle="tab"
                                         role="tab" aria-controls="tab-queue" aria-selected="true"><span
                                             class="nav-link__count">Cardiology</span>Total (4) </a></li>
@@ -155,6 +155,10 @@
                                         role="tab" aria-selected="false"><span
                                             class="nav-link__count">Endocrinology</span>Total (4)
                                     </a></li>
+                                <!-- <div>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </div> -->
+
                                 <li class="nav-item"><a href="#tab-familymedicine" class="nav-link" data-toggle="tab"
                                         role="tab" aria-selected="false"><span class="nav-link__count">Family
                                             Medicine</span>Total
@@ -164,7 +168,7 @@
                                         aria-selected="false"><span class="nav-link__count">Gastroenterology</span>Total
                                         (4)
                                     </a></li>
-                            </ul> -->
+                            </ul>
 
                             <div class="tab-content">
                                 <div class="tab-pane active show fade" id="tab-cardiology">
@@ -202,7 +206,7 @@
                                                                         </div>
                                                                         <div class="card-body">
                                                                             <p><a href="patient_doctordetails.php"
-                                                                                    class="text-body"><strong>Cardiology</strong></a>
+                                                                                    class="text-body"><strong>Description</strong></a>
                                                                             </p>
                                                                             <small
                                                                                 class="text-dark-gray d-flex align-items-center mb-2">
@@ -246,7 +250,7 @@
                                                                         </div>
                                                                         <div class="card-body">
                                                                             <p><a href="patient_doctordetails.php"
-                                                                                    class="text-body"><strong>Otolaryngology</strong></a>
+                                                                                    class="text-body"><strong>Description</strong></a>
                                                                             </p>
                                                                             <small
                                                                                 class="text-dark-gray d-flex align-items-center mb-2">
@@ -290,7 +294,7 @@
                                                                         </div>
                                                                         <div class="card-body">
                                                                             <p><a href="patient_doctordetails.php"
-                                                                                    class="text-body"><strong>Family Medicine</strong></a>
+                                                                                    class="text-body"><strong>Description</strong></a>
                                                                             </p>
                                                                             <small
                                                                                 class="text-dark-gray d-flex align-items-center mb-2">
@@ -319,6 +323,63 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
+                                                            <ul class="pagination justify-content-center ">
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">first_page</span><span
+                                                                            class="sr-only">First</span></a></li>
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_left</span><span
+                                                                            class="sr-only">Prev</span></a></li>
+                                                                <li class="page-item active"><a class="page-link"
+                                                                        href="#" aria-label="1"><span>1</span></a></li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="2"><span>2</span></a></li>
+                                                                <!-- <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="3"><span>3</span></a></li>
+                                                                    <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="4"><span>4</span></a></li> -->
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Next</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_right</span></a>
+                                                                </li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Last</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">last_page</span></a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane show fade" id="tab-otolaryngology">
+                                    <div class="card card-form">
+                                        <div class="row no-gutters">
+                                            <div class="col-lg-12">
+                                                <div class="row h-100 m-0">
+                                                    <div class="col-lg-12 py-grid d-flex flex-column h-100"
+                                                        data-simplebar>
+                                                        <div class="container-fluid page__container">
+                                                            <div class="table-responsive border-bottom"
+                                                                data-toggle="lists"
+                                                                data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-da"]'>
+                                                                <div class="search-form search-form--light m-3"><input
+                                                                        type="text" class="form-control search"
+                                                                        placeholder="Search Doctor"><button class="btn"
+                                                                        type="button" role="button"><i
+                                                                            class="material-icons">search</i></button>
+                                                                </div>
+                                                            </div>
                                                             <div class="row">
                                                                 <div class="col-sm-6 col-xl-4">
                                                                     <div class="card property-card">
@@ -336,7 +397,7 @@
                                                                         </div>
                                                                         <div class="card-body">
                                                                             <p><a href="patient_doctordetails.php"
-                                                                                    class="text-body"><strong>Otolaryngology</strong></a>
+                                                                                    class="text-body"><strong>Description</strong></a>
                                                                             </p>
                                                                             <small
                                                                                 class="text-dark-gray d-flex align-items-center mb-2">
@@ -380,7 +441,154 @@
                                                                         </div>
                                                                         <div class="card-body">
                                                                             <p><a href="patient_doctordetails.php"
-                                                                                    class="text-body"><strong>Family Medicine</strong></a>
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                           <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <ul class="pagination justify-content-center ">
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">first_page</span><span
+                                                                            class="sr-only">First</span></a></li>
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_left</span><span
+                                                                            class="sr-only">Prev</span></a></li>
+                                                                <li class="page-item active"><a class="page-link"
+                                                                        href="#" aria-label="1"><span>1</span></a></li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="2"><span>2</span></a></li>
+                                                                <!-- <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="3"><span>3</span></a></li>
+                                                                    <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="4"><span>4</span></a></li> -->
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Next</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_right</span></a>
+                                                                </li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Last</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">last_page</span></a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane show fade" id="tab-endocrinology">
+                                    <div class="card card-form">
+                                        <div class="row no-gutters">
+                                            <div class="col-lg-12">
+                                                <div class="row h-100 m-0">
+                                                    <div class="col-lg-12 py-grid d-flex flex-column h-100"
+                                                        data-simplebar>
+                                                        <div class="container-fluid page__container">
+                                                            <div class="table-responsive border-bottom"
+                                                                data-toggle="lists"
+                                                                data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-da"]'>
+                                                                <div class="search-form search-form--light m-3"><input
+                                                                        type="text" class="form-control search"
+                                                                        placeholder="Search Doctor"><button class="btn"
+                                                                        type="button" role="button"><i
+                                                                            class="material-icons">search</i></button>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
                                                                             </p>
                                                                             <small
                                                                                 class="text-dark-gray d-flex align-items-center mb-2">
@@ -424,7 +632,433 @@
                                                                         </div>
                                                                         <div class="card-body">
                                                                             <p><a href="patient_doctordetails.php"
-                                                                                    class="text-body"><strong>Dentistry</strong></a>
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                           <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <ul class="pagination justify-content-center ">
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">first_page</span><span
+                                                                            class="sr-only">First</span></a></li>
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_left</span><span
+                                                                            class="sr-only">Prev</span></a></li>
+                                                                <li class="page-item active"><a class="page-link"
+                                                                        href="#" aria-label="1"><span>1</span></a></li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="2"><span>2</span></a></li>
+                                                                <!-- <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="3"><span>3</span></a></li>
+                                                                    <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="4"><span>4</span></a></li> -->
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Next</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_right</span></a>
+                                                                </li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Last</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">last_page</span></a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane show fade" id="tab-familymedicine">
+                                    <div class="card card-form">
+                                        <div class="row no-gutters">
+                                            <div class="col-lg-12">
+                                                <div class="row h-100 m-0">
+                                                    <div class="col-lg-12 py-grid d-flex flex-column h-100"
+                                                        data-simplebar>
+                                                        <div class="container-fluid page__container">
+                                                            <div class="table-responsive border-bottom"
+                                                                data-toggle="lists"
+                                                                data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-da"]'>
+                                                                <div class="search-form search-form--light m-3"><input
+                                                                        type="text" class="form-control search"
+                                                                        placeholder="Search Doctor"><button class="btn"
+                                                                        type="button" role="button"><i
+                                                                            class="material-icons">search</i></button>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                           <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <ul class="pagination justify-content-center ">
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">first_page</span><span
+                                                                            class="sr-only">First</span></a></li>
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_left</span><span
+                                                                            class="sr-only">Prev</span></a></li>
+                                                                <li class="page-item active"><a class="page-link"
+                                                                        href="#" aria-label="1"><span>1</span></a></li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="2"><span>2</span></a></li>
+                                                                <!-- <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="3"><span>3</span></a></li>
+                                                                    <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="4"><span>4</span></a></li> -->
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Next</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_right</span></a>
+                                                                </li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Last</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">last_page</span></a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane show fade" id="tab-gastro">
+                                    <div class="card card-form">
+                                        <div class="row no-gutters">
+                                            <div class="col-lg-12">
+                                                <div class="row h-100 m-0">
+                                                    <div class="col-lg-12 py-grid d-flex flex-column h-100"
+                                                        data-simplebar>
+                                                        <div class="container-fluid page__container">
+                                                            <div class="table-responsive border-bottom"
+                                                                data-toggle="lists"
+                                                                data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-da"]'>
+                                                                <div class="search-form search-form--light m-3"><input
+                                                                        type="text" class="form-control search"
+                                                                        placeholder="Search Doctor"><button class="btn"
+                                                                        type="button" role="button"><i
+                                                                            class="material-icons">search</i></button>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                           <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
                                                                             </p>
                                                                             <small
                                                                                 class="text-dark-gray d-flex align-items-center mb-2">
@@ -495,6 +1129,2972 @@
                             </div>
                         </div>
                     </div>
+                    <div class="container-fluid page__container">
+                        <div class="z-0">
+                            <ul class="nav nav-tabs nav-tabs-custom" role="tablist">
+                                <li class="nav-item"><a href="#tab-genden" class="nav-link active" data-toggle="tab"
+                                        role="tab" aria-controls="tab-queue" aria-selected="true"><span
+                                            class="nav-link__count">General Dentistry</span>Total (4) </a></li>
+                                <li class="nav-item"><a href="#tab-genmed" class="nav-link" data-toggle="tab" role="tab"
+                                        aria-selected="false"><span class="nav-link__count">General Medicine</span>Total
+                                        (4)
+                                    </a></li>
+                                <li class="nav-item"><a href="#tab-inmed" class="nav-link" data-toggle="tab" role="tab"
+                                        aria-selected="false"><span class="nav-link__count">Internal
+                                            Medicine</span>Total (4)
+                                    </a></li>
+                                <!-- <div>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </div> -->
+
+                                <li class="nav-item"><a href="#tab-menhealth" class="nav-link" data-toggle="tab"
+                                        role="tab" aria-selected="false"><span class="nav-link__count">Mental
+                                            Health</span>Total
+                                        (4)
+                                    </a></li>
+                                <li class="nav-item"><a href="#tab-nephro" class="nav-link" data-toggle="tab" role="tab"
+                                        aria-selected="false"><span class="nav-link__count">Nephrology</span>Total
+                                        (4)
+                                    </a></li>
+                            </ul>
+
+                            <div class="tab-content">
+                                <div class="tab-pane active show fade" id="tab-genden">
+                                    <div class="card card-form">
+                                        <div class="row no-gutters">
+                                            <div class="col-lg-12">
+                                                <div class="row h-100 m-0">
+                                                    <div class="col-lg-12 py-grid d-flex flex-column h-100"
+                                                        data-simplebar>
+                                                        <div class="container-fluid page__container">
+                                                            <div class="table-responsive border-bottom"
+                                                                data-toggle="lists"
+                                                                data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-da"]'>
+                                                                <div class="search-form search-form--light m-3"><input
+                                                                        type="text" class="form-control search"
+                                                                        placeholder="Search Doctor"><button class="btn"
+                                                                        type="button" role="button"><i
+                                                                            class="material-icons">search</i></button>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                           <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <ul class="pagination justify-content-center ">
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">first_page</span><span
+                                                                            class="sr-only">First</span></a></li>
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_left</span><span
+                                                                            class="sr-only">Prev</span></a></li>
+                                                                <li class="page-item active"><a class="page-link"
+                                                                        href="#" aria-label="1"><span>1</span></a></li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="2"><span>2</span></a></li>
+                                                                <!-- <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="3"><span>3</span></a></li>
+                                                                    <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="4"><span>4</span></a></li> -->
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Next</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_right</span></a>
+                                                                </li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Last</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">last_page</span></a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane show fade" id="tab-genmed">
+                                    <div class="card card-form">
+                                        <div class="row no-gutters">
+                                            <div class="col-lg-12">
+                                                <div class="row h-100 m-0">
+                                                    <div class="col-lg-12 py-grid d-flex flex-column h-100"
+                                                        data-simplebar>
+                                                        <div class="container-fluid page__container">
+                                                            <div class="table-responsive border-bottom"
+                                                                data-toggle="lists"
+                                                                data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-da"]'>
+                                                                <div class="search-form search-form--light m-3"><input
+                                                                        type="text" class="form-control search"
+                                                                        placeholder="Search Doctor"><button class="btn"
+                                                                        type="button" role="button"><i
+                                                                            class="material-icons">search</i></button>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                           <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <ul class="pagination justify-content-center ">
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">first_page</span><span
+                                                                            class="sr-only">First</span></a></li>
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_left</span><span
+                                                                            class="sr-only">Prev</span></a></li>
+                                                                <li class="page-item active"><a class="page-link"
+                                                                        href="#" aria-label="1"><span>1</span></a></li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="2"><span>2</span></a></li>
+                                                                <!-- <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="3"><span>3</span></a></li>
+                                                                    <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="4"><span>4</span></a></li> -->
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Next</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_right</span></a>
+                                                                </li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Last</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">last_page</span></a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane show fade" id="tab-inmed">
+                                    <div class="card card-form">
+                                        <div class="row no-gutters">
+                                            <div class="col-lg-12">
+                                                <div class="row h-100 m-0">
+                                                    <div class="col-lg-12 py-grid d-flex flex-column h-100"
+                                                        data-simplebar>
+                                                        <div class="container-fluid page__container">
+                                                            <div class="table-responsive border-bottom"
+                                                                data-toggle="lists"
+                                                                data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-da"]'>
+                                                                <div class="search-form search-form--light m-3"><input
+                                                                        type="text" class="form-control search"
+                                                                        placeholder="Search Doctor"><button class="btn"
+                                                                        type="button" role="button"><i
+                                                                            class="material-icons">search</i></button>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                           <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <ul class="pagination justify-content-center ">
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">first_page</span><span
+                                                                            class="sr-only">First</span></a></li>
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_left</span><span
+                                                                            class="sr-only">Prev</span></a></li>
+                                                                <li class="page-item active"><a class="page-link"
+                                                                        href="#" aria-label="1"><span>1</span></a></li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="2"><span>2</span></a></li>
+                                                                <!-- <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="3"><span>3</span></a></li>
+                                                                    <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="4"><span>4</span></a></li> -->
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Next</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_right</span></a>
+                                                                </li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Last</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">last_page</span></a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane show fade" id="tab-menhealth">
+                                    <div class="card card-form">
+                                        <div class="row no-gutters">
+                                            <div class="col-lg-12">
+                                                <div class="row h-100 m-0">
+                                                    <div class="col-lg-12 py-grid d-flex flex-column h-100"
+                                                        data-simplebar>
+                                                        <div class="container-fluid page__container">
+                                                            <div class="table-responsive border-bottom"
+                                                                data-toggle="lists"
+                                                                data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-da"]'>
+                                                                <div class="search-form search-form--light m-3"><input
+                                                                        type="text" class="form-control search"
+                                                                        placeholder="Search Doctor"><button class="btn"
+                                                                        type="button" role="button"><i
+                                                                            class="material-icons">search</i></button>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                           <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <ul class="pagination justify-content-center ">
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">first_page</span><span
+                                                                            class="sr-only">First</span></a></li>
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_left</span><span
+                                                                            class="sr-only">Prev</span></a></li>
+                                                                <li class="page-item active"><a class="page-link"
+                                                                        href="#" aria-label="1"><span>1</span></a></li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="2"><span>2</span></a></li>
+                                                                <!-- <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="3"><span>3</span></a></li>
+                                                                    <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="4"><span>4</span></a></li> -->
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Next</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_right</span></a>
+                                                                </li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Last</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">last_page</span></a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane show fade" id="tab-nephro">
+                                    <div class="card card-form">
+                                        <div class="row no-gutters">
+                                            <div class="col-lg-12">
+                                                <div class="row h-100 m-0">
+                                                    <div class="col-lg-12 py-grid d-flex flex-column h-100"
+                                                        data-simplebar>
+                                                        <div class="container-fluid page__container">
+                                                            <div class="table-responsive border-bottom"
+                                                                data-toggle="lists"
+                                                                data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-da"]'>
+                                                                <div class="search-form search-form--light m-3"><input
+                                                                        type="text" class="form-control search"
+                                                                        placeholder="Search Doctor"><button class="btn"
+                                                                        type="button" role="button"><i
+                                                                            class="material-icons">search</i></button>
+                                                                </div>
+                                                            </div>
+                                                          <div class="row">
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                           <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <ul class="pagination justify-content-center ">
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">first_page</span><span
+                                                                            class="sr-only">First</span></a></li>
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_left</span><span
+                                                                            class="sr-only">Prev</span></a></li>
+                                                                <li class="page-item active"><a class="page-link"
+                                                                        href="#" aria-label="1"><span>1</span></a></li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="2"><span>2</span></a></li>
+                                                                <!-- <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="3"><span>3</span></a></li>
+                                                                    <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="4"><span>4</span></a></li> -->
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Next</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_right</span></a>
+                                                                </li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Last</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">last_page</span></a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-fluid page__container">
+                        <div class="z-0">
+                            <ul class="nav nav-tabs nav-tabs-custom" role="tablist">
+                                <li class="nav-item"><a href="#tab-neurology" class="nav-link active" data-toggle="tab"
+                                        role="tab" aria-controls="tab-queue" aria-selected="true"><span
+                                            class="nav-link__count">Neurology</span>Total (4) </a></li>
+                                <li class="nav-item"><a href="#tab-nutridiet" class="nav-link" data-toggle="tab"
+                                        role="tab" aria-selected="false"><span
+                                            class="nav-link__count">Nutritionist-Dietitian</span>Total (4)
+                                    </a></li>
+                                <li class="nav-item"><a href="#tab-obstegyne" class="nav-link" data-toggle="tab"
+                                        role="tab" aria-selected="false"><span
+                                            class="nav-link__count">Obstetrics and Gynecology</span>Total (4)
+                                    </a></li>
+                                <!-- <div>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </div> -->
+
+                                <li class="nav-item"><a href="#tab-oncology" class="nav-link" data-toggle="tab"
+                                        role="tab" aria-selected="false"><span class="nav-link__count">Oncology</span>Total
+                                        (4)
+                                    </a></li>
+                                <li class="nav-item"><a href="#tab-opthalmology" class="nav-link" data-toggle="tab" role="tab"
+                                        aria-selected="false"><span class="nav-link__count">Opthalmology</span>Total
+                                        (4)
+                                    </a></li>
+                            </ul>
+
+                            <div class="tab-content">
+                                <div class="tab-pane active show fade" id="tab-neurology">
+                                    <div class="card card-form">
+                                        <div class="row no-gutters">
+                                            <div class="col-lg-12">
+                                                <div class="row h-100 m-0">
+                                                    <div class="col-lg-12 py-grid d-flex flex-column h-100"
+                                                        data-simplebar>
+                                                        <div class="container-fluid page__container">
+                                                            <div class="table-responsive border-bottom"
+                                                                data-toggle="lists"
+                                                                data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-da"]'>
+                                                                <div class="search-form search-form--light m-3"><input
+                                                                        type="text" class="form-control search"
+                                                                        placeholder="Search Doctor"><button class="btn"
+                                                                        type="button" role="button"><i
+                                                                            class="material-icons">search</i></button>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <ul class="pagination justify-content-center ">
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">first_page</span><span
+                                                                            class="sr-only">First</span></a></li>
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_left</span><span
+                                                                            class="sr-only">Prev</span></a></li>
+                                                                <li class="page-item active"><a class="page-link"
+                                                                        href="#" aria-label="1"><span>1</span></a></li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="2"><span>2</span></a></li>
+                                                                <!-- <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="3"><span>3</span></a></li>
+                                                                    <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="4"><span>4</span></a></li> -->
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Next</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_right</span></a>
+                                                                </li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Last</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">last_page</span></a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane show fade" id="tab-nutridiet">
+                                    <div class="card card-form">
+                                        <div class="row no-gutters">
+                                            <div class="col-lg-12">
+                                                <div class="row h-100 m-0">
+                                                    <div class="col-lg-12 py-grid d-flex flex-column h-100"
+                                                        data-simplebar>
+                                                        <div class="container-fluid page__container">
+                                                            <div class="table-responsive border-bottom"
+                                                                data-toggle="lists"
+                                                                data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-da"]'>
+                                                                <div class="search-form search-form--light m-3"><input
+                                                                        type="text" class="form-control search"
+                                                                        placeholder="Search Doctor"><button class="btn"
+                                                                        type="button" role="button"><i
+                                                                            class="material-icons">search</i></button>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                           <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <ul class="pagination justify-content-center ">
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">first_page</span><span
+                                                                            class="sr-only">First</span></a></li>
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_left</span><span
+                                                                            class="sr-only">Prev</span></a></li>
+                                                                <li class="page-item active"><a class="page-link"
+                                                                        href="#" aria-label="1"><span>1</span></a></li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="2"><span>2</span></a></li>
+                                                                <!-- <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="3"><span>3</span></a></li>
+                                                                    <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="4"><span>4</span></a></li> -->
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Next</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_right</span></a>
+                                                                </li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Last</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">last_page</span></a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane show fade" id="tab-obstegyne">
+                                    <div class="card card-form">
+                                        <div class="row no-gutters">
+                                            <div class="col-lg-12">
+                                                <div class="row h-100 m-0">
+                                                    <div class="col-lg-12 py-grid d-flex flex-column h-100"
+                                                        data-simplebar>
+                                                        <div class="container-fluid page__container">
+                                                            <div class="table-responsive border-bottom"
+                                                                data-toggle="lists"
+                                                                data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-da"]'>
+                                                                <div class="search-form search-form--light m-3"><input
+                                                                        type="text" class="form-control search"
+                                                                        placeholder="Search Doctor"><button class="btn"
+                                                                        type="button" role="button"><i
+                                                                            class="material-icons">search</i></button>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                           <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <ul class="pagination justify-content-center ">
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">first_page</span><span
+                                                                            class="sr-only">First</span></a></li>
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_left</span><span
+                                                                            class="sr-only">Prev</span></a></li>
+                                                                <li class="page-item active"><a class="page-link"
+                                                                        href="#" aria-label="1"><span>1</span></a></li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="2"><span>2</span></a></li>
+                                                                <!-- <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="3"><span>3</span></a></li>
+                                                                    <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="4"><span>4</span></a></li> -->
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Next</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_right</span></a>
+                                                                </li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Last</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">last_page</span></a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane show fade" id="tab-oncology">
+                                    <div class="card card-form">
+                                        <div class="row no-gutters">
+                                            <div class="col-lg-12">
+                                                <div class="row h-100 m-0">
+                                                    <div class="col-lg-12 py-grid d-flex flex-column h-100"
+                                                        data-simplebar>
+                                                        <div class="container-fluid page__container">
+                                                            <div class="table-responsive border-bottom"
+                                                                data-toggle="lists"
+                                                                data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-da"]'>
+                                                                <div class="search-form search-form--light m-3"><input
+                                                                        type="text" class="form-control search"
+                                                                        placeholder="Search Doctor"><button class="btn"
+                                                                        type="button" role="button"><i
+                                                                            class="material-icons">search</i></button>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                           <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <ul class="pagination justify-content-center ">
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">first_page</span><span
+                                                                            class="sr-only">First</span></a></li>
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_left</span><span
+                                                                            class="sr-only">Prev</span></a></li>
+                                                                <li class="page-item active"><a class="page-link"
+                                                                        href="#" aria-label="1"><span>1</span></a></li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="2"><span>2</span></a></li>
+                                                                <!-- <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="3"><span>3</span></a></li>
+                                                                    <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="4"><span>4</span></a></li> -->
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Next</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_right</span></a>
+                                                                </li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Last</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">last_page</span></a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane show fade" id="tab-opthalmology">
+                                    <div class="card card-form">
+                                        <div class="row no-gutters">
+                                            <div class="col-lg-12">
+                                                <div class="row h-100 m-0">
+                                                    <div class="col-lg-12 py-grid d-flex flex-column h-100"
+                                                        data-simplebar>
+                                                        <div class="container-fluid page__container">
+                                                            <div class="table-responsive border-bottom"
+                                                                data-toggle="lists"
+                                                                data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-da"]'>
+                                                                <div class="search-form search-form--light m-3"><input
+                                                                        type="text" class="form-control search"
+                                                                        placeholder="Search Doctor"><button class="btn"
+                                                                        type="button" role="button"><i
+                                                                            class="material-icons">search</i></button>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                           <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <ul class="pagination justify-content-center ">
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">first_page</span><span
+                                                                            class="sr-only">First</span></a></li>
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_left</span><span
+                                                                            class="sr-only">Prev</span></a></li>
+                                                                <li class="page-item active"><a class="page-link"
+                                                                        href="#" aria-label="1"><span>1</span></a></li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="2"><span>2</span></a></li>
+                                                                <!-- <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="3"><span>3</span></a></li>
+                                                                    <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="4"><span>4</span></a></li> -->
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Next</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_right</span></a>
+                                                                </li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Last</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">last_page</span></a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="container-fluid page__container">
+                        <div class="z-0">
+                            <ul class="nav nav-tabs nav-tabs-custom" role="tablist">
+                                <li class="nav-item"><a href="#tab-urology" class="nav-link active" data-toggle="tab"
+                                        role="tab" aria-controls="tab-queue" aria-selected="true"><span
+                                            class="nav-link__count">Urology</span>Total (4) </a></li>
+                                <li class="nav-item"><a href="#tab-pediatrics" class="nav-link" data-toggle="tab"
+                                        role="tab" aria-selected="false"><span
+                                            class="nav-link__count">Pediatrics</span>Total (4)
+                                    </a></li>
+                                <li class="nav-item"><a href="#tab-pulmonology" class="nav-link" data-toggle="tab"
+                                        role="tab" aria-selected="false"><span
+                                            class="nav-link__count">Pulmonology</span>Total (4)
+                                    </a></li>
+                                <!-- <div>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </div> -->
+
+                                <li class="nav-item"><a href="#tab-rehabmed" class="nav-link" data-toggle="tab"
+                                        role="tab" aria-selected="false"><span class="nav-link__count">Rehabilitation Medicine</span>Total
+                                        (4)
+                                    </a></li>
+                                <li class="nav-item"><a href="#tab-rheuma" class="nav-link" data-toggle="tab" role="tab"
+                                        aria-selected="false"><span class="nav-link__count">Rheumatology</span>Total
+                                        (4)
+                                    </a></li>
+                            </ul>
+
+                            <div class="tab-content">
+                                <div class="tab-pane active show fade" id="tab-urology">
+                                    <div class="card card-form">
+                                        <div class="row no-gutters">
+                                            <div class="col-lg-12">
+                                                <div class="row h-100 m-0">
+                                                    <div class="col-lg-12 py-grid d-flex flex-column h-100"
+                                                        data-simplebar>
+                                                        <div class="container-fluid page__container">
+                                                            <div class="table-responsive border-bottom"
+                                                                data-toggle="lists"
+                                                                data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-da"]'>
+                                                                <div class="search-form search-form--light m-3"><input
+                                                                        type="text" class="form-control search"
+                                                                        placeholder="Search Doctor"><button class="btn"
+                                                                        type="button" role="button"><i
+                                                                            class="material-icons">search</i></button>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <ul class="pagination justify-content-center ">
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">first_page</span><span
+                                                                            class="sr-only">First</span></a></li>
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_left</span><span
+                                                                            class="sr-only">Prev</span></a></li>
+                                                                <li class="page-item active"><a class="page-link"
+                                                                        href="#" aria-label="1"><span>1</span></a></li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="2"><span>2</span></a></li>
+                                                                <!-- <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="3"><span>3</span></a></li>
+                                                                    <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="4"><span>4</span></a></li> -->
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Next</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_right</span></a>
+                                                                </li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Last</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">last_page</span></a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane show fade" id="tab-pediatrics">
+                                    <div class="card card-form">
+                                        <div class="row no-gutters">
+                                            <div class="col-lg-12">
+                                                <div class="row h-100 m-0">
+                                                    <div class="col-lg-12 py-grid d-flex flex-column h-100"
+                                                        data-simplebar>
+                                                        <div class="container-fluid page__container">
+                                                            <div class="table-responsive border-bottom"
+                                                                data-toggle="lists"
+                                                                data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-da"]'>
+                                                                <div class="search-form search-form--light m-3"><input
+                                                                        type="text" class="form-control search"
+                                                                        placeholder="Search Doctor"><button class="btn"
+                                                                        type="button" role="button"><i
+                                                                            class="material-icons">search</i></button>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                           <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <ul class="pagination justify-content-center ">
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">first_page</span><span
+                                                                            class="sr-only">First</span></a></li>
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_left</span><span
+                                                                            class="sr-only">Prev</span></a></li>
+                                                                <li class="page-item active"><a class="page-link"
+                                                                        href="#" aria-label="1"><span>1</span></a></li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="2"><span>2</span></a></li>
+                                                                <!-- <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="3"><span>3</span></a></li>
+                                                                    <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="4"><span>4</span></a></li> -->
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Next</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_right</span></a>
+                                                                </li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Last</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">last_page</span></a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane show fade" id="tab-pulmonology">
+                                    <div class="card card-form">
+                                        <div class="row no-gutters">
+                                            <div class="col-lg-12">
+                                                <div class="row h-100 m-0">
+                                                    <div class="col-lg-12 py-grid d-flex flex-column h-100"
+                                                        data-simplebar>
+                                                        <div class="container-fluid page__container">
+                                                            <div class="table-responsive border-bottom"
+                                                                data-toggle="lists"
+                                                                data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-da"]'>
+                                                                <div class="search-form search-form--light m-3"><input
+                                                                        type="text" class="form-control search"
+                                                                        placeholder="Search Doctor"><button class="btn"
+                                                                        type="button" role="button"><i
+                                                                            class="material-icons">search</i></button>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                           <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <ul class="pagination justify-content-center ">
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">first_page</span><span
+                                                                            class="sr-only">First</span></a></li>
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_left</span><span
+                                                                            class="sr-only">Prev</span></a></li>
+                                                                <li class="page-item active"><a class="page-link"
+                                                                        href="#" aria-label="1"><span>1</span></a></li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="2"><span>2</span></a></li>
+                                                                <!-- <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="3"><span>3</span></a></li>
+                                                                    <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="4"><span>4</span></a></li> -->
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Next</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_right</span></a>
+                                                                </li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Last</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">last_page</span></a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane show fade" id="tab-rehabmed">
+                                    <div class="card card-form">
+                                        <div class="row no-gutters">
+                                            <div class="col-lg-12">
+                                                <div class="row h-100 m-0">
+                                                    <div class="col-lg-12 py-grid d-flex flex-column h-100"
+                                                        data-simplebar>
+                                                        <div class="container-fluid page__container">
+                                                            <div class="table-responsive border-bottom"
+                                                                data-toggle="lists"
+                                                                data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-da"]'>
+                                                                <div class="search-form search-form--light m-3"><input
+                                                                        type="text" class="form-control search"
+                                                                        placeholder="Search Doctor"><button class="btn"
+                                                                        type="button" role="button"><i
+                                                                            class="material-icons">search</i></button>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                           <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <ul class="pagination justify-content-center ">
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">first_page</span><span
+                                                                            class="sr-only">First</span></a></li>
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_left</span><span
+                                                                            class="sr-only">Prev</span></a></li>
+                                                                <li class="page-item active"><a class="page-link"
+                                                                        href="#" aria-label="1"><span>1</span></a></li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="2"><span>2</span></a></li>
+                                                                <!-- <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="3"><span>3</span></a></li>
+                                                                    <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="4"><span>4</span></a></li> -->
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Next</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_right</span></a>
+                                                                </li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Last</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">last_page</span></a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane show fade" id="tab-rheuma">
+                                    <div class="card card-form">
+                                        <div class="row no-gutters">
+                                            <div class="col-lg-12">
+                                                <div class="row h-100 m-0">
+                                                    <div class="col-lg-12 py-grid d-flex flex-column h-100"
+                                                        data-simplebar>
+                                                        <div class="container-fluid page__container">
+                                                            <div class="table-responsive border-bottom"
+                                                                data-toggle="lists"
+                                                                data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-da"]'>
+                                                                <div class="search-form search-form--light m-3"><input
+                                                                        type="text" class="form-control search"
+                                                                        placeholder="Search Doctor"><button class="btn"
+                                                                        type="button" role="button"><i
+                                                                            class="material-icons">search</i></button>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                           <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 col-xl-4">
+                                                                    <div class="card property-card">
+                                                                        <div class="property-card__image-container"><img
+                                                                                src="assets/images/doctor2.png" alt=""
+                                                                                class="card-img">
+                                                                            <div class="property-card__image-content">
+                                                                                <div
+                                                                                    class="property-card__image-title card-body">
+                                                                                    <span
+                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                        Number Wan </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <p><a href="patient_doctordetails.php"
+                                                                                    class="text-body"><strong>Description</strong></a>
+                                                                            </p>
+                                                                            <small
+                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
+                                                                                “I am a hard-working, conscientious and
+                                                                                professional doctor who always puts
+                                                                                the needs of my patients at the
+                                                                                forefront of everything I do."
+                                                                            </small>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            </p>
+                                                                            <p><i
+                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            </p>
+                                                                            <div class="modal-footer">
+                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
+                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
+                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <ul class="pagination justify-content-center ">
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">first_page</span><span
+                                                                            class="sr-only">First</span></a></li>
+                                                                <li class="page-item disabled"><a class="page-link"
+                                                                        href="#" aria-label="Previous"><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_left</span><span
+                                                                            class="sr-only">Prev</span></a></li>
+                                                                <li class="page-item active"><a class="page-link"
+                                                                        href="#" aria-label="1"><span>1</span></a></li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="2"><span>2</span></a></li>
+                                                                <!-- <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="3"><span>3</span></a></li>
+                                                                    <li class="page-item"><a class="page-link" href="#"
+                                                                            aria-label="4"><span>4</span></a></li> -->
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Next</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">chevron_right</span></a>
+                                                                </li>
+                                                                <li class="page-item"><a class="page-link" href="#"
+                                                                        aria-label="Next"><span
+                                                                            class="sr-only">Last</span><span
+                                                                            aria-hidden="true"
+                                                                            class="material-icons">last_page</span></a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div><!-- // END header-layout__content -->
             </div><!-- // END header-layout -->
         </div><!-- // END drawer-layout__content -->
@@ -593,7 +4193,7 @@
                                             class="sidebar-menu-text">My Doctors</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="patient_prescriptions.php"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">description</i><span
-                                            class="sidebar-menu-text">Reports</span></a></li>
+                                            class="sidebar-menu-text">History</span></a></li>
                                  <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="patient_payments.php"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">payment</i><span
                                             class="sidebar-menu-text">Payment</span></a></li>
