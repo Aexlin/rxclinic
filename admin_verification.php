@@ -283,44 +283,149 @@
 
         <!-- Info Modal -->
         <div id="modal-info" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     <div class="modal-body">
                         <div class="px-3">
                             <div class="d-flex justify-content-center mt-0 mb-0 navbar-light"><a href="#" class="navbar-brand" style="min-width: 0"><img class="navbar-brand-icon" src="assets/img/rxlogowithname.png" width="250" alt="Stack"></a></div><br><br>
-                            <div><span><strong>DOCTOR DETAILS</strong></span></div>
-                            <div class="page-separator"></div>
-                            <div class="col-lg-12 card-body">
+                            <!-- <div class="d-flex justify-content-center mt-0 mb-0 navbar-light"><span><strong>REPORT DETAILS</strong></span></div> -->
+                            <!-- <div class="page-separator"></div> -->
+                            <div class="modal-body">
+                                <div class="page-separator">
+                                    <div class="page-separator__text">DOCTOR DETAILS</div>
+                                </div>
                                 <div class="d-flex flex-column justify-content-center align-items-center mt-0 mb-2 navbar-light">
                                     <a href="#" class="navbar-brand text-center mb-2 mr-0" style="min-width: 0"><img class="navbar-brand-icon" src="assets/images/doctor2.png" width="320" alt="Flat"><span></span></a>
                                 </div>
-                                <h3>
-                                    <p class="text-center"><strong class="headings-color">Dr. Number Wan</strong>
-                                    </p>
-                                </h3>
-                                <h5>
-                                    <p class="text-center mt-1">Cardiologist</p>
-                                </h5>
-                                <small class="text-dark-gray d-flex align-items-center mb-2">
-                                    <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
-                                    “I am a hard-working, conscientious and
-                                    professional doctor who always puts
-                                    the needs of my patients at the
-                                    forefront of everything I do."
-                                </small>
-                                <p><i class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                <p>
+                                <h5><strong class="d-flex flex-column justify-content-center align-items-center mt-0 mb-0 navbar-light">Dr. Number Wan</strong></h5>
                                 </p>
-                                <p><i class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                <p>
+                                <h6><strong class="d-flex flex-column justify-content-center align-items-center mt-0 mb-2 navbar-light">Cardiologist</strong></h6>
                                 </p>
-                                <p><i class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
-                                </p>
+                                <p><strong>Date of Birth: </strong>08/09/1999</p>
+                                <p><strong>Phone Number: </strong>0987-654-3210</p>
+                                <p><strong>Email Address: </strong>drnumberwan@gmail.com</p>
+                                <p><strong>Address: </strong>3435 Batumbakal Street, New York, Cubao</p>
+                                <p><strong>Payment Fee: </strong>₱29,000</p>
+                                <div class="page-separator">
+                                    <div class="page-separator__text">IDENTIFICATION DETAILS</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <p><strong>PRC No: </strong>123456789</p>
+                                    </div>
+                                    <div class="col-lg-9">
+                                        <div class="d-flex flex-column justify-content-center align-items-left mt-0 mb-2 navbar-light">
+                                            <a href="#" class="navbar-brand text-center mb-2 mr-0" style="min-width: 0"><img class="navbar-brand-icon" src="assets/images/id.png" width="250" alt="Flat"><span></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <p><strong>PhilHealth No: </strong>123456789</p>
+                                    </div>
+                                    <div class="col-lg-9">
+                                        <div class="d-flex flex-column justify-content-center align-items-left mt-0 mb-2 navbar-light">
+                                            <a href="#" class="navbar-brand text-center mb-2 mr-0" style="min-width: 0"><img class="navbar-brand-icon" src="assets/images/id.png" width="250" alt="Flat"><span></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <p><strong>PTR No: </strong>123456789</p>
+                                    </div>
+                                </div>
+                                <div class="page-separator">
+                                    <div class="page-separator__text">SPECIALIZATION DETAILS</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <p><strong>Specialization: </strong>Cardiology</p>
+                                    </div>
+                                    <div class="col-lg-9">
+                                        <div class="d-flex flex-column justify-content-center align-items-left mt-0 mb-2 navbar-light">
+                                            <a href="#" class="navbar-brand text-center mb-2 mr-0" style="min-width: 0"><img class="navbar-brand-icon" src="assets/images/certi.jpg" width="250" alt="Flat"><span></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <p><strong>Sub Specialization: </strong>Otolaryngology</p>
+                                    </div>
+                                    <div class="col-lg-9">
+                                        <div class="d-flex flex-column justify-content-center align-items-left mt-0 mb-2 navbar-light">
+                                            <a href="#" class="navbar-brand text-center mb-2 mr-0" style="min-width: 0"><img class="navbar-brand-icon" src="assets/images/certi.jpg" width="250" alt="Flat"><span></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page-separator">
+                                    <div class="page-separator__text">CREDENTIAL DETAILS</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                    <p><strong>Resume: </strong></p>
+                                    <a href="#" class="media align-items-center mt-2 text-underline-0 bg-white p-2"><span class="avatar avatar-xs mr-2"><span class="avatar-title rounded-circle"><i class="material-icons">attach_file</i></span></span><span class="media-body" style="line-height: 1.5"><span class="text-primary">Resume.doc</span><br><span class="text-muted">15kb</span></span></a>
+                                    </div>
+                                    <div class="col-lg-9">
+                                        <div class="d-flex flex-column justify-content-center align-items-left mt-0 mb-2 navbar-light">
+                                            <a href="#" class="navbar-brand text-center mb-2 mr-0" style="min-width: 0"><img class="navbar-brand-icon" src="assets/images/resume.png" width="250" alt="Flat"><span></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <p><strong>NBI Clearnace: </strong></p>
+                                    </div>
+                                    <div class="col-lg-9">
+                                        <div class="d-flex flex-column justify-content-center align-items-left mt-0 mb-2 navbar-light">
+                                            <a href="#" class="navbar-brand text-center mb-2 mr-0" style="min-width: 0"><img class="navbar-brand-icon" src="assets/images/nbi.png" width="250" alt="Flat"><span></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <p><strong>Member Certificate: </strong></p>
+                                    </div>
+                                    <div class="col-lg-9">
+                                        <div class="d-flex flex-column justify-content-center align-items-left mt-0 mb-2 navbar-light">
+                                            <a href="#" class="navbar-brand text-center mb-2 mr-0" style="min-width: 0"><img class="navbar-brand-icon" src="assets/images/certi.jpg" width="250" alt="Flat"><span></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p><strong>VAT or Non-VAT: </strong>VAT</p>
+                                <p><strong>TIN Number: </strong>123-456-789-000</p>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <p><strong>COR - BIR 2303: </strong></p>
+                                    </div>
+                                    <div class="col-lg-9">
+                                        <div class="d-flex flex-column justify-content-center align-items-left mt-0 mb-2 navbar-light">
+                                            <a href="#" class="navbar-brand text-center mb-2 mr-0" style="min-width: 0"><img class="navbar-brand-icon" src="assets/images/bir.jpeg" width="250" alt="Flat"><span></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <p><strong>Sworn statement declaration of receipt: </strong></p>
+                                    </div>
+                                    <div class="col-lg-9">
+                                        <div class="d-flex flex-column justify-content-center align-items-left mt-0 mb-2 navbar-light">
+                                            <a href="#" class="navbar-brand text-center mb-2 mr-0" style="min-width: 0"><img class="navbar-brand-icon" src="assets/images/sworn.png" width="300" alt="Flat"><span></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <br>
+                                            <div class="alert alert-soft-success d-flex" role="alert"><i class="material-icons mr-3">check_circle</i>
+                                                <div class="text-body">Your appointment is now <strong>APPROVED</strong>. Please proceed to the clinic according to the schedule.</div>
+                                            </div> -->
+                                <div class="modal-footer"><a href="index_patient.php"><button type="button" class="btn btn-light" data-dismiss="modal">Close</button></a>
+                                <!-- <a href="#"><button type="button" class="btn btn-primary" data-dismiss="modal">Add Medical Certificate</button></a> -->
                             </div>
+
+                            </div><!-- // END .modal-body -->
                         </div>
                     </div><!-- // END .modal-body -->
-                    <div class="modal-footer"><a href="index_patient.php"><button type="button" class="btn btn-light" data-dismiss="modal">Close</button></a>
-                        <!-- <a href="#"><button type="button"
-                                class="btn btn-dark" data-dismiss="modal">Print</button></a> -->
-                    </div>
                     <!-- // END .modal-footer -->
                 </div><!-- // END .modal-content -->
             </div><!-- // END .modal-dialog -->
@@ -380,11 +485,35 @@
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_index.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">donut_small</i><span class="sidebar-menu-text">Dashboard</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_consultations.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">date_range</i><span class="sidebar-menu-text">Consultations</span><span class="badge badge-warning rounded-circle badge-notifications ml-auto" style="padding: .1875rem .375rem;">24</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_services.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">dvr</i><span class="sidebar-menu-text">Services</span></a></li>
-                                <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">Doctors</span></a></li>
+                                <li class="sidebar-menu-item">
+                                    <a class="sidebar-menu-button" data-toggle="collapse" href="#components_menu"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">Doctors</span></a>
+                                    <ul class="sidebar-submenu collapse" id="components_menu">
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Cardiology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Otolaryngology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Endocrinology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Family Medicine</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Gastroenterology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">General Dentistry</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">General Medicine</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Internal Medicine</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Mental Health</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Nephrology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Neurology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Nutritionist-Dietitian</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Family Medicine</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Obstetrics and Gynecology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Oncology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Opthalmology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Pediatrics</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Rehabilitation Medicine</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Rheumatology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Urology</span></a></li>
+                                    </ul>
+                                </li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="#"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">Patients</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_reports.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">report</i><span class="sidebar-menu-text">Reports</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_schedules.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">schedule</i><span class="sidebar-menu-text">Schedules</span></a></li>
-                                            <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_transactions.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">payment</i><span class="sidebar-menu-text">Transactions</span></a></li>
+                                <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_transactions.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">payment</i><span class="sidebar-menu-text">Transactions</span></a></li>
                             </ul>
                         </div>
                     </div>

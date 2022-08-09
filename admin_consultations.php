@@ -41,7 +41,7 @@
                                     class="navbar-toggler navbar-toggler-custom d-lg-none d-flex mr-navbar"
                                     type="button" data-toggle="sidebar"><span
                                         class="material-icons">short_text</span></button><!-- Navbar Brand --><a
-                                    href="index.php" class="navbar-brand flex "><span>Consultation</span></a>
+                                    href="#" class="navbar-brand flex "><span>Consultation</span></a>
                                 <!-- <form class="ml-auto search-form search-form--light d-none d-sm-flex flex"
                                     action="index.php"><input type="text" class="form-control"
                                         placeholder="Search"><button class="btn" type="submit" role="button"><i
@@ -185,10 +185,10 @@
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 </div>
 
-                                <li class="nav-item"><a href="#tab-history" class="nav-link" data-toggle="tab"
+                                <!-- <li class="nav-item"><a href="#tab-history" class="nav-link" data-toggle="tab"
                                         role="tab" aria-selected="false"><span class="nav-link__count">History</span>Total
                                         (693)
-                                    </a></li>
+                                    </a></li> -->
                                 <!-- <li class="nav-item"><a href="#tab-cancelled" class="nav-link" data-toggle="tab"
                                         role="tab" aria-selected="false"><span class="nav-link__count">Cancelled</span>Total
                                         (13)
@@ -227,7 +227,7 @@
                                                         <th style="width: 180px;">Service</th>
                                                         <th style="width: 37px;">Status</th>
                                                         <!-- <th style="width: 120px;">Last Activity</th> -->
-                                                        <th style="width: 37px;">Action</th>
+                                                        <th style="width: 180px;">Action</th>
                                                         <!-- <th style="width: 24px;"></th> -->
                                                     </tr>
                                                 </thead>
@@ -254,8 +254,12 @@
                                                         <td><span class="badge badge-success">APPROVED</span></td>
                                                         <td>
                                                             <div class="button-list">
-                                                                <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-delete">Delete</button>
+                                                                <button type="button" class="btn btn-primary"
+                                                                    data-toggle="modal" data-target="#modal-info"><i
+                                                                    class="material-icons">remove_red_eye</i></button>
+                                                                    <button type="button" class="btn btn-danger"
+                                                                        data-toggle="modal" data-target="#modal-delete"><i
+                                                                        class="material-icons">delete</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -280,8 +284,12 @@
                                                         <td><span class="badge badge-success">APPROVED</span></td>
                                                         <td>
                                                             <div class="button-list">
-                                                                <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-delete">Delete</button>
+                                                                <button type="button" class="btn btn-primary"
+                                                                    data-toggle="modal" data-target="#modal-info"><i
+                                                                    class="material-icons">remove_red_eye</i></button>
+                                                                    <button type="button" class="btn btn-danger"
+                                                                        data-toggle="modal" data-target="#modal-delete"><i
+                                                                        class="material-icons">delete</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -307,8 +315,12 @@
                                                         <td><span class="badge badge-success">APPROVED</span></td>
                                                         <td>
                                                             <div class="button-list">
-                                                                <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-delete">Delete</button>
+                                                                <button type="button" class="btn btn-primary"
+                                                                    data-toggle="modal" data-target="#modal-info"><i
+                                                                    class="material-icons">remove_red_eye</i></button>
+                                                                    <button type="button" class="btn btn-danger"
+                                                                        data-toggle="modal" data-target="#modal-delete"><i
+                                                                        class="material-icons">delete</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -334,8 +346,12 @@
                                                         <td><span class="badge badge-success">APPROVED</span></td>
                                                         <td>
                                                             <div class="button-list">
-                                                                <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-delete">Delete</button>
+                                                                <button type="button" class="btn btn-primary"
+                                                                    data-toggle="modal" data-target="#modal-info"><i
+                                                                    class="material-icons">remove_red_eye</i></button>
+                                                                    <button type="button" class="btn btn-danger"
+                                                                        data-toggle="modal" data-target="#modal-delete"><i
+                                                                        class="material-icons">delete</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -361,8 +377,12 @@
                                                         <td><span class="badge badge-success">APPROVED</span></td>
                                                         <td>
                                                             <div class="button-list">
-                                                                <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-delete">Delete</button>
+                                                                <button type="button" class="btn btn-primary"
+                                                                    data-toggle="modal" data-target="#modal-info"><i
+                                                                    class="material-icons">remove_red_eye</i></button>
+                                                                    <button type="button" class="btn btn-danger"
+                                                                        data-toggle="modal" data-target="#modal-delete"><i
+                                                                        class="material-icons">delete</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -429,12 +449,12 @@
                                                         <td><span class="badge badge-warning">PENDING</span></td>
                                                         <td>
                                                             <div class="button-list">
-                                                                <button type="button" class="btn btn-success"
-                                                                    data-toggle="modal"
-                                                                    data-target="#modal-success">Approve</button>
-                                                                <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal"
-                                                                    data-target="#modal-danger">Decline</button>
+                                                                <button type="button" class="btn btn-primary"
+                                                                    data-toggle="modal" data-target="#modal-pending"><i
+                                                                    class="material-icons">remove_red_eye</i></button>
+                                                                    <button type="button" class="btn btn-danger"
+                                                                    data-toggle="modal" data-target="#modal-cancel"><i
+                                                                    class="material-icons">cancel</i></button>
                                                             </div>
                                                         </td>
                                                         <!-- <td><a href="" class="text-muted"><i
@@ -461,12 +481,12 @@
                                                         <td><span class="badge badge-warning">PENDING</span></td>
                                                         <td>
                                                             <div class="button-list">
-                                                                <button type="button" class="btn btn-success"
-                                                                    data-toggle="modal"
-                                                                    data-target="#modal-success">Approve</button>
-                                                                <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal"
-                                                                    data-target="#modal-danger">Decline</button>
+                                                                <button type="button" class="btn btn-primary"
+                                                                    data-toggle="modal" data-target="#modal-pending"><i
+                                                                    class="material-icons">remove_red_eye</i></button>
+                                                                    <button type="button" class="btn btn-danger"
+                                                                    data-toggle="modal" data-target="#modal-cancel"><i
+                                                                    class="material-icons">cancel</i></button>
                                                             </div>
                                                         </td>
                                                         <!-- <td><a href="" class="text-muted"><i
@@ -494,12 +514,12 @@
                                                         <td><span class="badge badge-warning">PENDING</span></td>
                                                         <td>
                                                             <div class="button-list">
-                                                                <button type="button" class="btn btn-success"
-                                                                    data-toggle="modal"
-                                                                    data-target="#modal-success">Approve</button>
-                                                                <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal"
-                                                                    data-target="#modal-danger">Decline</button>
+                                                                <button type="button" class="btn btn-primary"
+                                                                    data-toggle="modal" data-target="#modal-pending"><i
+                                                                    class="material-icons">remove_red_eye</i></button>
+                                                                    <button type="button" class="btn btn-danger"
+                                                                    data-toggle="modal" data-target="#modal-cancel"><i
+                                                                    class="material-icons">cancel</i></button>
                                                             </div>
                                                         </td>
                                                         <!-- <td><a href="" class="text-muted"><i
@@ -528,12 +548,12 @@
                                                         <td><span class="badge badge-warning">PENDING</span></td>
                                                         <td>
                                                             <div class="button-list">
-                                                                <button type="button" class="btn btn-success"
-                                                                    data-toggle="modal"
-                                                                    data-target="#modal-success">Approve</button>
-                                                                <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal"
-                                                                    data-target="#modal-danger">Decline</button>
+                                                                <button type="button" class="btn btn-primary"
+                                                                    data-toggle="modal" data-target="#modal-pending"><i
+                                                                    class="material-icons">remove_red_eye</i></button>
+                                                                    <button type="button" class="btn btn-danger"
+                                                                    data-toggle="modal" data-target="#modal-cancel"><i
+                                                                    class="material-icons">cancel</i></button>
                                                             </div>
                                                         </td>
                                                         <!-- <td><a href="" class="text-muted"><i
@@ -561,12 +581,12 @@
                                                         <td><span class="badge badge-warning">PENDING</span></td>
                                                         <td>
                                                             <div class="button-list">
-                                                                <button type="button" class="btn btn-success"
-                                                                    data-toggle="modal"
-                                                                    data-target="#modal-success">Approve</button>
-                                                                <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal"
-                                                                    data-target="#modal-danger">Decline</button>
+                                                                <button type="button" class="btn btn-primary"
+                                                                    data-toggle="modal" data-target="#modal-pending"><i
+                                                                    class="material-icons">remove_red_eye</i></button>
+                                                                    <button type="button" class="btn btn-danger"
+                                                                    data-toggle="modal" data-target="#modal-cancel"><i
+                                                                    class="material-icons">cancel</i></button>
                                                             </div>
                                                         </td>
                                                         <!-- <td><a href="" class="text-muted"><i
@@ -635,8 +655,9 @@
                                                         <td><span class="badge badge-danger">DECLINED</span></td>
                                                         <td>
                                                             <div class="button-list">
-                                                                <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-delete">Delete</button>
+                                                                <button type="button" class="btn btn-primary"
+                                                                    data-toggle="modal" data-target="#modal-denied"><i
+                                                                    class="material-icons">remove_red_eye</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -661,8 +682,9 @@
                                                         <td><span class="badge badge-danger">DECLINED</span></td>
                                                         <td>
                                                             <div class="button-list">
-                                                                <button type="button" class="btn btn-danger"
-                                                                    data-toggle="modal" data-target="#modal-delete">Delete</button>
+                                                                <button type="button" class="btn btn-primary"
+                                                                    data-toggle="modal" data-target="#modal-denied"><i
+                                                                    class="material-icons">remove_red_eye</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -1087,6 +1109,189 @@
             </div><!-- // END .modal-dialog -->
         </div><!-- // END .modal -->
 
+                 <!-- Info Modal -->
+                 <div id="modal-pending" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="px-3">
+                            <div class="d-flex justify-content-center mt-2 mb-4 navbar-light"><a href="index.php"
+                                    class="navbar-brand" style="min-width: 0"><img class="navbar-brand-icon"
+                                        src="assets/img/rxcliniclogowithoutline.png" width="50"
+                                        alt="Stack"><span>Appointment Details</span></a></div>
+                            <div class="page-separator"></div>
+                            <div class="modal-body">
+                                <p><strong>Appointment Code: </strong>2022-0001</p>
+                                <p><strong>Personnel: </strong>Dr. Number Seyven</p>
+                                <p><strong>Service: </strong>Oncology</p>
+                                <p><strong>Schedule: </strong>9:00 AM Aug 08, 2022</p>
+                                <p><strong>Status: </strong>PENDING</p>
+                                <br>
+                                <div class="alert alert-soft-warning d-flex" role="alert"><i
+                                        class="material-icons mr-3">refresh</i>
+                                    <div class="text-body">This appointment is still <strong>PENDING</strong>. Click the check to approve this consultation.</div>
+                                </div>
+                            </div><!-- // END .modal-body -->
+                        </div>
+                    </div><!-- // END .modal-body -->
+                    <div class="modal-footer"><button type="button" class="btn btn-light"
+                            data-dismiss="modal">Close</button></div><!-- // END .modal-footer -->
+                </div><!-- // END .modal-content -->
+            </div><!-- // END .modal-dialog -->
+        </div><!-- // END .modal -->
+
+        <!-- Info Modal -->
+        <div id="modal-denied" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="px-3">
+                            <div class="d-flex justify-content-center mt-2 mb-4 navbar-light"><a href="index.php"
+                                    class="navbar-brand" style="min-width: 0"><img class="navbar-brand-icon"
+                                        src="assets/img/rxcliniclogowithoutline.png" width="50"
+                                        alt="Stack"><span>Appointment Details</span></a></div>
+                            <div class="page-separator"></div>
+                            <div class="modal-body">
+                                <p><strong>Appointment Code: </strong>2022-0001</p>
+                                <p><strong>Personnel: </strong>Dr. Number Seyven</p>
+                                <p><strong>Service: </strong>Oncology</p>
+                                <p><strong>Schedule: </strong>9:00 AM Aug 08, 2022</p>
+                                <p><strong>Status: </strong>DECLINED</p>
+                                <br>
+                                <div class="alert alert-soft-danger d-flex" role="alert"><i
+                                        class="material-icons mr-3">cancel</i>
+                                    <div class="text-body">This appointment was <strong>DECLINED</strong>. There could be a conflict in schedule.</div>
+                                </div>
+                            </div><!-- // END .modal-body -->
+                        </div>
+                    </div><!-- // END .modal-body -->
+                    <div class="modal-footer"><button type="button" class="btn btn-light"
+                            data-dismiss="modal">Close</button></div><!-- // END .modal-footer -->
+                </div><!-- // END .modal-content -->
+            </div><!-- // END .modal-dialog -->
+        </div><!-- // END .modal -->
+
+        <!-- Info Modal -->
+        <div id="modal-done" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="px-3">
+                            <div class="d-flex justify-content-center mt-2 mb-4 navbar-light"><a href="index.php"
+                                    class="navbar-brand" style="min-width: 0"><img class="navbar-brand-icon"
+                                        src="assets/img/rxcliniclogowithoutline.png" width="50"
+                                        alt="Stack"><span>Appointment Details</span></a></div>
+                            <div class="page-separator"></div>
+                            <div class="modal-body">
+                                <p><strong>Appointment Code: </strong>2022-0001</p>
+                                <p><strong>Personnel: </strong>Dr. Number Seyven</p>
+                                <p><strong>Service: </strong>Oncology</p>
+                                <p><strong>Schedule: </strong>9:00 AM Aug 08, 2022</p>
+                                <p><strong>Status: </strong>DONE</p>
+                                <br>
+                                <div class="alert alert-soft-primary d-flex" role="alert"><i
+                                        class="material-icons mr-3">check_circle</i>
+                                    <div class="text-body">This appointment is <strong>DONE</strong>. You can book a new consultation.</div>
+                                </div>
+                            </div><!-- // END .modal-body -->
+                        </div>
+                    </div><!-- // END .modal-body -->
+                    <div class="modal-footer"><button type="button" class="btn btn-light"
+                            data-dismiss="modal">Close</button></div><!-- // END .modal-footer -->
+                </div><!-- // END .modal-content -->
+            </div><!-- // END .modal-dialog -->
+        </div><!-- // END .modal -->
+
+        <!-- Info Modal -->
+        <div id="modal-info" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="px-3">
+                            <div class="d-flex justify-content-center mt-2 mb-4 navbar-light"><a href="index.php"
+                                    class="navbar-brand" style="min-width: 0"><img class="navbar-brand-icon"
+                                        src="assets/img/rxcliniclogowithoutline.png" width="50"
+                                        alt="Stack"><span>Appointment Details</span></a></div>
+                            <div class="page-separator"></div>
+                            <div class="modal-body">
+                                <p><strong>Appointment Code: </strong>2022-0001</p>
+                                <p><strong>Personnel: </strong>Dr. Number Wan</p>   
+                                <p><strong>Service: </strong>Teeth Extraction</p>
+                                <p><strong>Schedule: </strong>9:00 AM Aug 08, 2022</p>
+                                <p><strong>Status: </strong>APPROVED</p>
+                                <br>
+                                <div class="alert alert-soft-success d-flex" role="alert"><i
+                                        class="material-icons mr-3">check_circle</i>
+                                    <div class="text-body">Your appointment is now <strong>APPROVED</strong>. Please wait according to the schedule.</div>
+                                </div>
+                            </div><!-- // END .modal-body -->
+                        </div>
+                    </div><!-- // END .modal-body -->
+                    <div class="modal-footer"><button type="button" class="btn btn-light"
+                            data-dismiss="modal">Close</button></div><!-- // END .modal-footer -->
+                </div><!-- // END .modal-content -->
+            </div><!-- // END .modal-dialog -->
+        </div><!-- // END .modal -->
+
+            <!-- Info Modal -->
+            <div id="modal-cancelled" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="px-3">
+                            <div class="d-flex justify-content-center mt-2 mb-4 navbar-light"><a href="index.php"
+                                    class="navbar-brand" style="min-width: 0"><img class="navbar-brand-icon"
+                                        src="assets/img/rxcliniclogowithoutline.png" width="50"
+                                        alt="Stack"><span>Appointment Details</span></a></div>
+                            <div class="page-separator"></div>
+                            <div class="modal-body">
+                                <p><strong>Appointment Code: </strong>2022-0001</p>
+                                <p><strong>Personnel: </strong>Dr. Number Seyven</p>
+                                <p><strong>Service: </strong>Oncology</p>
+                                <p><strong>Schedule: </strong>9:00 AM Aug 08, 2022</p>
+                                <p><strong>Status: </strong>CANCELLED</p>
+                                <br>
+                                <div class="alert alert-soft-dark d-flex" role="alert"><i
+                                        class="material-icons mr-3">cancel</i>
+                                    <div class="text-body">This appointment was <strong>CANCELLED</strong>. You can book a new consultation.</div>
+                                </div>
+                            </div><!-- // END .modal-body -->
+                        </div>
+                    </div><!-- // END .modal-body -->
+                    <div class="modal-footer"><button type="button" class="btn btn-light"
+                            data-dismiss="modal">Close</button></div><!-- // END .modal-footer -->
+                </div><!-- // END .modal-content -->
+            </div><!-- // END .modal-dialog -->
+        </div><!-- // END .modal -->
+
+        <!-- Delete Modal -->
+        <div id="modal-delete" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-sm">
+                <div class="modal-content bg-danger">
+                    <div class="modal-body text-center p-4"><i
+                            class="material-icons icon-40pt text-white mb-2">delete</i>
+                        <h4 class="text-white">Deleted!</h4>
+                        <p class="text-white mt-3">You deleted a consultation.</p><button type="button"
+                            class="btn btn-light my-2" data-dismiss="modal">Continue</button>
+                    </div><!-- // END .modal-body -->
+                </div><!-- // END .modal-content -->
+            </div><!-- // END .modal-dialog -->
+        </div><!-- // END .modal -->
+
+        <!-- Cancel Alert Modal -->
+        <div id="modal-cancel" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-sm">
+                <div class="modal-content bg-danger">
+                    <div class="modal-body text-center p-4"><i
+                            class="material-icons icon-40pt text-white mb-2">clear</i>
+                        <h4 class="text-white">Cancelled!</h4>
+                        <p class="text-white mt-3">You cancelled a consultation.</p><button type="button"
+                            class="btn btn-light my-2" data-dismiss="modal">Continue</button>
+                    </div><!-- // END .modal-body -->
+                </div><!-- // END .modal-content -->
+            </div><!-- // END .modal-dialog -->
+        </div><!-- // END .modal -->
+
         <div class="mdk-drawer  js-mdk-drawer" id="default-drawer" data-align="start">
             <div class="mdk-drawer__content">
                 <div class="sidebar sidebar-dark sidebar-left simplebar" data-simplebar>
@@ -1146,9 +1351,31 @@
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_services.php"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">dvr</i><span
                                             class="sidebar-menu-text">Services</span></a></li>
-                                <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><i
-                                            class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span
-                                            class="sidebar-menu-text">Doctors</span></a></li>
+                                <li class="sidebar-menu-item">
+                                    <a class="sidebar-menu-button" data-toggle="collapse" href="#components_menu"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">Doctors</span></a>
+                                    <ul class="sidebar-submenu collapse" id="components_menu">
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Cardiology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Otolaryngology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Endocrinology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Family Medicine</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Gastroenterology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">General Dentistry</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">General Medicine</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Internal Medicine</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Mental Health</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Nephrology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Neurology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Nutritionist-Dietitian</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Family Medicine</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Obstetrics and Gynecology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Oncology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Opthalmology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Pediatrics</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Rehabilitation Medicine</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Rheumatology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Urology</span></a></li>
+                                    </ul>
+                                </li> 
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_patients.php"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span
                                             class="sidebar-menu-text">Patients</span></a></li>

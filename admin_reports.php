@@ -362,11 +362,11 @@
                             <div class="d-flex justify-content-center mt-2 mb-4 navbar-light"><a href="index.php" class="navbar-brand" style="min-width: 0"><img class="navbar-brand-icon" src="assets/img/rxcliniclogowithoutline.png" width="50" alt="Stack"><span>Edit
                                         Report Details</span></a></div>
                             <form action="#">
-                            <div class="page-separator">
+                                <div class="page-separator">
                                     <div class="page-separator__text">CONSULTATION DETAILS</div>
                                 </div>
                                 <div class="row">
-                                <div class="col-lg-4">
+                                    <div class="col-lg-4">
                                         <div class="form-group"><label class="text-label" for="select01">Service:</label>
                                             <select id="select01" data-toggle="select" class="form-control">
                                                 <option>Cardiology</option>
@@ -427,120 +427,98 @@
                                     <div class="page-separator__text">PRESCRIPTION DETAILS</div>
                                 </div>
                                 <form action="index.php" novalidate>
-                                <div class="row">
-                                    <div class="col">
-                                        <div class="form-group"><label class="text-label" for="fname">Prescription
-                                                Code:</label><input id="fname" type="text" class="form-control"
-                                                placeholder="Prescription Code" value="PK-2022-2207-0012" disabled>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <div class="form-group"><label class="text-label" for="fname">First
-                                                Name:</label><input id="fname" type="text" class="form-control"
-                                                placeholder="First name" value=""></div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="form-group"><label class="text-label" for="lname">Middle
-                                                Name:</label><input id="lname" type="text" class="form-control"
-                                                placeholder="Middle name" value=""></div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="form-group"><label class="text-label" for="lname">Last
-                                                Name:</label><input id="lname" type="text" class="form-control"
-                                                placeholder="Last name" value=""></div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <div class="form-group"><label class="text-label"
-                                                for="fname">Address:</label><input id="fname" type="text"
-                                                class="form-control" placeholder="Address" value=""></div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-3">
-                                        <div class="form-group"><label class="text-label" for="fname">Age:</label><input
-                                                id="fname" type="number" class="form-control" placeholder="Age"
-                                                value=""></div>
-                                    </div>
-                                    <div class="col-lg-3">
-                                        <div class="form-group"><label class="text-label" for="select01">Sex:</label>
-                                            <select id="select01" data-toggle="select" class="form-control">
-                                                <option selected="">M</option>
-                                                <option>F</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="form-group"><label class="text-label"
-                                                for="flatpickrSample01">Date:</label><input id="flatpickrSample01"
-                                                type="text" class="form-control" placeholder="Flatpickr example"
-                                                data-toggle="flatpickr" value="today"></div>
-                                    </div>
-                                </div>
-                            </form>
-                            <div class="page-separator">
-                                <div class="page-separator__text">Medical Prescription (Rx)</div>
-                            </div>
-                            <form action="index.php" novalidate>
-                                <div class="row">
-                                    <div class="col-lg-4">
-                                        <div class="form-group"><label class="text-label"
-                                                for="fname">Medicine/Drug:</label><input id="fname" type="text"
-                                                class="form-control" placeholder="Medicine/Drug" value=""></div>
-                                    </div>
-                                    <div class="col-lg-2">
-                                        <div class="form-group"><label class="text-label"
-                                                for="fname">Inscription:</label><input id="fname" type="text"
-                                                class="form-control" placeholder="Inscription" value=""></div>
-                                    </div>
-                                    <div class="col">
+                                    <div class="row">
                                         <div class="col">
-                                            <div class="form-group"><label class="text-label"
-                                                    for="desc">Instruction/s:</label><textarea id="desc" rows="4"
-                                                    class="form-control" placeholder=""></textarea><input id="fname"
-                                                    type="text" class="form-control" placeholder="Special Instruction/s"
-                                                    value="Refill: "></div>
+                                            <div class="form-group"><label class="text-label" for="fname">Prescription
+                                                    Code:</label><input id="fname" type="text" class="form-control" placeholder="Prescription Code" value="PK-2022-2207-0012" disabled>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="avatar avatar-xxl avatar-4by3 d-block">
-                                            <img src="assets/images/signature.webp" alt="Avatar"
-                                                class="avatar-img rounded">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="form-group"><label class="text-label" for="fname">First
+                                                    Name:</label><input id="fname" type="text" class="form-control" placeholder="First name" value=""></div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group"><label class="text-label" for="lname">Middle
+                                                    Name:</label><input id="lname" type="text" class="form-control" placeholder="Middle name" value=""></div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group"><label class="text-label" for="lname">Last
+                                                    Name:</label><input id="lname" type="text" class="form-control" placeholder="Last name" value=""></div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-5">
-                                        <div class="form-group"><label class="text-label" for="select01">Doctor:</label>
-                                            <select id="select01" data-toggle="select" class="form-control">
-                                                <option selected="">Dr. Number Wan</option>
-                                                <option>Dr. Number Too</option>
-                                                <option>Dr. Number Trii</option>
-                                                <option>Dr. Number Fowr</option>
-                                            </select>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="form-group"><label class="text-label" for="fname">Address:</label><input id="fname" type="text" class="form-control" placeholder="Address" value=""></div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-2">
-                                        <div class="form-group"><label class="text-label" for="fname">Lic
-                                                No.:</label><input id="fname" type="text" class="form-control"
-                                                placeholder="Inscription" value=""></div>
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <div class="form-group"><label class="text-label" for="fname">Age:</label><input id="fname" type="number" class="form-control" placeholder="Age" value=""></div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="form-group"><label class="text-label" for="select01">Sex:</label>
+                                                <select id="select01" data-toggle="select" class="form-control">
+                                                    <option selected="">M</option>
+                                                    <option>F</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group"><label class="text-label" for="flatpickrSample01">Date:</label><input id="flatpickrSample01" type="text" class="form-control" placeholder="Flatpickr example" data-toggle="flatpickr" value="today"></div>
+                                        </div>
                                     </div>
+                                </form>
+                                <div class="page-separator">
+                                    <div class="page-separator__text">Medical Prescription (Rx)</div>
                                 </div>
-                                <div class="row">
-                                    <div class="col-lg-2">
-                                        <div class="form-group"><label class="text-label" for="fname">PTR
-                                                No.:</label><input id="fname" type="text" class="form-control"
-                                                placeholder="Inscription" value=""></div>
+                                <form action="index.php" novalidate>
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <div class="form-group"><label class="text-label" for="fname">Medicine/Drug:</label><input id="fname" type="text" class="form-control" placeholder="Medicine/Drug" value=""></div>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <div class="form-group"><label class="text-label" for="fname">Inscription:</label><input id="fname" type="text" class="form-control" placeholder="Inscription" value=""></div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="col">
+                                                <div class="form-group"><label class="text-label" for="desc">Instruction/s:</label><textarea id="desc" rows="4" class="form-control" placeholder=""></textarea><input id="fname" type="text" class="form-control" placeholder="Special Instruction/s" value="Refill: "></div>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                            </form>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="avatar avatar-xxl avatar-4by3 d-block">
+                                                <img src="assets/images/signature.webp" alt="Avatar" class="avatar-img rounded">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-5">
+                                            <div class="form-group"><label class="text-label" for="select01">Doctor:</label>
+                                                <select id="select01" data-toggle="select" class="form-control">
+                                                    <option selected="">Dr. Number Wan</option>
+                                                    <option>Dr. Number Too</option>
+                                                    <option>Dr. Number Trii</option>
+                                                    <option>Dr. Number Fowr</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                            <div class="form-group"><label class="text-label" for="fname">Lic
+                                                    No.:</label><input id="fname" type="text" class="form-control" placeholder="Inscription" value=""></div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                            <div class="form-group"><label class="text-label" for="fname">PTR
+                                                    No.:</label><input id="fname" type="text" class="form-control" placeholder="Inscription" value=""></div>
+                                        </div>
+                                    </div>
+                                </form>
                                 <div class="modal-footer"><button type="button" class="btn btn-light" data-dismiss="modal">Cancel</button><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-add">Save
                                         Changes</button></div>
                         </div>
@@ -559,60 +537,60 @@
                             <div class="d-flex justify-content-center mt-0 mb-0 navbar-light"><span><strong>REPORT DETAILS</strong></span></div>
                             <!-- <div class="page-separator"></div> -->
                             <div class="modal-body">
-                            <div class="page-separator">
-                                        <div class="page-separator__text">CONSULTATION DETAILS</div>
-                                    </div>
-                                    <p><strong>Service: </strong>Cardiology</p>
-                                    <p><strong>Date: </strong>08/09/2022, 9:00 AM</p>
+                                <div class="page-separator">
+                                    <div class="page-separator__text">CONSULTATION DETAILS</div>
+                                </div>
+                                <p><strong>Service: </strong>Cardiology</p>
+                                <p><strong>Date: </strong>08/09/2022, 9:00 AM</p>
 
-                                    <div class="page-separator">
-                                        <div class="page-separator__text">DIAGNOSIS DETAILS</div>
+                                <div class="page-separator">
+                                    <div class="page-separator__text">DIAGNOSIS DETAILS</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <p><strong>Diagnosis: </strong>Ligma</p>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-lg-4">
-                                            <p><strong>Diagnosis: </strong>Ligma</p>
-                                        </div>
-                                        <div class="col-lg-8">
-                                            <p><strong>Description: </strong>Coronary heart disease is the term that describes what happens when your heart's blood supply is blocked or interrupted by a build-up of fatty substances in the coronary arteries. Over time, the walls of your arteries can become furred up with fatty deposits.</p>
-                                        </div>
+                                    <div class="col-lg-8">
+                                        <p><strong>Description: </strong>Coronary heart disease is the term that describes what happens when your heart's blood supply is blocked or interrupted by a build-up of fatty substances in the coronary arteries. Over time, the walls of your arteries can become furred up with fatty deposits.</p>
                                     </div>
-                                    <div class="page-separator">
-                                        <div class="page-separator__text">PRESCRIPTION DETAILS</div>
+                                </div>
+                                <div class="page-separator">
+                                    <div class="page-separator__text">PRESCRIPTION DETAILS</div>
+                                </div>
+                                <p><strong>Prescription Code: </strong>PR-2022-2207-0012</p>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <p><strong>Patient: </strong>Juan Dela Cruz</p>
                                     </div>
-                                    <p><strong>Prescription Code: </strong>PR-2022-2207-0012</p>
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <p><strong>Patient: </strong>Juan Dela Cruz</p>
-                                        </div>
-                                        <div class="col-lg-3">
-                                            <p><strong>Age: </strong>27</p>
-                                        </div>
-                                        <div class="col-lg-3">
-                                            <p><strong>Sex: </strong>M</p>
-                                        </div>
+                                    <div class="col-lg-3">
+                                        <p><strong>Age: </strong>27</p>
                                     </div>
-                                    <p><strong>Address: </strong>3435 Batumbakal St., New York, Cubao</p>
-                                    <p><strong>Date: </strong>Aug 08, 2022</p>
-                                    <br>
-                                    <div class="avatar avatar-l avatar-1by1">
-                                        <img src="assets/images/rx.png" alt="Avatar" class="avatar-img rounded">
-                                    </div><br><br>
-                                    <p><strong>ibuprofen (Motrin® or Advil®)</strong></p>
-                                    <p>Take 400–600 mg every 6–8 hours. Ibuprofen will help with
-                                        pain relief and as an anti-inflammatory.</p>
-                                    <div class="avatar avatar-xxl avatar-4by3">
-                                        <img src="assets/images/signature.webp" alt="Avatar" class="avatar-img rounded">
+                                    <div class="col-lg-3">
+                                        <p><strong>Sex: </strong>M</p>
                                     </div>
-                                    <p><strong>Dr. Den T. Ista</strong></p>
-                                    <p><strong>Lic No.: </strong>1234</p>
-                                    <p><strong>PTR No.: </strong>1234567</p>
-                                    <!-- <br>
+                                </div>
+                                <p><strong>Address: </strong>3435 Batumbakal St., New York, Cubao</p>
+                                <p><strong>Date: </strong>Aug 08, 2022</p>
+                                <br>
+                                <div class="avatar avatar-l avatar-1by1">
+                                    <img src="assets/images/rx.png" alt="Avatar" class="avatar-img rounded">
+                                </div><br><br>
+                                <p><strong>ibuprofen (Motrin® or Advil®)</strong></p>
+                                <p>Take 400–600 mg every 6–8 hours. Ibuprofen will help with
+                                    pain relief and as an anti-inflammatory.</p>
+                                <div class="avatar avatar-xxl avatar-4by3">
+                                    <img src="assets/images/signature.webp" alt="Avatar" class="avatar-img rounded">
+                                </div>
+                                <p><strong>Dr. Den T. Ista</strong></p>
+                                <p><strong>Lic No.: </strong>1234</p>
+                                <p><strong>PTR No.: </strong>1234567</p>
+                                <!-- <br>
                                             <div class="alert alert-soft-success d-flex" role="alert"><i class="material-icons mr-3">check_circle</i>
                                                 <div class="text-body">Your appointment is now <strong>APPROVED</strong>. Please proceed to the clinic according to the schedule.</div>
                                             </div> -->
-                                    <div class="modal-footer"><a href="index_patient.php"><button type="button" class="btn btn-primary" data-dismiss="modal">Add Lab Results</button></a><a href="#"><button type="button" class="btn btn-primary" data-dismiss="modal">Add Medical Certificate</button></a></div>
+                                <div class="modal-footer"><a href="index_patient.php"><button type="button" class="btn btn-primary" data-dismiss="modal">Add Lab Results</button></a><a href="#"><button type="button" class="btn btn-primary" data-dismiss="modal">Add Medical Certificate</button></a></div>
 
-                                </div><!-- // END .modal-body -->
+                            </div><!-- // END .modal-body -->
                         </div>
                     </div><!-- // END .modal-body -->
                     <!-- // END .modal-footer -->
@@ -662,11 +640,35 @@
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_index.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">donut_small</i><span class="sidebar-menu-text">Dashboard</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_consultations.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">date_range</i><span class="sidebar-menu-text">Consultations</span><span class="badge badge-warning rounded-circle badge-notifications ml-auto" style="padding: .1875rem .375rem;">24</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_services.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">dvr</i><span class="sidebar-menu-text">Services</span></a></li>
-                                <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">Doctors</span></a></li>
+                                <li class="sidebar-menu-item">
+                                    <a class="sidebar-menu-button" data-toggle="collapse" href="#components_menu"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">Doctors</span></a>
+                                    <ul class="sidebar-submenu collapse" id="components_menu">
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Cardiology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Otolaryngology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Endocrinology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Family Medicine</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Gastroenterology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">General Dentistry</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">General Medicine</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Internal Medicine</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Mental Health</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Nephrology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Neurology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Nutritionist-Dietitian</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Family Medicine</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Obstetrics and Gynecology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Oncology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Opthalmology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Pediatrics</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Rehabilitation Medicine</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Rheumatology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Urology</span></a></li>
+                                    </ul>
+                                </li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_patients.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">Patients</span></a></li>
                                 <li class="sidebar-menu-item active"><a class="sidebar-menu-button" href="#"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">report</i><span class="sidebar-menu-text">Reports</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_schedules.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">schedule</i><span class="sidebar-menu-text">Schedules</span></a></li>
-                                            <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_transactions.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">payment</i><span class="sidebar-menu-text">Transactions</span></a></li>
+                                <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_transactions.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">payment</i><span class="sidebar-menu-text">Transactions</span></a></li>
                             </ul>
                         </div>
                     </div>

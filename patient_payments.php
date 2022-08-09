@@ -68,8 +68,8 @@
                                                                     class="avatar-img rounded-circle">
                                                             </div>
                                                         </div>
-                                                        <div class="flex"><a href="">Dr. Dentist</a> approved your <a
-                                                                href="">appointment.</a><br><small class="text-muted">1
+                                                        <div class="flex"><a href="patient_consultations.php">Dr. Dentist</a> approved your <a
+                                                                href="">consultation appointment.</a><br><small class="text-muted">1
                                                                 hr
                                                                 ago</small></div>
                                                     </div>
@@ -81,8 +81,21 @@
                                                                     class="avatar-img rounded-circle">
                                                             </div>
                                                         </div>
-                                                        <div class="flex"><a href="">Dr. Dentist</a> cancelled your <a
-                                                                href="">appointment.</a><br><small class="text-muted">1
+                                                        <div class="flex"><a href="patient_consultations.php">Dr. Dentist</a> requested to reschedule your <a
+                                                                href="">consultation appointment.</a><br><small class="text-muted">1
+                                                                hr
+                                                                ago</small></div>
+                                                    </div>
+                                                    <div class="dropdown-item d-flex">
+                                                        <div class="mr-3">
+                                                            <div class="avatar avatar-sm"
+                                                                style="width: 32px; height: 32px;"><img
+                                                                    src="assets/images/profilew.png" alt="Avatar"
+                                                                    class="avatar-img rounded-circle">
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex"><a href="patient_consultations.php">Dr. Dentist</a> cancelled your <a
+                                                                href="">consultation appointment.</a><br><small class="text-muted">1
                                                                 day
                                                                 ago</small></div>
                                                     </div>
@@ -94,8 +107,8 @@
                                                                     class="avatar-img rounded-circle">
                                                             </div>
                                                         </div>
-                                                        <div class="flex"><a href="">Dr. Dentist</a> declined your <a
-                                                                href="">appointment.</a><br><small class="text-muted">3
+                                                        <div class="flex"><a href="patient_consultations.php">Dr. Dentist</a> declined your <a
+                                                                href="">consultation appointment.</a><br><small class="text-muted">3
                                                                 days
                                                                 ago</small></div>
                                                     </div>
@@ -151,7 +164,7 @@
                                         role="tab" aria-controls="tab-queue" aria-selected="true"><span
                                             class="nav-link__count">Pending Payments</span>Total (2) </a></li>
                                 <li class="nav-item"><a href="#tab-earlier" class="nav-link" data-toggle="tab"
-                                        role="tab" aria-selected="false"><span class="nav-link__count">Payment
+                                        role="tab" aria-selected="false"><span class="nav-link__count">Transactions
                                             History</span>Total (3)
                                     </a></li>
                                 <!-- <li class="nav-item"><a href="#tab-wait-list" class="nav-link" data-toggle="tab"
@@ -204,7 +217,7 @@
                                                             </a>
                                                         </th>
                                                         <th style="width: 200px;">Status</th>
-                                                        <th style="width: 200px;">Action</th>
+                                                        <th style="width: 300px;">Action</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody class="list" id="staff02">
@@ -235,6 +248,9 @@
                                                                         class="material-icons" data-toggle="modal"
                                                                         data-target="#modal-info">remove_red_eye</i>
                                                                 </button>
+                                                                <button type="button" class="btn btn-dark"
+                                                                    data-toggle="modal"
+                                                                    data-target="#modal-success">Pay</button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -265,6 +281,9 @@
                                                                         class="material-icons" data-toggle="modal"
                                                                         data-target="#modal-info">remove_red_eye</i>
                                                                 </button>
+                                                                <button type="button" class="btn btn-dark"
+                                                                    data-toggle="modal"
+                                                                    data-target="#modal-success">Pay</button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -492,7 +511,7 @@
                             <div class="d-flex justify-content-center mt-0 mb-0 navbar-light"><a href="#"
                                     class="navbar-brand" style="min-width: 0"><img class="navbar-brand-icon"
                                         src="assets/img/rxlogowithname.png" width="200" alt="Stack"></a></div><br><br>
-                            <div><span><strong>PAYMENT DETAILS</strong></span></div>
+                            <div><span><strong>TRANSACTION DETAILS</strong></span></div>
                             <div class="page-separator"></div>
                             <div class="modal-body">
                                 <p><strong>Invoice ID: </strong>#2022-2207-0012</p>
@@ -516,7 +535,7 @@
                     </div><!-- // END .modal-body -->
                     <div class="modal-footer"><a href="index_patient.php"><button type="button" class="btn btn-light"
                                 data-dismiss="modal">Close</button></a><a href="#"><button type="button"
-                                class="btn btn-dark" data-dismiss="modal">Print</button></a></div>
+                                class="btn btn-dark" data-dismiss="modal">Pay Now</button></a></div>
                     <!-- // END .modal-footer -->
                 </div><!-- // END .modal-content -->
             </div><!-- // END .modal-dialog -->
@@ -586,7 +605,7 @@
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button"
                                         href="patient_prescriptions.php"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">description</i><span
-                                            class="sidebar-menu-text">History</span></a></li>
+                                            class="sidebar-menu-text">Reports</span></a></li>
                                 <li class="sidebar-menu-item active"><a class="sidebar-menu-button" href="#"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">payment</i><span
                                             class="sidebar-menu-text">Payments</span></a></li>

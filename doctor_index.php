@@ -142,8 +142,10 @@
                             <div class="col-md">
                                 <div class="card card-stats">
                                     <div class="d-flex align-items-center mb-2">
-                                        <div class="card-header__title flex">Approved</div>
+                                        <div class="card-header__title flex">Current Consultations</div><a
+                                            href="appointments.php">
                                             <h4 class="text-amount"><strong>2</strong></h4>
+                                        </a>
                                         <!-- <span class="text-muted">&nbsp;/ $3,200</span> -->
                                     </div>
                                     <div class="position-relative d-flex align-items-start z-0">
@@ -159,8 +161,9 @@
                             <div class="col-md">
                                 <div class="card card-stats">
                                     <div class="d-flex align-items-center mb-2">
-                                        <div class="card-header__title flex">Pending</div>
+                                        <div class="card-header__title flex">Pending</div><a href="appointments.php">
                                             <h4 class="text-amount"><strong>1</strong></h4>
+                                        </a>
                                         <!-- <span class="text-muted">&nbsp;/ $3,200</span> -->
                                     </div>
                                     <div class="position-relative d-flex align-items-start z-0">
@@ -176,8 +179,9 @@
                             <div class="col-md">
                                 <div class="card card-stats">
                                     <div class="d-flex align-items-center mb-2">
-                                        <div class="card-header__title flex">Denied</div>
+                                        <div class="card-header__title flex">Denied</div><a href="appointments.php">
                                             <h4 class="text-amount"><strong>2</strong></h4>
+                                        </a>
                                         <!-- <span class="text-muted">&nbsp;/ $8,210</span> -->
                                     </div>
                                     <div class="progress" style="height: 4px;">
@@ -201,13 +205,80 @@
                                 </div>
                             </div>
                         </div>
-                        
+                        <div class="row card-group-row">
+                            <div class="col-lg-4 col-md-5 card-group-row__col">
+                                <div class="card card-group-row__card">
+                                    <div class="card-header card-header-large bg-white d-flex align-items-center">
+                                        <div class="flex">
+                                            <h4 class="card-header__title">Doctor Profile</h4>
+                                            <div class="card-subtitle text-muted">Your Data of Consultation Progress
+                                            </div>
+                                        </div>
+                                        <div class="dropdown ml-auto"><a href="#" data-toggle="dropdown"
+                                                data-caret="false" class="text-dark-gray"><i
+                                                    class="material-icons">more_horiz</i></a>
+                                            <div class="dropdown-menu dropdown-menu-right"><a href="javascript:void(0)"
+                                                    class="dropdown-item">Go to Report</a><a href="javascript:void(0)"
+                                                    class="dropdown-item">Previous Data</a>
+                                                <a href="javascript:void(0)" class="dropdown-item">Next Data</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body d-flex align-items-center justify-content-center"
+                                        style="height: 250px;">
+                                        <div class="chart z-0"
+                                            style="width: calc(250px - 1.25rem * 2); height: calc(250px - 1.25rem * 2);">
+                                            <div style="width: calc(250px - 1.25rem * 2); height: calc(250px - 1.25rem * 2); position: absolute; top: 0; left: 0;"
+                                                class="d-flex flex-column align-items-center justify-content-center">
+                                                <div class="text-muted mb-1">This Month</div>
+                                                <div class="card-header__title">Aug 2022</div>
+                                            </div>
+                                            <canvas class="position-relative" id="billingChart"
+                                                style="z-index: 2;"></canvas>
+                                        </div>
+                                    </div>
+                                    <div class="card-body pt-0 text-center">
+                                        <div class="text-amount mb-1"><strong>75%</strong></bold>
+                                        </div>
+                                        <div class="text-muted">Current Total Progress</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-md-7 card-group-row__col">
+                                <div class="card card-group-row__card">
+                                    <div class="card-header card-header-large bg-white d-flex align-items-center">
+                                        <div class="flex">
+                                            <h4 class="card-header__title">Consultation Appointments</h4>
+                                            <div class="card-subtitle text-muted">Your Monthly Consultation Appointments
+                                                2022
+                                            </div>
+                                        </div>
+                                        <div class="dropdown ml-auto"><a href="#" data-toggle="dropdown"
+                                                data-caret="false" class="text-dark-gray"><i
+                                                    class="material-icons">more_horiz</i></a>
+                                            <div class="dropdown-menu dropdown-menu-right"><a href="javascript:void(0)"
+                                                    class="dropdown-item">Go to Report</a><a href="javascript:void(0)"
+                                                    class="dropdown-item">Previous Data</a>
+                                                <a href="javascript:void(0)" class="dropdown-item">Next Data</a>
+                                                <!-- <div class="dropdown-divider">
+                                                </div><a href="javascript:void(0)"
+                                                    class="dropdown-item">Some Other Action</a> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body d-flex align-items-center">
+                                        <div class="chart w-100" style="height: calc(328px - 1.25rem * 2);"><canvas
+                                                id="transactionsChart"></canvas></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="row card-group-row">
                             <div class="col-lg-7 card-group-row__col">
                                 <div class="card card-group-row__card">
-                                    <div class="card-header card-header-large bg-light d-flex align-items-center">
+                                    <div class="card-header card-header-large bg-white d-flex align-items-center">
                                         <div class="flex bg-white">
-                                            <h4 class="card-header__title">Upcoming Consultations</h4>
+                                            <h4 class="card-header__title">Patients</h4>
                                         </div>
                                         <div class="dropdown ml-auto"><a href="#" data-toggle="dropdown"
                                                 data-caret="false" class="text-dark-gray"><i
@@ -219,34 +290,31 @@
                                     </div>
                                     <div class="list-group list-group-flush">
                                         <div class="list-group-item list-group-item-action d-flex align-items-center">
-                                            <div class="avatar avatar-sm mr-3"><img src="assets/images/doctor.png"
+                                            <div class="avatar avatar-sm mr-3"><img src="assets/images/profilew.png"
                                                     alt="Avatar" class="avatar-img rounded-circle"></div>
-                                            <div class="d-flex flex-column flex"><strong class="text-15pt">Dr. Number
-                                                    Too</strong><small class="text-muted">28 August 2022, 10:00
+                                            <div class="d-flex flex-column flex"><strong class="text-15pt">Zsyrhill Ann Soria</strong><small class="text-muted">28 August 2022, 10:00
                                                     AM</small></div><a href="index_patient.php">
                                                 <i class="material-icons icon-muted ml-3">arrow_forward</i>
                                             </a>
                                         </div>
                                         <div class="list-group-item list-group-item-action d-flex align-items-center">
-                                            <div class="avatar avatar-sm mr-3"><img src="assets/images/doctor2.png"
+                                            <div class="avatar avatar-sm mr-3"><img src="assets/images/profilew.png"
                                                     alt="Avatar" class="avatar-img rounded-circle"></div>
-                                            <div class="d-flex flex-column flex"><strong class="text-15pt">Dr. Number
-                                                    Wan</strong><small class="text-muted">28 August 2022, 11:00
+                                            <div class="d-flex flex-column flex"><strong class="text-15pt">Ma. Denice Angeles</strong><small class="text-muted">28 August 2022, 11:00
                                                     AM</small></div><a href="index_patient.php">
                                                 <i class="material-icons icon-muted ml-3">arrow_forward</i>
                                             </a>
                                         </div>
                                         <div class="list-group-item list-group-item-action d-flex align-items-center">
-                                            <div class="avatar avatar-sm mr-3"><img src="assets/images/jhong.jpg"
+                                            <div class="avatar avatar-sm mr-3"><img src="assets/images/profilem.png"
                                                     alt="Avatar" class="avatar-img rounded-circle"></div>
-                                            <div class="d-flex flex-column flex"><strong class="text-15pt">Christine C.
-                                                    Positar</strong><small class="text-muted">28 August 2022, 12:00
+                                            <div class="d-flex flex-column flex"><strong class="text-15pt">Scott Adrian Monghit</strong><small class="text-muted">28 August 2022, 12:00
                                                     PM</small></div><a href="index_patient.php">
                                                 <i class="material-icons icon-muted ml-3">arrow_forward</i>
                                             </a>
                                         </div>
                                         <div class="list-group-item list-group-item-action d-flex align-items-center">
-                                            <div class="avatar avatar-sm mr-3"><img src="assets/images/kkk.jpg"
+                                            <div class="avatar avatar-sm mr-3"><img src="assets/images/profilem.png"
                                                     alt="Avatar" class="avatar-img rounded-circle"></div>
                                             <div class="d-flex flex-column flex"><strong class="text-15pt">Kier A.
                                                     Esteban</strong><small class="text-muted">28 August 2022, 01:00
@@ -257,8 +325,7 @@
                                         <div class="list-group-item list-group-item-action d-flex align-items-center">
                                             <div class="avatar avatar-sm mr-3"><img src="assets/images/profilew.png"
                                                     alt="Avatar" class="avatar-img rounded-circle"></div>
-                                            <div class="d-flex flex-column flex"><strong class="text-15pt">Angga N.
-                                                    Daqku</strong><small class="text-muted">28 August 2022, 02:00
+                                            <div class="d-flex flex-column flex"><strong class="text-15pt">Patricia Masangcay</strong><small class="text-muted">28 August 2022, 02:00
                                                     PM</small></div><a href="index_patient.php">
                                                 <i class="material-icons icon-muted ml-3">arrow_forward</i>
                                             </a>
@@ -502,17 +569,18 @@
                                             class="sidebar-menu-text">My Patients</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="doctor_prescriptions.php"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">description</i><span
-                                            class="sidebar-menu-text">History</span></a></li>
+                                            class="sidebar-menu-text">Reports</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="doctor_transactions.php"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">payment</i><span
                                             class="sidebar-menu-text">Transactions</span></a></li>
-                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="doctor_schedules.php"><i
-                                            class="sidebar-menu-icon sidebar-menu-icon--left material-icons">schedule</i><span
-                                            class="sidebar-menu-text">Schedule</span></a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="mt-auto sidebar-p-a sidebar-b-t d-flex flex-column flex-shrink-0">
+                            <a class="sidebar-link mb-2" href="doctor_schedules.php">Schedule<i
+                                class="sidebar-menu-icon ml-2 material-icons icon-16pt">schedule</i></a>
+                            <a class="sidebar-link mb-2" href="doctor_verification.php">Doctor Verification<i
+                                class="sidebar-menu-icon ml-2 material-icons icon-16pt">check_circle</i></a>
                             <a class="sidebar-link" href="logindoctorpage.php"><strong>LOG OUT</strong><i
                                 class="sidebar-menu-icon ml-2 material-icons icon-20pt">exit_to_app</i></a>
                     </div>

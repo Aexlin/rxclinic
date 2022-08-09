@@ -155,48 +155,35 @@
                                     </div>
                                     <form action="#" novalidate>
                                         <div class="row">
-                                            <div class="col">
-                                                <div class="form-group"><label class="text-label" for="fname">First
-                                                        Name:</label><input id="fname" type="text" class="form-control" placeholder="First name" value="Den" disabled></div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="form-group"><label class="text-label" for="lname">Middle
-                                                        Name:</label><input id="lname" type="text" class="form-control" placeholder="Middle name" value="T." disabled></div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="form-group"><label class="text-label" for="lname">Last
-                                                        Name:</label><input id="lname" type="text" class="form-control" placeholder="Last name" value="Ista" disabled></div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
                                             <div class="col-lg-7">
-                                                <div class="form-group"><label class="text-label" for="fname">Email
-                                                        Address:</label><input id="fname" type="text" class="form-control" placeholder="name@gmail.com" value="drdentist_pupqc@gmail.com" disabled></div>
+                                                <div class="form-group"><label class="text-label" for="fname">Email Address:</label><input id="fname" type="text" class="form-control" placeholder="name@gmail.com" value="anggandaku@gmail.com" disabled></div>
                                             </div>
                                             <div class="col">
-                                                <div class="form-group"><label class="text-label" for="select01">Gender:</label>
-                                                    <select id="select01" data-toggle="select" class="form-control" disabled>
-                                                        <option>Male</option>
-                                                        <option selected="">Female</option>
-                                                        <!-- <option>Prefer not to say</option> -->
-                                                    </select>
-                                                </div>
+                                                <div class="form-group"><label class="text-label" for="fname">Password:</label><input id="fname" type="text" class="form-control" placeholder="name@gmail.com" value="mypassword" disabled></div>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col">
-                                                <div class="form-group"><label class="text-label" for="flatpickrSample01">Birthday:</label><input id="flatpickrSample01" type="text" class="form-control" placeholder="Flatpickr example" data-toggle="flatpickr" value="today" disabled></div>
+                                                <div class="form-group"><label class="text-label" for="fname">First Name:</label><input id="fname" type="text" class="form-control" placeholder="First name" value="Angga" disabled></div>
                                             </div>
                                             <div class="col">
-                                                <div class="form-group"><label class="text-label" for="lname">Age:</label><input id="lname" type="number" class="form-control" placeholder="Age" value="35" disabled>
-                                                </div>
+                                                <div class="form-group"><label class="text-label" for="lname">Middle Name:</label><input id="lname" type="text" class="form-control" placeholder="Middle name" value="N." disabled></div>
                                             </div>
                                             <div class="col">
-                                                <div class="form-group"><label class="text-label" for="fname">Contact
-                                                        No:</label><input id="fname" type="text" class="form-control" placeholder="Contact No." value="0998-765-4321" disabled></div>
+                                                <div class="form-group"><label class="text-label" for="lname">Last Name:</label><input id="lname" type="text" class="form-control" placeholder="Last name" value="Daqku" disabled></div>
                                             </div>
-                                            <div class="col-lg-4">
-                                                <div class="form-group"><label class="text-label" for="lname">Username:</label><input id="lname" type="text" class="form-control" placeholder="@username" value="@anggandaqku" disabled></div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="form-group"><label class="text-label" for="flatpickrSample01">Birthday:</label><input id="flatpickrSample01" type="text" class="form-control" placeholder="Flatpickr example" data-toggle="" value="Aug 09, 2001" disabled></div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="form-group"><label class="text-label" for="fname">Contact No:</label><input id="fname" type="text" class="form-control" placeholder="Contact No." value="0998-765-4321" disabled></div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="form-group"><label class="text-label" for="fname">Address:</label><input id="fname" type="text" class="form-control" placeholder="Address" value="3435 Batumbakal Street, New York, Cubao" disabled></div>
                                             </div>
                                         </div>
                                     </form>
@@ -308,53 +295,35 @@
                             <form action="#" novalidate>
                                 <div class="row">
                                     <div class="col">
-                                        <div class="form-group"><label class="text-label" for="fname">First
-                                                Name:</label><input id="fname" type="text" class="form-control" placeholder="First name" value="Den"></div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="form-group"><label class="text-label" for="lname">Middle
-                                                Name:</label><input id="lname" type="text" class="form-control" placeholder="Middle name" value="T."></div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="form-group"><label class="text-label" for="lname">Last
-                                                Name:</label><input id="lname" type="text" class="form-control" placeholder="Last name" value="Ista"></div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-7">
-                                        <div class="form-group"><label class="text-label" for="fname">Email
-                                                Address:</label><input id="fname" type="text" class="form-control" placeholder="name@gmail.com" value="drdentist_pupqc@gmail.com">
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="form-group"><label class="text-label" for="select01">Gender:</label>
-                                            <select id="select01" data-toggle="select" class="form-control" disabled>
-                                                <option>Male</option>
-                                                <option selected="">Female</option>
-                                                <!-- <option>Prefer not to say</option> -->
-                                            </select>
-                                        </div>
+                                        <div class="form-group"><label class="text-label" for="fname">Email Address:</label><input id="fname" type="text" class="form-control" placeholder="name@gmail.com" value="anggandaku@gmail.com"></div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col">
-                                        <div class="form-group"><label class="text-label" for="flatpickrSample01">Birthday:</label><input id="flatpickrSample01" type="text" class="form-control" placeholder="Flatpickr example" data-toggle="flatpickr" value="today"></div>
+                                        <div class="form-group"><label class="text-label" for="fname">First Name:</label><input id="fname" type="text" class="form-control" placeholder="First name" value="Angga"></div>
                                     </div>
                                     <div class="col">
-                                        <div class="form-group"><label class="text-label" for="lname">Age:</label><input id="lname" type="number" class="form-control" placeholder="Age" value="35">
-                                        </div>
+                                        <div class="form-group"><label class="text-label" for="lname">Middle Name:</label><input id="lname" type="text" class="form-control" placeholder="Middle name" value="N."></div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-group"><label class="text-label" for="lname">Last Name:</label><input id="lname" type="text" class="form-control" placeholder="Last name" value="Daqku"></div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col">
-                                        <div class="form-group"><label class="text-label" for="fname">Contact
-                                                No:</label><input id="fname" type="text" class="form-control" placeholder="Contact No." value="0998-765-4321"></div>
+                                        <div class="form-group"><label class="text-label" for="flatpickrSample01">Birthday:</label><input id="flatpickrSample01" type="text" class="form-control" placeholder="Flatpickr example" data-toggle="" value="Aug 09, 2001"></div>
                                     </div>
                                     <div class="col">
-                                        <div class="form-group"><label class="text-label" for="lname">Username:</label><input id="lname" type="text" class="form-control" placeholder="@username" value="@anggandaqku"></div>
+                                        <div class="form-group"><label class="text-label" for="fname">Contact No:</label><input id="fname" type="text" class="form-control" placeholder="Contact No." value="0998-765-4321"></div>
                                     </div>
                                 </div>
-                                <div class="modal-footer"><a href="myprofileadmin.php"><button type="button" class="btn btn-light" data-dismiss="modal">Cancel</button></a><a href="myprofileadmin.php"><button type="button" class="btn btn-primary" data-toggle="modal">Save Changes</button></a></div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group"><label class="text-label" for="fname">Address:</label><input id="fname" type="text" class="form-control" placeholder="Address" value="3435 Batumbakal Street, New York, Cubao"></div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer"><button type="button" class="btn btn-light" data-dismiss="modal">Close</button><button type="button" class="btn btn-primary">Save
+                                        changes</button></div>
                             </form>
                         </div>
                     </div><!-- // END .modal-body -->
@@ -404,11 +373,35 @@
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_index.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">donut_small</i><span class="sidebar-menu-text">Dashboard</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_consultations.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">date_range</i><span class="sidebar-menu-text">Consultations</span><span class="badge badge-warning rounded-circle badge-notifications ml-auto" style="padding: .1875rem .375rem;">24</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_services.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">dvr</i><span class="sidebar-menu-text">Services</span></a></li>
-                                <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">Doctors</span></a></li>
+                                <li class="sidebar-menu-item">
+                                    <a class="sidebar-menu-button" data-toggle="collapse" href="#components_menu"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">Doctors</span></a>
+                                    <ul class="sidebar-submenu collapse" id="components_menu">
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Cardiology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Otolaryngology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Endocrinology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Family Medicine</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Gastroenterology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">General Dentistry</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">General Medicine</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Internal Medicine</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Mental Health</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Nephrology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Neurology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Nutritionist-Dietitian</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Family Medicine</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Obstetrics and Gynecology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Oncology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Opthalmology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Pediatrics</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Rehabilitation Medicine</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Rheumatology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Urology</span></a></li>
+                                    </ul>
+                                </li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_patients.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">Patients</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_reports.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">report</i><span class="sidebar-menu-text">Reports</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_schedules.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">schedule</i><span class="sidebar-menu-text">Schedules</span></a></li>
-                                            <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_transactions.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">payment</i><span class="sidebar-menu-text">Transactions</span></a></li>
+                                <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_transactions.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">payment</i><span class="sidebar-menu-text">Transactions</span></a></li>
                             </ul>
                         </div>
                     </div>

@@ -46,7 +46,7 @@
                                     type="button" data-toggle="sidebar"><span
                                         class="material-icons">short_text</span></button><!-- Navbar Brand --><a
                                     href="#" class="navbar-brand flex "><span>BOOK NEW CONSULTATION</span></a>
-                                <ul class="nav navbar-nav d-none d-md-flex">
+                                    <ul class="nav navbar-nav d-none d-md-flex">
                                     <li class="nav-item dropdown"><a href="#notifications_menu"
                                             class="nav-link dropdown-toggle" data-toggle="dropdown"
                                             data-caret="false"><i
@@ -67,8 +67,9 @@
                                                                     class="avatar-img rounded-circle">
                                                             </div>
                                                         </div>
-                                                        <div class="flex"><a href="">Dr. Dentist</a> approved your <a href="">appointment.</a><br><small
-                                                                class="text-muted">1 hr
+                                                        <div class="flex"><a href="patient_consultations.php">Dr. Dentist</a> approved your <a
+                                                                href="">consultation appointment.</a><br><small class="text-muted">1
+                                                                hr
                                                                 ago</small></div>
                                                     </div>
                                                     <div class="dropdown-item d-flex">
@@ -79,8 +80,9 @@
                                                                     class="avatar-img rounded-circle">
                                                             </div>
                                                         </div>
-                                                        <div class="flex"><a href="">Dr. Dentist</a> cancelled your <a href="">appointment.</a><br><small
-                                                                class="text-muted">1 day
+                                                        <div class="flex"><a href="patient_consultations.php">Dr. Dentist</a> requested to reschedule your <a
+                                                                href="">consultation appointment.</a><br><small class="text-muted">1
+                                                                hr
                                                                 ago</small></div>
                                                     </div>
                                                     <div class="dropdown-item d-flex">
@@ -91,8 +93,22 @@
                                                                     class="avatar-img rounded-circle">
                                                             </div>
                                                         </div>
-                                                        <div class="flex"><a href="">Dr. Dentist</a> declined your <a href="">appointment.</a><br><small
-                                                                class="text-muted">3 days
+                                                        <div class="flex"><a href="patient_consultations.php">Dr. Dentist</a> cancelled your <a
+                                                                href="">consultation appointment.</a><br><small class="text-muted">1
+                                                                day
+                                                                ago</small></div>
+                                                    </div>
+                                                    <div class="dropdown-item d-flex">
+                                                        <div class="mr-3">
+                                                            <div class="avatar avatar-sm"
+                                                                style="width: 32px; height: 32px;"><img
+                                                                    src="assets/images/profilew.png" alt="Avatar"
+                                                                    class="avatar-img rounded-circle">
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex"><a href="patient_consultations.php">Dr. Dentist</a> declined your <a
+                                                                href="">consultation appointment.</a><br><small class="text-muted">3
+                                                                days
                                                                 ago</small></div>
                                                     </div>
                                                 </div>
@@ -154,6 +170,32 @@
                             <!-- <div class="page-separator">
                                 <div class="page-separator__text">with</div>
                             </div> -->
+                            <div class="page-separator">
+                                <div class="page-separator__text">PERSONAL INFORMATION</div>
+                            </div>
+                            <form action="index.php" novalidate>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group"><label class="text-label" for="fname">First Name:</label><input
+                                                id="fname" type="text" class="form-control" placeholder="First name" value=""></div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-group"><label class="text-label" for="lname">Middle Name:</label><input
+                                                id="lname" type="text" class="form-control" placeholder="Middle name" value=""></div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-group"><label class="text-label" for="lname">Last Name:</label><input
+                                                id="lname" type="text" class="form-control" placeholder="Last name" value=""></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group"><label class="text-label"
+                                                for="contact">Contact No.:</label><input id="lname" type="text"
+                                                class="form-control" placeholder="Contact No." value=""></div>
+                                    </div>
+                                </div>
+                            </form>
                             <div class="page-separator">
                                 <div class="page-separator__text">APPOINTMENT Information</div>
                             </div>
@@ -290,7 +332,7 @@
                                             class="sidebar-menu-text">My Doctors</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="patient_prescriptions.php"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">description</i><span
-                                            class="sidebar-menu-text">History</span></a></li>
+                                            class="sidebar-menu-text">Reports</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="patient_payments.php"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">payment</i><span
                                             class="sidebar-menu-text">Payment</span></a></li>

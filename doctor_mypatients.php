@@ -205,7 +205,7 @@
                                                                         class="material-icons">edit</i></button> -->
                                                                 <button type="button" class="btn btn-danger"
                                                                     data-toggle="modal" data-target="#modal-delete"><i
-                                                                        class="material-icons">delete</i></button>
+                                                                        class="material-icons">cancel</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -235,7 +235,7 @@
                                                                         class="material-icons">edit</i></button> -->
                                                                 <button type="button" class="btn btn-danger"
                                                                     data-toggle="modal" data-target="#modal-delete"><i
-                                                                        class="material-icons">delete</i></button>
+                                                                        class="material-icons">cancel</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -265,7 +265,7 @@
                                                                         class="material-icons">edit</i></button> -->
                                                                 <button type="button" class="btn btn-danger"
                                                                     data-toggle="modal" data-target="#modal-delete"><i
-                                                                        class="material-icons">delete</i></button>
+                                                                        class="material-icons">cancel</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -295,7 +295,7 @@
                                                                         class="material-icons">edit</i></button> -->
                                                                 <button type="button" class="btn btn-danger"
                                                                     data-toggle="modal" data-target="#modal-delete"><i
-                                                                        class="material-icons">delete</i></button>
+                                                                        class="material-icons">cancel</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -325,7 +325,7 @@
                                                                         class="material-icons">edit</i></button> -->
                                                                 <button type="button" class="btn btn-danger"
                                                                     data-toggle="modal" data-target="#modal-delete"><i
-                                                                        class="material-icons">delete</i></button>
+                                                                        class="material-icons">cancel</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -383,9 +383,9 @@
             <div class="modal-dialog modal-dialog-centered modal-sm">
                 <div class="modal-content bg-danger">
                     <div class="modal-body text-center p-4"><i
-                            class="material-icons icon-40pt text-white mb-2">delete</i>
-                        <h4 class="text-white">Deleted!</h4>
-                        <p class="text-white mt-3">You deleted a patient.</p><button type="button"
+                            class="material-icons icon-40pt text-white mb-2">cancel</i>
+                        <h4 class="text-white">Patient Deactivated!</h4>
+                        <p class="text-white mt-3">You deactivated a patient.</p><button type="button"
                             class="btn btn-light my-2" data-dismiss="modal">Continue</button>
                     </div><!-- // END .modal-body -->
                 </div><!-- // END .modal-content -->
@@ -438,17 +438,18 @@
                                             class="sidebar-menu-text">My Patients</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="doctor_prescriptions.php"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">description</i><span
-                                            class="sidebar-menu-text">History</span></a></li>
+                                            class="sidebar-menu-text">Reports</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="doctor_transactions.php"><i
                                             class="sidebar-menu-icon sidebar-menu-icon--left material-icons">payment</i><span
                                             class="sidebar-menu-text">Transactions</span></a></li>
-                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="doctor_schedules.php"><i
-                                            class="sidebar-menu-icon sidebar-menu-icon--left material-icons">schedule</i><span
-                                            class="sidebar-menu-text">Schedule</span></a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="mt-auto sidebar-p-a sidebar-b-t d-flex flex-column flex-shrink-0">
+                            <a class="sidebar-link mb-2" href="doctor_schedules.php">Schedule<i
+                                class="sidebar-menu-icon ml-2 material-icons icon-16pt">schedule</i></a>
+                            <a class="sidebar-link mb-2" href="doctor_verification.php">Doctor Verification<i
+                                class="sidebar-menu-icon ml-2 material-icons icon-16pt">check_circle</i></a>
                             <a class="sidebar-link" href="logindoctorpage.php"><strong>LOG OUT</strong><i
                                 class="sidebar-menu-icon ml-2 material-icons icon-20pt">exit_to_app</i></a>
                     </div>

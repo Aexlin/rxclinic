@@ -173,8 +173,7 @@
                                                             <div class="media align-items-center">
                                                                 <div class="avatar avatar-xs mr-2"><img src="assets/images/profilem.png" alt="Avatar" class="avatar-img rounded-circle">
                                                                 </div>
-                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Juan Dela
-                                                                        Cruz</strong></div>
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Dr. Number Wan</strong></div>
                                                             </div>
                                                         </td>
                                                         <td><span class="js-lists-values-employee-service">Cardiology</span>
@@ -186,7 +185,7 @@
                                                         <td>
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#modal-edit"><i class="material-icons">edit</i></button>
-                                                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-delete"><i class="material-icons">delete</i></button>
+                                                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-delete"><i class="material-icons">cancel</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -198,8 +197,7 @@
                                                             <div class="media align-items-center">
                                                                 <div class="avatar avatar-xs mr-2"><img src="assets/images/profilew.png" alt="Avatar" class="avatar-img rounded-circle">
                                                                 </div>
-                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Maria
-                                                                        Clara</strong></div>
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Dr. Number Too</strong></div>
                                                             </div>
                                                         </td>
                                                         <td><span class="js-lists-values-employee-service">Otolaryngology</span>
@@ -211,7 +209,7 @@
                                                         <td>
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#modal-edit"><i class="material-icons">edit</i></button>
-                                                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-delete"><i class="material-icons">delete</i></button>
+                                                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-delete"><i class="material-icons">cancel</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -223,8 +221,7 @@
                                                             <div class="media align-items-center">
                                                                 <div class="avatar avatar-xs mr-2"><img src="assets/images/jhong.jpg" alt="Avatar" class="avatar-img rounded-circle">
                                                                 </div>
-                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Crisostomo
-                                                                        Ibarra</strong></div>
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Dr. Number Trii</strong></div>
                                                             </div>
                                                         </td>
                                                         <td><span class="js-lists-values-employee-service">Family
@@ -236,7 +233,7 @@
                                                         <td>
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#modal-edit"><i class="material-icons">edit</i></button>
-                                                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-delete"><i class="material-icons">delete</i></button>
+                                                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-delete"><i class="material-icons">cancel</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -248,8 +245,7 @@
                                                             <div class="media align-items-center">
                                                                 <div class="avatar avatar-xs mr-2"><img src="assets/images/steve.png" alt="Avatar" class="avatar-img rounded-circle">
                                                                 </div>
-                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Steve
-                                                                        Harrington</strong></div>
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Dr. Number Foor</strong></div>
                                                             </div>
                                                         </td>
                                                         <td><span class="js-lists-values-employee-service">Gastroenterology</span>
@@ -261,7 +257,7 @@
                                                         <td>
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#modal-edit"><i class="material-icons">edit</i></button>
-                                                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-delete"><i class="material-icons">delete</i></button>
+                                                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-delete"><i class="material-icons">cancel</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -273,8 +269,7 @@
                                                             <div class="media align-items-center">
                                                                 <div class="avatar avatar-xs mr-2"><img src="assets/images/profilew.png" alt="Avatar" class="avatar-img rounded-circle">
                                                                 </div>
-                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Eleven
-                                                                        Hopper</strong></div>
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Dr. Number Payb</strong></div>
                                                             </div>
                                                         </td>
                                                         <td><span class="js-lists-values-employee-service">General
@@ -286,7 +281,7 @@
                                                         <td>
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#modal-edit"><i class="material-icons">edit</i></button>
-                                                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-delete"><i class="material-icons">delete</i></button>
+                                                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-delete"><i class="material-icons">cancel</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -334,9 +329,9 @@
         <div id="modal-delete" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-sm">
                 <div class="modal-content bg-danger">
-                    <div class="modal-body text-center p-4"><i class="material-icons icon-40pt text-white mb-2">delete</i>
-                        <h4 class="text-white">Deleted!</h4>
-                        <p class="text-white mt-3">You deleted a doctor's schedule.</p><button type="button" class="btn btn-light my-2" data-dismiss="modal">Continue</button>
+                    <div class="modal-body text-center p-4"><i class="material-icons icon-40pt text-white mb-2">cancel</i>
+                        <h4 class="text-white">Schedule Deactivated!</h4>
+                        <p class="text-white mt-3">You deactivated a doctor's schedule.</p><button type="button" class="btn btn-light my-2" data-dismiss="modal">Continue</button>
                     </div><!-- // END .modal-body -->
                 </div><!-- // END .modal-content -->
             </div><!-- // END .modal-dialog -->
@@ -671,7 +666,31 @@
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_index.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">donut_small</i><span class="sidebar-menu-text">Dashboard</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_consultations.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">date_range</i><span class="sidebar-menu-text">Consultations</span><span class="badge badge-warning rounded-circle badge-notifications ml-auto" style="padding: .1875rem .375rem;">24</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_services.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">dvr</i><span class="sidebar-menu-text">Services</span></a></li>
-                                <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">Doctors</span></a></li>
+                                <li class="sidebar-menu-item">
+                                    <a class="sidebar-menu-button" data-toggle="collapse" href="#components_menu"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">Doctors</span></a>
+                                    <ul class="sidebar-submenu collapse" id="components_menu">
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Cardiology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Otolaryngology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Endocrinology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Family Medicine</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Gastroenterology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">General Dentistry</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">General Medicine</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Internal Medicine</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Mental Health</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Nephrology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Neurology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Nutritionist-Dietitian</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Family Medicine</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Obstetrics and Gynecology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Oncology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Opthalmology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Pediatrics</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Rehabilitation Medicine</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Rheumatology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Urology</span></a></li>
+                                    </ul>
+                                </li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_patients.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">Patients</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_reports.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">report</i><span class="sidebar-menu-text">Reports</span></a></li>
                                 <li class="sidebar-menu-item active"><a class="sidebar-menu-button" href="#"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">schedule</i><span class="sidebar-menu-text">Schedules</span></a></li>

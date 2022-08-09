@@ -152,7 +152,7 @@
                                                         <th style="width: 100px;">Username</th>
                                                         <th style="width: 120px;">Password</th>
                                                         <th style="width: 37px;">Status</th>
-                                                        <th style="width: 250px;">Action</th>
+                                                        <th style="width: 350px;">Action</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody class="list" id="staff02">
@@ -177,6 +177,7 @@
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#modal-edit"><i class="material-icons">edit</i></button>
                                                                 <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-delete"><i class="material-icons">delete</i></button>
+                                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-consult    "><i class="material-icons">schedule</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -200,6 +201,7 @@
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#modal-edit"><i class="material-icons">edit</i></button>
                                                                 <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-delete"><i class="material-icons">delete</i></button>
+                                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-consult    "><i class="material-icons">schedule</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -223,6 +225,7 @@
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#modal-edit"><i class="material-icons">edit</i></button>
                                                                 <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-delete"><i class="material-icons">delete</i></button>
+                                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-consult    "><i class="material-icons">schedule</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -246,6 +249,7 @@
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#modal-edit"><i class="material-icons">edit</i></button>
                                                                 <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-delete"><i class="material-icons">delete</i></button>
+                                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-consult    "><i class="material-icons">schedule</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -269,6 +273,7 @@
                                                             <div class="button-list">
                                                                 <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#modal-edit"><i class="material-icons">edit</i></button>
                                                                 <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-delete"><i class="material-icons">delete</i></button>
+                                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-consult    "><i class="material-icons">schedule</i></button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -322,8 +327,141 @@
                 </div><!-- // END .modal-content -->
             </div><!-- // END .modal-dialog -->
         </div><!-- // END .modal -->
+        <div id="modal-consult" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal-large-title" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="px-3">
+                            <div class="d-flex justify-content-center mt-0 mb-0 navbar-light"><a href="#" class="navbar-brand" style="min-width: 0"><img class="navbar-brand-icon" src="assets/img/rxlogowithname.png" width="250" alt="Stack"></a></div><br><br>
+                            <div class="d-flex justify-content-center mt-0 mb-0 navbar-light"><span><strong>DOCTOR APPROVED CONSULTATIONS</strong></span></div>
+                            <!-- <div class="page-separator"></div> -->
+                            <div class="modal-body">
+                                <div class="tab-pane active show fade" id="tab-queue">
+                                    <div class="table-responsive border-bottom" data-toggle="lists" data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-special", "js-lists-values-employee-date"]'>
+                                        <div class="search-form search-form--light m-3"><input type="text" class="form-control search" placeholder="Search Appointment ID or Doctor Name"><button class="btn" type="button" role="button"><i class="material-icons">search</i></button></div>
+                                        <table class="table mb-0 thead-border-top-0">
+                                            <thead>
+                                                <tr>
+                                                    <th style="width: 250px;">
+                                                        <a href="javascript:void(0)" class="sort" data-sort="js-lists-values-employee-title">Consultation ID</a>
+                                                    </th>
+                                                    <th style="width: 200px;">
+                                                        <a href="javascript:void(0)" class="sort" data-sort="js-lists-values-employee-name">Doctor
+                                                        </a>
+                                                    </th>
+                                                    <th style="width: 37px;">
+                                                        <a href="javascript:void(0)" class="sort" data-sort="js-lists-values-employee-date">Date</a>
+                                                    </th>
+                                                    <th style="width: 100px;">Time</th>
+                                                    <th style="width: 150px;">Service</th>
+                                                    <th style="width: 37px;">Status</th>
+                                                    <!-- <th style="width: 120px;">Last Activity</th> -->
+                                                    <!-- <th style="width: 120px;">Action</th> -->
+                                                    <!-- <th style="width: 24px;"></th> -->
+                                                </tr>
+                                            </thead>
+                                           <tbody class="list" id="staff02">
 
-        <!-- Edit Modal -->
+                                                    <tr>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">2022-0001</strong></span>
+                                                        </td>
+                                                        <td>
+                                                            <div class="media align-items-center">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/doctrii.jpg" alt="Avatar" class="avatar-img rounded-circle">
+                                                                </div>
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Dr. Number Tehen</strong></div>
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="js-lists-values-employee-date">07/08/2022</span></td>
+                                                        <td>10:00 AM</td>
+                                                        <td><span class="js-lists-values-employee-special">Endocrinology</span></td>
+                                                        <td><span class="badge badge-success">APPROVED</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">2022-0002</strong></span>
+                                                        </td>
+                                                        <td>
+                                                            <div class="media align-items-center">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/doctor2.png" alt="Avatar" class="avatar-img rounded-circle">
+                                                                </div>
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Dr. Number Nayn</strong><small class="text-muted"></small></div>
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="js-lists-values-employee-date">07/09/2022</span></td>
+                                                        <td>11:00 AM</td>
+                                                        <td><span class="js-lists-values-employee-special">Pediatrics</span></td>
+                                                        <td><span class="badge badge-success">APPROVED</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">2022-0003</strong></span>
+                                                        </td>
+                                                        <td>
+                                                            <div class="media align-items-center">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/doctor.png" alt="Avatar" class="avatar-img rounded-circle">
+                                                                </div>
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Dr. Number Trii
+                                                                    </strong><small class="text-muted"></small></div>
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="js-lists-values-employee-date">07/10/2022</span></td>
+                                                        <td>11:30 AM</td>
+                                                        <td><span class="js-lists-values-employee-special">Cardiology</span></td>
+                                                        <td><span class="badge badge-success">APPROVED</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">2022-0004</strong></span>
+                                                        </td>
+                                                        <td>
+                                                            <div class="media align-items-center">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/doc5.png" alt="Avatar" class="avatar-img rounded-circle">
+                                                                </div>
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Doctor Number Wan
+                                                                    </strong><small class="text-muted">
+                                                                    </small></div>
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="js-lists-values-employee-date">07/11/2022</span></td>
+                                                        <td>1:00 PM</td>
+                                                        <td><span class="js-lists-values-employee-special">Nephrology</span></td>
+                                                        <td><span class="badge badge-success">APPROVED</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">2022-0005</strong></span>
+                                                        </td>
+                                                        <td>
+                                                            <div class="media align-items-center">
+                                                                <div class="avatar avatar-xs mr-2"><img src="assets/images/doc4.jfif" alt="Avatar" class="avatar-img rounded-circle">
+                                                                </div>
+                                                                <div class="media-body d-flex flex-column"><strong class="js-lists-values-employee-name">Dr. Number For
+                                                                    </strong><small class="text-muted"></small></div>
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="js-lists-values-employee-date">07/12/2022</span></td>
+                                                        <td>2:00 PM</td>
+                                                        <td><span class="js-lists-values-employee-special">Urology</span></td>
+                                                        <td><span class="badge badge-success">APPROVED</span></td>
+                                                        <td>
+                                                            <!-- <div class="button-list">
+                                                                <button type="button" class="btn btn-danger"
+                                                                    data-toggle="modal" data-target="#modal-delete"><i
+                                                                    class="material-icons">delete</i></button>
+                                                            </div> -->
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="card-body text-right">Showing 5 <span class="text-muted">of
+                                            24</span><a href="#" class="text-muted-light"><i class="material-icons ml-1">arrow_forward</i></a></div>
+                                </div>
+                            </div>
+                        </div><!-- // END .modal-body -->
+                    </div><!-- // END .modal-body -->
+                    <!-- // END .modal-footer -->
+                </div><!-- // END .modal-content -->
+            </div><!-- // END .modal-dialog -->
+        </div><!-- // END .modal -->
+
         <!-- Login Modal -->
         <div id="modal-edit" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
@@ -431,7 +569,31 @@
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_index.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">donut_small</i><span class="sidebar-menu-text">Dashboard</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_consultations.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">date_range</i><span class="sidebar-menu-text">Consultations</span><span class="badge badge-warning rounded-circle badge-notifications ml-auto" style="padding: .1875rem .375rem;">24</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_services.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">dvr</i><span class="sidebar-menu-text">Services</span></a></li>
-                                <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">Doctors</span></a></li>
+                                <li class="sidebar-menu-item">
+                                    <a class="sidebar-menu-button" data-toggle="collapse" href="#components_menu"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">Doctors</span></a>
+                                    <ul class="sidebar-submenu collapse" id="components_menu">
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Cardiology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Otolaryngology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Endocrinology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Family Medicine</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Gastroenterology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">General Dentistry</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">General Medicine</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Internal Medicine</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Mental Health</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Nephrology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Neurology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Nutritionist-Dietitian</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Family Medicine</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Obstetrics and Gynecology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Oncology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Opthalmology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Pediatrics</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Rehabilitation Medicine</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Rheumatology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Urology</span></a></li>
+                                    </ul>
+                                </li>
                                 <li class="sidebar-menu-item active"><a class="sidebar-menu-button" href="#"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">Patients</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_reports.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">report</i><span class="sidebar-menu-text">Reports</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_schedules.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">schedule</i><span class="sidebar-menu-text">Schedules</span></a></li>
