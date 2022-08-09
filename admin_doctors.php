@@ -43,94 +43,64 @@
                                     <button type="button" class="btn btn-primary-dark" data-toggle="modal" data-target="#modal-login">ADD DOCTOR</button>
                                 </div>
                                 <ul class="nav navbar-nav d-none d-md-flex">
-                                    <li class="nav-item dropdown"><a href="#notifications_menu"
-                                            class="nav-link dropdown-toggle" data-toggle="dropdown"
-                                            data-caret="false"><i
-                                                class="material-icons nav-icon navbar-notifications-indicator">notifications</i></a>
-                                        <div id="notifications_menu"
-                                            class="dropdown-menu dropdown-menu-right navbar-notifications-menu">
-                                            <div class="dropdown-item d-flex align-items-center py-2"><span
-                                                    class="flex navbar-notifications-menu__title m-0">Notifications</span><a
-                                                    href="javascript:void(0)" class="text-muted"><small>Clear
+                                    <li class="nav-item dropdown"><a href="#notifications_menu" class="nav-link dropdown-toggle" data-toggle="dropdown" data-caret="false"><i class="material-icons nav-icon navbar-notifications-indicator">notifications</i></a>
+                                        <div id="notifications_menu" class="dropdown-menu dropdown-menu-right navbar-notifications-menu">
+                                            <div class="dropdown-item d-flex align-items-center py-2"><span class="flex navbar-notifications-menu__title m-0">Notifications</span><a href="javascript:void(0)" class="text-muted"><small>Clear
                                                         all</small></a></div>
                                             <div class="navbar-notifications-menu__content" data-simplebar>
                                                 <div class="py-2">
                                                     <div class="dropdown-item d-flex">
                                                         <div class="mr-3">
-                                                            <div class="avatar avatar-sm"
-                                                                style="width: 32px; height: 32px;"><img
-                                                                    src="assets/images/profilew.png" alt="Avatar"
-                                                                    class="avatar-img rounded-circle">
+                                                            <div class="avatar avatar-sm" style="width: 32px; height: 32px;"><img src="assets/images/profilew.png" alt="Avatar" class="avatar-img rounded-circle">
                                                             </div>
                                                         </div>
                                                         <div class="flex"><a href="">Judell Mejorada</a> requesting an
-                                                            approval of her <a href="">appointment.</a><br><small
-                                                                class="text-muted">1 minute
+                                                            approval of her <a href="">appointment.</a><br><small class="text-muted">1 minute
                                                                 ago</small></div>
                                                     </div>
                                                     <div class="dropdown-item d-flex">
                                                         <div class="mr-3"><a href="#">
-                                                                <div class="avatar avatar-xs"
-                                                                    style="width: 32px; height: 32px;"><span
-                                                                        class="avatar-title bg-purple rounded-circle"><i
-                                                                            class="material-icons icon-16pt">person_add</i></span>
+                                                                <div class="avatar avatar-xs" style="width: 32px; height: 32px;"><span class="avatar-title bg-purple rounded-circle"><i class="material-icons icon-16pt">person_add</i></span>
                                                                 </div>
                                                             </a></div>
                                                         <div class="flex"><a href="#">Gorju C. Te</a>
-                                                            requesting an approval of her <a
-                                                                href="#">appointment.</a><br>
+                                                            requesting an approval of her <a href="#">appointment.</a><br>
                                                             <small class="text-muted">1 hour ago</small>
                                                         </div>
                                                     </div>
                                                     <div class="dropdown-item d-flex">
                                                         <div class="mr-3">
-                                                            <div class="avatar avatar-sm"
-                                                                style="width: 32px; height: 32px;"><img
-                                                                    src="assets/images/kkk.jpg" alt="Avatar"
-                                                                    class="avatar-img rounded-circle">
+                                                            <div class="avatar avatar-sm" style="width: 32px; height: 32px;"><img src="assets/images/kkk.jpg" alt="Avatar" class="avatar-img rounded-circle">
                                                             </div>
                                                         </div>
                                                         <div class="flex"><a href="">Kier A. Esteban</a> requesting an
-                                                            approval of his <a href="">appointment.</a><br><small
-                                                                class="text-muted">2 hours
+                                                            approval of his <a href="">appointment.</a><br><small class="text-muted">2 hours
                                                                 ago</small></div>
                                                     </div>
                                                     <div class="dropdown-item d-flex">
                                                         <div class="mr-3">
-                                                            <div class="avatar avatar-sm"
-                                                                style="width: 32px; height: 32px;"><img
-                                                                    src="assets/images/jhong.jpg" alt="Avatar"
-                                                                    class="avatar-img rounded-circle">
+                                                            <div class="avatar avatar-sm" style="width: 32px; height: 32px;"><img src="assets/images/jhong.jpg" alt="Avatar" class="avatar-img rounded-circle">
                                                             </div>
                                                         </div>
                                                         <div class="flex"><a href="">Christine Positar</a> requesting an
-                                                            approval of her <a href="">appointment.</a><br><small
-                                                                class="text-muted">3 hours
+                                                            approval of her <a href="">appointment.</a><br><small class="text-muted">3 hours
                                                                 ago</small></div>
                                                     </div>
                                                     <div class="dropdown-item d-flex">
                                                         <div class="mr-3">
-                                                            <div class="avatar avatar-sm"
-                                                                style="width: 32px; height: 32px;"><img
-                                                                    src="assets/images/profilew.png" alt="Avatar"
-                                                                    class="avatar-img rounded-circle">
+                                                            <div class="avatar avatar-sm" style="width: 32px; height: 32px;"><img src="assets/images/profilew.png" alt="Avatar" class="avatar-img rounded-circle">
                                                             </div>
                                                         </div>
                                                         <div class="flex"><a href="">Racquel F. Ulibas</a> requesting an
-                                                            approval of her <a href="">appointment.</a><br><small
-                                                                class="text-muted">3 hours
+                                                            approval of her <a href="">appointment.</a><br><small class="text-muted">3 hours
                                                                 ago</small></div>
                                                     </div>
                                                 </div>
-                                            </div><a href="javascript:void(0);"
-                                                class="dropdown-item text-center navbar-notifications-menu__footer">View
+                                            </div><a href="javascript:void(0);" class="dropdown-item text-center navbar-notifications-menu__footer">View
                                                 All</a>
                                         </div>
                                     </li>
-                                    <li class="nav-item"><a href="#events-drawer" data-toggle="sidebar"
-                                            class="nav-link d-flex align-items-center"><i
-                                                class="material-icons nav-icon">event_note</i><span
-                                                class="badge badge-warning text-primary-dark rounded-circle badge-notifications">5</span></a>
+                                    <li class="nav-item"><a href="#events-drawer" data-toggle="sidebar" class="nav-link d-flex align-items-center"><i class="material-icons nav-icon">event_note</i><span class="badge badge-warning text-primary-dark rounded-circle badge-notifications">5</span></a>
                                     </li>
                                 </ul>
                                 <div class="dropdown"><a href="#" data-toggle="dropdown" data-caret="false" class="dropdown-toggle navbar-toggler navbar-toggler-company border-left d-flex align-items-center ml-navbar"><span class="mr-3"><img src="assets/images/profilew.png" width="43" height="43" alt="avatar"></span></span></a>
@@ -181,6 +151,29 @@
                                                                 <div class="search-form search-form--light m-3"><input type="text" class="form-control search" placeholder="Search Doctor"><button class="btn" type="button" role="button"><i class="material-icons">search</i></button>
                                                                 </div>
                                                             </div>
+                                                            <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Specialization<span class="caret"></span></button>
+                                                            <div class="dropdown-menu">
+                                                                <a class="dropdown-item" href="#">Cardiology</a>
+                                                                <a class="dropdown-item" href="#">Otolaryngology</a>
+                                                                <a class="dropdown-item" href="#">Endocrinology</a>
+                                                                <a class="dropdown-item" href="#">Family Medicine</a>
+                                                                <a class="dropdown-item" href="#">Gastroenterology</a>
+                                                                <a class="dropdown-item" href="#">General Dentistry</a>
+                                                                <a class="dropdown-item" href="#">General Medicine</a>
+                                                                <a class="dropdown-item" href="#">Internal Medicine</a>
+                                                                <a class="dropdown-item" href="#">Mental Health</a>
+                                                                <a class="dropdown-item" href="#">Nephrology</a>
+                                                                <a class="dropdown-item" href="#">Neurology</a>
+                                                                <a class="dropdown-item" href="#">Nutritionist-Dietitian</a>
+                                                                <a class="dropdown-item" href="#">Family Medicine</a>
+                                                                <a class="dropdown-item" href="#">Obstetrics and Gynecology</a>
+                                                                <a class="dropdown-item" href="#">Oncology</a>
+                                                                <a class="dropdown-item" href="#">Opthalmology</a>
+                                                                <a class="dropdown-item" href="#">Pediatrics</a>
+                                                                <a class="dropdown-item" href="#">Rehabilitation Medicine</a>
+                                                                <a class="dropdown-item" href="#">Rheumatology</a>
+                                                                <a class="dropdown-item" href="#">Urology</a>
+                                                            </div><br><br>
                                                             <div class="row">
                                                                 <div class="col-sm-6 col-xl-3">
                                                                     <div class="card property-card">
@@ -893,10 +886,10 @@
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_index.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">donut_small</i><span class="sidebar-menu-text">Dashboard</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_consultations.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">date_range</i><span class="sidebar-menu-text">Consultations</span><span class="badge badge-warning rounded-circle badge-notifications ml-auto" style="padding: .1875rem .375rem;">24</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_services.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">dvr</i><span class="sidebar-menu-text">Services</span></a></li>
-                                <li class="sidebar-menu-item active open">
+                                <!-- <li class="sidebar-menu-item">
                                     <a class="sidebar-menu-button" data-toggle="collapse" href="#components_menu"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">Doctors</span></a>
                                     <ul class="sidebar-submenu collapse" id="components_menu">
-                                        <li class="sidebar-menu-item active"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Cardiology</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Cardiology</span></a></li>
                                         <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Otolaryngology</span></a></li>
                                         <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Endocrinology</span></a></li>
                                         <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Family Medicine</span></a></li>
@@ -917,7 +910,8 @@
                                         <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Rheumatology</span></a></li>
                                         <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Urology</span></a></li>
                                     </ul>
-                                </li> 
+                                </li> -->
+                                <li class="sidebar-menu-item active"><a class="sidebar-menu-button" href="#"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">Doctors</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_patients.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">Patients</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_reports.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">report</i><span class="sidebar-menu-text">Reports</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_schedules.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">schedule</i><span class="sidebar-menu-text">Schedules</span></a></li>

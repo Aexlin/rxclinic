@@ -31,117 +31,74 @@
             <!-- Header Layout -->
             <div class="mdk-header-layout js-mdk-header-layout" data-has-scrolling-region>
                 <!-- Header -->
-                <div id="header" class="mdk-header js-mdk-header m-0" data-fixed data-effects="waterfall"
-                    data-retarget-mouse-scroll="false">
+                <div id="header" class="mdk-header js-mdk-header m-0" data-fixed data-effects="waterfall" data-retarget-mouse-scroll="false">
                     <div class="mdk-header__content">
-                        <div class="navbar navbar-expand-sm navbar-main navbar-light bg-white  pr-0" id="navbar"
-                            data-primary>
+                        <div class="navbar navbar-expand-sm navbar-main navbar-light bg-white  pr-0" id="navbar" data-primary>
                             <div class="container-fluid p-0">
-                                <!-- Navbar toggler --><button
-                                    class="navbar-toggler navbar-toggler-custom d-lg-none d-flex mr-navbar"
-                                    type="button" data-toggle="sidebar"><span
-                                        class="material-icons">short_text</span></button><!-- Navbar Brand --><a
-                                    href="#" class="navbar-brand flex "><span>All Doctors</span></a>
+                                <!-- Navbar toggler --><button class="navbar-toggler navbar-toggler-custom d-lg-none d-flex mr-navbar" type="button" data-toggle="sidebar"><span class="material-icons">short_text</span></button><!-- Navbar Brand --><a href="#" class="navbar-brand flex "><span>All Doctors</span></a>
                                 <div>
-                                    <a href="patient_request.php"><button type="button" class="btn btn-primary-dark"
-                                            data-toggle="modal" data-target="#modal-login">BOOK NEW CONSULTATION</button></a>
+                                    <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal" data-target="#modal-login">BOOK NEW CONSULTATION</button></a>
                                 </div>
                                 <ul class="nav navbar-nav d-none d-md-flex">
-                                    <li class="nav-item dropdown"><a href="#notifications_menu"
-                                            class="nav-link dropdown-toggle" data-toggle="dropdown"
-                                            data-caret="false"><i
-                                                class="material-icons nav-icon navbar-notifications-indicator">notifications</i></a>
-                                        <div id="notifications_menu"
-                                            class="dropdown-menu dropdown-menu-right navbar-notifications-menu">
-                                            <div class="dropdown-item d-flex align-items-center py-2"><span
-                                                    class="flex navbar-notifications-menu__title m-0">Notifications</span><a
-                                                    href="javascript:void(0)" class="text-muted"><small>Clear
+                                    <li class="nav-item dropdown"><a href="#notifications_menu" class="nav-link dropdown-toggle" data-toggle="dropdown" data-caret="false"><i class="material-icons nav-icon navbar-notifications-indicator">notifications</i></a>
+                                        <div id="notifications_menu" class="dropdown-menu dropdown-menu-right navbar-notifications-menu">
+                                            <div class="dropdown-item d-flex align-items-center py-2"><span class="flex navbar-notifications-menu__title m-0">Notifications</span><a href="javascript:void(0)" class="text-muted"><small>Clear
                                                         all</small></a></div>
                                             <div class="navbar-notifications-menu__content" data-simplebar>
                                                 <div class="py-2">
                                                     <div class="dropdown-item d-flex">
                                                         <div class="mr-3">
-                                                            <div class="avatar avatar-sm"
-                                                                style="width: 32px; height: 32px;"><img
-                                                                    src="assets/images/profilew.png" alt="Avatar"
-                                                                    class="avatar-img rounded-circle">
+                                                            <div class="avatar avatar-sm" style="width: 32px; height: 32px;"><img src="assets/images/profilew.png" alt="Avatar" class="avatar-img rounded-circle">
                                                             </div>
                                                         </div>
-                                                        <div class="flex"><a href="patient_consultations.php">Dr. Dentist</a> approved your <a
-                                                                href="">consultation appointment.</a><br><small class="text-muted">1
+                                                        <div class="flex"><a href="patient_consultations.php">Dr. Dentist</a> approved your <a href="">consultation appointment.</a><br><small class="text-muted">1
                                                                 hr
                                                                 ago</small></div>
                                                     </div>
                                                     <div class="dropdown-item d-flex">
                                                         <div class="mr-3">
-                                                            <div class="avatar avatar-sm"
-                                                                style="width: 32px; height: 32px;"><img
-                                                                    src="assets/images/profilew.png" alt="Avatar"
-                                                                    class="avatar-img rounded-circle">
+                                                            <div class="avatar avatar-sm" style="width: 32px; height: 32px;"><img src="assets/images/profilew.png" alt="Avatar" class="avatar-img rounded-circle">
                                                             </div>
                                                         </div>
-                                                        <div class="flex"><a href="patient_consultations.php">Dr. Dentist</a> requested to reschedule your <a
-                                                                href="">consultation appointment.</a><br><small class="text-muted">1
+                                                        <div class="flex"><a href="patient_consultations.php">Dr. Dentist</a> requested to reschedule your <a href="">consultation appointment.</a><br><small class="text-muted">1
                                                                 hr
                                                                 ago</small></div>
                                                     </div>
                                                     <div class="dropdown-item d-flex">
                                                         <div class="mr-3">
-                                                            <div class="avatar avatar-sm"
-                                                                style="width: 32px; height: 32px;"><img
-                                                                    src="assets/images/profilew.png" alt="Avatar"
-                                                                    class="avatar-img rounded-circle">
+                                                            <div class="avatar avatar-sm" style="width: 32px; height: 32px;"><img src="assets/images/profilew.png" alt="Avatar" class="avatar-img rounded-circle">
                                                             </div>
                                                         </div>
-                                                        <div class="flex"><a href="patient_consultations.php">Dr. Dentist</a> cancelled your <a
-                                                                href="">consultation appointment.</a><br><small class="text-muted">1
+                                                        <div class="flex"><a href="patient_consultations.php">Dr. Dentist</a> cancelled your <a href="">consultation appointment.</a><br><small class="text-muted">1
                                                                 day
                                                                 ago</small></div>
                                                     </div>
                                                     <div class="dropdown-item d-flex">
                                                         <div class="mr-3">
-                                                            <div class="avatar avatar-sm"
-                                                                style="width: 32px; height: 32px;"><img
-                                                                    src="assets/images/profilew.png" alt="Avatar"
-                                                                    class="avatar-img rounded-circle">
+                                                            <div class="avatar avatar-sm" style="width: 32px; height: 32px;"><img src="assets/images/profilew.png" alt="Avatar" class="avatar-img rounded-circle">
                                                             </div>
                                                         </div>
-                                                        <div class="flex"><a href="patient_consultations.php">Dr. Dentist</a> declined your <a
-                                                                href="">consultation appointment.</a><br><small class="text-muted">3
+                                                        <div class="flex"><a href="patient_consultations.php">Dr. Dentist</a> declined your <a href="">consultation appointment.</a><br><small class="text-muted">3
                                                                 days
                                                                 ago</small></div>
                                                     </div>
                                                 </div>
-                                            </div><a href="javascript:void(0);"
-                                                class="dropdown-item text-center navbar-notifications-menu__footer">View
+                                            </div><a href="javascript:void(0);" class="dropdown-item text-center navbar-notifications-menu__footer">View
                                                 All</a>
                                         </div>
                                     </li>
-                                    <li class="nav-item"><a href="#events-drawer" data-toggle="sidebar"
-                                            class="nav-link d-flex align-items-center"><i
-                                                class="material-icons nav-icon">event_note</i><span
-                                                class="badge badge-warning text-primary-dark rounded-circle badge-notifications">1</span></a>
+                                    <li class="nav-item"><a href="#events-drawer" data-toggle="sidebar" class="nav-link d-flex align-items-center"><i class="material-icons nav-icon">event_note</i><span class="badge badge-warning text-primary-dark rounded-circle badge-notifications">1</span></a>
                                     </li>
                                 </ul>
-                                <div class="dropdown"><a href="#" data-toggle="dropdown" data-caret="false"
-                                        class="dropdown-toggle navbar-toggler navbar-toggler-company border-left d-flex align-items-center ml-navbar"><span
-                                            class="mr-3"><img src="assets/images/profilew.png" width="43" height="43"
-                                                alt="avatar"></span></span></a>
-                                    <div id="company_menu"
-                                        class="dropdown-menu dropdown-menu-right navbar-company-menu">
-                                        <div
-                                            class="dropdown-item d-flex align-items-center py-2 navbar-company-info py-3">
-                                            <span class="mr-3"><img src="assets/images/profilew.png" width="43"
-                                                    height="43" alt="avatar"></span><span
-                                                class="flex d-flex flex-column"><strong style="font-size: 1.125rem;">Ms. User Wan</strong><small
-                                                    class="text-muted">@msuserwan</small></span>
+                                <div class="dropdown"><a href="#" data-toggle="dropdown" data-caret="false" class="dropdown-toggle navbar-toggler navbar-toggler-company border-left d-flex align-items-center ml-navbar"><span class="mr-3"><img src="assets/images/profilew.png" width="43" height="43" alt="avatar"></span></span></a>
+                                    <div id="company_menu" class="dropdown-menu dropdown-menu-right navbar-company-menu">
+                                        <div class="dropdown-item d-flex align-items-center py-2 navbar-company-info py-3">
+                                            <span class="mr-3"><img src="assets/images/profilew.png" width="43" height="43" alt="avatar"></span><span class="flex d-flex flex-column"><strong style="font-size: 1.125rem;">Ms. User Wan</strong><small class="text-muted">@msuserwan</small></span>
                                         </div>
                                         <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item d-flex align-items-center py-2"
-                                            href="patient_myprofile.php"><span class="material-icons mr-2">person</span>My
+                                        <a class="dropdown-item d-flex align-items-center py-2" href="patient_myprofile.php"><span class="material-icons mr-2">person</span>My
                                             Profile</a>
-                                         <a class="dropdown-item d-flex align-items-center py-2"
-                                            href="patient_changepassword.php"><span class="material-icons mr-2">lock</span>Change Password</a>
+                                        <a class="dropdown-item d-flex align-items-center py-2" href="patient_changepassword.php"><span class="material-icons mr-2">lock</span>Change Password</a>
                                         <!-- <a class="dropdown-item d-flex align-items-center py-2"
                                         href="changepasswordadmin.php"><span
                                             class="material-icons mr-2">lock</span>Change Password</a> -->
@@ -152,8 +109,7 @@
                     </div>
                 </div><!-- // END Header -->
                 <!-- Header Layout Content -->
-                <div
-                    class="mdk-header-layout__content mdk-header-layout__content--fullbleed mdk-header-layout__content--scrollable page">
+                <div class="mdk-header-layout__content mdk-header-layout__content--fullbleed mdk-header-layout__content--scrollable page">
                     <div class="container-fluid page__container">
                         <div class="z-0">
                             <!-- <ul class="nav nav-tabs nav-tabs-custom" role="tablist">
@@ -185,148 +141,131 @@
                                         <div class="row no-gutters">
                                             <div class="col-lg-12">
                                                 <div class="row h-100 m-0">
-                                                    <div class="col-lg-12 py-grid d-flex flex-column h-100"
-                                                        data-simplebar>
+                                                    <div class="col-lg-12 py-grid d-flex flex-column h-100" data-simplebar>
                                                         <div class="container-fluid page__container">
-                                                            <div class="table-responsive border-bottom"
-                                                                data-toggle="lists"
-                                                                data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-da"]'>
-                                                                <div class="search-form search-form--light m-3"><input
-                                                                        type="text" class="form-control search"
-                                                                        placeholder="Search Doctor"><button class="btn"
-                                                                        type="button" role="button"><i
-                                                                            class="material-icons">search</i></button>
+                                                            <div class="table-responsive border-bottom" data-toggle="lists" data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-da"]'>
+                                                                <div class="search-form search-form--light m-3"><input type="text" class="form-control search" placeholder="Search Doctor"><button class="btn" type="button" role="button"><i class="material-icons">search</i></button>
                                                                 </div>
                                                             </div>
+                                                            <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Specialization<span class="caret"></span></button>
+                                                            <div class="dropdown-menu">
+                                                                <a class="dropdown-item" href="#">Cardiology</a>
+                                                                <a class="dropdown-item" href="#">Otolaryngology</a>
+                                                                <a class="dropdown-item" href="#">Endocrinology</a>
+                                                                <a class="dropdown-item" href="#">Family Medicine</a>
+                                                                <a class="dropdown-item" href="#">Gastroenterology</a>
+                                                                <a class="dropdown-item" href="#">General Dentistry</a>
+                                                                <a class="dropdown-item" href="#">General Medicine</a>
+                                                                <a class="dropdown-item" href="#">Internal Medicine</a>
+                                                                <a class="dropdown-item" href="#">Mental Health</a>
+                                                                <a class="dropdown-item" href="#">Nephrology</a>
+                                                                <a class="dropdown-item" href="#">Neurology</a>
+                                                                <a class="dropdown-item" href="#">Nutritionist-Dietitian</a>
+                                                                <a class="dropdown-item" href="#">Family Medicine</a>
+                                                                <a class="dropdown-item" href="#">Obstetrics and Gynecology</a>
+                                                                <a class="dropdown-item" href="#">Oncology</a>
+                                                                <a class="dropdown-item" href="#">Opthalmology</a>
+                                                                <a class="dropdown-item" href="#">Pediatrics</a>
+                                                                <a class="dropdown-item" href="#">Rehabilitation Medicine</a>
+                                                                <a class="dropdown-item" href="#">Rheumatology</a>
+                                                                <a class="dropdown-item" href="#">Urology</a>
+                                                            </div><br><br>
                                                             <div class="row">
                                                                 <div class="col-sm-6 col-xl-4">
                                                                     <div class="card property-card">
-                                                                        <div class="property-card__image-container"><img
-                                                                                src="assets/images/doctor2.png" alt=""
-                                                                                class="card-img">
+                                                                        <div class="property-card__image-container"><img src="assets/images/doctor2.png" alt="" class="card-img">
                                                                             <div class="property-card__image-content">
-                                                                                <div
-                                                                                    class="property-card__image-title card-body">
-                                                                                    <span
-                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                <div class="property-card__image-title card-body">
+                                                                                    <span class="h3 text-white font-weight-normal">Dr.
                                                                                         Number Wan </span>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
                                                                         <div class="card-body">
-                                                                            <p><a href="patient_doctordetails.php"
-                                                                                    class="text-body"><strong>Cardiology</strong></a>
+                                                                            <p><a href="patient_doctordetails.php" class="text-body"><strong>Cardiology</strong></a>
                                                                             </p>
-                                                                            <small
-                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                            <small class="text-dark-gray d-flex align-items-center mb-2">
                                                                                 <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
                                                                                 “I am a hard-working, conscientious and
                                                                                 professional doctor who always puts
                                                                                 the needs of my patients at the
                                                                                 forefront of everything I do."
                                                                             </small>
-                                                                            <p><i
-                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            <p><i class="material-icons icon-16pt mr-1">phone</i>09876543210
                                                                             </p>
-                                                                            <p><i
-                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            <p><i class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
                                                                             </p>
-                                                                            <p><i
-                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            <p><i class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
                                                                             </p>
                                                                             <div class="modal-footer">
-                                                                                <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
-                                                                                data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
-                                                                                <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
-                                                                                data-target="#modal-delete">Book New Consultation</button></a>
+                                                                                <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary" data-toggle="modal" data-target=""><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal" data-target="#modal-delete">Book New Consultation</button></a>
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-6 col-xl-4">
                                                                     <div class="card property-card">
-                                                                        <div class="property-card__image-container"><img
-                                                                                src="assets/images/doctor2.png" alt=""
-                                                                                class="card-img">
+                                                                        <div class="property-card__image-container"><img src="assets/images/doctor2.png" alt="" class="card-img">
                                                                             <div class="property-card__image-content">
-                                                                                <div
-                                                                                    class="property-card__image-title card-body">
-                                                                                    <span
-                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                <div class="property-card__image-title card-body">
+                                                                                    <span class="h3 text-white font-weight-normal">Dr.
                                                                                         Number Wan </span>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
                                                                         <div class="card-body">
-                                                                            <p><a href="patient_doctordetails.php"
-                                                                                    class="text-body"><strong>Otolaryngology</strong></a>
+                                                                            <p><a href="patient_doctordetails.php" class="text-body"><strong>Otolaryngology</strong></a>
                                                                             </p>
-                                                                            <small
-                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                            <small class="text-dark-gray d-flex align-items-center mb-2">
                                                                                 <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
                                                                                 “I am a hard-working, conscientious and
                                                                                 professional doctor who always puts
                                                                                 the needs of my patients at the
                                                                                 forefront of everything I do."
                                                                             </small>
-                                                                            <p><i
-                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            <p><i class="material-icons icon-16pt mr-1">phone</i>09876543210
                                                                             </p>
-                                                                            <p><i
-                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            <p><i class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
                                                                             </p>
-                                                                            <p><i
-                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            <p><i class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
                                                                             </p>
                                                                             <div class="modal-footer">
-                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
-                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
-                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
-                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                                <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary" data-toggle="modal" data-target=""><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal" data-target="#modal-delete">Book New Consultation</button></a>
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-6 col-xl-4">
                                                                     <div class="card property-card">
-                                                                        <div class="property-card__image-container"><img
-                                                                                src="assets/images/doctor2.png" alt=""
-                                                                                class="card-img">
+                                                                        <div class="property-card__image-container"><img src="assets/images/doctor2.png" alt="" class="card-img">
                                                                             <div class="property-card__image-content">
-                                                                                <div
-                                                                                    class="property-card__image-title card-body">
-                                                                                    <span
-                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                <div class="property-card__image-title card-body">
+                                                                                    <span class="h3 text-white font-weight-normal">Dr.
                                                                                         Number Wan </span>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
                                                                         <div class="card-body">
-                                                                            <p><a href="patient_doctordetails.php"
-                                                                                    class="text-body"><strong>Family Medicine</strong></a>
+                                                                            <p><a href="patient_doctordetails.php" class="text-body"><strong>Family Medicine</strong></a>
                                                                             </p>
-                                                                            <small
-                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                            <small class="text-dark-gray d-flex align-items-center mb-2">
                                                                                 <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
                                                                                 “I am a hard-working, conscientious and
                                                                                 professional doctor who always puts
                                                                                 the needs of my patients at the
                                                                                 forefront of everything I do."
                                                                             </small>
-                                                                            <p><i
-                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            <p><i class="material-icons icon-16pt mr-1">phone</i>09876543210
                                                                             </p>
-                                                                            <p><i
-                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            <p><i class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
                                                                             </p>
-                                                                            <p><i
-                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            <p><i class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
                                                                             </p>
                                                                             <div class="modal-footer">
-                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
-                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
-                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
-                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                                <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary" data-toggle="modal" data-target=""><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal" data-target="#modal-delete">Book New Consultation</button></a>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -335,167 +274,116 @@
                                                             <div class="row">
                                                                 <div class="col-sm-6 col-xl-4">
                                                                     <div class="card property-card">
-                                                                        <div class="property-card__image-container"><img
-                                                                                src="assets/images/doctor2.png" alt=""
-                                                                                class="card-img">
+                                                                        <div class="property-card__image-container"><img src="assets/images/doctor2.png" alt="" class="card-img">
                                                                             <div class="property-card__image-content">
-                                                                                <div
-                                                                                    class="property-card__image-title card-body">
-                                                                                    <span
-                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                <div class="property-card__image-title card-body">
+                                                                                    <span class="h3 text-white font-weight-normal">Dr.
                                                                                         Number Wan </span>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
                                                                         <div class="card-body">
-                                                                            <p><a href="patient_doctordetails.php"
-                                                                                    class="text-body"><strong>Otolaryngology</strong></a>
+                                                                            <p><a href="patient_doctordetails.php" class="text-body"><strong>Otolaryngology</strong></a>
                                                                             </p>
-                                                                            <small
-                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                            <small class="text-dark-gray d-flex align-items-center mb-2">
                                                                                 <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
                                                                                 “I am a hard-working, conscientious and
                                                                                 professional doctor who always puts
                                                                                 the needs of my patients at the
                                                                                 forefront of everything I do."
                                                                             </small>
-                                                                            <p><i
-                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            <p><i class="material-icons icon-16pt mr-1">phone</i>09876543210
                                                                             </p>
-                                                                            <p><i
-                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            <p><i class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
                                                                             </p>
-                                                                            <p><i
-                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            <p><i class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
                                                                             </p>
                                                                             <div class="modal-footer">
-                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
-                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
-                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
-                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                                <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary" data-toggle="modal" data-target=""><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal" data-target="#modal-delete">Book New Consultation</button></a>
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-6 col-xl-4">
                                                                     <div class="card property-card">
-                                                                        <div class="property-card__image-container"><img
-                                                                                src="assets/images/doctor2.png" alt=""
-                                                                                class="card-img">
+                                                                        <div class="property-card__image-container"><img src="assets/images/doctor2.png" alt="" class="card-img">
                                                                             <div class="property-card__image-content">
-                                                                                <div
-                                                                                    class="property-card__image-title card-body">
-                                                                                    <span
-                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                <div class="property-card__image-title card-body">
+                                                                                    <span class="h3 text-white font-weight-normal">Dr.
                                                                                         Number Wan </span>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
                                                                         <div class="card-body">
-                                                                            <p><a href="patient_doctordetails.php"
-                                                                                    class="text-body"><strong>Family Medicine</strong></a>
+                                                                            <p><a href="patient_doctordetails.php" class="text-body"><strong>Family Medicine</strong></a>
                                                                             </p>
-                                                                            <small
-                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                            <small class="text-dark-gray d-flex align-items-center mb-2">
                                                                                 <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
                                                                                 “I am a hard-working, conscientious and
                                                                                 professional doctor who always puts
                                                                                 the needs of my patients at the
                                                                                 forefront of everything I do."
                                                                             </small>
-                                                                            <p><i
-                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            <p><i class="material-icons icon-16pt mr-1">phone</i>09876543210
                                                                             </p>
-                                                                            <p><i
-                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            <p><i class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
                                                                             </p>
-                                                                            <p><i
-                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            <p><i class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
                                                                             </p>
                                                                             <div class="modal-footer">
-                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
-                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
-                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
-                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                                <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary" data-toggle="modal" data-target=""><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal" data-target="#modal-delete">Book New Consultation</button></a>
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-sm-6 col-xl-4">
                                                                     <div class="card property-card">
-                                                                        <div class="property-card__image-container"><img
-                                                                                src="assets/images/doctor2.png" alt=""
-                                                                                class="card-img">
+                                                                        <div class="property-card__image-container"><img src="assets/images/doctor2.png" alt="" class="card-img">
                                                                             <div class="property-card__image-content">
-                                                                                <div
-                                                                                    class="property-card__image-title card-body">
-                                                                                    <span
-                                                                                        class="h3 text-white font-weight-normal">Dr.
+                                                                                <div class="property-card__image-title card-body">
+                                                                                    <span class="h3 text-white font-weight-normal">Dr.
                                                                                         Number Wan </span>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
                                                                         <div class="card-body">
-                                                                            <p><a href="patient_doctordetails.php"
-                                                                                    class="text-body"><strong>Dentistry</strong></a>
+                                                                            <p><a href="patient_doctordetails.php" class="text-body"><strong>Dentistry</strong></a>
                                                                             </p>
-                                                                            <small
-                                                                                class="text-dark-gray d-flex align-items-center mb-2">
+                                                                            <small class="text-dark-gray d-flex align-items-center mb-2">
                                                                                 <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
                                                                                 “I am a hard-working, conscientious and
                                                                                 professional doctor who always puts
                                                                                 the needs of my patients at the
                                                                                 forefront of everything I do."
                                                                             </small>
-                                                                            <p><i
-                                                                                    class="material-icons icon-16pt mr-1">phone</i>09876543210
+                                                                            <p><i class="material-icons icon-16pt mr-1">phone</i>09876543210
                                                                             </p>
-                                                                            <p><i
-                                                                                    class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
+                                                                            <p><i class="material-icons icon-16pt mr-1">email</i>drnumberwan@gmail.com
                                                                             </p>
-                                                                            <p><i
-                                                                                    class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
+                                                                            <p><i class="material-icons icon-16pt mr-1">person</i>@kmd.numberwan
                                                                             </p>
                                                                             <div class="modal-footer">
-                                                                                        <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary"
-                                                                                        data-toggle="modal" data-target="#modal-info"><i class="material-icons">remove_red_eye</i></button></a>
-                                                                                        <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal"
-                                                                                        data-target="#modal-delete">Book New Consultation</button></a>
+                                                                                <a href="patient_doctordetails.php"><button type="button" class="btn btn-primary" data-toggle="modal" data-target=""><i class="material-icons">remove_red_eye</i></button></a>
+                                                                                <a href="patient_request.php"><button type="button" class="btn btn-primary-dark" data-toggle="modal" data-target="#modal-delete">Book New Consultation</button></a>
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <ul class="pagination justify-content-center ">
-                                                                <li class="page-item disabled"><a class="page-link"
-                                                                        href="#" aria-label="Previous"><span
-                                                                            aria-hidden="true"
-                                                                            class="material-icons">first_page</span><span
-                                                                            class="sr-only">First</span></a></li>
-                                                                <li class="page-item disabled"><a class="page-link"
-                                                                        href="#" aria-label="Previous"><span
-                                                                            aria-hidden="true"
-                                                                            class="material-icons">chevron_left</span><span
-                                                                            class="sr-only">Prev</span></a></li>
-                                                                <li class="page-item active"><a class="page-link"
-                                                                        href="#" aria-label="1"><span>1</span></a></li>
-                                                                <li class="page-item"><a class="page-link" href="#"
-                                                                        aria-label="2"><span>2</span></a></li>
+                                                                <li class="page-item disabled"><a class="page-link" href="#" aria-label="Previous"><span aria-hidden="true" class="material-icons">first_page</span><span class="sr-only">First</span></a></li>
+                                                                <li class="page-item disabled"><a class="page-link" href="#" aria-label="Previous"><span aria-hidden="true" class="material-icons">chevron_left</span><span class="sr-only">Prev</span></a></li>
+                                                                <li class="page-item active"><a class="page-link" href="#" aria-label="1"><span>1</span></a></li>
+                                                                <li class="page-item"><a class="page-link" href="#" aria-label="2"><span>2</span></a></li>
                                                                 <!-- <li class="page-item"><a class="page-link" href="#"
                                                                             aria-label="3"><span>3</span></a></li>
                                                                     <li class="page-item"><a class="page-link" href="#"
                                                                             aria-label="4"><span>4</span></a></li> -->
-                                                                <li class="page-item"><a class="page-link" href="#"
-                                                                        aria-label="Next"><span
-                                                                            class="sr-only">Next</span><span
-                                                                            aria-hidden="true"
-                                                                            class="material-icons">chevron_right</span></a>
+                                                                <li class="page-item"><a class="page-link" href="#" aria-label="Next"><span class="sr-only">Next</span><span aria-hidden="true" class="material-icons">chevron_right</span></a>
                                                                 </li>
-                                                                <li class="page-item"><a class="page-link" href="#"
-                                                                        aria-label="Next"><span
-                                                                            class="sr-only">Last</span><span
-                                                                            aria-hidden="true"
-                                                                            class="material-icons">last_page</span></a>
+                                                                <li class="page-item"><a class="page-link" href="#" aria-label="Next"><span class="sr-only">Last</span><span aria-hidden="true" class="material-icons">last_page</span></a>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -519,9 +407,7 @@
                 <div class="modal-content">
                     <div class="modal-body">
                         <div class="px-3">
-                            <div class="d-flex justify-content-center mt-0 mb-0 navbar-light"><a href="#"
-                                    class="navbar-brand" style="min-width: 0"><img class="navbar-brand-icon"
-                                        src="assets/img/rxlogowithname.png" width="250" alt="Stack"></a></div><br><br>
+                            <div class="d-flex justify-content-center mt-0 mb-0 navbar-light"><a href="#" class="navbar-brand" style="min-width: 0"><img class="navbar-brand-icon" src="assets/img/rxlogowithname.png" width="250" alt="Stack"></a></div><br><br>
                             <div><span><strong>PRESCRIPTION DETAILS</strong></span></div>
                             <div class="page-separator"></div>
                             <div class="modal-body">
@@ -538,9 +424,7 @@
                             </div><!-- // END .modal-body -->
                         </div>
                     </div><!-- // END .modal-body -->
-                    <div class="modal-footer"><a href="index_patient.php"><button type="button" class="btn btn-light"
-                                data-dismiss="modal">Close</button></a><a href="#"><button type="button"
-                                class="btn btn-dark" data-dismiss="modal">Print</button></a></div>
+                    <div class="modal-footer"><a href="index_patient.php"><button type="button" class="btn btn-light" data-dismiss="modal">Close</button></a><a href="#"><button type="button" class="btn btn-dark" data-dismiss="modal">Print</button></a></div>
                     <!-- // END .modal-footer -->
                 </div><!-- // END .modal-content -->
             </div><!-- // END .modal-dialog -->
@@ -550,11 +434,9 @@
         <div id="modal-cancel" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-sm">
                 <div class="modal-content bg-danger">
-                    <div class="modal-body text-center p-4"><i
-                            class="material-icons icon-40pt text-white mb-2">clear</i>
+                    <div class="modal-body text-center p-4"><i class="material-icons icon-40pt text-white mb-2">clear</i>
                         <h4 class="text-white">Cancelled!</h4>
-                        <p class="text-white mt-3">You cancelled an appointment.</p><button type="button"
-                            class="btn btn-light my-2" data-dismiss="modal">Continue</button>
+                        <p class="text-white mt-3">You cancelled an appointment.</p><button type="button" class="btn btn-light my-2" data-dismiss="modal">Continue</button>
                     </div><!-- // END .modal-body -->
                 </div><!-- // END .modal-content -->
             </div><!-- // END .modal-dialog -->
@@ -563,12 +445,7 @@
         <div class="mdk-drawer  js-mdk-drawer" id="default-drawer" data-align="start">
             <div class="mdk-drawer__content">
                 <div class="sidebar sidebar-dark sidebar-left simplebar" data-simplebar>
-                    <div class="d-flex align-items-center sidebar-p-a border-bottom sidebar-account flex-shrink-0"><a
-                            href="#" class="flex d-flex align-items-center text-underline-0 text-body"><span
-                                class="mr-3"><img src="assets/img/rxcliniclogowithoutline.png" width="43" height="43"
-                                    alt="avatar"></span><span class="flex d-flex flex-column"><strong
-                                    style="font-size: 25px;">Rx Clinic</strong><small class="text-muted text-uppercase"
-                                    style="color: rgba(255,255,255,.54)"></small></span></a>
+                    <div class="d-flex align-items-center sidebar-p-a border-bottom sidebar-account flex-shrink-0"><a href="#" class="flex d-flex align-items-center text-underline-0 text-body"><span class="mr-3"><img src="assets/img/rxcliniclogowithoutline.png" width="43" height="43" alt="avatar"></span><span class="flex d-flex flex-column"><strong style="font-size: 25px;">Rx Clinic</strong><small class="text-muted text-uppercase" style="color: rgba(255,255,255,.54)"></small></span></a>
 
                     </div>
                     <!-- <div
@@ -585,31 +462,18 @@
                     <!-- <div class="py-4 text-center flex-shrink-0"><a style="min-width: 157px;" href="/signup.php"
                             class="btn btn-primary">Create <i class="material-icons ml-1">add</i></a></div> -->
                     <ul class="nav nav-tabs sidebar-tabs flex-shrink-0" role="tablist">
-                        <li class="nav-item"><a class="nav-link active show" id="sm-menu-tab" href="#sm-menu"
-                                data-toggle="tab" role="tab" aria-controls="sm-menu" aria-selected="true">Menu</a></li>
+                        <li class="nav-item"><a class="nav-link active show" id="sm-menu-tab" href="#sm-menu" data-toggle="tab" role="tab" aria-controls="sm-menu" aria-selected="true">Menu</a></li>
                         <!-- <li class="nav-item"><a class="nav-link" href="#sm-account" data-toggle="tab">Manage</a></li> -->
                         <!-- <li class="nav-item"><a class="nav-link" href="#sm-settings" data-toggle="tab">Settings</a></li> -->
                     </ul>
                     <div class="tab-content">
                         <div id="sm-menu" class="tab-pane show active" role="tabpanel" aria-labelledby="sm-menu-tab">
                             <ul class="sidebar-menu flex">
-                                <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="patient_index.php"><i
-                                            class="sidebar-menu-icon sidebar-menu-icon--left material-icons">donut_small</i><span
-                                            class="sidebar-menu-text">Dashboard</span></a></li>
-                                <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="patient_consultations.php"><i
-                                            class="sidebar-menu-icon sidebar-menu-icon--left material-icons">date_range</i><span
-                                            class="sidebar-menu-text">My Consultations</span><span
-                                            class="badge badge-warning rounded-circle badge-notifications ml-auto"
-                                            style="padding: .1875rem .375rem;">2</span></a></li>
-                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="patient_mydoctors.php"><i
-                                            class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span
-                                            class="sidebar-menu-text">My Doctors</span></a></li>
-                                <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="patient_prescriptions.php"><i
-                                            class="sidebar-menu-icon sidebar-menu-icon--left material-icons">description</i><span
-                                            class="sidebar-menu-text">Reports</span></a></li>
-                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="patient_payments.php"><i
-                                            class="sidebar-menu-icon sidebar-menu-icon--left material-icons">payment</i><span
-                                            class="sidebar-menu-text">Payment</span></a></li>
+                                <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="patient_index.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">donut_small</i><span class="sidebar-menu-text">Dashboard</span></a></li>
+                                <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="patient_consultations.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">date_range</i><span class="sidebar-menu-text">My Consultations</span><span class="badge badge-warning rounded-circle badge-notifications ml-auto" style="padding: .1875rem .375rem;">2</span></a></li>
+                                <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="patient_mydoctors.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">My Doctors</span></a></li>
+                                <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="patient_prescriptions.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">description</i><span class="sidebar-menu-text">Reports</span></a></li>
+                                <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="patient_payments.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">payment</i><span class="sidebar-menu-text">Payment</span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -617,8 +481,7 @@
                         <!-- <a
                             class="sidebar-link mb-2" href="edit-account.php">Change Password</a><a
                             class="sidebar-link mb-2" href="edit-account.php">Settings</a> -->
-                            <a class="sidebar-link" href="landingpagelogin.php"><strong>LOG OUT</strong><i
-                                class="sidebar-menu-icon ml-2 material-icons icon-16pt">exit_to_app</i></a>
+                        <a class="sidebar-link" href="landingpagelogin.php"><strong>LOG OUT</strong><i class="sidebar-menu-icon ml-2 material-icons icon-16pt">exit_to_app</i></a>
                     </div>
                 </div>
             </div>
@@ -631,17 +494,12 @@
                 <div class="list-group list-group-flush">
                     <div class="list-group-item bg-light">
                         <div class="row">
-                            <div class="col-auto d-flex flex-column"><small>9:00 AM</small><small
-                                    class="text-dark-gray">1 hr</small></div>
+                            <div class="col-auto d-flex flex-column"><small>9:00 AM</small><small class="text-dark-gray">1 hr</small></div>
                             <div class="col">
-                                <div class="d-flex flex-column flex"><a href="#" class="text-body"><strong
-                                            class="text-15pt">Cardiology</strong></a><small
-                                        class="text-muted d-flex align-items-center"><i
-                                            class="material-icons icon-16pt mr-1">person</i>Dr. Number Wan</small>
+                                <div class="d-flex flex-column flex"><a href="#" class="text-body"><strong class="text-15pt">Cardiology</strong></a><small class="text-muted d-flex align-items-center"><i class="material-icons icon-16pt mr-1">person</i>Dr. Number Wan</small>
                                 </div>
                                 <div class="avatar-group mt-2">
-                                    <div class="avatar avatar-xs"><img src="assets/images/profilew.png" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div>
+                                    <div class="avatar avatar-xs"><img src="assets/images/profilew.png" alt="Avatar" class="avatar-img rounded-circle"></div>
                                     <!-- <div class="avatar avatar-xs"><img
                                             src="assets/images/256_jeremy-banks-798787-unsplash.jpg" alt="Avatar"
                                             class="avatar-img rounded-circle"></div>
