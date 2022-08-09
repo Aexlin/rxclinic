@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>View Report - Rx Clinic</title><!-- Prevent the demo from appearing in search engines -->
+    <title>Register Patient - Rx Clinic</title><!-- Prevent the demo from appearing in search engines -->
     <meta name="robots" content="noindex"><!-- Simplebar -->
     <link type="text/css" href="assets/vendor/simplebar.min.css" rel="stylesheet"><!-- App CSS -->
     <link type="text/css" href="assets/css/app.css" rel="stylesheet">
@@ -22,10 +22,6 @@
     <link type="text/css" href="assets/css/vendor-flatpickr-airbnb.css" rel="stylesheet">
     <link type="text/css" href="assets/css/vendor-flatpickr-airbnb.rtl.css" rel="stylesheet"><!-- Vector Maps -->
     <link type="text/css" href="assets/vendor/jqvmap/jqvmap.min.css" rel="stylesheet">
-    <link type="text/css" href="assets/css/vendor-ion-rangeslider.rtl.css" rel="stylesheet"><!-- Flatpickr -->
-    <link type="text/css" href="assets/css/vendor-flatpickr.css" rel="stylesheet">
-    <link type="text/css" href="assets/css/vendor-flatpickr.rtl.css" rel="stylesheet">
-    <link type="text/css" href="assets/css/vendor-flatpickr-airbnb.css" rel="stylesheet">
 </head>
 
 <body class="layout-default">
@@ -39,15 +35,12 @@
                     <div class="mdk-header__content">
                         <div class="navbar navbar-expand-sm navbar-main navbar-light bg-white  pr-0" id="navbar" data-primary>
                             <div class="container-fluid p-0">
-                                <!-- Navbar toggler --><button class="navbar-toggler navbar-toggler-custom d-lg-none d-flex mr-navbar" type="button" data-toggle="sidebar"><span class="material-icons">short_text</span></button><!-- Navbar Brand --><a href="index.php" class="navbar-brand flex "><span>View Report</span></a>
-                                <!-- <form class="ml-auto search-form search-form--light d-none d-sm-flex flex"
-                                    action="index.php"><input type="text" class="form-control"
-                                        placeholder="Search"><button class="btn" type="submit" role="button"><i
-                                            class="material-icons">search</i></button></form> -->
+                                <!-- Navbar toggler --><button class="navbar-toggler navbar-toggler-custom d-lg-none d-flex mr-navbar" type="button" data-toggle="sidebar"><span class="material-icons">short_text</span></button><!-- Navbar Brand --><a href="#" class="navbar-brand flex "><span>Register Patient</span></a>
+
                                 <ul class="nav navbar-nav d-none d-md-flex">
                                     <li class="nav-item dropdown"><a href="#notifications_menu" class="nav-link dropdown-toggle" data-toggle="dropdown" data-caret="false"><i class="material-icons nav-icon navbar-notifications-indicator">notifications</i></a>
                                         <div id="notifications_menu" class="dropdown-menu dropdown-menu-right navbar-notifications-menu">
-                                            <div class="dropdown-item d-flex align-items-center py-2"><span class="flex navbar-notifications-menu__title m-0">View Report</span><a href="javascript:void(0)" class="text-muted"><small>Clear
+                                            <div class="dropdown-item d-flex align-items-center py-2"><span class="flex navbar-notifications-menu__title m-0">Notifications</span><a href="javascript:void(0)" class="text-muted"><small>Clear
                                                         all</small></a></div>
                                             <div class="navbar-notifications-menu__content" data-simplebar>
                                                 <div class="py-2">
@@ -114,9 +107,6 @@
                                         <div class="dropdown-divider"></div>
                                         <a class="dropdown-item d-flex align-items-center py-2" href="admin_myprofile.php"><span class="material-icons mr-2">person</span>My
                                             Profile</a>
-                                        <!-- <a class="dropdown-item d-flex align-items-center py-2"
-                                        href="changepasswordadmin.php"><span
-                                            class="material-icons mr-2">lock</span>Change Password</a> -->
                                     </div>
                                 </div>
                             </div>
@@ -126,58 +116,147 @@
                 <!-- Header Layout Content -->
                 <div class="mdk-header-layout__content mdk-header-layout__content--fullbleed mdk-header-layout__content--scrollable page">
                     <div class="container-fluid page__container">
-                        <div class="card card-body">
-                            <div class="px-3">
-                                <div class="d-flex justify-content-center mt-0 mb-0 navbar-light"><a href="#" class="navbar-brand" style="min-width: 0"><img class="navbar-brand-icon" src="assets/img/rxlogowithname.png" width="250" alt="Stack"></a></div><br><br>
-                                <div class="d-flex justify-content-center mt-0 mb-0 navbar-light"><span><strong>REPORT DETAILS</strong></span></div>
-                                <div class="page-separator"></div>
-                                <div class="modal-body">
-                                    <p><strong>Consultation Detials: </strong>08/09/2022, 9:00 AM</p>
-                                    <div class="row">
-                                        <div class="col-lg-4">
-                                            <p><strong>Diagnosis Detials: </strong>Ligma</p>
+                        <div class="card card-form">
+                            <div class="row no-gutters">
+                                <div class="col-lg-4 card-body">
+                                    <div class="d-flex flex-column justify-content-center align-items-center mt-0 mb-2 navbar-light">
+                                        <a href="#" class="navbar-brand text-center mb-2 mr-0" style="min-width: 0"><img class="navbar-brand-icon" src="assets/images/profilew.png" width="320" alt="Flat"><span></span></a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 card-form__body card-body bg-white">
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="form-group"><label class="text-label" for="fname">Email
+                                                        Address:</label><input id="fname" type="text" required="" class="form-control" placeholder="Patient ID" value="mariaclara@gmail.com" disabled></div>
+                                            </div>
                                         </div>
-                                        <div class="col-lg-8">
-                                            <p><strong>Diagnosis Description: </strong>Coronary heart disease is the term that describes what happens when your heart's blood supply is blocked or interrupted by a build-up of fatty substances in the coronary arteries. Over time, the walls of your arteries can become furred up with fatty deposits.</p>
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="form-group"><label class="text-label" for="fname">First
+                                                        Name:</label><input id="fname" type="text" required="" class="form-control" placeholder="First name" value=""></div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="form-group"><label class="text-label" for="lname">Middle
+                                                        Name:</label><input id="lname" type="text" class="form-control" placeholder="Middle name" value=""></div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="form-group"><label class="text-label" for="lname">Last
+                                                        Name:</label><input id="lname" type="text" required="" class="form-control" placeholder="Last name" value=""></div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="form-group"><label class="text-label" for="flatpickrSample01">Date:</label><input id="flatpickrSample01" type="text" class="form-control" placeholder="Flatpickr example" data-toggle="flatpickr" value="today"></div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="form-group"><label class="text-label" for="fname">Cell
+                                                        No:</label><input id="fname" type="text" required="" class="form-control" placeholder="Contact No." value="09987654321">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="form-group"><label class="text-label" for="lname">Address:</label><input id="lname" type="text" class="form-control" placeholder="@username" value="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <div class="form-group"><label class="text-label" for="select01">Sex:</label>
+                                                    <select id="select01" data-toggle="select" class="form-control">
+                                                        <option selected="">M</option>
+                                                        <option>F</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="form-group"><label class="text-label" for="select01">Civil Status:</label>
+                                                    <select id="select01" data-toggle="select" class="form-control">
+                                                        <option selected="">Single</option>
+                                                        <option>Single Parent</option>
+                                                        <option>Married</option>
+                                                        <option>Divorced</option>
+                                                        <option>Widowed</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="form-group"><label class="text-label" for="lname">Religion:</label><input id="lname" type="text" class="form-control" placeholder="Religion" value="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <div class="form-group"><label class="text-label" for="select01">Condition Status:</label>
+                                                    <select id="select01" data-toggle="select" class="form-control">
+                                                        <option selected="">None</option>
+                                                        <option>PWD</option>
+                                                        <option>Seniorn Citizen</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <div class="form-group"><label class="text-label" for="lname">Weight:</label><input id="lname" type="number" class="form-control" placeholder="Weight" value="">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <div class="form-group"><label class="text-label" for="lname">Height (ft):</label><input id="lname" type="number" class="form-control" placeholder="Heigh (ft)" value="">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <div class="form-group"><label class="text-label" for="lname">Height (in):</label><input id="lname" type="number" class="form-control" placeholder="Height (in)" value="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <div class="form-group"><label class="text-label" for="lname">BMI:</label><input id="lname" type="number" class="form-control" placeholder="BMI" value="" disabled>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="form-group"><label class="text-label" for="select01">BMI Status:</label>
+                                                    <select id="select01" data-toggle="select" class="form-control" disabled>
+                                                        <option selected="">None</option>
+                                                        <option>PWD</option>
+                                                        <option>Seniorn Citizen</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="form-group"><label class="text-label" for="lname">Temperature (Celcius):</label><input id="lname" type="number" class="form-control" placeholder="Temperature" value="" disabled>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <div class="form-group"><label class="text-label" for="lname">BP Systolic:</label><input id="lname" type="number" class="form-control" placeholder="BP Systolic" value="" disabled>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="form-group"><label class="text-label" for="lname">BP Diastolic:</label><input id="lname" type="number" class="form-control" placeholder="BP Diastolic" value="" disabled>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="form-group"><label class="text-label" for="select01">Blood Type:</label>
+                                                    <select id="select01" data-toggle="select" class="form-control" disabled>
+                                                        <option selected="">O+</option>
+                                                        <option>O-</option>
+                                                        <option>AB+</option>
+                                                        <option>AB-</option>
+                                                        <option>A+</option>
+                                                        <option>A-</option>
+                                                        <option>B+</option>
+                                                        <option>B-</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#modal-success">Register Patient</button>
                                         </div>
                                     </div>
-                                    <div class="page-separator">
-                                        <div class="page-separator__text">PRESCRIPTION</div>
-                                    </div>
-                                    <p><strong>Prescription Code: </strong>PR-2022-2207-0012</p>
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <p><strong>Patient: </strong>Juan Dela Cruz</p>
-                                        </div>
-                                        <div class="col-lg-3">
-                                            <p><strong>Age: </strong>27</p>
-                                        </div>
-                                        <div class="col-lg-3">
-                                            <p><strong>Sex: </strong>M</p>
-                                        </div>
-                                    </div>
-                                    <p><strong>Address: </strong>3435 Batumbakal St., New York, Cubao</p>
-                                    <p><strong>Date: </strong>Aug 08, 2022</p>
-                                    <br>
-                                    <div class="avatar avatar-l avatar-1by1">
-                                        <img src="assets/images/rx.png" alt="Avatar" class="avatar-img rounded">
-                                    </div><br><br>
-                                    <p><strong>ibuprofen (Motrin® or Advil®)</strong></p>
-                                    <p>Take 400–600 mg every 6–8 hours. Ibuprofen will help with
-                                        pain relief and as an anti-inflammatory.</p>
-                                    <div class="avatar avatar-xxl avatar-4by3">
-                                        <img src="assets/images/signature.webp" alt="Avatar" class="avatar-img rounded">
-                                    </div>
-                                    <p><strong>Dr. Den T. Ista</strong></p>
-                                    <p><strong>Lic No.: </strong>1234</p>
-                                    <p><strong>PTR No.: </strong>1234567</p>
-                                    <!-- <br>
-                                            <div class="alert alert-soft-success d-flex" role="alert"><i class="material-icons mr-3">check_circle</i>
-                                                <div class="text-body">Your appointment is now <strong>APPROVED</strong>. Please proceed to the clinic according to the schedule.</div>
-                                            </div> -->
-                                    <div class="modal-footer"><a href="index_patient.php"><button type="button" class="btn btn-primary" data-dismiss="modal">Add Lab Results</button></a><a href="#"><button type="button" class="btn btn-primary" data-dismiss="modal">Add Medical Certificate</button></a></div>
-
-                                </div><!-- // END .modal-body -->
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -191,9 +270,60 @@
             <div class="modal-dialog modal-dialog-centered modal-sm">
                 <div class="modal-content bg-success">
                     <div class="modal-body text-center p-4"><i class="material-icons icon-40pt text-white mb-2">check</i>
-                        <h4 class="text-white">Approved!</h4>
-                        <p class="text-white mt-3">You accepted an appointment.</p><button type="button" class="btn btn-light my-2" data-dismiss="modal">Continue</button>
+                        <h4 class="text-white">Patient Registered!</h4>
+                        <p class="text-white mt-3">You registered a patient successfully.</p><button type="button" class="btn btn-light my-2" data-dismiss="modal">Continue</button>
                     </div><!-- // END .modal-body -->
+                </div><!-- // END .modal-content -->
+            </div><!-- // END .modal-dialog -->
+        </div><!-- // END .modal -->
+
+        <!-- Info Modal -->
+        <div id="modal-info" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="px-3">
+                            <div class="d-flex justify-content-center mt-2 mb-4 navbar-light"><a href="index.php" class="navbar-brand" style="min-width: 0"><img class="navbar-brand-icon" src="assets/img/rxcliniclogowithoutline.png" width="50" alt="Stack"><span>Medicine
+                                        Details</span></a></div>
+                            <!-- <div><span><strong>PRESCRIPTION DETAILS</strong></span></div> -->
+                            <div class="page-separator"></div>
+                            <div class="modal-body">
+                                <p>Generic Name: <strong>IBUPROFEN</strong></p>
+                                <p>Brand Name: <strong>Advil®</strong></p>
+                                <div class="row">
+                                    <div class="col">
+                                        <p>Dosage: <strong>200 grams</strong></p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <p>Class: <strong>Analgesic</strong></p>
+                                    </div>
+                                    <div class="col">
+                                        <p>Type: <strong>Capsule</strong></p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <p>Arrival: <strong>08/07/22</strong></p>
+                                    </div>
+                                    <div class="col">
+                                        <p>Expiration: <strong>08/07/26</strong></p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <p>Status: <strong>Available</strong></p>
+                                    </div>
+                                </div>
+                                <div class="alert alert-soft-success d-flex" role="alert"><i class="material-icons mr-3">check_circle</i>
+                                    <div class="text-body">In stock: <strong>220 pcs</strong></div>
+                                </div>
+                            </div><!-- // END .modal-body -->
+                        </div>
+                    </div><!-- // END .modal-body -->
+                    <div class="modal-footer"><a href="index_patient.php"><button type="button" class="btn btn-light" data-dismiss="modal">Close</button></a></div>
+                    <!-- // END .modal-footer -->
                 </div><!-- // END .modal-content -->
             </div><!-- // END .modal-dialog -->
         </div><!-- // END .modal -->
@@ -216,7 +346,7 @@
                 <div class="modal-content bg-danger">
                     <div class="modal-body text-center p-4"><i class="material-icons icon-40pt text-white mb-2">delete</i>
                         <h4 class="text-white">Deleted!</h4>
-                        <p class="text-white mt-3">You deleted a report.</p><button type="button" class="btn btn-light my-2" data-dismiss="modal">Continue</button>
+                        <p class="text-white mt-3">You deleted a medicine.</p><button type="button" class="btn btn-light my-2" data-dismiss="modal">Continue</button>
                     </div><!-- // END .modal-body -->
                 </div><!-- // END .modal-content -->
             </div><!-- // END .modal-dialog -->
@@ -230,119 +360,60 @@
                     <div class="modal-body">
                         <div class="px-3">
                             <div class="d-flex justify-content-center mt-2 mb-4 navbar-light"><a href="index.php" class="navbar-brand" style="min-width: 0"><img class="navbar-brand-icon" src="assets/img/rxcliniclogowithoutline.png" width="50" alt="Stack"><span>Edit
-                                        Report Details</span></a></div>
-                            <form action="#">
-                                <div class="row">
-                                    <div class="col">
-                                        <div class="form-group"><label class="text-label" for="fname">Patient
-                                                No:</label><input id="fname" type="text" required="" class="form-control" placeholder="Patient ID" value="2022-0016"></div>
-                                    </div>
-                                </div>
+                                        Medicine Details</span></a></div>
+                            <form action="#" novalidate>
                                 <div class="row">
                                     <div class="col">
                                         <div class="form-group"><label class="text-label" for="fname">First
-                                                Name:</label><input id="fname" type="text" required="" class="form-control" placeholder="First name" value="Juan"></div>
+                                                Name:</label><input id="fname" type="text" class="form-control" placeholder="First name" value="Den"></div>
                                     </div>
                                     <div class="col">
                                         <div class="form-group"><label class="text-label" for="lname">Middle
-                                                Name:</label><input id="lname" type="text" class="form-control" placeholder="Middle name" value=""></div>
+                                                Name:</label><input id="lname" type="text" class="form-control" placeholder="Middle name" value="T."></div>
                                     </div>
                                     <div class="col">
                                         <div class="form-group"><label class="text-label" for="lname">Last
-                                                Name:</label><input id="lname" type="text" required="" class="form-control" placeholder="Last name" value="Dela Cruz"></div>
+                                                Name:</label><input id="lname" type="text" class="form-control" placeholder="Last name" value="Ista"></div>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="form-group"><label class="text-label" for="select01">Personnel:</label>
-                                            <select id="select01" data-toggle="select" class="form-control">
-                                                <option selected="">Dr. Number Wan</option>
-                                                <option>Dr. Number Too</option>
-                                                <option>Dr. Number Trii</option>
-                                                <option>Dr. Number Fowr</option>
+                                    <div class="col-lg-7">
+                                        <div class="form-group"><label class="text-label" for="fname">Email
+                                                Address:</label><input id="fname" type="text" class="form-control" placeholder="name@gmail.com" value="drdentist_pupqc@gmail.com">
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-group"><label class="text-label" for="select01">Gender:</label>
+                                            <select id="select01" data-toggle="select" class="form-control" disabled>
+                                                <option>Male</option>
+                                                <option selected="">Female</option>
+                                                <!-- <option>Prefer not to say</option> -->
                                             </select>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col">
-                                        <div class="form-group"><label class="text-label" for="flatpickrSample01">Date:</label><input id="flatpickrSample01" type="text" class="form-control" placeholder="Flatpickr example" data-toggle="flatpickr" value="today"></div>
+                                        <div class="form-group"><label class="text-label" for="flatpickrSample01">Birthday:</label><input id="flatpickrSample01" type="text" class="form-control" placeholder="Flatpickr example" data-toggle="flatpickr" value="today"></div>
                                     </div>
                                     <div class="col">
-                                        <div class="form-group"><label class="text-label" for="select01">Service:</label>
-                                            <select id="select01" data-toggle="select" class="form-control">
-                                                <option selected="">8:00 AM - 9:00 AM</option>
-                                                <option>9:00 AM - 10:00 AM</option>
-                                                <option>10:00 AM - 11:00 AM</option>
-                                                <option>11:00 AM - 12:00 PM</option>
-                                                <option>12:00 PM - 1:00 PM</option>
-                                                <option>1:00 PM - 2:00 PM</option>
-                                                <option>2:00 PM - 3:00 PM</option>
-                                                <option>3:00 PM - 4:00 PM</option>
-                                                <option>4:00 PM - 5:00 PM</option>
-                                            </select>
+                                        <div class="form-group"><label class="text-label" for="lname">Age:</label><input id="lname" type="number" class="form-control" placeholder="Age" value="35">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col">
-                                        <div class="form-group"><label class="text-label" for="desc">Diagnosis:</label><textarea id="desc" rows="4" class="form-control" placeholder=""></textarea></div>
+                                        <div class="form-group"><label class="text-label" for="fname">Contact
+                                                No:</label><input id="fname" type="text" class="form-control" placeholder="Contact No." value="0998-765-4321"></div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-group"><label class="text-label" for="lname">Username:</label><input id="lname" type="text" class="form-control" placeholder="@username" value="@anggandaqku"></div>
                                     </div>
                                 </div>
-                                <div class="modal-footer"><button type="button" class="btn btn-light" data-dismiss="modal">Cancel</button><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-add">Save
-                                        Changes</button></div>
+                                <div class="modal-footer"><a href="myprofileadmin.php"><button type="button" class="btn btn-light" data-dismiss="modal">Cancel</button></a><a href="myprofileadmin.php"><button type="button" class="btn btn-primary" data-toggle="modal">Save Changes</button></a></div>
+                            </form>
                         </div>
                     </div><!-- // END .modal-body -->
-                </div><!-- // END .modal-content -->
-            </div><!-- // END .modal-dialog -->
-        </div><!-- // END .modal -->
-
-        <!-- Info Modal -->
-        <div id="modal-info" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal-large-title" aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <div class="px-3">
-                            <div class="d-flex justify-content-center mt-0 mb-0 navbar-light"><a href="#" class="navbar-brand" style="min-width: 0"><img class="navbar-brand-icon" src="assets/img/rxlogowithname.png" width="250" alt="Stack"></a></div><br><br>
-                            <div><span><strong>PRESCRIPTION DETAILS</strong></span></div>
-                            <div class="page-separator"></div>
-                            <div class="modal-body">
-                                <p><strong>Prescription Code: </strong>PR-2022-2207-0012</p>
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <p><strong>Patient: </strong>Juan Dela Cruz</p>
-                                    </div>
-                                    <div class="col-lg-3">
-                                        <p><strong>Age: </strong>27</p>
-                                    </div>
-                                    <div class="col-lg-3">
-                                        <p><strong>Sex: </strong>M</p>
-                                    </div>
-                                </div>
-                                <p><strong>Address: </strong>3435 Batumbakal St., New York, Cubao</p>
-                                <p><strong>Date: </strong>Aug 08, 2022</p>
-                                <br>
-                                <div class="avatar avatar-l avatar-1by1">
-                                    <img src="assets/images/rx.png" alt="Avatar" class="avatar-img rounded">
-                                </div><br><br>
-                                <p><strong>ibuprofen (Motrin® or Advil®)</strong></p>
-                                <p>Take 400–600 mg every 6–8 hours. Ibuprofen will help with
-                                    pain relief and as an anti-inflammatory.</p>
-                                <div class="avatar avatar-xxl avatar-4by3">
-                                    <img src="assets/images/signature.webp" alt="Avatar" class="avatar-img rounded">
-                                </div>
-                                <p><strong>Dr. Den T. Ista</strong></p>
-                                <p><strong>Lic No.: </strong>1234</p>
-                                <p><strong>PTR No.: </strong>1234567</p>
-                                <!-- <br>
-                                            <div class="alert alert-soft-success d-flex" role="alert"><i class="material-icons mr-3">check_circle</i>
-                                                <div class="text-body">Your appointment is now <strong>APPROVED</strong>. Please proceed to the clinic according to the schedule.</div>
-                                            </div> -->
-                            </div><!-- // END .modal-body -->
-                        </div>
-                    </div><!-- // END .modal-body -->
-                    <div class="modal-footer"><a href="index_patient.php"><button type="button" class="btn btn-light" data-dismiss="modal">Close</button></a><a href="#"><button type="button" class="btn btn-dark" data-dismiss="modal">Print</button></a></div>
-                    <!-- // END .modal-footer -->
                 </div><!-- // END .modal-content -->
             </div><!-- // END .modal-dialog -->
         </div><!-- // END .modal -->
@@ -354,15 +425,11 @@
                         <div class="dropdown ml-auto"><a href="#" data-toggle="dropdown" data-caret="false" class="text-muted"><i class="material-icons">keyboard_arrow_down</i></a>
                             <div class="dropdown-menu dropdown-menu-right">
                                 <div class="dropdown-item-text dropdown-item-text--lh">
-                                    <div><strong>Mr. Admin Wan</strong></div>
+                                    <div><strong>Dr. Den T. Ista</strong></div>
                                     <div>Clinic Admin</div>
                                 </div>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="admin_clinicdetails.php">View Clinic Details</a>
-                                <!-- <a class="dropdown-item" href="edit-account.php">Edit Clinic Detials</a> -->
-                                <!-- <a class="dropdown-item" href="edit-account.php">Change Password</a> -->
-                                <!-- <div class="dropdown-divider"></div><a class="dropdown-item"
-                                    href="login.php">Logout</a> -->
                             </div>
                         </div>
                     </div>
@@ -376,12 +443,8 @@
                             <div class="sidebar-stats__value">719</div>
                         </div>
                     </div>
-                    <!-- <div class="py-4 text-center flex-shrink-0"><a style="min-width: 157px;" href="/signup.php"
-                            class="btn btn-primary">Create <i class="material-icons ml-1">add</i></a></div> -->
                     <ul class="nav nav-tabs sidebar-tabs flex-shrink-0" role="tablist">
                         <li class="nav-item"><a class="nav-link active show" id="sm-menu-tab" href="#sm-menu" data-toggle="tab" role="tab" aria-controls="sm-menu" aria-selected="true">Menu</a></li>
-                        <!-- <li class="nav-item"><a class="nav-link" href="#sm-account" data-toggle="tab">Manage</a></li> -->
-                        <!-- <li class="nav-item"><a class="nav-link" href="#sm-settings" data-toggle="tab">Settings</a></li> -->
                     </ul>
                     <div class="tab-content">
                         <div id="sm-menu" class="tab-pane show active" role="tabpanel" aria-labelledby="sm-menu-tab">
@@ -389,31 +452,6 @@
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_index.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">donut_small</i><span class="sidebar-menu-text">Dashboard</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_consultations.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">date_range</i><span class="sidebar-menu-text">Consultations</span><span class="badge badge-warning rounded-circle badge-notifications ml-auto" style="padding: .1875rem .375rem;">24</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_services.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">dvr</i><span class="sidebar-menu-text">Services</span></a></li>
-                                <!-- <li class="sidebar-menu-item">
-                                    <a class="sidebar-menu-button" data-toggle="collapse" href="#components_menu"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">Doctors</span></a>
-                                    <ul class="sidebar-submenu collapse" id="components_menu">
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Cardiology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Otolaryngology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Endocrinology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Family Medicine</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Gastroenterology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">General Dentistry</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">General Medicine</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Internal Medicine</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Mental Health</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Nephrology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Neurology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Nutritionist-Dietitian</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Family Medicine</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Obstetrics and Gynecology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Oncology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Opthalmology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Pediatrics</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Rehabilitation Medicine</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Rheumatology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Urology</span></a></li>
-                                    </ul>
-                                </li> -->
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">Doctors</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_patients.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">Patients</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_reports.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">report</i><span class="sidebar-menu-text">Reports</span></a></li>
@@ -423,7 +461,7 @@
                         </div>
                     </div>
                     <div class="mt-auto sidebar-p-a sidebar-b-t d-flex flex-column flex-shrink-0">
-                        <a class="sidebar-link mb-2" href="admin_patientreg.php">Patient Registration<i class="sidebar-menu-icon ml-2 material-icons icon-16pt">person</i></a>
+                        <a class="sidebar-link mb-2" href="#">Patient Registration<i class="sidebar-menu-icon ml-2 material-icons icon-16pt">person</i></a>
                         <a class="sidebar-link mb-2" href="admin_verification.php">Doctor Verification<i class="sidebar-menu-icon ml-2 material-icons icon-16pt">check_circle</i></a>
                         <a class="sidebar-link" href="loginadminpage.php"><strong>LOG OUT</strong><i class="sidebar-menu-icon ml-2 material-icons icon-20pt">exit_to_app</i></a>
                     </div>
@@ -444,12 +482,6 @@
                                 </div>
                                 <div class="avatar-group mt-2">
                                     <div class="avatar avatar-xs"><img src="assets/images/profilew.png" alt="Avatar" class="avatar-img rounded-circle"></div>
-                                    <!-- <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_jeremy-banks-798787-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div>
-                                    <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_daniel-gaffey-1060698-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div> -->
                                 </div>
                             </div>
                         </div>
@@ -466,12 +498,6 @@
                                 </div>
                                 <div class="avatar-group mt-2">
                                     <div class="avatar avatar-xs"><img src="assets/images/profilew.png" alt="Avatar" class="avatar-img rounded-circle"></div>
-                                    <!-- <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_jeremy-banks-798787-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div>
-                                    <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_daniel-gaffey-1060698-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div> -->
                                 </div>
                             </div>
                         </div>
@@ -484,16 +510,10 @@
                         <div class="row">
                             <div class="col-auto d-flex flex-column"><small>12:00 PM</small><small class="text-dark-gray">1 hr</small></div>
                             <div class="col">
-                                <div class="d-flex flex-column flex"><a href="#" class="text-body"><strong class="text-15pt">Cardiology</strong></a><small class="text-muted d-flex align-items-center"><i class="material-icons icon-16pt mr-1">person</i>Christine C. Positar</small>
+                                <div class="d-flex flex-column flex"><a href="#" class="text-body"><strong class="text-15pt">Tooth Extraction</strong></a><small class="text-muted d-flex align-items-center"><i class="material-icons icon-16pt mr-1">person</i>Christine C. Positar</small>
                                 </div>
                                 <div class="avatar-group mt-2">
                                     <div class="avatar avatar-xs"><img src="assets/images/jhong.jpg" alt="Avatar" class="avatar-img rounded-circle"></div>
-                                    <!-- <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_jeremy-banks-798787-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div>
-                                    <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_daniel-gaffey-1060698-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div> -->
                                 </div>
                             </div>
                         </div>
@@ -510,12 +530,6 @@
                                 </div>
                                 <div class="avatar-group mt-2">
                                     <div class="avatar avatar-xs"><img src="assets/images/kkk.jpg" alt="Avatar" class="avatar-img rounded-circle"></div>
-                                    <!-- <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_jeremy-banks-798787-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div>
-                                    <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_daniel-gaffey-1060698-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div> -->
                                 </div>
                             </div>
                         </div>
@@ -531,12 +545,6 @@
                                 <div class="d-flex flex-column flex"><a href="#" class="text-body"><strong class="text-15pt">Dental Check-up</strong></a><small class="text-muted d-flex align-items-center"><i class="material-icons icon-16pt mr-1">person</i>Angga N. Daqku</small></div>
                                 <div class="avatar-group mt-2">
                                     <div class="avatar avatar-xs"><img src="assets/images/profilew.png" alt="Avatar" class="avatar-img rounded-circle"></div>
-                                    <!-- <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_jeremy-banks-798787-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div>
-                                    <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_daniel-gaffey-1060698-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div> -->
                                 </div>
                             </div>
                         </div>

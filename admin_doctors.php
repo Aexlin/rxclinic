@@ -39,9 +39,6 @@
                         <div class="navbar navbar-expand-sm navbar-main navbar-light bg-white  pr-0" id="navbar" data-primary>
                             <div class="container-fluid p-0">
                                 <!-- Navbar toggler --><button class="navbar-toggler navbar-toggler-custom d-lg-none d-flex mr-navbar" type="button" data-toggle="sidebar"><span class="material-icons">short_text</span></button><!-- Navbar Brand --><a href="#" class="navbar-brand flex "><span>Doctors</span></a>
-                                <div>
-                                    <button type="button" class="btn btn-primary-dark" data-toggle="modal" data-target="#modal-login">ADD DOCTOR</button>
-                                </div>
                                 <ul class="nav navbar-nav d-none d-md-flex">
                                     <li class="nav-item dropdown"><a href="#notifications_menu" class="nav-link dropdown-toggle" data-toggle="dropdown" data-caret="false"><i class="material-icons nav-icon navbar-notifications-indicator">notifications</i></a>
                                         <div id="notifications_menu" class="dropdown-menu dropdown-menu-right navbar-notifications-menu">
@@ -112,9 +109,6 @@
                                         <div class="dropdown-divider"></div>
                                         <a class="dropdown-item d-flex align-items-center py-2" href="admin_myprofile.php"><span class="material-icons mr-2">person</span>My
                                             Profile</a>
-                                        <!-- <a class="dropdown-item d-flex align-items-center py-2"
-                                        href="changepasswordadmin.php"><span
-                                            class="material-icons mr-2">lock</span>Change Password</a> -->
                                     </div>
                                 </div>
                             </div>
@@ -125,19 +119,6 @@
                 <div class="mdk-header-layout__content mdk-header-layout__content--fullbleed mdk-header-layout__content--scrollable page">
                     <div class="container-fluid page__container">
                         <div class="z-0">
-                            <!-- <ul class="nav nav-tabs nav-tabs-custom" role="tablist">
-                                <li class="nav-item"><a href="#tab-cardiology" class="nav-link active" data-toggle="tab"
-                                        role="tab" aria-controls="tab-queue" aria-selected="true"><span
-                                            class="nav-link__count">Cardiology</span>Total (4) </a></li>
-                                <li class="nav-item"><a href="#tab-otolaryngology" class="nav-link" data-toggle="tab"
-                                        role="tab" aria-selected="false"><span
-                                            class="nav-link__count">Otolaryngology</span>Total (4)
-                                    </a></li>
-                                <li class="nav-item"><a href="#tab-endocrinology" class="nav-link" data-toggle="tab"
-                                        role="tab" aria-selected="false"><span
-                                            class="nav-link__count">Endocrinology</span>Total (4)
-                                    </a></li>
-                            </ul> -->
 
                             <div class="tab-content">
                                 <div class="tab-pane active show fade" id="tab-cardiology">
@@ -189,7 +170,6 @@
                                                                             <p><a href="patient_doctordetails.php" class="text-body"><strong>Cardiology</strong></a>
                                                                             </p>
                                                                             <small class="text-dark-gray d-flex align-items-center mb-2">
-                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
                                                                                 “I am a hard-working, conscientious and
                                                                                 professional doctor who always puts
                                                                                 the needs of my patients at the
@@ -223,7 +203,6 @@
                                                                             <p><a href="patient_doctordetails.php" class="text-body"><strong>Otolaryngology</strong></a>
                                                                             </p>
                                                                             <small class="text-dark-gray d-flex align-items-center mb-2">
-                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
                                                                                 “I am a hard-working, conscientious and
                                                                                 professional doctor who always puts
                                                                                 the needs of my patients at the
@@ -257,7 +236,6 @@
                                                                             <p><a href="patient_doctordetails.php" class="text-body"><strong>Family Medicine</strong></a>
                                                                             </p>
                                                                             <small class="text-dark-gray d-flex align-items-center mb-2">
-                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
                                                                                 “I am a hard-working, conscientious and
                                                                                 professional doctor who always puts
                                                                                 the needs of my patients at the
@@ -291,7 +269,6 @@
                                                                             <p><a href="patient_doctordetails.php" class="text-body"><strong>Dentistry</strong></a>
                                                                             </p>
                                                                             <small class="text-dark-gray d-flex align-items-center mb-2">
-                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
                                                                                 “I am a hard-working, conscientious and
                                                                                 professional doctor who always puts
                                                                                 the needs of my patients at the
@@ -327,7 +304,6 @@
                                                                             <p><a href="patient_doctordetails.php" class="text-body"><strong>Neurology</strong></a>
                                                                             </p>
                                                                             <small class="text-dark-gray d-flex align-items-center mb-2">
-                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
                                                                                 “I am a hard-working, conscientious and
                                                                                 professional doctor who always puts
                                                                                 the needs of my patients at the
@@ -361,7 +337,6 @@
                                                                             <p><a href="patient_doctordetails.php" class="text-body"><strong>Gastroenterology</strong></a>
                                                                             </p>
                                                                             <small class="text-dark-gray d-flex align-items-center mb-2">
-                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
                                                                                 “I am a hard-working, conscientious and
                                                                                 professional doctor who always puts
                                                                                 the needs of my patients at the
@@ -395,7 +370,6 @@
                                                                             <p><a href="patient_doctordetails.php" class="text-body"><strong>Nephrology</strong></a>
                                                                             </p>
                                                                             <small class="text-dark-gray d-flex align-items-center mb-2">
-                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
                                                                                 “I am a hard-working, conscientious and
                                                                                 professional doctor who always puts
                                                                                 the needs of my patients at the
@@ -429,7 +403,6 @@
                                                                             <p><a href="patient_doctordetails.php" class="text-body"><strong>Oncology</strong></a>
                                                                             </p>
                                                                             <small class="text-dark-gray d-flex align-items-center mb-2">
-                                                                                <!-- <i class="material-icons icon-16pt text-muted-light mr-1">description</i> -->
                                                                                 “I am a hard-working, conscientious and
                                                                                 professional doctor who always puts
                                                                                 the needs of my patients at the
@@ -455,10 +428,6 @@
                                                                 <li class="page-item disabled"><a class="page-link" href="#" aria-label="Previous"><span aria-hidden="true" class="material-icons">chevron_left</span><span class="sr-only">Prev</span></a></li>
                                                                 <li class="page-item active"><a class="page-link" href="#" aria-label="1"><span>1</span></a></li>
                                                                 <li class="page-item"><a class="page-link" href="#" aria-label="2"><span>2</span></a></li>
-                                                                <!-- <li class="page-item"><a class="page-link" href="#"
-                                                                            aria-label="3"><span>3</span></a></li>
-                                                                    <li class="page-item"><a class="page-link" href="#"
-                                                                            aria-label="4"><span>4</span></a></li> -->
                                                                 <li class="page-item"><a class="page-link" href="#" aria-label="Next"><span class="sr-only">Next</span><span aria-hidden="true" class="material-icons">chevron_right</span></a>
                                                                 </li>
                                                                 <li class="page-item"><a class="page-link" href="#" aria-label="Next"><span class="sr-only">Last</span><span aria-hidden="true" class="material-icons">last_page</span></a>
@@ -487,7 +456,6 @@
                         <div class="px-3">
                             <div class="d-flex justify-content-center mt-0 mb-0 navbar-light"><a href="#" class="navbar-brand" style="min-width: 0"><img class="navbar-brand-icon" src="assets/img/rxlogowithname.png" width="250" alt="Stack"></a></div><br><br>
                             <div class="d-flex justify-content-center mt-0 mb-0 navbar-light"><span><strong>DOCTOR APPROVED CONSULTATIONS</strong></span></div>
-                            <!-- <div class="page-separator"></div> -->
                             <div class="modal-body">
                                 <div class="tab-pane active show fade" id="tab-queue">
                                     <div class="table-responsive border-bottom" data-toggle="lists" data-lists-values='["js-lists-values-employee-name", "js-lists-values-employee-title", "js-lists-values-employee-special", "js-lists-values-employee-date"]'>
@@ -508,9 +476,6 @@
                                                     <th style="width: 100px;">Time</th>
                                                     <th style="width: 150px;">Service</th>
                                                     <th style="width: 37px;">Status</th>
-                                                    <!-- <th style="width: 120px;">Last Activity</th> -->
-                                                    <!-- <th style="width: 120px;">Action</th> -->
-                                                    <!-- <th style="width: 24px;"></th> -->
                                                 </tr>
                                             </thead>
                                             <tbody class="list" id="staff02">
@@ -531,16 +496,6 @@
                                                     <td>10:00 AM</td>
                                                     <td>Dental Check-up</td>
                                                     <td><span class="badge badge-success">APPROVED</span></td>
-                                                    <!-- <td>
-                                                            <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
-                                                                    class="material-icons">remove_red_eye</i></button>
-                                                                    <button type="button" class="btn btn-danger"
-                                                                        data-toggle="modal" data-target="#modal-resched"><i
-                                                                        class="material-icons">refresh</i></button>
-                                                            </div>
-                                                        </td> -->
                                                 </tr>
                                                 <tr>
                                                     <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">2022-0002</strong></span>
@@ -558,16 +513,6 @@
                                                     <td>11:00 AM</td>
                                                     <td>Dental Check-up</td>
                                                     <td><span class="badge badge-success">APPROVED</span></td>
-                                                    <!-- <td>
-                                                            <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
-                                                                    class="material-icons">remove_red_eye</i></button>
-                                                                    <button type="button" class="btn btn-danger"
-                                                                        data-toggle="modal" data-target="#modal-resched"><i
-                                                                        class="material-icons">refresh</i></button>
-                                                            </div>
-                                                        </td> -->
                                                 </tr>
                                                 <tr>
                                                     <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">2022-0003</strong></span>
@@ -586,16 +531,6 @@
                                                     <td>12:00 PM</td>
                                                     <td>Tooth Extraction</td>
                                                     <td><span class="badge badge-success">APPROVED</span></td>
-                                                    <!-- <td>
-                                                            <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
-                                                                    class="material-icons">remove_red_eye</i></button>
-                                                                    <button type="button" class="btn btn-danger"
-                                                                        data-toggle="modal" data-target="#modal-resched"><i
-                                                                        class="material-icons">refresh</i></button>
-                                                            </div>
-                                                        </td> -->
                                                 </tr>
                                                 <tr>
                                                     <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">2022-0004</strong></span>
@@ -614,16 +549,6 @@
                                                     <td>1:00 PM</td>
                                                     <td>Teeth Cleaning</td>
                                                     <td><span class="badge badge-success">APPROVED</span></td>
-                                                    <!-- <td>
-                                                            <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
-                                                                    class="material-icons">remove_red_eye</i></button>
-                                                                    <button type="button" class="btn btn-danger"
-                                                                        data-toggle="modal" data-target="#modal-resched"><i
-                                                                        class="material-icons">refresh</i></button>
-                                                            </div>
-                                                        </td> -->
                                                 </tr>
                                                 <tr>
                                                     <td><span class="badge d-block badge-soft-primary"><strong class="js-lists-values-employee-title">2022-0005</strong></span>
@@ -641,16 +566,6 @@
                                                     <td>2:00 PM</td>
                                                     <td>Dental Check-up</td>
                                                     <td><span class="badge badge-success">APPROVED</span></td>
-                                                    <!-- <td>
-                                                            <div class="button-list">
-                                                                <button type="button" class="btn btn-primary"
-                                                                    data-toggle="modal" data-target="#modal-info"><i
-                                                                    class="material-icons">remove_red_eye</i></button>
-                                                                    <button type="button" class="btn btn-danger"
-                                                                        data-toggle="modal" data-target="#modal-resched"><i
-                                                                        class="material-icons">refresh</i></button>
-                                                            </div>
-                                                        </td> -->
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -856,10 +771,6 @@
                                 </div>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="admin_clinicdetails.php">View Clinic Details</a>
-                                <!-- <a class="dropdown-item" href="edit-account.php">Edit Clinic Detials</a> -->
-                                <!-- <a class="dropdown-item" href="edit-account.php">Change Password</a> -->
-                                <!-- <div class="dropdown-divider"></div><a class="dropdown-item"
-                                    href="login.php">Logout</a> -->
                             </div>
                         </div>
                     </div>
@@ -873,12 +784,8 @@
                             <div class="sidebar-stats__value">719</div>
                         </div>
                     </div>
-                    <!-- <div class="py-4 text-center flex-shrink-0"><a style="min-width: 157px;" href="/signup.php"
-                            class="btn btn-primary">Create <i class="material-icons ml-1">add</i></a></div> -->
                     <ul class="nav nav-tabs sidebar-tabs flex-shrink-0" role="tablist">
                         <li class="nav-item"><a class="nav-link active show" id="sm-menu-tab" href="#sm-menu" data-toggle="tab" role="tab" aria-controls="sm-menu" aria-selected="true">Menu</a></li>
-                        <!-- <li class="nav-item"><a class="nav-link" href="#sm-account" data-toggle="tab">Manage</a></li> -->
-                        <!-- <li class="nav-item"><a class="nav-link" href="#sm-settings" data-toggle="tab">Settings</a></li> -->
                     </ul>
                     <div class="tab-content">
                         <div id="sm-menu" class="tab-pane show active" role="tabpanel" aria-labelledby="sm-menu-tab">
@@ -886,31 +793,6 @@
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_index.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">donut_small</i><span class="sidebar-menu-text">Dashboard</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_consultations.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">date_range</i><span class="sidebar-menu-text">Consultations</span><span class="badge badge-warning rounded-circle badge-notifications ml-auto" style="padding: .1875rem .375rem;">24</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_services.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">dvr</i><span class="sidebar-menu-text">Services</span></a></li>
-                                <!-- <li class="sidebar-menu-item">
-                                    <a class="sidebar-menu-button" data-toggle="collapse" href="#components_menu"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">Doctors</span></a>
-                                    <ul class="sidebar-submenu collapse" id="components_menu">
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Cardiology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Otolaryngology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Endocrinology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Family Medicine</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Gastroenterology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">General Dentistry</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">General Medicine</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Internal Medicine</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Mental Health</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Nephrology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Neurology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Nutritionist-Dietitian</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Family Medicine</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Obstetrics and Gynecology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Oncology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Opthalmology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Pediatrics</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Rehabilitation Medicine</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Rheumatology</span></a></li>
-                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_doctors.php"><span class="sidebar-menu-text">Urology</span></a></li>
-                                    </ul>
-                                </li> -->
                                 <li class="sidebar-menu-item active"><a class="sidebar-menu-button" href="#"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">Doctors</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_patients.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span class="sidebar-menu-text">Patients</span></a></li>
                                 <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="admin_reports.php"><i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">report</i><span class="sidebar-menu-text">Reports</span></a></li>
@@ -920,6 +802,7 @@
                         </div>
                     </div>
                     <div class="mt-auto sidebar-p-a sidebar-b-t d-flex flex-column flex-shrink-0">
+                        <a class="sidebar-link mb-2" href="admin_patientreg.php">Patient Registration<i class="sidebar-menu-icon ml-2 material-icons icon-16pt">person</i></a>
                         <a class="sidebar-link mb-2" href="admin_verification.php">Doctor Verification<i class="sidebar-menu-icon ml-2 material-icons icon-16pt">check_circle</i></a>
                         <a class="sidebar-link" href="loginadminpage.php"><strong>LOG OUT</strong><i class="sidebar-menu-icon ml-2 material-icons icon-20pt">exit_to_app</i></a>
                     </div>
@@ -953,12 +836,6 @@
                                 </div>
                                 <div class="avatar-group mt-2">
                                     <div class="avatar avatar-xs"><img src="assets/images/profilew.png" alt="Avatar" class="avatar-img rounded-circle"></div>
-                                    <!-- <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_jeremy-banks-798787-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div>
-                                    <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_daniel-gaffey-1060698-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div> -->
                                 </div>
                             </div>
                         </div>
@@ -975,12 +852,6 @@
                                 </div>
                                 <div class="avatar-group mt-2">
                                     <div class="avatar avatar-xs"><img src="assets/images/profilew.png" alt="Avatar" class="avatar-img rounded-circle"></div>
-                                    <!-- <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_jeremy-banks-798787-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div>
-                                    <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_daniel-gaffey-1060698-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div> -->
                                 </div>
                             </div>
                         </div>
@@ -997,12 +868,6 @@
                                 </div>
                                 <div class="avatar-group mt-2">
                                     <div class="avatar avatar-xs"><img src="assets/images/jhong.jpg" alt="Avatar" class="avatar-img rounded-circle"></div>
-                                    <!-- <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_jeremy-banks-798787-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div>
-                                    <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_daniel-gaffey-1060698-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div> -->
                                 </div>
                             </div>
                         </div>
@@ -1019,12 +884,6 @@
                                 </div>
                                 <div class="avatar-group mt-2">
                                     <div class="avatar avatar-xs"><img src="assets/images/kkk.jpg" alt="Avatar" class="avatar-img rounded-circle"></div>
-                                    <!-- <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_jeremy-banks-798787-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div>
-                                    <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_daniel-gaffey-1060698-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div> -->
                                 </div>
                             </div>
                         </div>
@@ -1042,12 +901,6 @@
                                 <div class="d-flex flex-column flex"><a href="#" class="text-body"><strong class="text-15pt">Dental Check-up</strong></a><small class="text-muted d-flex align-items-center"><i class="material-icons icon-16pt mr-1">person</i>Angga N. Daqku</small></div>
                                 <div class="avatar-group mt-2">
                                     <div class="avatar avatar-xs"><img src="assets/images/profilew.png" alt="Avatar" class="avatar-img rounded-circle"></div>
-                                    <!-- <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_jeremy-banks-798787-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div>
-                                    <div class="avatar avatar-xs"><img
-                                            src="assets/images/256_daniel-gaffey-1060698-unsplash.jpg" alt="Avatar"
-                                            class="avatar-img rounded-circle"></div> -->
                                 </div>
                             </div>
                         </div>
