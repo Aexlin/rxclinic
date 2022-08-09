@@ -190,11 +190,14 @@
                                     <div class="page-separator">
                                         <div class="page-separator__text">MY INFORMATION</div>
                                     </div>
+                                        <?php
+                                            $email = intval($_GET['email']);
+                                        ?>
                                     <form action="#" novalidate>
                                     <div class="row">
                                             <div class="col-lg-7">
                                                 <div class="form-group"><label class="text-label" for="fname">Email Address:</label><input
-                                                        id="fname" type="text" class="form-control" placeholder="name@gmail.com" value="anggandaku@gmail.com"></div>
+                                                        id="fname" type="text" class="form-control" placeholder="name@gmail.com" value="<?php $email;?>"></div>
                                             </div>
                                             <div class="col">
                                                 <div class="form-group"><label class="text-label" for="fname">Password:</label><input

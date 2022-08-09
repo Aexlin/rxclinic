@@ -100,16 +100,9 @@
                   <br/>
                   <script src="https://www.google.com/recaptcha/api.js"></script>
 
-                <form action="patient_editprofile.php" novalidate>
                   <div class="d-grid">
                     <button class="btn btn-primary btn-login text-uppercase fw-bold" type="submit" name="patientsignin">Sign in</button>
                   </div>
-                  <?php
-                  if (isset($_GET['email'])) {
-                    $email = $_GET['email'];
-                    echo "<a href='patient_editprofile.php?email='. $email .'";
-                  }
-                  ?>
                 </form>
                 <hr class="my-4">
                 <div class="d-grid mb-2">
