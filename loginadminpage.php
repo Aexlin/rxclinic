@@ -96,36 +96,6 @@
                   <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                   <label for="floatingInput">Password</label>
                 </div>
-                <!-- <div class="row mb-4">
-                  <div class="col d-flex justify-content-center">
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
-                      <label class="form-check-label" for="form2Example31"> Remember me </label>
-                    </div>
-                  </div>
-              
-                  <div class="col">
-                    <a href="#!">Forgot password?</a>
-                  </div>
-                </div> -->
-
-                <!-- <div class="form-floating mb-3">
-                  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                  <label for="floatingPassword">Password</label>
-                </div> -->
-
-                <!-- <div class="form-check mb-3">
-                  <input class="form-check-input" type="checkbox" value="" id="rememberPasswordCheck">
-                  <label class="form-check-label" for="rememberPasswordCheck">By proceeding, you agree with RxClinic's
-                    <a href="termsofconditions.php">Terms & Conditions</a> and <a href="termsofconditions.php">Data Privacy Policy</a>
-                  </label>
-                </div> -->
-
-                <!-- <form action="?" method="POST">
-                  <div class="g-recaptcha" data-sitekey="your_site_key"></div>
-                  <br/>
-                  <script src="https://www.google.com/recaptcha/api.js"></script>
-                </form> -->
 
                 <div class="d-grid">
                   <button class="btn btn-primary btn-login text-uppercase fw-bold" type="submit">
